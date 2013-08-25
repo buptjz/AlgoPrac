@@ -7,7 +7,7 @@
 //
 
 #include <stdio.h>
-
+#include "arrayAndString.h"
 
 
 int main(int argc, const char * argv[])
@@ -15,8 +15,8 @@ int main(int argc, const char * argv[])
 
     // insert code here...
     printf("Hello, World!\n");
-    char a[] = "abcdefge";
-    int is = isUnique(a);
+    char a[] = "wordar";
+    int is = isUnique3(a);
     printf("%d",is);
     return 0;
 }
