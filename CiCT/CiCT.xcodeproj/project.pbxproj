@@ -31,6 +31,7 @@
 		8316F7BF17C9E8780044A419 /* CiCT.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = CiCT.1; sourceTree = "<group>"; };
 		8316F7C617C9EB4A0044A419 /* arrayAndString.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = arrayAndString.c; sourceTree = "<group>"; };
 		8316F7C817C9EBE80044A419 /* arrayAndString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = arrayAndString.h; sourceTree = "<group>"; };
+		8316F7C917CA4CE50044A419 /* Window.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Window.xib; path = ../../../testOS/Window.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +67,7 @@
 				8316F7BD17C9E8780044A419 /* main.c */,
 				8316F7C817C9EBE80044A419 /* arrayAndString.h */,
 				8316F7C617C9EB4A0044A419 /* arrayAndString.c */,
+				8316F7C917CA4CE50044A419 /* Window.xib */,
 				8316F7BF17C9E8780044A419 /* CiCT.1 */,
 			);
 			path = CiCT;
