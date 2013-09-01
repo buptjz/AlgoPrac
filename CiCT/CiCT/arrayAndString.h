@@ -12,4 +12,5 @@
 extern int isUnique(char a[]);
 extern int isUnique2(char a[]);
 extern int isUnique3(char a[]);
+extern void stringInverse(char *p);
 #endif

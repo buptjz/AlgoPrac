@@ -15,9 +15,11 @@ int main(int argc, const char * argv[])
 
     // insert code here...
     printf("Hello, World!\n");
-    char a[] = "wordar";
-    int is = isUnique3(a);
-    printf("%d",is);
+    //char a[] = "wordar";
+    //int is = isUnique3(a);
+    //printf("%d",is);
+    char p[] = "abcdefg";
+    stringInverse(p);
     return 0;
 }
 

@@ -8,11 +8,12 @@
 
 #include <stdio.h>
 #include "arrayAndString.h"
+#include <string.h>
 
 int isUnique(char a[]);
 int isUnique2(char a[]);
 int isUnique3(char a[]);
-
+void stringInverse(char *p);
 /*O(n2)*/
 int isUnique(char a[]){
     int i = 0;
@@ -54,4 +55,15 @@ int isUnique3(char a[]){
         i++;
     }
     return 1;
+}
+
+void stringInverse(char *p){
+    int length = (int)strlen(p);
+    int half = (int)length / 2 - 1;
+    char temp;
+    for (int i = 0; i <= half; i++) {
+        temp = p[i];
+        p[i] = p[length - i - 1];
+        p[length - i - 1] = temp;
+    }
 }

@@ -2,8 +2,8 @@ TCiCT
 v5
 r1
 cCheck dependencies
-cCompileC build/CiCT.build/Debug/CiCT.build/Objects-normal/x86_64/main.o /MyProject/CiCT_CImplement/CiCT/CiCT/main.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/CiCT.build/Debug/CiCT.build/Objects-normal/x86_64/arrayAndString.o /MyProject/CiCT_CImplement/CiCT/CiCT/arrayAndString.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CiCT.build/Debug/CiCT.build/Objects-normal/x86_64/main.o /MyProject/CiCT_CImplement/CiCT/CiCT/main.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
 cLd /MyProject/CiCT_CImplement/CiCT/build/Debug/CiCT normal x86_64
 
 N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
@@ -17,20 +17,21 @@ t1370045805
 s17699
 
 N/MyProject/CiCT_CImplement/CiCT/CiCT/arrayAndString.c
-c000000005219C81900000000000003C1
-t1377421337
-s961
+c00000000521A05220000000000000526
+t1377436962
+s1318
 
 N/MyProject/CiCT_CImplement/CiCT/CiCT/arrayAndString.h
-c000000005219C74C0000000000000126
-t1377421132
-s294
+c00000000521A0363000000000000014A
+t1377436515
+s330
 
 N/MyProject/CiCT_CImplement/CiCT/CiCT/main.c
-c000000005219C8640000000000000169
-t1377421412
-s361
+c00000000521A0463000000000000019F
+t1377436771
+s415
 i<stdio.h>
+i"arrayAndString.h"
 
 N/MyProject/CiCT_CImplement/CiCT/build/CiCT.build/Debug/CiCT.build/Objects-normal/x86_64/CiCT.LinkFileList
 c000000005219B4D200000000000000C8
@@ -38,16 +39,16 @@ t1377416402
 s200
 
 N/MyProject/CiCT_CImplement/CiCT/build/CiCT.build/Debug/CiCT.build/Objects-normal/x86_64/arrayAndString.o
-t1377421341
-s4308
+t1377441154
+s4964
 
 N/MyProject/CiCT_CImplement/CiCT/build/CiCT.build/Debug/CiCT.build/Objects-normal/x86_64/main.o
-t1377421410
-s3168
+t1377436772
+s3208
 
 N/MyProject/CiCT_CImplement/CiCT/build/Debug/CiCT
-t1377421410
-s9676
+t1377441154
+s9860
 
 CBuild AST from /MyProject/CiCT_CImplement/CiCT/CiCT/arrayAndString.c
 r0
@@ -57,11 +58,11 @@ r0
 
 CCheck dependencies
 r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies710065e5ffc9b741^aa1067e5ffc9b741^---0#1#0#--18"Check dependencies36"C915D3AD-0492-4DBB-A286-2352D49BFACE-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciese84c460a4dcab741^dcb7460a4dcab741^---0#1#0#--18"Check dependencies36"13153FC0-DF06-4A1B-B85D-F7630A2A3507-
 
 CCompileC build/CiCT.build/Debug/CiCT.build/Objects-normal/x86_64/arrayAndString.o /MyProject/CiCT_CImplement/CiCT/CiCT/arrayAndString.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
-s399114141.585457
-e399114141.630269
+s399133954.393820
+e399133954.469173
 r1
 xCompileC
 xbuild/CiCT.build/Debug/CiCT.build/Objects-normal/x86_64/arrayAndString.o
@@ -70,11 +71,11 @@ xnormal
 xx86_64
 xc
 xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Compile /MyProject/CiCT_CImplement/CiCT/CiCT/arrayAndString.c711e969dffc9b741^2158a19dffc9b741^---0#0#0#-19%DVTDocumentLocation2@69"file://localhost/MyProject/CiCT_CImplement/CiCT/CiCT/arrayAndString.c0000000000000000^2441"CompileC build/CiCT.build/Debug/CiCT.build/Objects-normal/x86_64/arrayAndString.o CiCT/arrayAndString.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /MyProject/CiCT_CImplement/CiCT    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-sign-conversion -iquote /MyProject/CiCT_CImplement/CiCT/build/CiCT.build/Debug/CiCT.build/CiCT-generated-files.hmap -I/MyProject/CiCT_CImplement/CiCT/build/CiCT.build/Debug/CiCT.build/CiCT-own-target-headers.hmap -I/MyProject/CiCT_CImplement/CiCT/build/CiCT.build/Debug/CiCT.build/CiCT-all-target-headers.hmap -iquote /MyProject/CiCT_CImplement/CiCT/build/CiCT.build/Debug/CiCT.build/CiCT-project-headers.hmap -I/MyProject/CiCT_CImplement/CiCT/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/MyProject/CiCT_CImplement/CiCT/build/CiCT.build/Debug/CiCT.build/DerivedSources/x86_64 -I/MyProject/CiCT_CImplement/CiCT/build/CiCT.build/Debug/CiCT.build/DerivedSources -F/MyProject/CiCT_CImplement/CiCT/build/Debug -MMD -MT dependencies -MF /MyProject/CiCT_CImplement/CiCT/build/CiCT.build/Debug/CiCT.build/Objects-normal/x86_64/arrayAndString.d --serialize-diagnostics /MyProject/CiCT_CImplement/CiCT/build/CiCT.build/Debug/CiCT.build/Objects-normal/x86_64/arrayAndString.dia -c /MyProject/CiCT_CImplement/CiCT/CiCT/arrayAndString.c -o /MyProject/CiCT_CImplement/CiCT/build/CiCT.build/Debug/CiCT.build/Objects-normal/x86_64/arrayAndString.o36"148A02A4-4612-4273-B007-FE7EE86257A2-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Compile /MyProject/CiCT_CImplement/CiCT/CiCT/arrayAndString.cfef364024dcab741^a41c78024dcab741^---0#0#0#-19%DVTDocumentLocation2@69"file://localhost/MyProject/CiCT_CImplement/CiCT/CiCT/arrayAndString.c0000000000000000^2441"CompileC build/CiCT.build/Debug/CiCT.build/Objects-normal/x86_64/arrayAndString.o CiCT/arrayAndString.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /MyProject/CiCT_CImplement/CiCT    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-sign-conversion -iquote /MyProject/CiCT_CImplement/CiCT/build/CiCT.build/Debug/CiCT.build/CiCT-generated-files.hmap -I/MyProject/CiCT_CImplement/CiCT/build/CiCT.build/Debug/CiCT.build/CiCT-own-target-headers.hmap -I/MyProject/CiCT_CImplement/CiCT/build/CiCT.build/Debug/CiCT.build/CiCT-all-target-headers.hmap -iquote /MyProject/CiCT_CImplement/CiCT/build/CiCT.build/Debug/CiCT.build/CiCT-project-headers.hmap -I/MyProject/CiCT_CImplement/CiCT/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/MyProject/CiCT_CImplement/CiCT/build/CiCT.build/Debug/CiCT.build/DerivedSources/x86_64 -I/MyProject/CiCT_CImplement/CiCT/build/CiCT.build/Debug/CiCT.build/DerivedSources -F/MyProject/CiCT_CImplement/CiCT/build/Debug -MMD -MT dependencies -MF /MyProject/CiCT_CImplement/CiCT/build/CiCT.build/Debug/CiCT.build/Objects-normal/x86_64/arrayAndString.d --serialize-diagnostics /MyProject/CiCT_CImplement/CiCT/build/CiCT.build/Debug/CiCT.build/Objects-normal/x86_64/arrayAndString.dia -c /MyProject/CiCT_CImplement/CiCT/CiCT/arrayAndString.c -o /MyProject/CiCT_CImplement/CiCT/build/CiCT.build/Debug/CiCT.build/Objects-normal/x86_64/arrayAndString.o36"188CDF2D-E7E9-46F3-829E-F974A8528D63-
 
 CCompileC build/CiCT.build/Debug/CiCT.build/Objects-normal/x86_64/main.o /MyProject/CiCT_CImplement/CiCT/CiCT/main.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
-s399114213.398642
-e399114213.437080
+s399129572.932263
+e399129572.955737
 r1
 xCompileC
 xbuild/CiCT.build/Debug/CiCT.build/Objects-normal/x86_64/main.o
@@ -83,15 +84,15 @@ xnormal
 xx86_64
 xc
 xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection51"Compile /MyProject/CiCT_CImplement/CiCT/CiCT/main.c9f3e66e5ffc9b741^f70170e5ffc9b741^---0#0#0#-19%DVTDocumentLocation2@59"file://localhost/MyProject/CiCT_CImplement/CiCT/CiCT/main.c0000000000000000^2381"CompileC build/CiCT.build/Debug/CiCT.build/Objects-normal/x86_64/main.o CiCT/main.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /MyProject/CiCT_CImplement/CiCT    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-sign-conversion -iquote /MyProject/CiCT_CImplement/CiCT/build/CiCT.build/Debug/CiCT.build/CiCT-generated-files.hmap -I/MyProject/CiCT_CImplement/CiCT/build/CiCT.build/Debug/CiCT.build/CiCT-own-target-headers.hmap -I/MyProject/CiCT_CImplement/CiCT/build/CiCT.build/Debug/CiCT.build/CiCT-all-target-headers.hmap -iquote /MyProject/CiCT_CImplement/CiCT/build/CiCT.build/Debug/CiCT.build/CiCT-project-headers.hmap -I/MyProject/CiCT_CImplement/CiCT/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/MyProject/CiCT_CImplement/CiCT/build/CiCT.build/Debug/CiCT.build/DerivedSources/x86_64 -I/MyProject/CiCT_CImplement/CiCT/build/CiCT.build/Debug/CiCT.build/DerivedSources -F/MyProject/CiCT_CImplement/CiCT/build/Debug -MMD -MT dependencies -MF /MyProject/CiCT_CImplement/CiCT/build/CiCT.build/Debug/CiCT.build/Objects-normal/x86_64/main.d --serialize-diagnostics /MyProject/CiCT_CImplement/CiCT/build/CiCT.build/Debug/CiCT.build/Objects-normal/x86_64/main.dia -c /MyProject/CiCT_CImplement/CiCT/CiCT/main.c -o /MyProject/CiCT_CImplement/CiCT/build/CiCT.build/Debug/CiCT.build/Objects-normal/x86_64/main.o36"F2F751BE-4310-43F9-A727-A1C694E404AD-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection51"Compile /MyProject/CiCT_CImplement/CiCT/CiCT/main.c03ceeee43bcab741^71abf4e43bcab741^---0#0#0#-19%DVTDocumentLocation2@59"file://localhost/MyProject/CiCT_CImplement/CiCT/CiCT/main.c0000000000000000^2381"CompileC build/CiCT.build/Debug/CiCT.build/Objects-normal/x86_64/main.o CiCT/main.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /MyProject/CiCT_CImplement/CiCT    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-sign-conversion -iquote /MyProject/CiCT_CImplement/CiCT/build/CiCT.build/Debug/CiCT.build/CiCT-generated-files.hmap -I/MyProject/CiCT_CImplement/CiCT/build/CiCT.build/Debug/CiCT.build/CiCT-own-target-headers.hmap -I/MyProject/CiCT_CImplement/CiCT/build/CiCT.build/Debug/CiCT.build/CiCT-all-target-headers.hmap -iquote /MyProject/CiCT_CImplement/CiCT/build/CiCT.build/Debug/CiCT.build/CiCT-project-headers.hmap -I/MyProject/CiCT_CImplement/CiCT/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/MyProject/CiCT_CImplement/CiCT/build/CiCT.build/Debug/CiCT.build/DerivedSources/x86_64 -I/MyProject/CiCT_CImplement/CiCT/build/CiCT.build/Debug/CiCT.build/DerivedSources -F/MyProject/CiCT_CImplement/CiCT/build/Debug -MMD -MT dependencies -MF /MyProject/CiCT_CImplement/CiCT/build/CiCT.build/Debug/CiCT.build/Objects-normal/x86_64/main.d --serialize-diagnostics /MyProject/CiCT_CImplement/CiCT/build/CiCT.build/Debug/CiCT.build/Objects-normal/x86_64/main.dia -c /MyProject/CiCT_CImplement/CiCT/CiCT/main.c -o /MyProject/CiCT_CImplement/CiCT/build/CiCT.build/Debug/CiCT.build/Objects-normal/x86_64/main.o36"BAA4115A-FED5-4396-90DD-189C1AF5DE3C-
 
 CLd /MyProject/CiCT_CImplement/CiCT/build/Debug/CiCT normal x86_64
-s399114213.444128
-e399114213.477380
+s399133954.476160
+e399133954.592515
 r1
 xLd
 x/MyProject/CiCT_CImplement/CiCT/build/Debug/CiCT
 xnormal
 xx86_64
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection53"Link /MyProject/CiCT_CImplement/CiCT/build/Debug/CiCT78cf71e5ffc9b741^02467be5ffc9b741^---0#0#0#--619"Ld build/Debug/CiCT normal x86_64    cd /MyProject/CiCT_CImplement/CiCT    setenv MACOSX_DEPLOYMENT_TARGET 10.7    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/MyProject/CiCT_CImplement/CiCT/build/Debug -F/MyProject/CiCT_CImplement/CiCT/build/Debug -filelist /MyProject/CiCT_CImplement/CiCT/build/CiCT.build/Debug/CiCT.build/Objects-normal/x86_64/CiCT.LinkFileList -mmacosx-version-min=10.7 -o /MyProject/CiCT_CImplement/CiCT/build/Debug/CiCT36"D616464F-56A2-4E62-9D2C-0E351EFB4D3C-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection53"Link /MyProject/CiCT_CImplement/CiCT/build/Debug/CiCTb9fa79024dcab741^32af97024dcab741^---0#0#0#--619"Ld build/Debug/CiCT normal x86_64    cd /MyProject/CiCT_CImplement/CiCT    setenv MACOSX_DEPLOYMENT_TARGET 10.7    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/MyProject/CiCT_CImplement/CiCT/build/Debug -F/MyProject/CiCT_CImplement/CiCT/build/Debug -filelist /MyProject/CiCT_CImplement/CiCT/build/CiCT.build/Debug/CiCT.build/Objects-normal/x86_64/CiCT.LinkFileList -mmacosx-version-min=10.7 -o /MyProject/CiCT_CImplement/CiCT/build/Debug/CiCT36"FAD3EE3D-AF57-4DD2-B20A-7DFBFF4AE45C-
 
