@@ -18,8 +18,9 @@ int main(int argc, const char * argv[])
     //char a[] = "wordar";
     //int is = isUnique3(a);
     //printf("%d",is);
-    char p[] = "abcdefg";
-    stringInverse(p);
+    char p[] = "ab cd efg";
+    //stringInverse(p);
+    charReplace(p);
     return 0;
 }
 
