@@ -20,7 +20,8 @@ int main(int argc, const char * argv[])
     //printf("%d",is);
     char p[] = "ab cd efg";
     //stringInverse(p);
-    charReplace(p);
+    //charReplace(p);
+    testPointer(p);
     return 0;
 }
 

@@ -14,5 +14,6 @@ extern int isUnique2(char a[]);
 extern int isUnique3(char a[]);
 extern void stringInverse(char *p);
 extern void charReplace(char *p);
+extern void testPointer(char *ca);
 
 #endif

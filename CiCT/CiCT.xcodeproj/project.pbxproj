@@ -10,6 +10,7 @@
 		8316F7BE17C9E8780044A419 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 8316F7BD17C9E8780044A419 /* main.c */; };
 		8316F7C017C9E8780044A419 /* CiCT.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8316F7BF17C9E8780044A419 /* CiCT.1 */; };
 		8316F7C717C9EB4A0044A419 /* arrayAndString.c in Sources */ = {isa = PBXBuildFile; fileRef = 8316F7C617C9EB4A0044A419 /* arrayAndString.c */; };
+		8345CB5517D9BEDE00E36653 /* pointerVSArray.c in Sources */ = {isa = PBXBuildFile; fileRef = 8345CB5417D9BEDE00E36653 /* pointerVSArray.c */; };
 		83D0567817D95EE1000C41FB /* charReplace.c in Sources */ = {isa = PBXBuildFile; fileRef = 83D0567717D95EE1000C41FB /* charReplace.c */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +33,7 @@
 		8316F7BF17C9E8780044A419 /* CiCT.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = CiCT.1; sourceTree = "<group>"; };
 		8316F7C617C9EB4A0044A419 /* arrayAndString.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = arrayAndString.c; sourceTree = "<group>"; };
 		8316F7C817C9EBE80044A419 /* arrayAndString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = arrayAndString.h; sourceTree = "<group>"; };
+		8345CB5417D9BEDE00E36653 /* pointerVSArray.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pointerVSArray.c; sourceTree = "<group>"; };
 		83D0567717D95EE1000C41FB /* charReplace.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = charReplace.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -67,6 +69,7 @@
 			children = (
 				8316F7BD17C9E8780044A419 /* main.c */,
 				8316F7C817C9EBE80044A419 /* arrayAndString.h */,
+				8345CB5417D9BEDE00E36653 /* pointerVSArray.c */,
 				8316F7C617C9EB4A0044A419 /* arrayAndString.c */,
 				83D0567717D95EE1000C41FB /* charReplace.c */,
 				8316F7BF17C9E8780044A419 /* CiCT.1 */,
@@ -128,6 +131,7 @@
 				8316F7BE17C9E8780044A419 /* main.c in Sources */,
 				8316F7C717C9EB4A0044A419 /* arrayAndString.c in Sources */,
 				83D0567817D95EE1000C41FB /* charReplace.c in Sources */,
+				8345CB5517D9BEDE00E36653 /* pointerVSArray.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
