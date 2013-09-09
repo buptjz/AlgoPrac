@@ -90,9 +90,7 @@
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
          startingLineNumber = "18"
-         endingLineNumber = "18"
-         landmarkName = "testPointer()"
-         landmarkType = "7">
+         endingLineNumber = "18">
       </FileBreakpoint>
       <FileBreakpoint
          shouldBeEnabled = "No"
@@ -105,6 +103,32 @@
          startingLineNumber = "19"
          endingLineNumber = "19"
          landmarkName = "testPointer()"
+         landmarkType = "7">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "Yes"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "CiCT/main.c"
+         timestampString = "400382044.872606"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "24"
+         endingLineNumber = "24"
+         landmarkName = "main()"
+         landmarkType = "7">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "CiCT/stringCompress.c"
+         timestampString = "400382235.72601"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "44"
+         endingLineNumber = "44"
+         landmarkName = "stringCompress()"
          landmarkType = "7">
       </FileBreakpoint>
    </FileBreakpoints>
