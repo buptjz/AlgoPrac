@@ -1,7 +1,5 @@
-/*Implement a function to check if a binary tree is balanced.For the purpose
- * of this question,a balanced tree is defined to be a tree such that the
- * heights of the two subtrees of any node never differ by more than one.
- *¡¶CICT¡· P86
+/*Implement a function to check if a binary tree is a binary search tree.
+ *¡¶CICT¡· P86-4.5
  * */
 
 #include "stdio.h"
@@ -21,25 +19,6 @@ struct TreeNode* make_empty(struct TreeNode * T){
 		free(T);
 	}
 	return NULL;
-}
-
-
-int check_height(struct TreeNode * TN){
-	if(TN == NULL) return 0;
-	int left_h,right_h;
-	left_h = check_height(TN->left);
-	if(left_h == -1) return -1;
-	right_h = check_height(TN->right);
-	if(right_h == -1) return -1;
-	if(left_h-right_h > 1 || left_h - right_h < -1) return -1;
-	else return 1+(left_h > right_h? left_h : right_h);
-}
-
-int is_balance(struct TreeNode *TN){
-	int result;
-	result = check_height(TN);
-	if(result == -1) return 0;
-	else return 1;
 }
 
 struct TreeNode* insert(int key,struct TreeNode *T){
@@ -63,6 +42,25 @@ struct TreeNode* insert(int key,struct TreeNode *T){
 	return T;
 }
 
+int check_order(int key){
+	static int last = -1;
+	if(last > key) return -1;
+	last = key;
+	return 1;
+}
+
+int is_binary_search_tree(struct TreeNode *TN){
+	if(TN == NULL) return 1;
+	int result;
+	result = is_binary_search_tree(TN->left);
+	if (result == -1) return -1;
+	result = check_order(TN->key);
+	if (result == -1) return -1;
+	result = is_binary_search_tree(TN->right);
+	if (result == -1) return -1;
+	return 1;
+}
+
 void inorder_treewalk(struct TreeNode *T){
 	if (T != NULL){
 		inorder_treewalk(T->left);
@@ -73,14 +71,14 @@ void inorder_treewalk(struct TreeNode *T){
 
 int main(){
 	struct TreeNode *root = NULL;
-	int i;
-	int a[] = {5,3,7,1,4,6,8}; 
-    root = insert(a[0],root);
-	for(i = 1;i < 7;i++){
-        insert(a[i],root);
+	int i,ibst;
+    root = insert(1,root);
+	for(i = 2;i < 10;i++){
+        insert(i,root);
 	}
 	inorder_treewalk(root);
-	printf("%d",is_balance(root));
-	
+	ibst = is_binary_search_tree(root);
+	printf("This is a binary search tree [%d]",ibst);
 	return 1;
 }
+
