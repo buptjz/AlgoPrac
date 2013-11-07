@@ -1,37 +1,16 @@
-////
-////  main.c
-////  CiCT
-////
-////  Created by Wang JZ on 13-8-25.
-////  Copyright (c) 2013å¹´ Wang JZ. All rights reserved.
-////
-//
-//#include <stdio.h>
-//#include "arrayAndString.h"
-//
-//
-//int main(int argc, const char * argv[])
-//{
-//    //char a[] = "wordar";
-//    //int is = isUnique3(a);
-//    //printf("%d",is);
-//    char p[] = "aa";
-//    //stringInverse(p);
-//    //charReplace(p);
-//    //testPointer(p);
-//    char *a = stringCompress(p);
-//    //printf("%s",a);
-//    return 0;
-//}
-
-/*ã€Šæ•°æ®ç»“æ„ä¸ç®—æ³•åˆ†æ-cè¯­è¨€æè¿°ç‰ˆã€‹
- *äºŒå‰æŸ¥æ‰¾æ ‘
- *æ’å…¥ã€åˆ é™¤ã€ä¸­åºéå†ã€ç½®ç©º
+/*¡¶Craking the code interview>¡·P86-4.8
+ * You have two very large binary trees:T1,with millions of nodes,and T2,with hundreds of nodes.Create an algorithm to decide if T2 is a sbutree of T1.
+ * A tree T2 is a subtree of T1 if there exists a node n in T1 such that the subtree of n is identical to T2. That is,if you cut off the tree at node n, the two trees would be identical.
+ *
+ * ½â¾ö·½·¨Ò»¡¾±¾ÎÄ½â·¨¡¿£º±éÀúÃ¿T1µÄÒ»¸ö½Úµã£¬ÒÀ´ËÅĞ¶ÏÒÔ¸Ã½Úµã×÷Îª¸ù£¬ÊÇ²»ÊÇºÍT2ÊÇÍ¬ÑùµÄÊ÷
+ * ½â¾ö·½·¨¶ş£º¼ÆËãT1ºÍT2µÄÏÈĞò±éÀúºÍÖĞĞò±éÀú£¬Í¨¹ı²éÕÒ×Ó´®µÄ·½Ê½½øĞĞËÑË÷¡£
+ * Èç¹ûT2µÄÏÈĞòºÍÖĞĞò¶¼ÊÇT1µÄÏÈĞòºÍÖĞĞòµÄ×Ó´®£¬ÄÇÃ´T2ÊÇT1µÄ×Ó´®¡£
  * */
+
 
 #include "stdio.h"
 #include <stdlib.h>
-/*å®šä¹‰äºŒå‰æŸ¥æ‰¾æ ‘çš„æ•°æ®ç»“æ„*/
+/*¶¨Òå¶ş²æ²éÕÒÊ÷µÄÊı¾İ½á¹¹*/
 struct BSTreeNode{
     struct BSTreeNode *left;
     struct BSTreeNode *right;
@@ -39,8 +18,13 @@ struct BSTreeNode{
     int key;
 };
 
-/*åˆ¤æ–­TN2å’ŒTN1æ˜¯ä¸æ˜¯ä¸€æ ·*/
+/*ÅĞ¶ÏTN2ºÍTN1ÊÇ²»ÊÇÒ»Ñù*/
 int is_same_tree(struct BSTreeNode *TN1,struct BSTreeNode *TN2){
+	/*if(TN1 == NULL && TN2 == NULL) return 1;
+	else if(TN1->key == TN2->key)
+		return is_same_tree(TN1->left,TN2->left) && is_same_tree(TN1->right,TN2->right);
+	else return 0;*/
+	//if TN == NULL,then you call TN->key,it will report runtime errors.
 	if(TN1 == NULL && TN2 == NULL) return 1;
     else if (TN1 != NULL && TN2 == NULL) return 0;
     else if (TN1 == NULL && TN2 != NULL) return 0;
@@ -49,7 +33,7 @@ int is_same_tree(struct BSTreeNode *TN1,struct BSTreeNode *TN2){
 	else return 0;
 }
 
-/*å…ˆåºéå†*/
+/*ÏÈĞò±éÀú*/
 int preorder_search(struct BSTreeNode *TN1,struct BSTreeNode *TN2){
 	int result = 0;
 	if(TN1->key == TN2->key) result = is_same_tree(TN1,TN2);
@@ -61,7 +45,7 @@ int preorder_search(struct BSTreeNode *TN1,struct BSTreeNode *TN2){
 	return result;
 }
 
-/*åˆ¤æ–­TN2æ˜¯ä¸æ˜¯TN1çš„å­æ ‘*/
+/*ÅĞ¶ÏTN2ÊÇ²»ÊÇTN1µÄ×ÓÊ÷*/
 int is_subtree(struct BSTreeNode *TN1,struct BSTreeNode *TN2){
 	if(TN1 == NULL && TN2 == NULL) return 1;
 	//empty tree is always the subtree
@@ -70,7 +54,7 @@ int is_subtree(struct BSTreeNode *TN1,struct BSTreeNode *TN2){
 }
 
 
-/*æ’å…¥èŠ‚ç‚¹*/
+/*²åÈë½Úµã*/
 struct BSTreeNode* insert(int key,struct BSTreeNode *T){
 	if(T != NULL){
 		if(key < T->key){
@@ -105,13 +89,13 @@ int main(){
     //delete(root->left->right);
 	//inorder_treewalk(root);
 	//
-	tree2 = insert(6,tree2);
-	//insert(6,tree2);
-	insert(5,tree2);
-	//insert(8,tree2);
+	tree2 = insert(7,tree2);
+	insert(6,tree2);
+	//insert(5,tree2);
+	insert(8,tree2);
     
 	int result;
 	result = is_subtree(tree1,tree2);
-	printf("is subtree %d",result);
+	printf("is subtree %d\n",result);
 	return 1;
 }
