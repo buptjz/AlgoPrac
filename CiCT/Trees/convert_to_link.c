@@ -1,61 +1,45 @@
-////
-////  main.c
-////  CiCT
-////
-////  Created by Wang JZ on 13-8-25.
-////  Copyright (c) 2013å¹´ Wang JZ. All rights reserved.
-////
-//
-//#include <stdio.h>
-//#include "arrayAndString.h"
-//
-//
-//int main(int argc, const char * argv[])
-//{
-//    //char a[] = "wordar";
-//    //int is = isUnique3(a);
-//    //printf("%d",is);
-//    char p[] = "aa";
-//    //stringInverse(p);
-//    //charReplace(p);
-//    //testPointer(p);
-//    char *a = stringCompress(p);
-//    //printf("%s",a);
-//    return 0;
-//}
-
 /*
- *å°†äºŒèŒ¬æœç´¢æ ‘è½¬æ¢æˆæ’å¥½åºçš„äºŒå‰é“¾è¡¨
- * */
+ *½«¶ş²çËÑË÷Ê÷×ª»»³ÉÅÅºÃĞòµÄ¶ş²æÁ´±í
+ * ¾«Ñ¡Î¢ÈíµÈÊı¾İ½á¹¹+Ëã·¨ÃæÊÔ100Ìâ No.1
+1.°Ñ¶şÔª²éÕÒÊ÷×ª±ä³ÉÅÅĞòµÄË«ÏòÁ´±í
+ÌâÄ¿: ÊäÈëÒ»¿Ã¶şÔª²éÕÒÊ÷,½«¸Ã¶şÔª²éÕÒÊ÷×ª»»³ÉÒ»¸öÅÅĞòµÄË«ÏòÁ´±í¡£ ÒªÇó²»ÄÜ´´½¨ÈÎºÎĞÂµÄ½áµã,Ö»µ÷ÕûÖ¸ÕëµÄÖ¸Ïò¡£
+	 10
+  	 /\ 
+	6 14 
+   / \/ \
+  4 8 12 16 
+  ×ª»»³ÉË«ÏòÁ´±í 4=6=8=10=12=14=16¡£
+ 
+*/
 
 #include "stdio.h"
 #include <stdlib.h>
 
-/*å®šä¹‰äºŒå‰æŸ¥æ‰¾æ ‘çš„æ•°æ®ç»“æ„*/
+/*¶¨Òå¶ş²æ²éÕÒÊ÷µÄÊı¾İ½á¹¹*/
 struct BSTreeNode{
     struct BSTreeNode *left;
     struct BSTreeNode *right;
     int key;
 };
 
-//éœ€è¦å…¨å±€å˜é‡ï¼ŒpHeadè¡¨ç¤ºåŒé“¾è¡¨çš„è¡¨å¤´
-//å› ä¸ºä¸å…è®¸æ–°å»ºèŠ‚ç‚¹ï¼Œè¡¨å¤´å°±æ˜¯ç¬¬ä¸€ä¸ªç¬¬ä¸€ä¸ªèŠ‚ç‚¹
-//currentæŒ‡ç¤ºå½“å‰åŒé“¾è¡¨çš„æœ€åä¸€ä¸ªèŠ‚ç‚¹
+/*ĞèÒªÈ«¾Ö±äÁ¿£¬pHead±íÊ¾Ë«Á´±íµÄ±íÍ·
+ÒòÎª²»ÔÊĞíĞÂ½¨½Úµã£¬±íÍ·¾ÍÊÇµÚÒ»¸öµÚÒ»¸ö½Úµã
+currentÖ¸Ê¾µ±Ç°Ë«Á´±íµÄ×îºóÒ»¸ö½Úµã*/
 struct BSTreeNode *pHead,*currentIndex;
 
-//å°†ä¸€ä¸ªæ–°çš„èŠ‚ç‚¹åŠ å…¥åˆ°åŒé“¾è¡¨ä¸­
+/*½«Ò»¸öĞÂµÄ½Úµã¼ÓÈëµ½Ë«Á´±íÖĞ*/
 void append_to_list(struct BSTreeNode *current){
 	if(current == NULL) return;
 	current->left = currentIndex;
-	if(currentIndex == NULL){//ç¬¬ä¸€æ¬¡è¿›å…¥è¯¥å‡½æ•°
-		pHead = current;//è¦è®¾ç½®pHead
+	if(currentIndex == NULL){//µÚÒ»´Î½øÈë¸Ãº¯Êı
+		pHead = current;//ÒªÉèÖÃpHead
 	}else{
 		currentIndex ->right = current;
 	}
 	currentIndex = current;
 }
 
-/*æ’å…¥èŠ‚ç‚¹*/
+/*²åÈë½Úµã*/
 struct BSTreeNode* insert(int key,struct BSTreeNode *T){
 	if(T != NULL){
 		if(key < T->key){
@@ -77,7 +61,7 @@ struct BSTreeNode* insert(int key,struct BSTreeNode *T){
 	return T;
 }
 
-/*ä¸­åºéå†*/
+/*ÖĞĞò±éÀú*/
 void inorder_treewalk(struct BSTreeNode *T){
 	if (T != NULL){
 		inorder_treewalk(T->left);

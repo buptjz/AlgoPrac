@@ -119,15 +119,15 @@
          landmarkType = "7">
       </FileBreakpoint>
       <FileBreakpoint
-         shouldBeEnabled = "No"
+         shouldBeEnabled = "Yes"
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "CiCT/main.c"
-         timestampString = "404792138.56762"
+         timestampString = "405677182.779994"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "105"
-         endingLineNumber = "105"
+         startingLineNumber = "102"
+         endingLineNumber = "102"
          landmarkName = "main()"
          landmarkType = "7">
       </FileBreakpoint>
