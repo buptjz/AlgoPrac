@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		830749AB188629C700800BE4 /* searchInRotatedArray.c in Sources */ = {isa = PBXBuildFile; fileRef = 830749AA188629C700800BE4 /* searchInRotatedArray.c */; };
+		830749AD188667CC00800BE4 /* searchInInterspersedArray.c in Sources */ = {isa = PBXBuildFile; fileRef = 830749AC188667CC00800BE4 /* searchInInterspersedArray.c */; };
 		8316F7BE17C9E8780044A419 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 8316F7BD17C9E8780044A419 /* main.c */; };
 		8316F7C017C9E8780044A419 /* CiCT.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8316F7BF17C9E8780044A419 /* CiCT.1 */; };
 		8316F7C717C9EB4A0044A419 /* arrayAndString.c in Sources */ = {isa = PBXBuildFile; fileRef = 8316F7C617C9EB4A0044A419 /* arrayAndString.c */; };
@@ -29,6 +31,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		830749AA188629C700800BE4 /* searchInRotatedArray.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = searchInRotatedArray.c; sourceTree = "<group>"; };
+		830749AC188667CC00800BE4 /* searchInInterspersedArray.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = searchInInterspersedArray.c; sourceTree = "<group>"; };
 		8316F7BA17C9E8780044A419 /* CiCT */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CiCT; sourceTree = BUILT_PRODUCTS_DIR; };
 		8316F7BD17C9E8780044A419 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		8316F7BF17C9E8780044A419 /* CiCT.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = CiCT.1; sourceTree = "<group>"; };
@@ -69,6 +73,8 @@
 		8316F7BC17C9E8780044A419 /* CiCT */ = {
 			isa = PBXGroup;
 			children = (
+				830749AA188629C700800BE4 /* searchInRotatedArray.c */,
+				830749AC188667CC00800BE4 /* searchInInterspersedArray.c */,
 				8316F7BD17C9E8780044A419 /* main.c */,
 				8316F7C817C9EBE80044A419 /* arrayAndString.h */,
 				8345CB5417D9BEDE00E36653 /* pointerVSArray.c */,
@@ -131,10 +137,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				830749AB188629C700800BE4 /* searchInRotatedArray.c in Sources */,
 				8316F7BE17C9E8780044A419 /* main.c in Sources */,
 				8316F7C717C9EB4A0044A419 /* arrayAndString.c in Sources */,
 				83D0567817D95EE1000C41FB /* charReplace.c in Sources */,
 				8345CB5517D9BEDE00E36653 /* pointerVSArray.c in Sources */,
+				830749AD188667CC00800BE4 /* searchInInterspersedArray.c in Sources */,
 				8354A3F217DD550F00A8F1AD /* stringCompress.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

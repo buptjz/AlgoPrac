@@ -9,6 +9,7 @@
 #ifndef CiCT_arrayAndString_h
 #define CiCT_arrayAndString_h
 
+void testSearchInRotateArray();
 extern int isUnique(char a[]);
 extern int isUnique2(char a[]);
 extern int isUnique3(char a[]);
