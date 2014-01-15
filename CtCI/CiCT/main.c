@@ -12,6 +12,7 @@
 
 int main(int argc, const char * argv[])
 {
-    testSearchInRotateArray();
+//    testSearchInRotateArray();
+    testSearchInArray();
     return 0;
 }
