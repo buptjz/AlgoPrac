@@ -29,6 +29,7 @@ typedef struct TreeNode{
 
 TN *T;//全局变量
 
+//插入二叉树
 TN* insert(TN *T,int x){
     if (T == NULL) {//走到了路的尽头，创建新的节点，并对节点赋值
         T = malloc(sizeof(TN));
@@ -43,16 +44,33 @@ TN* insert(TN *T,int x){
     return T;
 }
 
+//二叉树的递归搜索
+int getRankOFNumberInTree(TN *T,int x,int added){
+    if (T == NULL) return -1;
+    if (T->key == x) {//找到了等于x的点T，T的左子树节点数加上父节点传递过来的的值就是x的排位
+        return added+T->data;
+    }else if(T->key > x){//在左子树中寻找,并将added的值向下传递
+        return getRankOFNumberInTree(T->left, x, added);
+    }else{//在右子树中寻找,并将(T->data + added + 1)向下传递
+        return getRankOFNumberInTree(T->right, x, T->data + added+1);
+    }
+}
+
 //接口，给外部程序调用
 void track(int x){
     T = insert(T, x);
 }
-
+int getRankOfNumber(int x){
+    return getRankOFNumberInTree(T,x,0);
+}
 void testTrackStream(){
     int a[9] = {5,1,4,4,5,9,7,13,1};
     int length = 9;
     for (int i = 0; i < length; i++) {
         track(a[i]);
     }
-    printf("Finished\n");
+    printf("Find\t%d\tExpected\t%d\tGot %d\n",8,-1,getRankOfNumber(8));
+    printf("Find\t%d\tExpected\t%d\tGot %d\n",13,8,getRankOfNumber(13));
+    printf("Find\t%d\tExpected\t%d\tGot %d\n",7,6,getRankOfNumber(7));
+    printf("Find\t%d\tExpected\t%d\tGot %d\n",1,1,getRankOfNumber(1));
 }
