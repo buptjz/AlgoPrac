@@ -1,11 +1,21 @@
-//
-//  searchRotatedArray.c
-//  LeetCode
-//
-//  Created by WangJZ on 14-1-12.
-//  Copyright (c) 2014年 WangJZ. All rights reserved.
-//
-
+/*
+ 在一个旋转数组中找到中间那个值，要特别注意数组中可以允许重复的数字出现
+ Follow up for "Search in Rotated Sorted Array":
+ What if duplicates are allowed?
+ 
+ Would this affect the run-time complexity? How and why?
+ 
+ Write a function to determine if a given target is in the array.
+ 
+ http://oj.leetcode.com/problems/search-in-rotated-sorted-array-ii/
+ 
+ 写了两个辅助函数，searchhelperatmost和searchhelperatleast
+ 比如当第一次A[mid]大于target 的时候，target可能会出现在
+    1）左侧，这时target在左侧序列中后半段的递增序列上，所以在该分支上如果遇到中值大于atmost的值的时候，可以直接左侧删掉
+    2）右侧，就是在后半段的递增序列上，所以在该分支上继续递归的时候，如果遇到大于atmost的时候，可以直接删掉左侧的分支
+ 
+ 但是这个想法complicated，可参见11.3的实现，更为简洁。
+ */
 #include <stdio.h>
 
 int searchhelperatleat(int *A,int n,int target,int atleast){

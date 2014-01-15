@@ -1,10 +1,7 @@
-//
-//  File.c
-//  LeetCode
-//
-//  Created by WangJZ on 14-1-12.
-//  Copyright (c) 2014年 WangJZ. All rights reserved.
-//
+/*
+ 在两个排序好的数组中找到中间的那个值
+ 目前没有完成
+ */
 
 #include <stdio.h>
 #include "functions.h"
