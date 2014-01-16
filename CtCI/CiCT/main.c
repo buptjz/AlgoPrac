@@ -12,6 +12,6 @@
 
 int main(int argc, const char * argv[])
 {
-    testTrackStream();
+    testSearchInRotateArray();
     return 0;
 }
