@@ -12,6 +12,6 @@
 
 int main(int argc, const char * argv[])
 {
-    testSearchInRotateArray();
+    testLongestTower();
     return 0;
 }
