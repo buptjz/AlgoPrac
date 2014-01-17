@@ -9,6 +9,7 @@
 #ifndef CiCT_arrayAndString_h
 #define CiCT_arrayAndString_h
 
+void testSearchInMatric();
 void testLongestTower();
 void testTrackStream();
 void testSearchInArray();

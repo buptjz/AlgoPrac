@@ -17,6 +17,7 @@
 		8354A3F217DD550F00A8F1AD /* stringCompress.c in Sources */ = {isa = PBXBuildFile; fileRef = 8354A3F117DD550F00A8F1AD /* stringCompress.c */; };
 		83D0567817D95EE1000C41FB /* charReplace.c in Sources */ = {isa = PBXBuildFile; fileRef = 83D0567717D95EE1000C41FB /* charReplace.c */; };
 		83DE9722188683CF00AF9BD7 /* trackStream.c in Sources */ = {isa = PBXBuildFile; fileRef = 83DE9721188683CF00AF9BD7 /* trackStream.c */; };
+		83F558AD1887CC5C0043B0D2 /* searchInMatrix.c in Sources */ = {isa = PBXBuildFile; fileRef = 83F558AC1887CC5C0043B0D2 /* searchInMatrix.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -45,6 +46,7 @@
 		8354A3F117DD550F00A8F1AD /* stringCompress.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = stringCompress.c; sourceTree = "<group>"; };
 		83D0567717D95EE1000C41FB /* charReplace.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = charReplace.c; sourceTree = "<group>"; };
 		83DE9721188683CF00AF9BD7 /* trackStream.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = trackStream.c; sourceTree = "<group>"; };
+		83F558AC1887CC5C0043B0D2 /* searchInMatrix.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = searchInMatrix.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,9 +81,10 @@
 			children = (
 				830749AA188629C700800BE4 /* searchInRotatedArray.c */,
 				832887E81887B297007A05EC /* longestNonDecreasingSequence.c */,
+				83F558AC1887CC5C0043B0D2 /* searchInMatrix.c */,
+				8316F7C817C9EBE80044A419 /* arrayAndString.h */,
 				830749AC188667CC00800BE4 /* searchInInterspersedArray.c */,
 				83DE9721188683CF00AF9BD7 /* trackStream.c */,
-				8316F7C817C9EBE80044A419 /* arrayAndString.h */,
 				8316F7BD17C9E8780044A419 /* main.c */,
 				8345CB5417D9BEDE00E36653 /* pointerVSArray.c */,
 				8316F7C617C9EB4A0044A419 /* arrayAndString.c */,
@@ -150,6 +153,7 @@
 				83D0567817D95EE1000C41FB /* charReplace.c in Sources */,
 				8345CB5517D9BEDE00E36653 /* pointerVSArray.c in Sources */,
 				830749AD188667CC00800BE4 /* searchInInterspersedArray.c in Sources */,
+				83F558AD1887CC5C0043B0D2 /* searchInMatrix.c in Sources */,
 				8354A3F217DD550F00A8F1AD /* stringCompress.c in Sources */,
 				83DE9722188683CF00AF9BD7 /* trackStream.c in Sources */,
 			);
