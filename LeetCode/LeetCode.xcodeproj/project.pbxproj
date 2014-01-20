@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		83018D7918898CB7001804E7 /* MergekSortedLists .cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83018D7718898CB7001804E7 /* MergekSortedLists .cpp */; };
 		832E1C3D1882C8C4001BA17B /* searchRotatedArray.c in Sources */ = {isa = PBXBuildFile; fileRef = 832E1C3C1882C8C4001BA17B /* searchRotatedArray.c */; };
 		83E6C6CB18828E7F006D399B /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 83E6C6CA18828E7F006D399B /* main.c */; };
 		83E6C6CD18828E7F006D399B /* LeetCode.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 83E6C6CC18828E7F006D399B /* LeetCode.1 */; };
@@ -27,6 +28,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		83018D7718898CB7001804E7 /* MergekSortedLists .cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "MergekSortedLists .cpp"; sourceTree = "<group>"; };
+		83018D7818898CB7001804E7 /* MergekSortedLists .h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MergekSortedLists .h"; sourceTree = "<group>"; };
 		832E1C3C1882C8C4001BA17B /* searchRotatedArray.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = searchRotatedArray.c; sourceTree = "<group>"; };
 		83E6C6C718828E7F006D399B /* LeetCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCode; sourceTree = BUILT_PRODUCTS_DIR; };
 		83E6C6CA18828E7F006D399B /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
@@ -70,6 +73,8 @@
 				83E6C6D518828ED7006D399B /* functions.h */,
 				832E1C3C1882C8C4001BA17B /* searchRotatedArray.c */,
 				83E6C6CC18828E7F006D399B /* LeetCode.1 */,
+				83018D7818898CB7001804E7 /* MergekSortedLists .h */,
+				83018D7718898CB7001804E7 /* MergekSortedLists .cpp */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -127,6 +132,7 @@
 			files = (
 				83E6C6CB18828E7F006D399B /* main.c in Sources */,
 				83E6C6D418828E8E006D399B /* findMedianSortedArrays.c in Sources */,
+				83018D7918898CB7001804E7 /* MergekSortedLists .cpp in Sources */,
 				832E1C3D1882C8C4001BA17B /* searchRotatedArray.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
