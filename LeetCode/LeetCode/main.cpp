@@ -9,6 +9,7 @@
 #include <stdio.h>
 #include "functions.h"
 #include "ConvertSortedArraytoBinarySearchTree.h"
+#include "2Sum.h"
 int main(int argc, const char * argv[])
 {
 
@@ -19,7 +20,8 @@ int main(int argc, const char * argv[])
 //    int a[12] = {1,1,1,1,2,1,1,1,1,1,1,1};
 //    int result = search(a, 12, 2);
 //    printf("Result is %d\n",result);
-    testSortedArrayToBST();
+//    testSortedArrayToBST();
+    testTwoSum();
     return 0;
 }
 
