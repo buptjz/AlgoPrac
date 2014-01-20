@@ -8,7 +8,7 @@
 
 #include <stdio.h>
 #include "functions.h"
-
+#include "ConvertSortedArraytoBinarySearchTree.h"
 int main(int argc, const char * argv[])
 {
 
@@ -16,9 +16,10 @@ int main(int argc, const char * argv[])
 //    int a[1] = {3,4,1,2};
 //    int b[2] = {1,2};
 //    int result = findMedianSortedArrays(a, 1, b, 2);
-    int a[12] = {1,1,1,1,2,1,1,1,1,1,1,1};
-    int result = search(a, 12, 2);
-    printf("Result is %d\n",result);
+//    int a[12] = {1,1,1,1,2,1,1,1,1,1,1,1};
+//    int result = search(a, 12, 2);
+//    printf("Result is %d\n",result);
+    testSortedArrayToBST();
     return 0;
 }
 
