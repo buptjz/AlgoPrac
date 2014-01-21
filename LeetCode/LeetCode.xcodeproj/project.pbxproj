@@ -11,6 +11,8 @@
 		83030E8E188E970700BCB658 /* LongestSubstringWithoutRepeatingCharacters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83030E8D188E970700BCB658 /* LongestSubstringWithoutRepeatingCharacters.cpp */; };
 		832E1C3D1882C8C4001BA17B /* searchRotatedArray.c in Sources */ = {isa = PBXBuildFile; fileRef = 832E1C3C1882C8C4001BA17B /* searchRotatedArray.c */; };
 		836D712E188D030B00B553B2 /* ConvertSortedArraytoBinarySearchTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 836D712C188D030B00B553B2 /* ConvertSortedArraytoBinarySearchTree.cpp */; };
+		83873800188EB1B2001732CE /* addTwoNumbers.c in Sources */ = {isa = PBXBuildFile; fileRef = 838737FF188EB1B2001732CE /* addTwoNumbers.c */; };
+		83873803188EB5FB001732CE /* addTwoNumbers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83873801188EB5FB001732CE /* addTwoNumbers.cpp */; };
 		83E6C6CB18828E7F006D399B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83E6C6CA18828E7F006D399B /* main.cpp */; };
 		83E6C6CD18828E7F006D399B /* LeetCode.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 83E6C6CC18828E7F006D399B /* LeetCode.1 */; };
 		83E6C6D418828E8E006D399B /* findMedianSortedArrays.c in Sources */ = {isa = PBXBuildFile; fileRef = 83E6C6D318828E8E006D399B /* findMedianSortedArrays.c */; };
@@ -38,6 +40,9 @@
 		836D712C188D030B00B553B2 /* ConvertSortedArraytoBinarySearchTree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ConvertSortedArraytoBinarySearchTree.cpp; sourceTree = "<group>"; };
 		836D712D188D030B00B553B2 /* ConvertSortedArraytoBinarySearchTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConvertSortedArraytoBinarySearchTree.h; sourceTree = "<group>"; };
 		838737FE188EACF7001732CE /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		838737FF188EB1B2001732CE /* addTwoNumbers.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = addTwoNumbers.c; sourceTree = "<group>"; };
+		83873801188EB5FB001732CE /* addTwoNumbers.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = addTwoNumbers.cpp; sourceTree = "<group>"; };
+		83873802188EB5FB001732CE /* addTwoNumbers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = addTwoNumbers.h; sourceTree = "<group>"; };
 		83E6C6C718828E7F006D399B /* LeetCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCode; sourceTree = BUILT_PRODUCTS_DIR; };
 		83E6C6CA18828E7F006D399B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		83E6C6CC18828E7F006D399B /* LeetCode.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = LeetCode.1; sourceTree = "<group>"; };
@@ -77,6 +82,9 @@
 		83E6C6C918828E7F006D399B /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
+				838737FF188EB1B2001732CE /* addTwoNumbers.c */,
+				83873801188EB5FB001732CE /* addTwoNumbers.cpp */,
+				83873802188EB5FB001732CE /* addTwoNumbers.h */,
 				83E6C6CA18828E7F006D399B /* main.cpp */,
 				838737FE188EACF7001732CE /* Header.h */,
 				83030E8D188E970700BCB658 /* LongestSubstringWithoutRepeatingCharacters.cpp */,
@@ -152,6 +160,8 @@
 				836D712E188D030B00B553B2 /* ConvertSortedArraytoBinarySearchTree.cpp in Sources */,
 				83018D7918898CB7001804E7 /* MergekSortedLists .cpp in Sources */,
 				832E1C3D1882C8C4001BA17B /* searchRotatedArray.c in Sources */,
+				83873803188EB5FB001732CE /* addTwoNumbers.cpp in Sources */,
+				83873800188EB1B2001732CE /* addTwoNumbers.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
