@@ -10,6 +10,7 @@
 #include "functions.h"
 #include "ConvertSortedArraytoBinarySearchTree.h"
 #include "2Sum.h"
+#include "Header.h"
 int main(int argc, const char * argv[])
 {
 
@@ -21,7 +22,8 @@ int main(int argc, const char * argv[])
 //    int result = search(a, 12, 2);
 //    printf("Result is %d\n",result);
 //    testSortedArrayToBST();
-    testTwoSum();
+//    testTwoSum();
+    testLengthOfLongestSubstring();
     return 0;
 }
 
