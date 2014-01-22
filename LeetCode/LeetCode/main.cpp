@@ -25,7 +25,8 @@ int main(int argc, const char * argv[])
 //    testSortedArrayToBST();
 //    testTwoSum();
 //    testLengthOfLongestSubstring();
-    testConvert();
+//    testConvert();
+    testNumTrees();
     return 0;
 }
 
