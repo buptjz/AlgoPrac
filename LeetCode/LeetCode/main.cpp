@@ -11,6 +11,7 @@
 #include "ConvertSortedArraytoBinarySearchTree.h"
 #include "2Sum.h"
 #include "Header.h"
+#include "ZigZagConversion.h"
 int main(int argc, const char * argv[])
 {
 
@@ -23,7 +24,8 @@ int main(int argc, const char * argv[])
 //    printf("Result is %d\n",result);
 //    testSortedArrayToBST();
 //    testTwoSum();
-    testLengthOfLongestSubstring();
+//    testLengthOfLongestSubstring();
+    testConvert();
     return 0;
 }
 
