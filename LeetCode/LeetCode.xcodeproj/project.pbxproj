@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		83018D7918898CB7001804E7 /* MergekSortedLists .cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83018D7718898CB7001804E7 /* MergekSortedLists .cpp */; };
 		83030E8E188E970700BCB658 /* LongestSubstringWithoutRepeatingCharacters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83030E8D188E970700BCB658 /* LongestSubstringWithoutRepeatingCharacters.cpp */; };
+		8308FD611890B72D00C98C20 /* MinimumDepthofBinaryTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8308FD5F1890B72D00C98C20 /* MinimumDepthofBinaryTree.cpp */; };
+		8319C2B41890D63A00A5A39A /* BinaryTreeLevelOrderTraversal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8319C2B21890D63A00A5A39A /* BinaryTreeLevelOrderTraversal.cpp */; };
 		832E1C3D1882C8C4001BA17B /* searchRotatedArray.c in Sources */ = {isa = PBXBuildFile; fileRef = 832E1C3C1882C8C4001BA17B /* searchRotatedArray.c */; };
 		8367439E189016670051E377 /* numTrees.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8367439D189016670051E377 /* numTrees.cpp */; };
 		836D712E188D030B00B553B2 /* ConvertSortedArraytoBinarySearchTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 836D712C188D030B00B553B2 /* ConvertSortedArraytoBinarySearchTree.cpp */; };
@@ -38,6 +40,10 @@
 		83018D7718898CB7001804E7 /* MergekSortedLists .cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "MergekSortedLists .cpp"; sourceTree = "<group>"; };
 		83018D7818898CB7001804E7 /* MergekSortedLists .h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MergekSortedLists .h"; sourceTree = "<group>"; };
 		83030E8D188E970700BCB658 /* LongestSubstringWithoutRepeatingCharacters.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LongestSubstringWithoutRepeatingCharacters.cpp; sourceTree = "<group>"; };
+		8308FD5F1890B72D00C98C20 /* MinimumDepthofBinaryTree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MinimumDepthofBinaryTree.cpp; sourceTree = "<group>"; };
+		8308FD601890B72D00C98C20 /* MinimumDepthofBinaryTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MinimumDepthofBinaryTree.h; sourceTree = "<group>"; };
+		8319C2B21890D63A00A5A39A /* BinaryTreeLevelOrderTraversal.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BinaryTreeLevelOrderTraversal.cpp; sourceTree = "<group>"; };
+		8319C2B31890D63A00A5A39A /* BinaryTreeLevelOrderTraversal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BinaryTreeLevelOrderTraversal.h; sourceTree = "<group>"; };
 		832E1C3C1882C8C4001BA17B /* searchRotatedArray.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = searchRotatedArray.c; sourceTree = "<group>"; };
 		8367439D189016670051E377 /* numTrees.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = numTrees.cpp; sourceTree = "<group>"; };
 		836D712C188D030B00B553B2 /* ConvertSortedArraytoBinarySearchTree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ConvertSortedArraytoBinarySearchTree.cpp; sourceTree = "<group>"; };
@@ -87,6 +93,10 @@
 		83E6C6C918828E7F006D399B /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
+				8319C2B21890D63A00A5A39A /* BinaryTreeLevelOrderTraversal.cpp */,
+				8319C2B31890D63A00A5A39A /* BinaryTreeLevelOrderTraversal.h */,
+				8308FD5F1890B72D00C98C20 /* MinimumDepthofBinaryTree.cpp */,
+				8308FD601890B72D00C98C20 /* MinimumDepthofBinaryTree.h */,
 				839A7F43188FA9E900F55146 /* ZigZagConversion.h */,
 				839A7F42188FA9E900F55146 /* ZigZagConversion.cpp */,
 				838737FF188EB1B2001732CE /* addTwoNumbers.c */,
@@ -165,10 +175,12 @@
 				83E6C6CB18828E7F006D399B /* main.cpp in Sources */,
 				83E6C6D418828E8E006D399B /* findMedianSortedArrays.c in Sources */,
 				83030E8E188E970700BCB658 /* LongestSubstringWithoutRepeatingCharacters.cpp in Sources */,
+				8308FD611890B72D00C98C20 /* MinimumDepthofBinaryTree.cpp in Sources */,
 				836D712E188D030B00B553B2 /* ConvertSortedArraytoBinarySearchTree.cpp in Sources */,
 				83018D7918898CB7001804E7 /* MergekSortedLists .cpp in Sources */,
 				832E1C3D1882C8C4001BA17B /* searchRotatedArray.c in Sources */,
 				83873803188EB5FB001732CE /* addTwoNumbers.cpp in Sources */,
+				8319C2B41890D63A00A5A39A /* BinaryTreeLevelOrderTraversal.cpp in Sources */,
 				8367439E189016670051E377 /* numTrees.cpp in Sources */,
 				83873800188EB1B2001732CE /* addTwoNumbers.c in Sources */,
 				839A7F44188FA9E900F55146 /* ZigZagConversion.cpp in Sources */,

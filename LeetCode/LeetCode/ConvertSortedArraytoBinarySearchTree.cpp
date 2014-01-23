@@ -42,6 +42,7 @@ TreeNode *sortedArrayToBST(vector<int> &num) {
 
 void testSortedArrayToBST(){
     vector<int> vc = {1,3};
+
     TreeNode *t = sortedArrayToBST(vc);
     printf("Finished\n");
 }
