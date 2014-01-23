@@ -10,5 +10,5 @@
 #define LeetCode_Header_h
 
 void testLengthOfLongestSubstring();
-void testNumTrees();
+
 #endif
