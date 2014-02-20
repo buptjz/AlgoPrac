@@ -13,6 +13,8 @@
 #include "Header.h"
 #include "ZigZagConversion.h"
 #include "BinaryTreeLevelOrderTraversal.h"
+#include "Permutations.h"
+#include "PermutationsUnique.h"
 int main(int argc, const char * argv[])
 {
 
@@ -28,7 +30,9 @@ int main(int argc, const char * argv[])
 //    testLengthOfLongestSubstring();
 //    testConvert();
 //    testNumTrees();
-    testlevelOrder();
+//    testlevelOrder();
+//    testPermute();
+    testPermuteUnique();
     return 0;
 }
 

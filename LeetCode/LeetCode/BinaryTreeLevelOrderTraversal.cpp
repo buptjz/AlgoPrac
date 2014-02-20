@@ -10,6 +10,7 @@
 #include <vector>
 
 using namespace std;
+
 struct TreeNode {
     int val;
     TreeNode *left;
@@ -27,13 +28,12 @@ void levelOrderHelper(vector<vector<int> > &vc,TreeNode *root,int level){
     levelOrderHelper(vc, root->left, level);
     levelOrderHelper(vc, root->right, level);
 }
+
 vector<vector<int> > levelOrder(TreeNode *root) {
     vector<vector<int> > a;
     levelOrderHelper(a, root, 0);
     return a;
 }
-
-
 
 void testlevelOrder(){
     TreeNode *temp = new TreeNode(1);

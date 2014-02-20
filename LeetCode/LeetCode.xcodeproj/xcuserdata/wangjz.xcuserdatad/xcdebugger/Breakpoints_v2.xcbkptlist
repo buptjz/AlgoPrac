@@ -87,13 +87,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "LeetCode/BinaryTreeLevelOrderTraversal.cpp"
-            timestampString = "412153332.483411"
+            filePath = "LeetCode/PermutationsUnique.cpp"
+            timestampString = "414580219.965594"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "40"
-            endingLineNumber = "40"
-            landmarkName = "testlevelOrder()"
+            startingLineNumber = "91"
+            endingLineNumber = "91"
+            landmarkName = "testPermuteUnique()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -103,14 +103,114 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "LeetCode/BinaryTreeLevelOrderTraversal.cpp"
-            timestampString = "412153332.483411"
+            filePath = "LeetCode/PermutationsUnique.cpp"
+            timestampString = "414580235.616013"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "32"
-            endingLineNumber = "32"
-            landmarkName = "levelOrder(TreeNode *root)"
+            startingLineNumber = "65"
+            endingLineNumber = "65"
+            landmarkName = "permuteUnique_aux(int index, vector&lt;int&gt;&amp;num, vector&lt;int&gt;&amp;tmp, vector&lt;vector&lt;int&gt; &gt;&amp;ret, vector&lt;bool&gt;&amp;isVisited)"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "permuteUnique_aux(int, std::__1::vector&lt;int, std::__1::allocator&lt;int&gt; &gt;&amp;, std::__1::vector&lt;int, std::__1::allocator&lt;int&gt; &gt;&amp;, std::__1::vector&lt;std::__1::vector&lt;int, std::__1::allocator&lt;int&gt; &gt;, std::__1::allocator&lt;std::__1::vector&lt;int, std::__1::allocator&lt;int&gt; &gt; &gt; &gt;&amp;, std::__1::vector&lt;bool, std::__1::allocator&lt;bool&gt; &gt;&amp;)"
+                  moduleName = "LeetCode"
+                  urlString = "file:///Volumes/HDD/developer/AlgoPrac/LeetCode/LeetCode/PermutationsUnique.cpp"
+                  timestampString = "414581047.142117"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "65"
+                  endingLineNumber = "65"
+                  offsetFromSymbolStart = "604">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "permuteUnique_aux(int, std::__1::vector&lt;int, std::__1::allocator&lt;int&gt; &gt;&amp;, std::__1::vector&lt;int, std::__1::allocator&lt;int&gt; &gt;&amp;, std::__1::vector&lt;std::__1::vector&lt;int, std::__1::allocator&lt;int&gt; &gt;, std::__1::allocator&lt;std::__1::vector&lt;int, std::__1::allocator&lt;int&gt; &gt; &gt; &gt;&amp;, std::__1::vector&lt;bool, std::__1::allocator&lt;bool&gt; &gt;&amp;)"
+                  moduleName = "LeetCode"
+                  urlString = "file:///Volumes/HDD/developer/AlgoPrac/LeetCode/LeetCode/PermutationsUnique.cpp"
+                  timestampString = "414581047.142511"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "65"
+                  endingLineNumber = "65"
+                  offsetFromSymbolStart = "814">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "permuteUnique_aux(int, std::__1::vector&lt;int, std::__1::allocator&lt;int&gt; &gt;&amp;, std::__1::vector&lt;int, std::__1::allocator&lt;int&gt; &gt;&amp;, std::__1::vector&lt;std::__1::vector&lt;int, std::__1::allocator&lt;int&gt; &gt;, std::__1::allocator&lt;std::__1::vector&lt;int, std::__1::allocator&lt;int&gt; &gt; &gt; &gt;&amp;, std::__1::vector&lt;bool, std::__1::allocator&lt;bool&gt; &gt;&amp;)"
+                  moduleName = "LeetCode"
+                  urlString = "file:///Volumes/HDD/developer/AlgoPrac/LeetCode/LeetCode/PermutationsUnique.cpp"
+                  timestampString = "414581047.142919"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "65"
+                  endingLineNumber = "65"
+                  offsetFromSymbolStart = "852">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "permuteUnique_aux(int, std::__1::vector&lt;int, std::__1::allocator&lt;int&gt; &gt;&amp;, std::__1::vector&lt;int, std::__1::allocator&lt;int&gt; &gt;&amp;, std::__1::vector&lt;std::__1::vector&lt;int, std::__1::allocator&lt;int&gt; &gt;, std::__1::allocator&lt;std::__1::vector&lt;int, std::__1::allocator&lt;int&gt; &gt; &gt; &gt;&amp;, std::__1::vector&lt;bool, std::__1::allocator&lt;bool&gt; &gt;&amp;)"
+                  moduleName = "LeetCode"
+                  urlString = "file:///Volumes/HDD/developer/AlgoPrac/LeetCode/LeetCode/PermutationsUnique.cpp"
+                  timestampString = "414581047.143326"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "65"
+                  endingLineNumber = "65"
+                  offsetFromSymbolStart = "914">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "permuteUnique_aux(int, std::__1::vector&lt;int, std::__1::allocator&lt;int&gt; &gt;&amp;, std::__1::vector&lt;int, std::__1::allocator&lt;int&gt; &gt;&amp;, std::__1::vector&lt;std::__1::vector&lt;int, std::__1::allocator&lt;int&gt; &gt;, std::__1::allocator&lt;std::__1::vector&lt;int, std::__1::allocator&lt;int&gt; &gt; &gt; &gt;&amp;, std::__1::vector&lt;bool, std::__1::allocator&lt;bool&gt; &gt;&amp;)"
+                  moduleName = "LeetCode"
+                  urlString = "file:///Volumes/HDD/developer/AlgoPrac/LeetCode/LeetCode/PermutationsUnique.cpp"
+                  timestampString = "414581047.143709"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "65"
+                  endingLineNumber = "65"
+                  offsetFromSymbolStart = "958">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "permuteUnique_aux(int, std::__1::vector&lt;int, std::__1::allocator&lt;int&gt; &gt;&amp;, std::__1::vector&lt;int, std::__1::allocator&lt;int&gt; &gt;&amp;, std::__1::vector&lt;std::__1::vector&lt;int, std::__1::allocator&lt;int&gt; &gt;, std::__1::allocator&lt;std::__1::vector&lt;int, std::__1::allocator&lt;int&gt; &gt; &gt; &gt;&amp;, std::__1::vector&lt;bool, std::__1::allocator&lt;bool&gt; &gt;&amp;)"
+                  moduleName = "LeetCode"
+                  urlString = "file:///Volumes/HDD/developer/AlgoPrac/LeetCode/LeetCode/PermutationsUnique.cpp"
+                  timestampString = "414581047.14408"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "65"
+                  endingLineNumber = "65"
+                  offsetFromSymbolStart = "1125">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "permuteUnique_aux(int, std::__1::vector&lt;int, std::__1::allocator&lt;int&gt; &gt;&amp;, std::__1::vector&lt;int, std::__1::allocator&lt;int&gt; &gt;&amp;, std::__1::vector&lt;std::__1::vector&lt;int, std::__1::allocator&lt;int&gt; &gt;, std::__1::allocator&lt;std::__1::vector&lt;int, std::__1::allocator&lt;int&gt; &gt; &gt; &gt;&amp;, std::__1::vector&lt;bool, std::__1::allocator&lt;bool&gt; &gt;&amp;)"
+                  moduleName = "LeetCode"
+                  urlString = "file:///Volumes/HDD/developer/AlgoPrac/LeetCode/LeetCode/PermutationsUnique.cpp"
+                  timestampString = "414581047.144485"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "65"
+                  endingLineNumber = "65"
+                  offsetFromSymbolStart = "1163">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
