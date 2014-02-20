@@ -15,6 +15,7 @@
 #include "BinaryTreeLevelOrderTraversal.h"
 #include "Permutations.h"
 #include "PermutationsUnique.h"
+#include "NextPermutation.h"
 int main(int argc, const char * argv[])
 {
 
@@ -32,7 +33,8 @@ int main(int argc, const char * argv[])
 //    testNumTrees();
 //    testlevelOrder();
 //    testPermute();
-    testPermuteUnique();
+//    testPermuteUnique();
+    testNextPermutation();
     return 0;
 }
 
