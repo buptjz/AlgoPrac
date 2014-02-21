@@ -16,6 +16,7 @@
 #include "Permutations.h"
 #include "PermutationsUnique.h"
 #include "NextPermutation.h"
+#include "PermutationSequence.h"
 int main(int argc, const char * argv[])
 {
 
@@ -34,7 +35,8 @@ int main(int argc, const char * argv[])
 //    testlevelOrder();
 //    testPermute();
 //    testPermuteUnique();
-    testNextPermutation();
+//    testNextPermutation();
+    testGetPermutation();
     return 0;
 }
 
