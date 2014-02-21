@@ -7,16 +7,17 @@
 //
 
 #include <stdio.h>
-#include "functions.h"
-#include "ConvertSortedArraytoBinarySearchTree.h"
-#include "2Sum.h"
-#include "Header.h"
-#include "ZigZagConversion.h"
-#include "BinaryTreeLevelOrderTraversal.h"
-#include "Permutations.h"
-#include "PermutationsUnique.h"
-#include "NextPermutation.h"
-#include "PermutationSequence.h"
+//#include "functions.h"
+//#include "ConvertSortedArraytoBinarySearchTree.h"
+//#include "2Sum.h"
+//#include "Header.h"
+//#include "ZigZagConversion.h"
+//#include "BinaryTreeLevelOrderTraversal.h"
+//#include "Permutations.h"
+//#include "PermutationsUnique.h"
+//#include "NextPermutation.h"
+//#include "PermutationSequence.h"
+#include "Subsets.h"
 int main(int argc, const char * argv[])
 {
 
@@ -36,7 +37,8 @@ int main(int argc, const char * argv[])
 //    testPermute();
 //    testPermuteUnique();
 //    testNextPermutation();
-    testGetPermutation();
+//    testGetPermutation();
+    testSubsets();
     return 0;
 }
 
