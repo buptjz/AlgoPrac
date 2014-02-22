@@ -20,6 +20,7 @@
 #include "Subsets.h"
 #include "SubsetsII.h"
 #include "Combinations.h"
+#include "CombinationSum.h"
 
 int main(int argc, const char * argv[])
 {
@@ -42,7 +43,8 @@ int main(int argc, const char * argv[])
 //    testNextPermutation();
 //    testGetPermutation();
 //    testSubsetsWithDup();
-    testCombine();
+//    testCombine();
+    testCombinationSum();
     return 0;
 }
 
