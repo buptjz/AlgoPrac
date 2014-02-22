@@ -14,7 +14,7 @@
 //#include "ZigZagConversion.h"
 //#include "BinaryTreeLevelOrderTraversal.h"
 //#include "Permutations.h"
-//#include "PermutationsUnique.h"
+#include "PermutationsUnique.h"
 //#include "NextPermutation.h"
 //#include "PermutationSequence.h"
 #include "Subsets.h"
@@ -35,10 +35,10 @@ int main(int argc, const char * argv[])
 //    testNumTrees();
 //    testlevelOrder();
 //    testPermute();
-//    testPermuteUnique();
+    testPermuteUnique();
 //    testNextPermutation();
 //    testGetPermutation();
-    testSubsets();
+//    testSubsets();
     return 0;
 }
 

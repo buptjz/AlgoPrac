@@ -7,7 +7,7 @@
 //  http://oj.leetcode.com/problems/subsets/
 
 /*
- 例举一个几何的全部子集，使用回溯法，注意复原操作！
+ 例举一个集合的全部子集，使用回溯法，注意复原操作！
  */
 
 #include "Subsets.h"

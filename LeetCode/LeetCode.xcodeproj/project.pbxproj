@@ -21,6 +21,7 @@
 		839A7F44188FA9E900F55146 /* ZigZagConversion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 839A7F42188FA9E900F55146 /* ZigZagConversion.cpp */; };
 		83A0982E18B72E0C00C923AA /* PermutationSequence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83A0982C18B72E0C00C923AA /* PermutationSequence.cpp */; };
 		83A0983118B73C8200C923AA /* Subsets.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83A0982F18B73C8200C923AA /* Subsets.cpp */; };
+		83A0983418B747AF00C923AA /* SubsetsII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83A0983218B747AF00C923AA /* SubsetsII.cpp */; };
 		83E6C6CB18828E7F006D399B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83E6C6CA18828E7F006D399B /* main.cpp */; };
 		83E6C6CD18828E7F006D399B /* LeetCode.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 83E6C6CC18828E7F006D399B /* LeetCode.1 */; };
 		83E6C6D418828E8E006D399B /* findMedianSortedArrays.c in Sources */ = {isa = PBXBuildFile; fileRef = 83E6C6D318828E8E006D399B /* findMedianSortedArrays.c */; };
@@ -67,6 +68,8 @@
 		83A0982D18B72E0C00C923AA /* PermutationSequence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PermutationSequence.h; sourceTree = "<group>"; };
 		83A0982F18B73C8200C923AA /* Subsets.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Subsets.cpp; sourceTree = "<group>"; };
 		83A0983018B73C8200C923AA /* Subsets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Subsets.h; sourceTree = "<group>"; };
+		83A0983218B747AF00C923AA /* SubsetsII.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SubsetsII.cpp; sourceTree = "<group>"; };
+		83A0983318B747AF00C923AA /* SubsetsII.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubsetsII.h; sourceTree = "<group>"; };
 		83E6C6C718828E7F006D399B /* LeetCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCode; sourceTree = BUILT_PRODUCTS_DIR; };
 		83E6C6CA18828E7F006D399B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		83E6C6CC18828E7F006D399B /* LeetCode.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = LeetCode.1; sourceTree = "<group>"; };
@@ -108,6 +111,8 @@
 		83E6C6C918828E7F006D399B /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
+				83A0983218B747AF00C923AA /* SubsetsII.cpp */,
+				83A0983318B747AF00C923AA /* SubsetsII.h */,
 				83A0982F18B73C8200C923AA /* Subsets.cpp */,
 				83A0983018B73C8200C923AA /* Subsets.h */,
 				83E6C6CA18828E7F006D399B /* main.cpp */,
@@ -206,6 +211,7 @@
 				8308FD611890B72D00C98C20 /* MinimumDepthofBinaryTree.cpp in Sources */,
 				836D712E188D030B00B553B2 /* ConvertSortedArraytoBinarySearchTree.cpp in Sources */,
 				83018D7918898CB7001804E7 /* MergekSortedLists .cpp in Sources */,
+				83A0983418B747AF00C923AA /* SubsetsII.cpp in Sources */,
 				832E1C3D1882C8C4001BA17B /* searchRotatedArray.c in Sources */,
 				83873803188EB5FB001732CE /* addTwoNumbers.cpp in Sources */,
 				83EA49DC18B6383100415EE1 /* NextPermutation.cpp in Sources */,
