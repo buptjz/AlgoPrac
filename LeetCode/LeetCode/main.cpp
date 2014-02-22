@@ -18,6 +18,7 @@
 //#include "NextPermutation.h"
 //#include "PermutationSequence.h"
 #include "Subsets.h"
+#include "SubsetsII.h"
 int main(int argc, const char * argv[])
 {
 
@@ -35,10 +36,10 @@ int main(int argc, const char * argv[])
 //    testNumTrees();
 //    testlevelOrder();
 //    testPermute();
-    testPermuteUnique();
+//    testPermuteUnique();
 //    testNextPermutation();
 //    testGetPermutation();
-//    testSubsets();
+    testSubsetsWithDup();
     return 0;
 }
 

@@ -10,5 +10,5 @@
 #define __LeetCode__SubsetsII__
 
 #include <iostream>
-
+void testSubsetsWithDup();
 #endif /* defined(__LeetCode__SubsetsII__) */
