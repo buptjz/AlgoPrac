@@ -22,6 +22,7 @@
 		83A0982E18B72E0C00C923AA /* PermutationSequence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83A0982C18B72E0C00C923AA /* PermutationSequence.cpp */; };
 		83A0983118B73C8200C923AA /* Subsets.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83A0982F18B73C8200C923AA /* Subsets.cpp */; };
 		83A0983418B747AF00C923AA /* SubsetsII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83A0983218B747AF00C923AA /* SubsetsII.cpp */; };
+		83CD84C418B8680A00690655 /* Combinations.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83CD84C218B8680A00690655 /* Combinations.cpp */; };
 		83E6C6CB18828E7F006D399B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83E6C6CA18828E7F006D399B /* main.cpp */; };
 		83E6C6CD18828E7F006D399B /* LeetCode.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 83E6C6CC18828E7F006D399B /* LeetCode.1 */; };
 		83E6C6D418828E8E006D399B /* findMedianSortedArrays.c in Sources */ = {isa = PBXBuildFile; fileRef = 83E6C6D318828E8E006D399B /* findMedianSortedArrays.c */; };
@@ -70,6 +71,8 @@
 		83A0983018B73C8200C923AA /* Subsets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Subsets.h; sourceTree = "<group>"; };
 		83A0983218B747AF00C923AA /* SubsetsII.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SubsetsII.cpp; sourceTree = "<group>"; };
 		83A0983318B747AF00C923AA /* SubsetsII.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubsetsII.h; sourceTree = "<group>"; };
+		83CD84C218B8680A00690655 /* Combinations.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Combinations.cpp; sourceTree = "<group>"; };
+		83CD84C318B8680A00690655 /* Combinations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Combinations.h; sourceTree = "<group>"; };
 		83E6C6C718828E7F006D399B /* LeetCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCode; sourceTree = BUILT_PRODUCTS_DIR; };
 		83E6C6CA18828E7F006D399B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		83E6C6CC18828E7F006D399B /* LeetCode.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = LeetCode.1; sourceTree = "<group>"; };
@@ -111,6 +114,8 @@
 		83E6C6C918828E7F006D399B /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
+				83CD84C218B8680A00690655 /* Combinations.cpp */,
+				83CD84C318B8680A00690655 /* Combinations.h */,
 				83A0983218B747AF00C923AA /* SubsetsII.cpp */,
 				83A0983318B747AF00C923AA /* SubsetsII.h */,
 				83A0982F18B73C8200C923AA /* Subsets.cpp */,
@@ -208,6 +213,7 @@
 				83E6C6D418828E8E006D399B /* findMedianSortedArrays.c in Sources */,
 				83A0983118B73C8200C923AA /* Subsets.cpp in Sources */,
 				83030E8E188E970700BCB658 /* LongestSubstringWithoutRepeatingCharacters.cpp in Sources */,
+				83CD84C418B8680A00690655 /* Combinations.cpp in Sources */,
 				8308FD611890B72D00C98C20 /* MinimumDepthofBinaryTree.cpp in Sources */,
 				836D712E188D030B00B553B2 /* ConvertSortedArraytoBinarySearchTree.cpp in Sources */,
 				83018D7918898CB7001804E7 /* MergekSortedLists .cpp in Sources */,
