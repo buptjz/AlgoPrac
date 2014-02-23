@@ -15,43 +15,42 @@
 
 using namespace std;
 
-void permuteUniqueHelper(int index, vector<int>&num, vector<int>&tmp, vector<vector<int> >&ret, vector<bool>&isVisited,int limit)
+void permuteUniqueHelper(int level, vector<int>&num, vector<int>&tmp,
+                         vector<vector<int> >&ret, vector<bool>&isVisited,int lenght)
 {
-    if(index == limit)
+    if(level == lenght)//递归终止条件
     {
         ret.push_back(tmp);
         return;
     }
-    int lastNumber = -1;
+    //依次选择该位置上得每一个候选者
+    int lastNumber = -8888;
     for(int i = 0; i < num.size(); ++i)
     {
+        //如果本候选者和上一个候选者重复，那么跳过这个候选者
         if(isVisited[i] || num[i] == lastNumber)continue;
         isVisited[i] = true;
         lastNumber = num[i];
         tmp.push_back(num[i]);
-        permuteUniqueHelper(index + 1, num, tmp, ret, isVisited,limit);
+        permuteUniqueHelper(level + 1, num, tmp, ret, isVisited,lenght);
         isVisited[i] = false;
         tmp.pop_back();
     }
 }
-
-vector<vector<int> > permuteUnique(vector<int> &num,int limit)
+vector<vector<int> > permuteUnique(vector<int> &num)
 {
-    vector<vector<int> > ret;
-    if(num.size() == 0)
-        return ret;
-    sort(num.begin(), num.end());
+    vector<vector<int> > retVec;
+    sort(num.begin(), num.end());//原地排序
     vector<bool> isVisited(num.size(), false);
     vector<int> tmp;
-    permuteUniqueHelper(0, num, tmp, ret, isVisited,limit);
-    return ret;
+    int lenght = (int)num.size();//这里的length可以取其它值k，变为n选k的全排列
+    permuteUniqueHelper(0, num, tmp, retVec, isVisited,lenght);
+    return retVec;
 }
 
 
 void testPermuteUnique(){
     vector<int> num = {1,2,2,2};
-    int limit = 2;
-    vector<vector<int>> ret = permuteUnique(num,limit);
-    
+    vector<vector<int>> ret = permuteUnique(num);
     printf("Finished\n");
 }

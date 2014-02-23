@@ -13,7 +13,7 @@
 //#include "Header.h"
 //#include "ZigZagConversion.h"
 //#include "BinaryTreeLevelOrderTraversal.h"
-//#include "Permutations.h"
+#include "Permutations.h"
 #include "PermutationsUnique.h"
 //#include "NextPermutation.h"
 //#include "PermutationSequence.h"
@@ -38,13 +38,13 @@ int main(int argc, const char * argv[])
 //    testConvert();
 //    testNumTrees();
 //    testlevelOrder();
-//    testPermute();
+    testPermute();
 //    testPermuteUnique();
 //    testNextPermutation();
 //    testGetPermutation();
 //    testSubsetsWithDup();
 //    testCombine();
-    testCombinationSum();
+//    testCombinationSum();
     return 0;
 }
 
