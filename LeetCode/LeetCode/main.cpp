@@ -21,6 +21,7 @@
 #include "SubsetsII.h"
 #include "Combinations.h"
 #include "CombinationSum.h"
+#include "SingleNumber.h"
 
 int main(int argc, const char * argv[])
 {
@@ -38,13 +39,14 @@ int main(int argc, const char * argv[])
 //    testConvert();
 //    testNumTrees();
 //    testlevelOrder();
-    testPermute();
+//    testPermute();
 //    testPermuteUnique();
 //    testNextPermutation();
 //    testGetPermutation();
 //    testSubsetsWithDup();
 //    testCombine();
 //    testCombinationSum();
+    testSingleNumber();
     return 0;
 }
 
