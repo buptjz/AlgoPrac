@@ -24,6 +24,8 @@
 #include "SingleNumber.h"
 #include "SearchforaRange.h"
 #include "SearchinRotatedSortedArray.h"
+#include "SqrtX.h"
+
 int main(int argc, const char * argv[])
 {
 
@@ -49,7 +51,8 @@ int main(int argc, const char * argv[])
 //    testCombinationSum();
 //    testSingleNumber();
 //    testSearchRange();
-    testSearchRotate();
+//    testSearchRotate();
+    testSqrtX();
     return 0;
 }
 
