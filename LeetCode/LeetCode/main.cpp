@@ -23,7 +23,7 @@
 #include "CombinationSum.h"
 #include "SingleNumber.h"
 #include "SearchforaRange.h"
-
+#include "SearchinRotatedSortedArray.h"
 int main(int argc, const char * argv[])
 {
 
@@ -48,7 +48,8 @@ int main(int argc, const char * argv[])
 //    testCombine();
 //    testCombinationSum();
 //    testSingleNumber();
-    testSearchRange();
+//    testSearchRange();
+    testSearchRotate();
     return 0;
 }
 

@@ -179,7 +179,7 @@
                   symbolName = "testCombinationSum()"
                   moduleName = "LeetCode"
                   urlString = "file:///Volumes/HDD/developer/AlgoPrac/LeetCode/LeetCode/CombinationSum.cpp"
-                  timestampString = "415087391.141962"
+                  timestampString = "415092395.982558"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "59"
@@ -193,7 +193,7 @@
                   symbolName = "testCombinationSum()"
                   moduleName = "LeetCode"
                   urlString = "file:///Volumes/HDD/developer/AlgoPrac/LeetCode/LeetCode/CombinationSum.cpp"
-                  timestampString = "415087391.143563"
+                  timestampString = "415092395.982903"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "59"
@@ -247,7 +247,23 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "54"
             endingLineNumber = "54"
-            landmarkName = "searchRange(int A[], int n, int target)"
+            landmarkName = "searchRangeHelper(int A[],int n,int target,bool M)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LeetCode/SearchinRotatedSortedArray.cpp"
+            timestampString = "415092359.541864"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "testSearchRotate()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
