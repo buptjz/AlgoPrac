@@ -22,6 +22,7 @@
 #include "Combinations.h"
 #include "CombinationSum.h"
 #include "SingleNumber.h"
+#include "SearchforaRange.h"
 
 int main(int argc, const char * argv[])
 {
@@ -46,7 +47,8 @@ int main(int argc, const char * argv[])
 //    testSubsetsWithDup();
 //    testCombine();
 //    testCombinationSum();
-    testSingleNumber();
+//    testSingleNumber();
+    testSearchRange();
     return 0;
 }
 
