@@ -25,7 +25,7 @@
 #include "SearchforaRange.h"
 #include "SearchinRotatedSortedArray.h"
 #include "SqrtX.h"
-
+#include "SearchInsertPosition.h"
 int main(int argc, const char * argv[])
 {
 
@@ -52,7 +52,9 @@ int main(int argc, const char * argv[])
 //    testSingleNumber();
 //    testSearchRange();
 //    testSearchRotate();
-    testSqrtX();
+//    testSqrtX();
+
+    testSearchInsert();
     return 0;
 }
 
