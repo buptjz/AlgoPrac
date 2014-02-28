@@ -26,6 +26,8 @@
 #include "SearchinRotatedSortedArray.h"
 #include "SqrtX.h"
 #include "SearchInsertPosition.h"
+#include "atoi.h"
+#include "LongestCommonPrefix.h"
 int main(int argc, const char * argv[])
 {
 
@@ -54,7 +56,9 @@ int main(int argc, const char * argv[])
 //    testSearchRotate();
 //    testSqrtX();
 
-    testSearchInsert();
+//    testSearchInsert();
+//    testAtoi();
+    testLongestComminPrefix();
     return 0;
 }
 
