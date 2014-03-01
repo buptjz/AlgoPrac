@@ -11,4 +11,6 @@
 
 #include <iostream>
 
+void testIsValid();
+
 #endif /* defined(__LeetCode__ValidParentheses__) */

@@ -29,6 +29,7 @@
 #include "atoi.h"
 #include "LongestCommonPrefix.h"
 #include "SubstringwithConcatenationofAllWords.h"
+#include "ValidParentheses.h"
 int main(int argc, const char * argv[])
 {
 
@@ -60,7 +61,8 @@ int main(int argc, const char * argv[])
 //    testSearchInsert();
 //    testAtoi();
 //    testLongestComminPrefix();
-    testFindSubstring();
+//    testFindSubstring();
+    testIsValid();
     return 0;
 }
 
