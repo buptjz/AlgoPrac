@@ -179,7 +179,7 @@
                   symbolName = "testCombinationSum()"
                   moduleName = "LeetCode"
                   urlString = "file:///Volumes/HDD/developer/AlgoPrac/LeetCode/LeetCode/CombinationSum.cpp"
-                  timestampString = "415332564.263768"
+                  timestampString = "415341028.375138"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "59"
@@ -193,7 +193,7 @@
                   symbolName = "testCombinationSum()"
                   moduleName = "LeetCode"
                   urlString = "file:///Volumes/HDD/developer/AlgoPrac/LeetCode/LeetCode/CombinationSum.cpp"
-                  timestampString = "415332564.264178"
+                  timestampString = "415341028.375544"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "59"
@@ -360,6 +360,68 @@
             startingLineNumber = "40"
             endingLineNumber = "40"
             landmarkName = "testIsValid()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "longestValidParentheses(std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt;)"
+                  moduleName = "LeetCode"
+                  urlString = "file:///Volumes/HDD/developer/AlgoPrac/LeetCode/LeetCode/ValidParentheses.cpp"
+                  timestampString = "415341028.382555"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "2378">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "longestValidParentheses(std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt;)"
+                  moduleName = "LeetCode"
+                  urlString = "file:///Volumes/HDD/developer/AlgoPrac/LeetCode/LeetCode/ValidParentheses.cpp"
+                  timestampString = "415341028.383059"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "2558">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LeetCode/MinimumWindowSubstring.cpp"
+            timestampString = "415340940.895362"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "75"
+            endingLineNumber = "75"
+            landmarkName = "testMinWindow()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LeetCode/MinimumWindowSubstring.cpp"
+            timestampString = "415340940.895362"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "68"
+            endingLineNumber = "68"
+            landmarkName = "minWindow(string S, string T)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

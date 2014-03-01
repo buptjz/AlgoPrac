@@ -30,6 +30,7 @@
 #include "LongestCommonPrefix.h"
 #include "SubstringwithConcatenationofAllWords.h"
 #include "ValidParentheses.h"
+#include "MinimumWindowSubstring.h"
 int main(int argc, const char * argv[])
 {
 
@@ -62,7 +63,8 @@ int main(int argc, const char * argv[])
 //    testAtoi();
 //    testLongestComminPrefix();
 //    testFindSubstring();
-    testIsValid();
+//    testIsValid();
+    testMinWindow();
     return 0;
 }
 
