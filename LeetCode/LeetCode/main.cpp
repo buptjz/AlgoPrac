@@ -28,6 +28,7 @@
 #include "SearchInsertPosition.h"
 #include "atoi.h"
 #include "LongestCommonPrefix.h"
+#include "SubstringwithConcatenationofAllWords.h"
 int main(int argc, const char * argv[])
 {
 
@@ -58,7 +59,8 @@ int main(int argc, const char * argv[])
 
 //    testSearchInsert();
 //    testAtoi();
-    testLongestComminPrefix();
+//    testLongestComminPrefix();
+    testFindSubstring();
     return 0;
 }
 
