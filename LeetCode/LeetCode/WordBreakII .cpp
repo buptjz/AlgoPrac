@@ -4,7 +4,12 @@
 //
 //  Created by WangJZ on 3/6/14.
 //  Copyright (c) 2014 WangJZ. All rights reserved.
-//
+//  http://oj.leetcode.com/problems/word-break-ii/
+
+/*
+ 基本上是在word break 1 上面改的，这里面用到的技巧是设置一个变量successOnce，来看该位置上是否成功过，如果成功过，说明该位置是能够找到的
+ 但是这种广度优先遍历的算法是不是比深度优先遍历运算次数更多一点？
+ */
 
 #include "WordBreakII .h"
 
