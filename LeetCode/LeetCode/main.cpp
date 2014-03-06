@@ -33,6 +33,8 @@
 #include "MinimumWindowSubstring.h"
 #include "RegularExpressionMatching.h"
 #include "ContainerWithMostWater.h"
+#include "WordBreak.h"
+#include "WordBreakII .h"
 int main(int argc, const char * argv[])
 {
 
@@ -68,7 +70,9 @@ int main(int argc, const char * argv[])
 //    testIsValid();
 //    testMinWindow();
 //    testIsMatch();
-    testMaxArea();
+//    testMaxArea();
+//    testWordBreak();
+    testWordBreak2();
     return 0;
 }
 
