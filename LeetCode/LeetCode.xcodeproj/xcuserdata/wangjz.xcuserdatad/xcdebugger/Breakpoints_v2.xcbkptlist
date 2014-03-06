@@ -179,7 +179,7 @@
                   symbolName = "testCombinationSum()"
                   moduleName = "LeetCode"
                   urlString = "file:///Volumes/HDD/developer/AlgoPrac/LeetCode/LeetCode/CombinationSum.cpp"
-                  timestampString = "415341028.375138"
+                  timestampString = "415783686.152042"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "59"
@@ -193,7 +193,7 @@
                   symbolName = "testCombinationSum()"
                   moduleName = "LeetCode"
                   urlString = "file:///Volumes/HDD/developer/AlgoPrac/LeetCode/LeetCode/CombinationSum.cpp"
-                  timestampString = "415341028.375544"
+                  timestampString = "415783686.152473"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "59"
@@ -369,7 +369,7 @@
                   symbolName = "longestValidParentheses(std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt;)"
                   moduleName = "LeetCode"
                   urlString = "file:///Volumes/HDD/developer/AlgoPrac/LeetCode/LeetCode/ValidParentheses.cpp"
-                  timestampString = "415341028.382555"
+                  timestampString = "415783686.156347"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "40"
@@ -383,7 +383,7 @@
                   symbolName = "longestValidParentheses(std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt;)"
                   moduleName = "LeetCode"
                   urlString = "file:///Volumes/HDD/developer/AlgoPrac/LeetCode/LeetCode/ValidParentheses.cpp"
-                  timestampString = "415341028.383059"
+                  timestampString = "415783686.156717"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "40"
@@ -405,7 +405,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "75"
             endingLineNumber = "75"
-            landmarkName = "testMinWindow()"
+            landmarkName = "minWindow(string S, string T)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -422,6 +422,84 @@
             startingLineNumber = "68"
             endingLineNumber = "68"
             landmarkName = "minWindow(string S, string T)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "minWindow(std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt;, std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt;)"
+                  moduleName = "LeetCode"
+                  urlString = "file:///Volumes/HDD/developer/AlgoPrac/LeetCode/LeetCode/MinimumWindowSubstring.cpp"
+                  timestampString = "415783686.157652"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "69"
+                  endingLineNumber = "69"
+                  offsetFromSymbolStart = "2400">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "minWindow(std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt;, std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt;)"
+                  moduleName = "LeetCode"
+                  urlString = "file:///Volumes/HDD/developer/AlgoPrac/LeetCode/LeetCode/MinimumWindowSubstring.cpp"
+                  timestampString = "415783686.158062"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "69"
+                  endingLineNumber = "69"
+                  offsetFromSymbolStart = "2654">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LeetCode/RegularExpressionMatching.cpp"
+            timestampString = "415726093.812605"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "79"
+            endingLineNumber = "79"
+            landmarkName = "testIsMatch()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LeetCode/ContainerWithMostWater.cpp"
+            timestampString = "415783647.701934"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "testMaxArea()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LeetCode/ContainerWithMostWater.cpp"
+            timestampString = "415783683.418559"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "maxArea(vector&lt;int&gt; &amp;height)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

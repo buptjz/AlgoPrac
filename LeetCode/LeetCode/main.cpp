@@ -31,6 +31,8 @@
 #include "SubstringwithConcatenationofAllWords.h"
 #include "ValidParentheses.h"
 #include "MinimumWindowSubstring.h"
+#include "RegularExpressionMatching.h"
+#include "ContainerWithMostWater.h"
 int main(int argc, const char * argv[])
 {
 
@@ -64,7 +66,9 @@ int main(int argc, const char * argv[])
 //    testLongestComminPrefix();
 //    testFindSubstring();
 //    testIsValid();
-    testMinWindow();
+//    testMinWindow();
+//    testIsMatch();
+    testMaxArea();
     return 0;
 }
 
