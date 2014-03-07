@@ -36,6 +36,9 @@
 #include "WordBreak.h"
 #include "WordBreakII .h"
 #include "MinimumPathSum.h"
+#include "BestTimetoBuyandSellStock.h"
+#include "BestTimetoBuyandSellStockII.h"
+
 int main(int argc, const char * argv[])
 {
 
@@ -74,7 +77,9 @@ int main(int argc, const char * argv[])
 //    testMaxArea();
 //    testWordBreak();
 //    testWordBreak2();
-    testMinPathSum();
+//    testMinPathSum();
+//    testMaxProfit();
+    testMaxProfit2();
     return 0;
 }
 

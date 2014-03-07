@@ -27,6 +27,7 @@
 		83873800188EB1B2001732CE /* addTwoNumbers.c in Sources */ = {isa = PBXBuildFile; fileRef = 838737FF188EB1B2001732CE /* addTwoNumbers.c */; };
 		83873803188EB5FB001732CE /* addTwoNumbers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83873801188EB5FB001732CE /* addTwoNumbers.cpp */; };
 		838EEF4918C16E0100B48B4D /* ValidParentheses.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 838EEF4718C16E0100B48B4D /* ValidParentheses.cpp */; };
+		8396902218C9B51A008F28B7 /* BestTimetoBuyandSellStockII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8396902018C9B51A008F28B7 /* BestTimetoBuyandSellStockII.cpp */; };
 		839A7F44188FA9E900F55146 /* ZigZagConversion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 839A7F42188FA9E900F55146 /* ZigZagConversion.cpp */; };
 		839C7A8A18BDB74000ED2D07 /* SearchforaRange.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 839C7A8818BDB74000ED2D07 /* SearchforaRange.cpp */; };
 		839E860418C07AF9001EC25A /* SubstringwithConcatenationofAllWords.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 839E860218C07AF9001EC25A /* SubstringwithConcatenationofAllWords.cpp */; };
@@ -36,6 +37,7 @@
 		83A0983418B747AF00C923AA /* SubsetsII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83A0983218B747AF00C923AA /* SubsetsII.cpp */; };
 		83AE797D18C87A480085A885 /* MinimumPathSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83AE797B18C87A480085A885 /* MinimumPathSum.cpp */; };
 		83B2072618BAF02000F8785D /* SingleNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83B2072418BAF02000F8785D /* SingleNumber.cpp */; };
+		83B4D92618C9AC39006360C7 /* BestTimetoBuyandSellStock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83B4D92418C9AC39006360C7 /* BestTimetoBuyandSellStock.cpp */; };
 		83B8DF3018BA44F6005F3091 /* PartitionList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83B8DF2E18BA44F6005F3091 /* PartitionList.cpp */; };
 		83CD84C418B8680A00690655 /* Combinations.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83CD84C218B8680A00690655 /* Combinations.cpp */; };
 		83CD84C718B86B5B00690655 /* CombinationSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83CD84C518B86B5B00690655 /* CombinationSum.cpp */; };
@@ -100,6 +102,8 @@
 		83873802188EB5FB001732CE /* addTwoNumbers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = addTwoNumbers.h; sourceTree = "<group>"; };
 		838EEF4718C16E0100B48B4D /* ValidParentheses.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ValidParentheses.cpp; sourceTree = "<group>"; };
 		838EEF4818C16E0100B48B4D /* ValidParentheses.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ValidParentheses.h; sourceTree = "<group>"; };
+		8396902018C9B51A008F28B7 /* BestTimetoBuyandSellStockII.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BestTimetoBuyandSellStockII.cpp; sourceTree = "<group>"; };
+		8396902118C9B51A008F28B7 /* BestTimetoBuyandSellStockII.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BestTimetoBuyandSellStockII.h; sourceTree = "<group>"; };
 		839A7F42188FA9E900F55146 /* ZigZagConversion.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ZigZagConversion.cpp; sourceTree = "<group>"; };
 		839A7F43188FA9E900F55146 /* ZigZagConversion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZigZagConversion.h; sourceTree = "<group>"; };
 		839C7A8818BDB74000ED2D07 /* SearchforaRange.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SearchforaRange.cpp; sourceTree = "<group>"; };
@@ -118,6 +122,8 @@
 		83AE797C18C87A480085A885 /* MinimumPathSum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MinimumPathSum.h; sourceTree = "<group>"; };
 		83B2072418BAF02000F8785D /* SingleNumber.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SingleNumber.cpp; sourceTree = "<group>"; };
 		83B2072518BAF02000F8785D /* SingleNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingleNumber.h; sourceTree = "<group>"; };
+		83B4D92418C9AC39006360C7 /* BestTimetoBuyandSellStock.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BestTimetoBuyandSellStock.cpp; sourceTree = "<group>"; };
+		83B4D92518C9AC39006360C7 /* BestTimetoBuyandSellStock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BestTimetoBuyandSellStock.h; sourceTree = "<group>"; };
 		83B8DF2E18BA44F6005F3091 /* PartitionList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PartitionList.cpp; sourceTree = "<group>"; };
 		83B8DF2F18BA44F6005F3091 /* PartitionList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PartitionList.h; sourceTree = "<group>"; };
 		83CD84C218B8680A00690655 /* Combinations.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Combinations.cpp; sourceTree = "<group>"; };
@@ -171,8 +177,12 @@
 		83E6C6C918828E7F006D399B /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
+				83B4D92418C9AC39006360C7 /* BestTimetoBuyandSellStock.cpp */,
+				83B4D92518C9AC39006360C7 /* BestTimetoBuyandSellStock.h */,
 				8363941918C8A78C004DA211 /* WordBreak.cpp */,
 				8363941A18C8A78C004DA211 /* WordBreak.h */,
+				8396902018C9B51A008F28B7 /* BestTimetoBuyandSellStockII.cpp */,
+				8396902118C9B51A008F28B7 /* BestTimetoBuyandSellStockII.h */,
 				839FECDE18C8BEE10011EAE3 /* WordBreakII .cpp */,
 				839FECDF18C8BEE10011EAE3 /* WordBreakII .h */,
 				83E6C6CA18828E7F006D399B /* main.cpp */,
@@ -306,6 +316,7 @@
 				83E95BC9188D4B7D00E8F548 /* 2Sum.cpp in Sources */,
 				833C183B18B5E95900C42174 /* PermutationsUnique.cpp in Sources */,
 				833BBF8C18C85A950033427A /* ContainerWithMostWater.cpp in Sources */,
+				83B4D92618C9AC39006360C7 /* BestTimetoBuyandSellStock.cpp in Sources */,
 				83CE163B18BDD4E70081A8E3 /* SqrtX.cpp in Sources */,
 				83B2072618BAF02000F8785D /* SingleNumber.cpp in Sources */,
 				83E6C6CB18828E7F006D399B /* main.cpp in Sources */,
@@ -334,6 +345,7 @@
 				8319C2B41890D63A00A5A39A /* BinaryTreeLevelOrderTraversal.cpp in Sources */,
 				839E860418C07AF9001EC25A /* SubstringwithConcatenationofAllWords.cpp in Sources */,
 				830BA44118C75CC800FB26E7 /* RegularExpressionMatching.cpp in Sources */,
+				8396902218C9B51A008F28B7 /* BestTimetoBuyandSellStockII.cpp in Sources */,
 				8367439E189016670051E377 /* numTrees.cpp in Sources */,
 				83145ED718BB23AE00D2AD69 /* WordSearch.cpp in Sources */,
 				83A0982E18B72E0C00C923AA /* PermutationSequence.cpp in Sources */,
