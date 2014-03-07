@@ -35,6 +35,7 @@
 #include "ContainerWithMostWater.h"
 #include "WordBreak.h"
 #include "WordBreakII .h"
+#include "MinimumPathSum.h"
 int main(int argc, const char * argv[])
 {
 
@@ -72,7 +73,8 @@ int main(int argc, const char * argv[])
 //    testIsMatch();
 //    testMaxArea();
 //    testWordBreak();
-    testWordBreak2();
+//    testWordBreak2();
+    testMinPathSum();
     return 0;
 }
 

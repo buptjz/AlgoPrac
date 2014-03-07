@@ -10,5 +10,5 @@
 #define __LeetCode__MinimumPathSum__
 
 #include <iostream>
-
+void testMinPathSum();
 #endif /* defined(__LeetCode__MinimumPathSum__) */
