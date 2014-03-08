@@ -42,9 +42,37 @@ int maxProfit(vector<int> &prices) {
     return maxProfitHelper(prices, max_price, min_price, 0, (int)prices.size() - 1);
 }
 
+/*************************************下面是一种更容易理解的思路*************************************/
+//来自http://blog.csdn.net/fightforyourdream/article/details/14503469的启发
+int maxProfitt(vector<int> &prices){
+    int length = (int)prices.size();
+    if (length == 0) {
+        return 0;
+    }
+    vector<int> retVec = vector<int>(length,0);
+    int cur_min = prices[0];
+    int current_max_profit = 0;
+    retVec[0] = 0;//第一个的收益是0
+    for (int i = 1; i < (int)prices.size(); i++) {//从第二个点开始计算
+        if (prices[i] < cur_min) {
+            cur_min = prices[i];
+            retVec[i] = retVec[i-1];//当前的最大收益和上一次的一样
+            continue;
+        }
+        if (prices[i] - cur_min > current_max_profit) {//当前收益提升了
+            current_max_profit = prices[i] - cur_min;
+            retVec[i] = current_max_profit;
+        }else{
+            retVec[i] = retVec[i-1];//当前的最大收益和上一次的一样
+        }
+    }
+    return retVec[length - 1];
+}
+
+
 void testMaxProfit(){
-    vector<int> prices = {5,4,4,8,5,2,3};
-    int res = maxProfit(prices);
+    vector<int> prices = {1,2,3,10};
+    int res = maxProfitt(prices);
     printf("Finishe %d\n",res);
 }
 

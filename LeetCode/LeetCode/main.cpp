@@ -82,12 +82,12 @@ int main(int argc, const char * argv[])
 //    testWordBreak();
 //    testWordBreak2();
 //    testMinPathSum();
-//    testMaxProfit();
+    testMaxProfit();
 //    testMaxProfit2();
 //    testLargestRectangleArea();
 //    testMaximalRectangle();
 //    testMaxProfit3();
-    testMaxProfit4();
+//    testMaxProfit4();
     return 0;
 }
 
