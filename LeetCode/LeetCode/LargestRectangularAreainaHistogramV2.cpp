@@ -1,3 +1,4 @@
+
 //
 //  LargestRectangularAreainaHistogramV2.cpp
 //  LeetCode
@@ -125,18 +126,18 @@ int largestRectangleAreaHelper(vector<int> &height,int start,int end){
     int wholeValue = height[index] * (end - start + 1);
     return max(max(leftValue,rightValue),wholeValue);
 }
-int largestRectangleArea(vector<int> &height) {
-    
-    //edge case: zero elements
-    if(height.size() == 0) return 0;
-    int start = 0;
-    int end = (int)height.size() - 1;
-    seg_tree = constructST(height);//build segment tree with a vector
-    return largestRectangleAreaHelper(height, start, end);
-}
+//int largestRectangleArea(vector<int> &height) {
+//    
+//    //edge case: zero elements
+//    if(height.size() == 0) return 0;
+//    int start = 0;
+//    int end = (int)height.size() - 1;
+//    seg_tree = constructST(height);//build segment tree with a vector
+//    return largestRectangleAreaHelper(height, start, end);
+//}
 
-void testLargestRectangleArea(){
-    vector<int> height = {1,2,3,4,5,6,7,8,9,10};
-    int x = largestRectangleArea(height);
-    printf("%d\n",x);
-}
+//void testLargestRectangleArea(){
+//    vector<int> height = {1,2,3,4,5,6,7,8,9,10};
+//    int x = largestRectangleArea(height);
+//    printf("%d\n",x);
+//}

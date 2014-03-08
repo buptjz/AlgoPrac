@@ -10,5 +10,5 @@
 #define __LeetCode__LargestRectangularAreainaHistogramV2__
 
 #include <iostream>
-void testLargestRectangleArea();
+//void testLargestRectangleArea();
 #endif /* defined(__LeetCode__LargestRectangularAreainaHistogramV2__) */

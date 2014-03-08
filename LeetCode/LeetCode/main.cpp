@@ -39,6 +39,7 @@
 #include "BestTimetoBuyandSellStock.h"
 #include "BestTimetoBuyandSellStockII.h"
 #include "LargestRectangularAreainaHistogramV2.h"
+#include "LargestRectangularAreainaHistogramV3.h"
 int main(int argc, const char * argv[])
 {
 
