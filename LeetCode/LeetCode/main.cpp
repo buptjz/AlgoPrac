@@ -41,6 +41,8 @@
 #include "LargestRectangularAreainaHistogramV2.h"
 #include "LargestRectangularAreainaHistogramV3.h"
 #include "MaximalRectangle.h"
+#include "BestTimetoBuyandSellStockIII.h"
+#include "BestTimetoBuyandSellStockIIIV2.h"
 int main(int argc, const char * argv[])
 {
 
@@ -83,7 +85,9 @@ int main(int argc, const char * argv[])
 //    testMaxProfit();
 //    testMaxProfit2();
 //    testLargestRectangleArea();
-    testMaximalRectangle();
+//    testMaximalRectangle();
+//    testMaxProfit3();
+    testMaxProfit4();
     return 0;
 }
 
