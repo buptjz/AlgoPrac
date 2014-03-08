@@ -38,7 +38,7 @@
 #include "MinimumPathSum.h"
 #include "BestTimetoBuyandSellStock.h"
 #include "BestTimetoBuyandSellStockII.h"
-
+#include "LargestRectangularAreainaHistogramV2.h"
 int main(int argc, const char * argv[])
 {
 
@@ -79,7 +79,8 @@ int main(int argc, const char * argv[])
 //    testWordBreak2();
 //    testMinPathSum();
 //    testMaxProfit();
-    testMaxProfit2();
+//    testMaxProfit2();
+    testLargestRectangleArea();
     return 0;
 }
 

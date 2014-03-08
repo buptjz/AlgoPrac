@@ -47,9 +47,15 @@ int maxProfit2(vector<int> &prices) {
     return accumulate;
 }
 
+void f(int *a){
+    *a = 4;
+}
 void testMaxProfit2(){
-    vector<int > prices = {2,4,3,1};
-    int res = maxProfit2(prices);
-    printf("Finishing  %d\n",res);
+//    vector<int > prices = {2,4,3,1};
+//    int res = maxProfit2(prices);
+//    printf("Finishing  %d\n",res);
+    int a = 3;
+    f(&a);
+    printf("%d\n",a);
     
 }

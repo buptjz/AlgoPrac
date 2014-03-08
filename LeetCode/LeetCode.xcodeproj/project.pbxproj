@@ -49,6 +49,8 @@
 		83E6C6D418828E8E006D399B /* findMedianSortedArrays.c in Sources */ = {isa = PBXBuildFile; fileRef = 83E6C6D318828E8E006D399B /* findMedianSortedArrays.c */; };
 		83E95BC9188D4B7D00E8F548 /* 2Sum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83E95BC7188D4B7D00E8F548 /* 2Sum.cpp */; };
 		83EA49DC18B6383100415EE1 /* NextPermutation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83EA49DA18B6383100415EE1 /* NextPermutation.cpp */; };
+		83F54AE118CA1B85001698BA /* LargestRectangularAreainaHistogram.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83F54ADF18CA1B85001698BA /* LargestRectangularAreainaHistogram.cpp */; };
+		83F54AE418CAA25F001698BA /* LargestRectangularAreainaHistogramV2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83F54AE218CAA25F001698BA /* LargestRectangularAreainaHistogramV2.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -145,6 +147,10 @@
 		83E95BC8188D4B7D00E8F548 /* 2Sum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = 2Sum.h; sourceTree = "<group>"; };
 		83EA49DA18B6383100415EE1 /* NextPermutation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NextPermutation.cpp; sourceTree = "<group>"; };
 		83EA49DB18B6383100415EE1 /* NextPermutation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NextPermutation.h; sourceTree = "<group>"; };
+		83F54ADF18CA1B85001698BA /* LargestRectangularAreainaHistogram.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LargestRectangularAreainaHistogram.cpp; sourceTree = "<group>"; };
+		83F54AE018CA1B85001698BA /* LargestRectangularAreainaHistogram.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LargestRectangularAreainaHistogram.h; sourceTree = "<group>"; };
+		83F54AE218CAA25F001698BA /* LargestRectangularAreainaHistogramV2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LargestRectangularAreainaHistogramV2.cpp; sourceTree = "<group>"; };
+		83F54AE318CAA25F001698BA /* LargestRectangularAreainaHistogramV2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LargestRectangularAreainaHistogramV2.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +164,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		83B2F60A18CAAC0C008A33DE /* LargestRectangle */ = {
+			isa = PBXGroup;
+			children = (
+				83F54AE218CAA25F001698BA /* LargestRectangularAreainaHistogramV2.cpp */,
+				83F54AE318CAA25F001698BA /* LargestRectangularAreainaHistogramV2.h */,
+				83F54ADF18CA1B85001698BA /* LargestRectangularAreainaHistogram.cpp */,
+				83F54AE018CA1B85001698BA /* LargestRectangularAreainaHistogram.h */,
+			);
+			name = LargestRectangle;
+			sourceTree = "<group>";
+		};
 		83E6C6BE18828E7F006D399B = {
 			isa = PBXGroup;
 			children = (
@@ -177,6 +194,7 @@
 		83E6C6C918828E7F006D399B /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
+				83B2F60A18CAAC0C008A33DE /* LargestRectangle */,
 				83B4D92418C9AC39006360C7 /* BestTimetoBuyandSellStock.cpp */,
 				83B4D92518C9AC39006360C7 /* BestTimetoBuyandSellStock.h */,
 				8363941918C8A78C004DA211 /* WordBreak.cpp */,
@@ -333,6 +351,7 @@
 				836D712E188D030B00B553B2 /* ConvertSortedArraytoBinarySearchTree.cpp in Sources */,
 				8325AFC918C0222600D5AC70 /* LongestCommonPrefix.cpp in Sources */,
 				83AE797D18C87A480085A885 /* MinimumPathSum.cpp in Sources */,
+				83F54AE418CAA25F001698BA /* LargestRectangularAreainaHistogramV2.cpp in Sources */,
 				83018D7918898CB7001804E7 /* MergekSortedLists .cpp in Sources */,
 				83A0983418B747AF00C923AA /* SubsetsII.cpp in Sources */,
 				832E1C3D1882C8C4001BA17B /* searchRotatedArray.c in Sources */,
@@ -343,6 +362,7 @@
 				839FECE018C8BEE10011EAE3 /* WordBreakII .cpp in Sources */,
 				83CE163818BDCBD60081A8E3 /* SearchinRotatedSortedArray.cpp in Sources */,
 				8319C2B41890D63A00A5A39A /* BinaryTreeLevelOrderTraversal.cpp in Sources */,
+				83F54AE118CA1B85001698BA /* LargestRectangularAreainaHistogram.cpp in Sources */,
 				839E860418C07AF9001EC25A /* SubstringwithConcatenationofAllWords.cpp in Sources */,
 				830BA44118C75CC800FB26E7 /* RegularExpressionMatching.cpp in Sources */,
 				8396902218C9B51A008F28B7 /* BestTimetoBuyandSellStockII.cpp in Sources */,
