@@ -40,6 +40,7 @@
 		83B2F60D18CABE09008A33DE /* LargestRectangularAreainaHistogramV3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83B2F60B18CABE09008A33DE /* LargestRectangularAreainaHistogramV3.cpp */; };
 		83B4D92618C9AC39006360C7 /* BestTimetoBuyandSellStock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83B4D92418C9AC39006360C7 /* BestTimetoBuyandSellStock.cpp */; };
 		83B8DF3018BA44F6005F3091 /* PartitionList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83B8DF2E18BA44F6005F3091 /* PartitionList.cpp */; };
+		83C0715818CB08D4001F981A /* MaximalRectangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83C0715618CB08D4001F981A /* MaximalRectangle.cpp */; };
 		83CD84C418B8680A00690655 /* Combinations.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83CD84C218B8680A00690655 /* Combinations.cpp */; };
 		83CD84C718B86B5B00690655 /* CombinationSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83CD84C518B86B5B00690655 /* CombinationSum.cpp */; };
 		83CE163818BDCBD60081A8E3 /* SearchinRotatedSortedArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83CE163618BDCBD60081A8E3 /* SearchinRotatedSortedArray.cpp */; };
@@ -131,6 +132,8 @@
 		83B4D92518C9AC39006360C7 /* BestTimetoBuyandSellStock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BestTimetoBuyandSellStock.h; sourceTree = "<group>"; };
 		83B8DF2E18BA44F6005F3091 /* PartitionList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PartitionList.cpp; sourceTree = "<group>"; };
 		83B8DF2F18BA44F6005F3091 /* PartitionList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PartitionList.h; sourceTree = "<group>"; };
+		83C0715618CB08D4001F981A /* MaximalRectangle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MaximalRectangle.cpp; sourceTree = "<group>"; };
+		83C0715718CB08D4001F981A /* MaximalRectangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaximalRectangle.h; sourceTree = "<group>"; };
 		83CD84C218B8680A00690655 /* Combinations.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Combinations.cpp; sourceTree = "<group>"; };
 		83CD84C318B8680A00690655 /* Combinations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Combinations.h; sourceTree = "<group>"; };
 		83CD84C518B86B5B00690655 /* CombinationSum.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CombinationSum.cpp; sourceTree = "<group>"; };
@@ -170,8 +173,10 @@
 		83B2F60A18CAAC0C008A33DE /* LargestRectangle */ = {
 			isa = PBXGroup;
 			children = (
-				83B2F60C18CABE09008A33DE /* LargestRectangularAreainaHistogramV3.h */,
+				83C0715618CB08D4001F981A /* MaximalRectangle.cpp */,
+				83C0715718CB08D4001F981A /* MaximalRectangle.h */,
 				83B2F60B18CABE09008A33DE /* LargestRectangularAreainaHistogramV3.cpp */,
+				83B2F60C18CABE09008A33DE /* LargestRectangularAreainaHistogramV3.h */,
 				83F54AE218CAA25F001698BA /* LargestRectangularAreainaHistogramV2.cpp */,
 				83F54AE318CAA25F001698BA /* LargestRectangularAreainaHistogramV2.h */,
 				83F54ADF18CA1B85001698BA /* LargestRectangularAreainaHistogram.cpp */,
@@ -360,6 +365,7 @@
 				83F54AE418CAA25F001698BA /* LargestRectangularAreainaHistogramV2.cpp in Sources */,
 				83018D7918898CB7001804E7 /* MergekSortedLists .cpp in Sources */,
 				83A0983418B747AF00C923AA /* SubsetsII.cpp in Sources */,
+				83C0715818CB08D4001F981A /* MaximalRectangle.cpp in Sources */,
 				832E1C3D1882C8C4001BA17B /* searchRotatedArray.c in Sources */,
 				838EEF4918C16E0100B48B4D /* ValidParentheses.cpp in Sources */,
 				8363941B18C8A78C004DA211 /* WordBreak.cpp in Sources */,
