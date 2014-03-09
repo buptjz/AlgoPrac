@@ -43,6 +43,7 @@
 #include "MaximalRectangle.h"
 #include "BestTimetoBuyandSellStockIII.h"
 #include "BestTimetoBuyandSellStockIIIV2.h"
+#include "BinaryTreeMaximumPathSum.h"
 int main(int argc, const char * argv[])
 {
 
@@ -82,12 +83,13 @@ int main(int argc, const char * argv[])
 //    testWordBreak();
 //    testWordBreak2();
 //    testMinPathSum();
-    testMaxProfit();
+//    testMaxProfit();
 //    testMaxProfit2();
 //    testLargestRectangleArea();
 //    testMaximalRectangle();
 //    testMaxProfit3();
 //    testMaxProfit4();
+    testMaxPathSum();
     return 0;
 }
 
