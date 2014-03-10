@@ -45,6 +45,7 @@
 #include "BestTimetoBuyandSellStockIIIV2.h"
 #include "BinaryTreeMaximumPathSum.h"
 #include "BalancedBinaryTree.h"
+#include "BinaryTreeZigzagLevelOrderTraversal.h"
 int main(int argc, const char * argv[])
 {
 
@@ -91,7 +92,8 @@ int main(int argc, const char * argv[])
 //    testMaxProfit3();
 //    testMaxProfit4();
 //    testMaxPathSum();
-    testIsBalance();
+//    testIsBalance();
+    testZigzagLevelOrder();
     return 0;
 }
 

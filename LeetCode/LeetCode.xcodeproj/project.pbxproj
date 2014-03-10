@@ -38,6 +38,7 @@
 		83A0983118B73C8200C923AA /* Subsets.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83A0982F18B73C8200C923AA /* Subsets.cpp */; };
 		83A0983418B747AF00C923AA /* SubsetsII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83A0983218B747AF00C923AA /* SubsetsII.cpp */; };
 		83A8916518CC5CEB004549F5 /* BinaryTreeMaximumPathSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83A8916318CC5CEB004549F5 /* BinaryTreeMaximumPathSum.cpp */; };
+		83AB5A7818CDF42B004E5F19 /* BinaryTreeZigzagLevelOrderTraversal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83AB5A7618CDF42B004E5F19 /* BinaryTreeZigzagLevelOrderTraversal.cpp */; };
 		83AE797D18C87A480085A885 /* MinimumPathSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83AE797B18C87A480085A885 /* MinimumPathSum.cpp */; };
 		83B2072618BAF02000F8785D /* SingleNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83B2072418BAF02000F8785D /* SingleNumber.cpp */; };
 		83B2F60D18CABE09008A33DE /* LargestRectangularAreainaHistogramV3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83B2F60B18CABE09008A33DE /* LargestRectangularAreainaHistogramV3.cpp */; };
@@ -135,6 +136,8 @@
 		83A0983318B747AF00C923AA /* SubsetsII.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubsetsII.h; sourceTree = "<group>"; };
 		83A8916318CC5CEB004549F5 /* BinaryTreeMaximumPathSum.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BinaryTreeMaximumPathSum.cpp; sourceTree = "<group>"; };
 		83A8916418CC5CEB004549F5 /* BinaryTreeMaximumPathSum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BinaryTreeMaximumPathSum.h; sourceTree = "<group>"; };
+		83AB5A7618CDF42B004E5F19 /* BinaryTreeZigzagLevelOrderTraversal.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BinaryTreeZigzagLevelOrderTraversal.cpp; sourceTree = "<group>"; };
+		83AB5A7718CDF42B004E5F19 /* BinaryTreeZigzagLevelOrderTraversal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BinaryTreeZigzagLevelOrderTraversal.h; sourceTree = "<group>"; };
 		83AE797B18C87A480085A885 /* MinimumPathSum.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MinimumPathSum.cpp; sourceTree = "<group>"; };
 		83AE797C18C87A480085A885 /* MinimumPathSum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MinimumPathSum.h; sourceTree = "<group>"; };
 		83B2072418BAF02000F8785D /* SingleNumber.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SingleNumber.cpp; sourceTree = "<group>"; };
@@ -260,10 +263,14 @@
 		83D6739918CD3904007532E8 /* Tree */ = {
 			isa = PBXGroup;
 			children = (
+				8319C2B21890D63A00A5A39A /* BinaryTreeLevelOrderTraversal.cpp */,
+				8319C2B31890D63A00A5A39A /* BinaryTreeLevelOrderTraversal.h */,
 				83D6739A18CD3916007532E8 /* BalancedBinaryTree.cpp */,
 				83D6739B18CD3916007532E8 /* BalancedBinaryTree.h */,
 				83D6739D18CD3CAE007532E8 /* SymmetricTree.cpp */,
 				83D6739E18CD3CAE007532E8 /* SymmetricTree.h */,
+				83AB5A7618CDF42B004E5F19 /* BinaryTreeZigzagLevelOrderTraversal.cpp */,
+				83AB5A7718CDF42B004E5F19 /* BinaryTreeZigzagLevelOrderTraversal.h */,
 			);
 			name = Tree;
 			sourceTree = "<group>";
@@ -329,8 +336,6 @@
 				83B8DF2F18BA44F6005F3091 /* PartitionList.h */,
 				83D0D2BE18B8FA120089A15F /* SwapNodesinPairs.cpp */,
 				83D0D2BF18B8FA120089A15F /* SwapNodesinPairs.h */,
-				8319C2B21890D63A00A5A39A /* BinaryTreeLevelOrderTraversal.cpp */,
-				8319C2B31890D63A00A5A39A /* BinaryTreeLevelOrderTraversal.h */,
 				8308FD5F1890B72D00C98C20 /* MinimumDepthofBinaryTree.cpp */,
 				8308FD601890B72D00C98C20 /* MinimumDepthofBinaryTree.h */,
 				839A7F43188FA9E900F55146 /* ZigZagConversion.h */,
@@ -408,6 +413,7 @@
 			files = (
 				83CD84C718B86B5B00690655 /* CombinationSum.cpp in Sources */,
 				83127D861892C81B00EEBC41 /* Permutations.cpp in Sources */,
+				83AB5A7818CDF42B004E5F19 /* BinaryTreeZigzagLevelOrderTraversal.cpp in Sources */,
 				83E95BC9188D4B7D00E8F548 /* 2Sum.cpp in Sources */,
 				833C183B18B5E95900C42174 /* PermutationsUnique.cpp in Sources */,
 				833BBF8C18C85A950033427A /* ContainerWithMostWater.cpp in Sources */,
