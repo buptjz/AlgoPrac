@@ -44,6 +44,7 @@
 #include "BestTimetoBuyandSellStockIII.h"
 #include "BestTimetoBuyandSellStockIIIV2.h"
 #include "BinaryTreeMaximumPathSum.h"
+#include "BalancedBinaryTree.h"
 int main(int argc, const char * argv[])
 {
 
@@ -89,7 +90,8 @@ int main(int argc, const char * argv[])
 //    testMaximalRectangle();
 //    testMaxProfit3();
 //    testMaxProfit4();
-    testMaxPathSum();
+//    testMaxPathSum();
+    testIsBalance();
     return 0;
 }
 
