@@ -46,6 +46,7 @@
 #include "BinaryTreeMaximumPathSum.h"
 #include "BalancedBinaryTree.h"
 #include "BinaryTreeZigzagLevelOrderTraversal.h"
+#include "ConstructBinaryTreefromInorderandPostorderTraversal.h"
 int main(int argc, const char * argv[])
 {
 
@@ -93,7 +94,8 @@ int main(int argc, const char * argv[])
 //    testMaxProfit4();
 //    testMaxPathSum();
 //    testIsBalance();
-    testZigzagLevelOrder();
+//    testZigzagLevelOrder();
+    testBuildTree();
     return 0;
 }
 
