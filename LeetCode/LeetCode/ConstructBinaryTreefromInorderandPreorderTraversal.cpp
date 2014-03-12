@@ -23,7 +23,7 @@ struct TreeNode {
     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
 };
 
-void buildTreeHelper(vector<int> &inorder, vector<int> &preorder,TreeNode *root,int in_s,int in_e,int po_s,int po_e){
+void buildTree2Helper(vector<int> &inorder, vector<int> &preorder,TreeNode *root,int in_s,int in_e,int po_s,int po_e){
     int index = in_s;
     root->val = preorder[po_s];
     for (; index <= in_e; index++) {
@@ -35,25 +35,25 @@ void buildTreeHelper(vector<int> &inorder, vector<int> &preorder,TreeNode *root,
         TreeNode *left = new TreeNode(0);
         root->left = left;
         int length = (index-1)-in_s;
-        buildTreeHelper(inorder,preorder,left,in_s,index-1,po_s+1,po_s+1+length);//后两组数之差相等
+        buildTree2Helper(inorder,preorder,left,in_s,index-1,po_s+1,po_s+1+length);//后两组数之差相等
     }
     if (index < in_e) {//index右侧有值，有右子树
         TreeNode *right = new TreeNode(0);
         root->right = right;
         int length = in_e - (index+1);
-        buildTreeHelper(inorder, preorder, right, index+1, in_e, po_e - length, po_e);
+        buildTree2Helper(inorder, preorder, right, index+1, in_e, po_e - length, po_e);
     }
     
 }
 
 
-TreeNode *buildTree( vector<int> &preorder,vector<int> &inorder) {
+TreeNode *buildTree2( vector<int> &preorder,vector<int> &inorder) {
     if (inorder.size() != preorder.size() || inorder.size() == 0) {
         return new TreeNode(0);
     }
     int length = (int)inorder.size();
     TreeNode *root = new TreeNode(0);
-    buildTreeHelper(inorder, preorder, root, 0, length - 1, 0, length - 1);
+    buildTree2Helper(inorder, preorder, root, 0, length - 1, 0, length - 1);
     return root;
 }
 

@@ -49,6 +49,8 @@
 #include "ConstructBinaryTreefromInorderandPostorderTraversal.h"
 #include "BinaryTreePreorderTraversal.h"
 #include "BinaryTreePostorderTraversal.h"
+#include "SingleNumberIII.h"
+#include "ConvertSortedListtoBinarySearchTree.h"
 int main(int argc, const char * argv[])
 {
 
@@ -99,7 +101,9 @@ int main(int argc, const char * argv[])
 //    testZigzagLevelOrder();
 //    testBuildTree();
 //    testPreorderTraversal();
-    testPostorderTraversal();
+//    testPostorderTraversal();
+//    testSingleNumberIII();
+    testSortedListToBST();
     return 0;
 }
 
