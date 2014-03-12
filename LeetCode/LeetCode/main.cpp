@@ -51,6 +51,7 @@
 #include "BinaryTreePostorderTraversal.h"
 #include "SingleNumberIII.h"
 #include "ConvertSortedListtoBinarySearchTree.h"
+#include "FlattenBinaryTreetoLinkedList.h"
 int main(int argc, const char * argv[])
 {
 
@@ -103,7 +104,8 @@ int main(int argc, const char * argv[])
 //    testPreorderTraversal();
 //    testPostorderTraversal();
 //    testSingleNumberIII();
-    testSortedListToBST();
+//    testSortedListToBST();
+    testFlattern();
     return 0;
 }
 
