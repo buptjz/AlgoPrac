@@ -20,6 +20,7 @@
 		833BBF8C18C85A950033427A /* ContainerWithMostWater.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 833BBF8A18C85A950033427A /* ContainerWithMostWater.cpp */; };
 		833C183B18B5E95900C42174 /* PermutationsUnique.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 833C183918B5E95900C42174 /* PermutationsUnique.cpp */; };
 		83475A6418C17C2700901E60 /* MinimumWindowSubstring.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83475A6218C17C2700901E60 /* MinimumWindowSubstring.cpp */; };
+		8353830018D155CB00EC4216 /* CopyListwithRandomPointer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 835382FE18D155CB00EC4216 /* CopyListwithRandomPointer.cpp */; };
 		835EF74518CB6AD300AE0528 /* BestTimetoBuyandSellStockIII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 835EF74318CB6AD300AE0528 /* BestTimetoBuyandSellStockIII.cpp */; };
 		835EF74818CB713E00AE0528 /* BestTimetoBuyandSellStockIIIV2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 835EF74618CB713E00AE0528 /* BestTimetoBuyandSellStockIIIV2.cpp */; };
 		8360FC9218C00454008CEAFB /* atoi.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8360FC9018C00454008CEAFB /* atoi.cpp */; };
@@ -109,6 +110,8 @@
 		833C183A18B5E95900C42174 /* PermutationsUnique.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PermutationsUnique.h; sourceTree = "<group>"; };
 		83475A6218C17C2700901E60 /* MinimumWindowSubstring.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MinimumWindowSubstring.cpp; sourceTree = "<group>"; };
 		83475A6318C17C2700901E60 /* MinimumWindowSubstring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MinimumWindowSubstring.h; sourceTree = "<group>"; };
+		835382FE18D155CB00EC4216 /* CopyListwithRandomPointer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CopyListwithRandomPointer.cpp; sourceTree = "<group>"; };
+		835382FF18D155CB00EC4216 /* CopyListwithRandomPointer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CopyListwithRandomPointer.h; sourceTree = "<group>"; };
 		835EF74318CB6AD300AE0528 /* BestTimetoBuyandSellStockIII.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BestTimetoBuyandSellStockIII.cpp; sourceTree = "<group>"; };
 		835EF74418CB6AD300AE0528 /* BestTimetoBuyandSellStockIII.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BestTimetoBuyandSellStockIII.h; sourceTree = "<group>"; };
 		835EF74618CB713E00AE0528 /* BestTimetoBuyandSellStockIIIV2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BestTimetoBuyandSellStockIIIV2.cpp; sourceTree = "<group>"; };
@@ -218,6 +221,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		835382FD18D155BC00EC4216 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				835382FE18D155CB00EC4216 /* CopyListwithRandomPointer.cpp */,
+				835382FF18D155CB00EC4216 /* CopyListwithRandomPointer.h */,
+			);
+			name = List;
+			sourceTree = "<group>";
+		};
 		835EF74218CB6A9900AE0528 /* BestTimeToButStock */ = {
 			isa = PBXGroup;
 			children = (
@@ -334,6 +346,7 @@
 		83E6C6C918828E7F006D399B /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
+				835382FD18D155BC00EC4216 /* List */,
 				83E6C6CA18828E7F006D399B /* main.cpp */,
 				83D6739918CD3904007532E8 /* Tree */,
 				83C4403D18CC52A10003B741 /* DFSBFS */,
@@ -454,6 +467,7 @@
 				83CD84C718B86B5B00690655 /* CombinationSum.cpp in Sources */,
 				83127D861892C81B00EEBC41 /* Permutations.cpp in Sources */,
 				83AB5A7818CDF42B004E5F19 /* BinaryTreeZigzagLevelOrderTraversal.cpp in Sources */,
+				8353830018D155CB00EC4216 /* CopyListwithRandomPointer.cpp in Sources */,
 				83E95BC9188D4B7D00E8F548 /* 2Sum.cpp in Sources */,
 				837A7B5E18D0362B000FADF3 /* SingleNumberIII.cpp in Sources */,
 				833C183B18B5E95900C42174 /* PermutationsUnique.cpp in Sources */,

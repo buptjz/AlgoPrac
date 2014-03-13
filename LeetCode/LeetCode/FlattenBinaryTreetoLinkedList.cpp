@@ -60,6 +60,28 @@ void flatten(TreeNode *root) {
     }
 }
 
+//2014.3.13日更新，思路非常清晰！
+
+void flatten2(TreeNode *root) {
+    if (root == NULL) {
+        return;
+    }
+    if(root->left == NULL){
+        flatten(root->right);
+        return;
+    }
+    TreeNode *left,*right;
+    left = root->left;
+    right = root->right;
+    root->left = NULL;
+    root->right = left;
+    while(left->right){
+        left = left->right;
+    }
+    left->right = right;
+    flatten2(root->right);
+}
+
 void testFlattern(){
     TreeNode *root = new TreeNode(1);
     TreeNode *l = new TreeNode(2);
