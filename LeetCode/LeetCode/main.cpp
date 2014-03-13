@@ -52,6 +52,7 @@
 #include "SingleNumberIII.h"
 #include "ConvertSortedListtoBinarySearchTree.h"
 #include "FlattenBinaryTreetoLinkedList.h"
+#include "Triangle.h"
 int main(int argc, const char * argv[])
 {
 
@@ -105,7 +106,8 @@ int main(int argc, const char * argv[])
 //    testPostorderTraversal();
 //    testSingleNumberIII();
 //    testSortedListToBST();
-    testFlattern();
+//    testFlattern();
+    testMinimumTotal();
     return 0;
 }
 
