@@ -11,6 +11,7 @@
 		83030E8E188E970700BCB658 /* LongestSubstringWithoutRepeatingCharacters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83030E8D188E970700BCB658 /* LongestSubstringWithoutRepeatingCharacters.cpp */; };
 		8308FD611890B72D00C98C20 /* MinimumDepthofBinaryTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8308FD5F1890B72D00C98C20 /* MinimumDepthofBinaryTree.cpp */; };
 		830BA44118C75CC800FB26E7 /* RegularExpressionMatching.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 830BA43F18C75CC800FB26E7 /* RegularExpressionMatching.cpp */; };
+		831013FE18D2EFE300DCAB6C /* UniqueBinarySearchTreesII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 831013FC18D2EFE300DCAB6C /* UniqueBinarySearchTreesII.cpp */; };
 		8311DA0F18CEE159004E042E /* BinaryTreePostorderTraversal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8311DA0D18CEE159004E042E /* BinaryTreePostorderTraversal.cpp */; };
 		83127D861892C81B00EEBC41 /* Permutations.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83127D841892C81B00EEBC41 /* Permutations.cpp */; };
 		83145ED718BB23AE00D2AD69 /* WordSearch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83145ED518BB23AE00D2AD69 /* WordSearch.cpp */; };
@@ -96,6 +97,8 @@
 		8308FD601890B72D00C98C20 /* MinimumDepthofBinaryTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MinimumDepthofBinaryTree.h; sourceTree = "<group>"; };
 		830BA43F18C75CC800FB26E7 /* RegularExpressionMatching.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RegularExpressionMatching.cpp; sourceTree = "<group>"; };
 		830BA44018C75CC800FB26E7 /* RegularExpressionMatching.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegularExpressionMatching.h; sourceTree = "<group>"; };
+		831013FC18D2EFE300DCAB6C /* UniqueBinarySearchTreesII.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UniqueBinarySearchTreesII.cpp; sourceTree = "<group>"; };
+		831013FD18D2EFE300DCAB6C /* UniqueBinarySearchTreesII.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UniqueBinarySearchTreesII.h; sourceTree = "<group>"; };
 		8311DA0D18CEE159004E042E /* BinaryTreePostorderTraversal.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BinaryTreePostorderTraversal.cpp; sourceTree = "<group>"; };
 		8311DA0E18CEE159004E042E /* BinaryTreePostorderTraversal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BinaryTreePostorderTraversal.h; sourceTree = "<group>"; };
 		83127D841892C81B00EEBC41 /* Permutations.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Permutations.cpp; sourceTree = "<group>"; };
@@ -312,6 +315,8 @@
 		83D6739918CD3904007532E8 /* Tree */ = {
 			isa = PBXGroup;
 			children = (
+				831013FC18D2EFE300DCAB6C /* UniqueBinarySearchTreesII.cpp */,
+				831013FD18D2EFE300DCAB6C /* UniqueBinarySearchTreesII.h */,
 				83C52EAD18D2DFEE0073F723 /* RecoverBinarySearchTree.cpp */,
 				83C52EAE18D2DFEE0073F723 /* RecoverBinarySearchTree.h */,
 				837E52DE18D0AC280037A0FA /* BinaryTreePostorderTraversal .cpp */,
@@ -534,6 +539,7 @@
 				83CDF0A618D19B47005B1855 /* Triangle.cpp in Sources */,
 				839E860418C07AF9001EC25A /* SubstringwithConcatenationofAllWords.cpp in Sources */,
 				830BA44118C75CC800FB26E7 /* RegularExpressionMatching.cpp in Sources */,
+				831013FE18D2EFE300DCAB6C /* UniqueBinarySearchTreesII.cpp in Sources */,
 				8396902218C9B51A008F28B7 /* BestTimetoBuyandSellStockII.cpp in Sources */,
 				8367439E189016670051E377 /* numTrees.cpp in Sources */,
 				83D900BC18CEDE80002A40CF /* BinaryTreePreorderTraversal.cpp in Sources */,

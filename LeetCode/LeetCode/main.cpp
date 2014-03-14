@@ -53,6 +53,7 @@
 #include "ConvertSortedListtoBinarySearchTree.h"
 #include "FlattenBinaryTreetoLinkedList.h"
 #include "Triangle.h"
+#include "UniqueBinarySearchTreesII.h"
 int main(int argc, const char * argv[])
 {
 
@@ -107,7 +108,8 @@ int main(int argc, const char * argv[])
 //    testSingleNumberIII();
 //    testSortedListToBST();
 //    testFlattern();
-    testMinimumTotal();
+//    testMinimumTotal();
+    testGenerateTrees();
     return 0;
 }
 
