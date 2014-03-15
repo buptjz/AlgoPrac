@@ -54,6 +54,8 @@
 #include "FlattenBinaryTreetoLinkedList.h"
 #include "Triangle.h"
 #include "UniqueBinarySearchTreesII.h"
+
+#include "longestCommonSubSequence.h"
 int main(int argc, const char * argv[])
 {
 
@@ -109,7 +111,8 @@ int main(int argc, const char * argv[])
 //    testSortedListToBST();
 //    testFlattern();
 //    testMinimumTotal();
-    testGenerateTrees();
+//    testGenerateTrees();
+    testLongestCommonSubSequence();
     return 0;
 }
 

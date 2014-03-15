@@ -66,7 +66,7 @@
 		83B0CDBA18D4A67600B69862 /* PermutationsUnique.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83B0CDAF18D4A67600B69862 /* PermutationsUnique.cpp */; };
 		83B0CDBB18D4A67600B69862 /* Subsets.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83B0CDB118D4A67600B69862 /* Subsets.cpp */; };
 		83B0CDBC18D4A67600B69862 /* SubsetsII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83B0CDB318D4A67600B69862 /* SubsetsII.cpp */; };
-		83B0CDBF18D4A69500B69862 /* longestSubSequence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83B0CDBD18D4A69500B69862 /* longestSubSequence.cpp */; };
+		83B0CDBF18D4A69500B69862 /* longestCommonSubSequence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83B0CDBD18D4A69500B69862 /* longestCommonSubSequence.cpp */; };
 		83B0CDC118D4A6B700B69862 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83B0CDC018D4A6B700B69862 /* main.cpp */; };
 		83B2072618BAF02000F8785D /* SingleNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83B2072418BAF02000F8785D /* SingleNumber.cpp */; };
 		83B8DF3018BA44F6005F3091 /* PartitionList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83B8DF2E18BA44F6005F3091 /* PartitionList.cpp */; };
@@ -207,8 +207,8 @@
 		83B0CDB218D4A67600B69862 /* Subsets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Subsets.h; path = Permutation/Subsets.h; sourceTree = "<group>"; };
 		83B0CDB318D4A67600B69862 /* SubsetsII.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SubsetsII.cpp; path = Permutation/SubsetsII.cpp; sourceTree = "<group>"; };
 		83B0CDB418D4A67600B69862 /* SubsetsII.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SubsetsII.h; path = Permutation/SubsetsII.h; sourceTree = "<group>"; };
-		83B0CDBD18D4A69500B69862 /* longestSubSequence.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = longestSubSequence.cpp; path = DP/longestSubSequence.cpp; sourceTree = SOURCE_ROOT; };
-		83B0CDBE18D4A69500B69862 /* longestSubSequence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = longestSubSequence.h; path = DP/longestSubSequence.h; sourceTree = SOURCE_ROOT; };
+		83B0CDBD18D4A69500B69862 /* longestCommonSubSequence.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = longestCommonSubSequence.cpp; path = DP/longestCommonSubSequence.cpp; sourceTree = SOURCE_ROOT; };
+		83B0CDBE18D4A69500B69862 /* longestCommonSubSequence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = longestCommonSubSequence.h; path = DP/longestCommonSubSequence.h; sourceTree = SOURCE_ROOT; };
 		83B0CDC018D4A6B700B69862 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		83B2072418BAF02000F8785D /* SingleNumber.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SingleNumber.cpp; sourceTree = "<group>"; };
 		83B2072518BAF02000F8785D /* SingleNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingleNumber.h; sourceTree = "<group>"; };
@@ -272,8 +272,8 @@
 		83B0CD4A18D4A5B400B69862 /* DP */ = {
 			isa = PBXGroup;
 			children = (
-				83B0CDBD18D4A69500B69862 /* longestSubSequence.cpp */,
-				83B0CDBE18D4A69500B69862 /* longestSubSequence.h */,
+				83B0CDBD18D4A69500B69862 /* longestCommonSubSequence.cpp */,
+				83B0CDBE18D4A69500B69862 /* longestCommonSubSequence.h */,
 			);
 			name = DP;
 			path = LeetCode;
@@ -509,7 +509,7 @@
 				83B0CD8A18D4A62800B69862 /* BinaryTreeMaximumPathSum.cpp in Sources */,
 				83B0CD9618D4A64800B69862 /* LargestRectangularAreainaHistogramV2.cpp in Sources */,
 				83B0CD7718D4A61200B69862 /* BinaryTreeLevelOrderTraversal.cpp in Sources */,
-				83B0CDBF18D4A69500B69862 /* longestSubSequence.cpp in Sources */,
+				83B0CDBF18D4A69500B69862 /* longestCommonSubSequence.cpp in Sources */,
 				833BBF8C18C85A950033427A /* ContainerWithMostWater.cpp in Sources */,
 				83B0CDA218D4A66200B69862 /* BestTimetoBuyandSellStockII.cpp in Sources */,
 				83B0CD7A18D4A61200B69862 /* BinaryTreePreorderTraversal.cpp in Sources */,
