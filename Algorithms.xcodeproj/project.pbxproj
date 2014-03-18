@@ -16,7 +16,6 @@
 		832E1C3D1882C8C4001BA17B /* searchRotatedArray.c in Sources */ = {isa = PBXBuildFile; fileRef = 832E1C3C1882C8C4001BA17B /* searchRotatedArray.c */; };
 		833BBF8C18C85A950033427A /* ContainerWithMostWater.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 833BBF8A18C85A950033427A /* ContainerWithMostWater.cpp */; };
 		83475A6418C17C2700901E60 /* MinimumWindowSubstring.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83475A6218C17C2700901E60 /* MinimumWindowSubstring.cpp */; };
-		8349E16E18D81E8D000ED180 /* longestCommonSubstring.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8349E16C18D81E8D000ED180 /* longestCommonSubstring.cpp */; };
 		8360FC9218C00454008CEAFB /* atoi.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8360FC9018C00454008CEAFB /* atoi.cpp */; };
 		8363941B18C8A78C004DA211 /* WordBreak.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8363941918C8A78C004DA211 /* WordBreak.cpp */; };
 		836424C718BF7342007A948A /* SearchInsertPosition.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 836424C518BF7342007A948A /* SearchInsertPosition.cpp */; };
@@ -66,7 +65,6 @@
 		83B0CDBA18D4A67600B69862 /* PermutationsUnique.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83B0CDAF18D4A67600B69862 /* PermutationsUnique.cpp */; };
 		83B0CDBB18D4A67600B69862 /* Subsets.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83B0CDB118D4A67600B69862 /* Subsets.cpp */; };
 		83B0CDBC18D4A67600B69862 /* SubsetsII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83B0CDB318D4A67600B69862 /* SubsetsII.cpp */; };
-		83B0CDBF18D4A69500B69862 /* longestCommonSubSequence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83B0CDBD18D4A69500B69862 /* longestCommonSubSequence.cpp */; };
 		83B0CDC118D4A6B700B69862 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83B0CDC018D4A6B700B69862 /* main.cpp */; };
 		83B2072618BAF02000F8785D /* SingleNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83B2072418BAF02000F8785D /* SingleNumber.cpp */; };
 		83B8DF3018BA44F6005F3091 /* PartitionList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83B8DF2E18BA44F6005F3091 /* PartitionList.cpp */; };
@@ -109,8 +107,6 @@
 		833BBF8B18C85A950033427A /* ContainerWithMostWater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContainerWithMostWater.h; sourceTree = "<group>"; };
 		83475A6218C17C2700901E60 /* MinimumWindowSubstring.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MinimumWindowSubstring.cpp; sourceTree = "<group>"; };
 		83475A6318C17C2700901E60 /* MinimumWindowSubstring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MinimumWindowSubstring.h; sourceTree = "<group>"; };
-		8349E16C18D81E8D000ED180 /* longestCommonSubstring.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = longestCommonSubstring.cpp; path = DP/longestCommonSubstring.cpp; sourceTree = SOURCE_ROOT; };
-		8349E16D18D81E8D000ED180 /* longestCommonSubstring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = longestCommonSubstring.h; path = DP/longestCommonSubstring.h; sourceTree = SOURCE_ROOT; };
 		8360FC9018C00454008CEAFB /* atoi.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = atoi.cpp; sourceTree = "<group>"; };
 		8360FC9118C00454008CEAFB /* atoi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = atoi.h; sourceTree = "<group>"; };
 		8363941918C8A78C004DA211 /* WordBreak.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WordBreak.cpp; sourceTree = "<group>"; };
@@ -194,8 +190,6 @@
 		83B0CDB218D4A67600B69862 /* Subsets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Subsets.h; path = Permutation/Subsets.h; sourceTree = "<group>"; };
 		83B0CDB318D4A67600B69862 /* SubsetsII.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SubsetsII.cpp; path = Permutation/SubsetsII.cpp; sourceTree = "<group>"; };
 		83B0CDB418D4A67600B69862 /* SubsetsII.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SubsetsII.h; path = Permutation/SubsetsII.h; sourceTree = "<group>"; };
-		83B0CDBD18D4A69500B69862 /* longestCommonSubSequence.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = longestCommonSubSequence.cpp; path = DP/longestCommonSubSequence.cpp; sourceTree = SOURCE_ROOT; };
-		83B0CDBE18D4A69500B69862 /* longestCommonSubSequence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = longestCommonSubSequence.h; path = DP/longestCommonSubSequence.h; sourceTree = SOURCE_ROOT; };
 		83B0CDC018D4A6B700B69862 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		83B2072418BAF02000F8785D /* SingleNumber.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SingleNumber.cpp; sourceTree = "<group>"; };
 		83B2072518BAF02000F8785D /* SingleNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingleNumber.h; sourceTree = "<group>"; };
@@ -209,6 +203,27 @@
 		83D0D2BF18B8FA120089A15F /* SwapNodesinPairs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwapNodesinPairs.h; sourceTree = "<group>"; };
 		83D266B218D8246600621577 /* ConvertSortedArraytoBinarySearchTree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ConvertSortedArraytoBinarySearchTree.cpp; path = Tree/ConvertSortedArraytoBinarySearchTree.cpp; sourceTree = "<group>"; };
 		83D266B518D8249700621577 /* leetcode_tree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = leetcode_tree.h; path = Tree/leetcode_tree.h; sourceTree = "<group>"; };
+		83D266CB18D82A7F00621577 /* arrayAndString.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = arrayAndString.c; sourceTree = "<group>"; };
+		83D266CC18D82A7F00621577 /* arrayAndString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = arrayAndString.h; sourceTree = "<group>"; };
+		83D266CD18D82A7F00621577 /* charReplace.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = charReplace.c; sourceTree = "<group>"; };
+		83D266CE18D82A7F00621577 /* CiCT.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = CiCT.1; sourceTree = "<group>"; };
+		83D266CF18D82A7F00621577 /* longestNonDecreasingSequence.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = longestNonDecreasingSequence.c; sourceTree = "<group>"; };
+		83D266D018D82A7F00621577 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		83D266D118D82A7F00621577 /* pointerVSArray.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = pointerVSArray.c; sourceTree = "<group>"; };
+		83D266D218D82A7F00621577 /* searchInInterspersedArray.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = searchInInterspersedArray.c; sourceTree = "<group>"; };
+		83D266D318D82A7F00621577 /* searchInMatrix.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = searchInMatrix.c; sourceTree = "<group>"; };
+		83D266D418D82A7F00621577 /* searchInRotatedArray.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = searchInRotatedArray.c; sourceTree = "<group>"; };
+		83D266D518D82A7F00621577 /* stringCompress.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = stringCompress.c; sourceTree = "<group>"; };
+		83D266D618D82A7F00621577 /* trackStream.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = trackStream.c; sourceTree = "<group>"; };
+		83D266D918D82A8300621577 /* longestCommonSubSequence.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = longestCommonSubSequence.cpp; sourceTree = "<group>"; };
+		83D266DA18D82A8300621577 /* longestCommonSubSequence.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = longestCommonSubSequence.h; sourceTree = "<group>"; };
+		83D266DB18D82A8300621577 /* longestCommonSubstring.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = longestCommonSubstring.cpp; sourceTree = "<group>"; };
+		83D266DC18D82A8300621577 /* longestCommonSubstring.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = longestCommonSubstring.h; sourceTree = "<group>"; };
+		83D266DE18D82A8300621577 /* convert_to_link.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = convert_to_link.c; sourceTree = "<group>"; };
+		83D266DF18D82A8300621577 /* is_binarysearch_tree.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = is_binarysearch_tree.c; sourceTree = "<group>"; };
+		83D266E018D82A8300621577 /* is_sub_tree.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = is_sub_tree.c; sourceTree = "<group>"; };
+		83D266E118D82A8300621577 /* tree_is_balance.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = tree_is_balance.c; sourceTree = "<group>"; };
+		83D266E218D82A8300621577 /* tree_search.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = tree_search.c; sourceTree = "<group>"; };
 		83E6C6C718828E7F006D399B /* Algorithms */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithms; sourceTree = BUILT_PRODUCTS_DIR; };
 		83E6C6CC18828E7F006D399B /* LeetCode.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = LeetCode.1; sourceTree = "<group>"; };
 		83E6C6D318828E8E006D399B /* findMedianSortedArrays.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = findMedianSortedArrays.c; sourceTree = "<group>"; };
@@ -258,18 +273,6 @@
 			name = BestTimeToButStock;
 			sourceTree = "<group>";
 		};
-		83B0CD4A18D4A5B400B69862 /* DP */ = {
-			isa = PBXGroup;
-			children = (
-				83B0CDBD18D4A69500B69862 /* longestCommonSubSequence.cpp */,
-				83B0CDBE18D4A69500B69862 /* longestCommonSubSequence.h */,
-				8349E16C18D81E8D000ED180 /* longestCommonSubstring.cpp */,
-				8349E16D18D81E8D000ED180 /* longestCommonSubstring.h */,
-			);
-			name = DP;
-			path = LeetCode;
-			sourceTree = "<group>";
-		};
 		83B2F60A18CAAC0C008A33DE /* LargestRectangle */ = {
 			isa = PBXGroup;
 			children = (
@@ -296,6 +299,57 @@
 				83B0CD8918D4A62800B69862 /* PathSumII.h */,
 			);
 			name = DFSBFS;
+			sourceTree = "<group>";
+		};
+		83D266CA18D82A7F00621577 /* CiCT */ = {
+			isa = PBXGroup;
+			children = (
+				83D266CB18D82A7F00621577 /* arrayAndString.c */,
+				83D266CC18D82A7F00621577 /* arrayAndString.h */,
+				83D266CD18D82A7F00621577 /* charReplace.c */,
+				83D266CE18D82A7F00621577 /* CiCT.1 */,
+				83D266CF18D82A7F00621577 /* longestNonDecreasingSequence.c */,
+				83D266D018D82A7F00621577 /* main.c */,
+				83D266D118D82A7F00621577 /* pointerVSArray.c */,
+				83D266D218D82A7F00621577 /* searchInInterspersedArray.c */,
+				83D266D318D82A7F00621577 /* searchInMatrix.c */,
+				83D266D418D82A7F00621577 /* searchInRotatedArray.c */,
+				83D266D518D82A7F00621577 /* stringCompress.c */,
+				83D266D618D82A7F00621577 /* trackStream.c */,
+			);
+			path = CiCT;
+			sourceTree = "<group>";
+		};
+		83D266D718D82A8300621577 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				83D266D818D82A8300621577 /* DP */,
+				83D266DD18D82A8300621577 /* Trees */,
+			);
+			path = Others;
+			sourceTree = SOURCE_ROOT;
+		};
+		83D266D818D82A8300621577 /* DP */ = {
+			isa = PBXGroup;
+			children = (
+				83D266D918D82A8300621577 /* longestCommonSubSequence.cpp */,
+				83D266DA18D82A8300621577 /* longestCommonSubSequence.h */,
+				83D266DB18D82A8300621577 /* longestCommonSubstring.cpp */,
+				83D266DC18D82A8300621577 /* longestCommonSubstring.h */,
+			);
+			path = DP;
+			sourceTree = "<group>";
+		};
+		83D266DD18D82A8300621577 /* Trees */ = {
+			isa = PBXGroup;
+			children = (
+				83D266DE18D82A8300621577 /* convert_to_link.c */,
+				83D266DF18D82A8300621577 /* is_binarysearch_tree.c */,
+				83D266E018D82A8300621577 /* is_sub_tree.c */,
+				83D266E118D82A8300621577 /* tree_is_balance.c */,
+				83D266E218D82A8300621577 /* tree_search.c */,
+			);
+			path = Trees;
 			sourceTree = "<group>";
 		};
 		83D6739818CD383D007532E8 /* Permutation */ = {
@@ -348,8 +402,9 @@
 			isa = PBXGroup;
 			children = (
 				83B0CDC018D4A6B700B69862 /* main.cpp */,
-				83B0CD4A18D4A5B400B69862 /* DP */,
 				83E6C6C918828E7F006D399B /* LeetCode */,
+				83D266CA18D82A7F00621577 /* CiCT */,
+				83D266D718D82A8300621577 /* Others */,
 				83E6C6C818828E7F006D399B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -486,8 +541,6 @@
 				83B0CD8A18D4A62800B69862 /* BinaryTreeMaximumPathSum.cpp in Sources */,
 				83B0CD9618D4A64800B69862 /* LargestRectangularAreainaHistogramV2.cpp in Sources */,
 				83B0CD7718D4A61200B69862 /* BinaryTreeLevelOrderTraversal.cpp in Sources */,
-				8349E16E18D81E8D000ED180 /* longestCommonSubstring.cpp in Sources */,
-				83B0CDBF18D4A69500B69862 /* longestCommonSubSequence.cpp in Sources */,
 				833BBF8C18C85A950033427A /* ContainerWithMostWater.cpp in Sources */,
 				83B0CDA218D4A66200B69862 /* BestTimetoBuyandSellStockII.cpp in Sources */,
 				83B0CD7A18D4A61200B69862 /* BinaryTreePreorderTraversal.cpp in Sources */,
