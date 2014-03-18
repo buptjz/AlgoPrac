@@ -6,22 +6,15 @@
 //  Copyright (c) 2014年 WangJZ. All rights reserved.
 //  http://oj.leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/
 
-#include "ConstructBinaryTreefromInorderandPostorderTraversal.h"
-#include <vector>
+#include "leetcode_tree.h"
+
 /*
  Given inorder and preorder traversal of a tree, construct the binary tree.
  
  Note:
  You may assume that duplicates do not exist in the tree.
  */
-using namespace std;
 
-struct TreeNode {
-    int val;
-    TreeNode *left;
-    TreeNode *right;
-    TreeNode(int x) : val(x), left(NULL), right(NULL) {}
-};
 
 void buildTree2Helper(vector<int> &inorder, vector<int> &preorder,TreeNode *root,int in_s,int in_e,int po_s,int po_e){
     int index = in_s;

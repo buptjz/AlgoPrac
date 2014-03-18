@@ -12,17 +12,7 @@
  
  */
 
-#include "ConstructBinaryTreefromInorderandPostorderTraversal.h"
-#include <vector>
-
-using namespace std;
-
-struct TreeNode {
-    int val;
-    TreeNode *left;
-    TreeNode *right;
-    TreeNode(int x) : val(x), left(NULL), right(NULL) {}
-};
+#include "leetcode_tree.h"
 
 void buildTreeHelper(vector<int> &inorder, vector<int> &postorder, TreeNode *root,int in_s,int in_e,int po_s,int po_e){
     //思路：当前postorder的最后一个值是当前节点的值，在inorder中查询，inorder中左侧是左节点，右侧是有节点，递归下去构建树

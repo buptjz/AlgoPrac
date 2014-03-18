@@ -25,16 +25,7 @@
  遍历结束后对全局数组做处理，分两种情况讨论即可！
  */
 
-#include "RecoverBinarySearchTree.h"
-#include <vector>
-using namespace std;
-
-struct TreeNode{
-    int val;
-    TreeNode *left;
-    TreeNode *right;
-    TreeNode(int x):val(x),left(NULL),right(NULL){}
-};
+#include "leetcode_tree.h"
 
 static vector<TreeNode *> treeVec;
 static TreeNode *lastNode = NULL;

@@ -6,15 +6,7 @@
 //  Copyright (c) 2014 WangJZ. All rights reserved.
 //  http://oj.leetcode.com/problems/symmetric-tree/
 
-#include "SymmetricTree.h"
-
-using namespace std;
-struct TreeNode {
-    int val;
-    TreeNode *left;
-    TreeNode *right;
-    TreeNode(int x) : val(x), left(NULL), right(NULL) {}
-};
+#include "leetcode_tree.h"
 
 bool isSymmetricHelper(TreeNode *left,TreeNode *right) {
     if (left == NULL && right == NULL) {

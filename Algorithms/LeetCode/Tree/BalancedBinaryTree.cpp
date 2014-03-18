@@ -6,14 +6,8 @@
 //  Copyright (c) 2014 WangJZ. All rights reserved.
 //  http://oj.leetcode.com/problems/balanced-binary-tree/
 
-#include "BalancedBinaryTree.h"
-using namespace std;
-struct TreeNode {
-    int val;
-    TreeNode *left;
-    TreeNode *right;
-    TreeNode(int x) : val(x), left(NULL), right(NULL) {}
-};
+#include "leetcode_tree.h"
+
 
 bool isBalancedHelper(TreeNode *root,int &height) {
     if (root == NULL) {

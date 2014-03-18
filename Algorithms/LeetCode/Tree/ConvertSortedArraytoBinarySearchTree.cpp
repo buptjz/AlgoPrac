@@ -6,17 +6,10 @@
 //  Copyright (c) 2014年 WangJZ. All rights reserved.
 //
 
-#include "ConvertSortedArraytoBinarySearchTree.h"
+#include "leetcode_tree.h"
 #include <vector>
 
 
-struct TreeNode {
-    int val;
-    TreeNode *left;
-    TreeNode *right;
-    TreeNode(int x) : val(x), left(NULL), right(NULL) {}
-};
-using namespace std;
 
 void helper(TreeNode*T,vector<int> &num,int start,int end,int where){
     if (start > end || T== NULL) return;

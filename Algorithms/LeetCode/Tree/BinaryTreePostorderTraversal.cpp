@@ -6,18 +6,7 @@
 //  Copyright (c) 2014年 WangJZ. All rights reserved.
 //  http://oj.leetcode.com/problems/binary-tree-postorder-traversal/
 
-#include "BinaryTreePostorderTraversal.h"
-
-#include <vector>
-
-using namespace std;
-
-struct TreeNode {
-    int val;
-    TreeNode *left;
-    TreeNode *right;
-    TreeNode(int x) : val(x), left(NULL), right(NULL) {}
-};
+#include "leetcode_tree.h"
 
 void postorderTraversalHelper(TreeNode *root,vector<int> &retVec){
     if (root == NULL) {

@@ -12,14 +12,8 @@
  令root的左为空，右为先序遍历的下一个节点！
  */
 
-#include "FlattenBinaryTreetoLinkedList.h"
+#include "leetcode_tree.h"
 
-struct TreeNode {
-    int val;
-    TreeNode *left;
-    TreeNode *right;
-    TreeNode(int x) : val(x), left(NULL), right(NULL) {}
-};
 
 void flattenHelper(TreeNode *root,TreeNode *& head,TreeNode *& tail){
     TreeNode *lhead,*ltail,*rhead,*rtail;

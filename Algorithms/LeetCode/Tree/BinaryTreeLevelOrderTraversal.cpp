@@ -6,17 +6,7 @@
 //  Copyright (c) 2014年 WangJZ. All rights reserved.
 //
 
-#include "BinaryTreeLevelOrderTraversal.h"
-#include <vector>
-
-using namespace std;
-
-struct TreeNode {
-    int val;
-    TreeNode *left;
-    TreeNode *right;
-    TreeNode(int x) : val(x), left(NULL), right(NULL) {}
-};
+#include "leetcode_tree.h"
 
 void levelOrderHelper(vector<vector<int> > &vc,TreeNode *root,int level){
     if(root == NULL) return;

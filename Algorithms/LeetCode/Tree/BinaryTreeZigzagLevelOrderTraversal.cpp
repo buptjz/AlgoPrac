@@ -14,18 +14,7 @@
  偶数层与此相反
  */
 
-#include "BinaryTreeZigzagLevelOrderTraversal.h"
-#include <stack>
-#include <vector>
-
-using namespace std;
-
-struct TreeNode {
-    int val;
-    TreeNode *left;
-    TreeNode *right;
-    TreeNode(int x) : val(x), left(NULL), right(NULL) {}
-};
+#include "leetcode_tree.h"
 
 void oddProcess(stack<TreeNode*> &evenStack,stack<TreeNode*> &oddStack,vector<vector<int> > &retVec);
 void evenProcess(stack<TreeNode*> &evenStack,stack<TreeNode*> &oddStack,vector<vector<int> > &retVec);

@@ -44,16 +44,9 @@
 #include "BestTimetoBuyandSellStockIII.h"
 #include "BestTimetoBuyandSellStockIIIV2.h"
 #include "BinaryTreeMaximumPathSum.h"
-#include "BalancedBinaryTree.h"
-#include "BinaryTreeZigzagLevelOrderTraversal.h"
-#include "ConstructBinaryTreefromInorderandPostorderTraversal.h"
-#include "BinaryTreePreorderTraversal.h"
-#include "BinaryTreePostorderTraversal.h"
-#include "SingleNumberIII.h"
-#include "ConvertSortedListtoBinarySearchTree.h"
-#include "FlattenBinaryTreetoLinkedList.h"
+#include "leetcode_tree.h"
+
 #include "Triangle.h"
-#include "UniqueBinarySearchTreesII.h"
 #include "longestCommonSubstring.h"
 
 #include "longestCommonSubSequence.h"
@@ -103,7 +96,7 @@ int main(int argc, const char * argv[])
 //    testMaxProfit3();
 //    testMaxProfit4();
 //    testMaxPathSum();
-//    testIsBalance();
+    testIsBalance();
 //    testZigzagLevelOrder();
 //    testBuildTree();
 //    testPreorderTraversal();
@@ -114,7 +107,7 @@ int main(int argc, const char * argv[])
 //    testMinimumTotal();
 //    testGenerateTrees();
 //    testLongestCommonSubSequence();
-    testLongestCommonSubstring();
+//    testLongestCommonSubstring();
     return 0;
 }
 

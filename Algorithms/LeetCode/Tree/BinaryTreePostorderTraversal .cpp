@@ -12,18 +12,8 @@
 
 
 
-#include "BinaryTreePostorderTraversal .h"
-#include <vector>
-#include <stack>
+#include "leetcode_tree.h"
 
-using namespace std;
-
-struct TreeNode{
-    int val;
-    TreeNode *left;
-    TreeNode *right;
-    TreeNode(int x):val(x),left(NULL),right(NULL){}
-};
 struct TagTreeNode{
     TreeNode *treeNode;
     bool tag;
