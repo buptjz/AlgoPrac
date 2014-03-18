@@ -33,7 +33,8 @@ void construct_sequence(vector<vector<int>>&state,
                        string &s1,
                        string &retString,
                        int i,
-                       int j){
+                       int j)
+{
     if (dir[i][j] == 3) {
         retString += s1[i - 1];
         construct_sequence(state, dir, s1, retString, i - 1, j - 1);
@@ -46,6 +47,7 @@ void construct_sequence(vector<vector<int>>&state,
     }
 
 }
+
 string longestCommonSubSequence(string s1,string s2){
     int l1 = (int)s1.length();
     int l2 = (int)s2.length();

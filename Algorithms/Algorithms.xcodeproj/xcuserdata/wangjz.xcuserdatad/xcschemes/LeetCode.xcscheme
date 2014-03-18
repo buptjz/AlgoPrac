@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "83E6C6C618828E7F006D399B"
-               BuildableName = "LeetCode"
-               BlueprintName = "LeetCode"
-               ReferencedContainer = "container:LeetCode.xcodeproj">
+               BuildableName = "Algorithms"
+               BlueprintName = "Algorithms"
+               ReferencedContainer = "container:Algorithms.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "83E6C6C618828E7F006D399B"
-            BuildableName = "LeetCode"
-            BlueprintName = "LeetCode"
-            ReferencedContainer = "container:LeetCode.xcodeproj">
+            BuildableName = "Algorithms"
+            BlueprintName = "Algorithms"
+            ReferencedContainer = "container:Algorithms.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -52,9 +52,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "83E6C6C618828E7F006D399B"
-            BuildableName = "LeetCode"
-            BlueprintName = "LeetCode"
-            ReferencedContainer = "container:LeetCode.xcodeproj">
+            BuildableName = "Algorithms"
+            BlueprintName = "Algorithms"
+            ReferencedContainer = "container:Algorithms.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -70,9 +70,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "83E6C6C618828E7F006D399B"
-            BuildableName = "LeetCode"
-            BlueprintName = "LeetCode"
-            ReferencedContainer = "container:LeetCode.xcodeproj">
+            BuildableName = "Algorithms"
+            BlueprintName = "Algorithms"
+            ReferencedContainer = "container:Algorithms.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

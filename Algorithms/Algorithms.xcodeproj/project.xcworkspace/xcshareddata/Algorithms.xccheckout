@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>398B186E-FE93-4EF0-AD35-80A63E319AF8</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Algorithms</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>5BBF43C4-CBD2-4B43-A9AC-0C7BC62B61FC</key>
+		<string>https://github.com/buptjz/AlgoPrac.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Algorithms/Algorithms.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>5BBF43C4-CBD2-4B43-A9AC-0C7BC62B61FC</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/buptjz/AlgoPrac.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>5BBF43C4-CBD2-4B43-A9AC-0C7BC62B61FC</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>5BBF43C4-CBD2-4B43-A9AC-0C7BC62B61FC</string>
+			<key>IDESourceControlWCCName</key>
+			<string>AlgoPrac</string>
+		</dict>
+	</array>
+</dict>
+</plist>

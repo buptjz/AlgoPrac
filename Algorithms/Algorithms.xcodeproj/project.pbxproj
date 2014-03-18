@@ -16,6 +16,7 @@
 		832E1C3D1882C8C4001BA17B /* searchRotatedArray.c in Sources */ = {isa = PBXBuildFile; fileRef = 832E1C3C1882C8C4001BA17B /* searchRotatedArray.c */; };
 		833BBF8C18C85A950033427A /* ContainerWithMostWater.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 833BBF8A18C85A950033427A /* ContainerWithMostWater.cpp */; };
 		83475A6418C17C2700901E60 /* MinimumWindowSubstring.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83475A6218C17C2700901E60 /* MinimumWindowSubstring.cpp */; };
+		8349E16E18D81E8D000ED180 /* longestCommonSubstring.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8349E16C18D81E8D000ED180 /* longestCommonSubstring.cpp */; };
 		8360FC9218C00454008CEAFB /* atoi.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8360FC9018C00454008CEAFB /* atoi.cpp */; };
 		8363941B18C8A78C004DA211 /* WordBreak.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8363941918C8A78C004DA211 /* WordBreak.cpp */; };
 		836424C718BF7342007A948A /* SearchInsertPosition.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 836424C518BF7342007A948A /* SearchInsertPosition.cpp */; };
@@ -108,6 +109,8 @@
 		833BBF8B18C85A950033427A /* ContainerWithMostWater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContainerWithMostWater.h; sourceTree = "<group>"; };
 		83475A6218C17C2700901E60 /* MinimumWindowSubstring.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MinimumWindowSubstring.cpp; sourceTree = "<group>"; };
 		83475A6318C17C2700901E60 /* MinimumWindowSubstring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MinimumWindowSubstring.h; sourceTree = "<group>"; };
+		8349E16C18D81E8D000ED180 /* longestCommonSubstring.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = longestCommonSubstring.cpp; path = DP/longestCommonSubstring.cpp; sourceTree = SOURCE_ROOT; };
+		8349E16D18D81E8D000ED180 /* longestCommonSubstring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = longestCommonSubstring.h; path = DP/longestCommonSubstring.h; sourceTree = SOURCE_ROOT; };
 		8360FC9018C00454008CEAFB /* atoi.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = atoi.cpp; sourceTree = "<group>"; };
 		8360FC9118C00454008CEAFB /* atoi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = atoi.h; sourceTree = "<group>"; };
 		8363941918C8A78C004DA211 /* WordBreak.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WordBreak.cpp; sourceTree = "<group>"; };
@@ -220,7 +223,7 @@
 		83CE163A18BDD4E70081A8E3 /* SqrtX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SqrtX.h; sourceTree = "<group>"; };
 		83D0D2BE18B8FA120089A15F /* SwapNodesinPairs.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SwapNodesinPairs.cpp; sourceTree = "<group>"; };
 		83D0D2BF18B8FA120089A15F /* SwapNodesinPairs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwapNodesinPairs.h; sourceTree = "<group>"; };
-		83E6C6C718828E7F006D399B /* LeetCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCode; sourceTree = BUILT_PRODUCTS_DIR; };
+		83E6C6C718828E7F006D399B /* Algorithms */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithms; sourceTree = BUILT_PRODUCTS_DIR; };
 		83E6C6CC18828E7F006D399B /* LeetCode.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = LeetCode.1; sourceTree = "<group>"; };
 		83E6C6D318828E8E006D399B /* findMedianSortedArrays.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = findMedianSortedArrays.c; sourceTree = "<group>"; };
 		83E6C6D518828ED7006D399B /* functions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = functions.h; sourceTree = "<group>"; };
@@ -274,6 +277,8 @@
 			children = (
 				83B0CDBD18D4A69500B69862 /* longestCommonSubSequence.cpp */,
 				83B0CDBE18D4A69500B69862 /* longestCommonSubSequence.h */,
+				8349E16C18D81E8D000ED180 /* longestCommonSubstring.cpp */,
+				8349E16D18D81E8D000ED180 /* longestCommonSubstring.h */,
 			);
 			name = DP;
 			path = LeetCode;
@@ -378,7 +383,7 @@
 		83E6C6C818828E7F006D399B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				83E6C6C718828E7F006D399B /* LeetCode */,
+				83E6C6C718828E7F006D399B /* Algorithms */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -455,9 +460,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		83E6C6C618828E7F006D399B /* LeetCode */ = {
+		83E6C6C618828E7F006D399B /* Algorithms */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 83E6C6D018828E7F006D399B /* Build configuration list for PBXNativeTarget "LeetCode" */;
+			buildConfigurationList = 83E6C6D018828E7F006D399B /* Build configuration list for PBXNativeTarget "Algorithms" */;
 			buildPhases = (
 				83E6C6C318828E7F006D399B /* Sources */,
 				83E6C6C418828E7F006D399B /* Frameworks */,
@@ -467,9 +472,9 @@
 			);
 			dependencies = (
 			);
-			name = LeetCode;
+			name = Algorithms;
 			productName = LeetCode;
-			productReference = 83E6C6C718828E7F006D399B /* LeetCode */;
+			productReference = 83E6C6C718828E7F006D399B /* Algorithms */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -481,7 +486,7 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = WangJZ;
 			};
-			buildConfigurationList = 83E6C6C218828E7F006D399B /* Build configuration list for PBXProject "LeetCode" */;
+			buildConfigurationList = 83E6C6C218828E7F006D399B /* Build configuration list for PBXProject "Algorithms" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -493,7 +498,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				83E6C6C618828E7F006D399B /* LeetCode */,
+				83E6C6C618828E7F006D399B /* Algorithms */,
 			);
 		};
 /* End PBXProject section */
@@ -509,6 +514,7 @@
 				83B0CD8A18D4A62800B69862 /* BinaryTreeMaximumPathSum.cpp in Sources */,
 				83B0CD9618D4A64800B69862 /* LargestRectangularAreainaHistogramV2.cpp in Sources */,
 				83B0CD7718D4A61200B69862 /* BinaryTreeLevelOrderTraversal.cpp in Sources */,
+				8349E16E18D81E8D000ED180 /* longestCommonSubstring.cpp in Sources */,
 				83B0CDBF18D4A69500B69862 /* longestCommonSubSequence.cpp in Sources */,
 				833BBF8C18C85A950033427A /* ContainerWithMostWater.cpp in Sources */,
 				83B0CDA218D4A66200B69862 /* BestTimetoBuyandSellStockII.cpp in Sources */,
@@ -648,21 +654,21 @@
 		83E6C6D118828E7F006D399B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Algorithms;
 			};
 			name = Debug;
 		};
 		83E6C6D218828E7F006D399B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Algorithms;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		83E6C6C218828E7F006D399B /* Build configuration list for PBXProject "LeetCode" */ = {
+		83E6C6C218828E7F006D399B /* Build configuration list for PBXProject "Algorithms" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83E6C6CE18828E7F006D399B /* Debug */,
@@ -671,7 +677,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83E6C6D018828E7F006D399B /* Build configuration list for PBXNativeTarget "LeetCode" */ = {
+		83E6C6D018828E7F006D399B /* Build configuration list for PBXNativeTarget "Algorithms" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83E6C6D118828E7F006D399B /* Debug */,
