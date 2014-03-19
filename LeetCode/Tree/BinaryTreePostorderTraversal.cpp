@@ -1,40 +1,45 @@
 //
-//  BinaryTreePostorderTraversal.cpp
+//  BinaryTreePostorderTraversal .cpp
 //  LeetCode
 //
-//  Created by WangJZ on 14-3-11.
+//  Created by WangJZ on 14-3-12.
 //  Copyright (c) 2014年 WangJZ. All rights reserved.
 //  http://oj.leetcode.com/problems/binary-tree-postorder-traversal/
 
+/*
+ 使用栈来进行后续遍历（而不是用递归的方式）
+ */
+
+
+
 #include "leetcode_tree.h"
 
-void postorderTraversalHelper(TreeNode *root,vector<int> &retVec){
-    if (root == NULL) {
-        return;
-    }
-    postorderTraversalHelper(root->left, retVec);
-    postorderTraversalHelper(root->right,retVec);
-    retVec.push_back(root->val);
-    
-}
-vector<int> postorderTraversal(TreeNode *root) {
-    vector<int> retVec;
-    postorderTraversalHelper(root, retVec);
-    return retVec;
-}
+struct TagTreeNode{
+    TreeNode *treeNode;
+    bool tag;
+    TagTreeNode(int x,TreeNode *t):tag(x),treeNode(t){}
+};
 
-void testPostorderTraversal(){
-    TreeNode *root = new TreeNode(0);
-    TreeNode *l = new TreeNode(1);
-    TreeNode *r = new TreeNode(2);
-    TreeNode *ll = new TreeNode(3);
-    TreeNode *lr = new TreeNode(4);
-    TreeNode *lrr = new TreeNode(5);
-    root->left = l;
-    root->right = r;
-    l->right = lr;
-    l->right->right = lrr;
-    l->left = ll;
-    vector<int> res = postorderTraversal(root);
-    printf("Finished");
+
+vector<int> postorderTraversal2(TreeNode *root) {
+    vector<int> retVec;
+    if (root == NULL) {
+        return retVec;
+    }
+    stack<TagTreeNode *> myStack;
+    myStack.push(new TagTreeNode(false, root));
+    while (!myStack.empty()) {
+        TagTreeNode *cur = myStack.top();
+        myStack.pop();
+        if (cur->tag == true) {//已经是第二次出栈
+            retVec.push_back(cur->treeNode->val);
+        }else{//首次出栈
+            cur->tag = true;
+            TreeNode *curTree = cur->treeNode;
+            myStack.push(cur);
+            if (curTree->right) myStack.push(new TagTreeNode(false,curTree->right));
+            if (curTree->left) myStack.push(new TagTreeNode(false,curTree->left));
+        }
+    }
+    return retVec;
 }
