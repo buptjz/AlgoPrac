@@ -12,7 +12,7 @@
 
 #include "leetcode_tree.h"
 
-int numTrees(int n) {
+static int numTrees(int n) {
     if (n == 0) return 0;
     int a[n];
     a[0] = 1;
