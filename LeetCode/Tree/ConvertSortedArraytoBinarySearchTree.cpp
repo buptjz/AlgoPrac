@@ -4,12 +4,14 @@
 //
 //  Created by WangJZ on 14-1-20.
 //  Copyright (c) 2014年 WangJZ. All rights reserved.
-//
+//  http://oj.leetcode.com/problems/convert-sorted-array-to-binary-search-tree/
+
+/*
+ 将排序号的数组转换成BST，使用递归的思路，先确定中间，再分别构建左子树和右子树
+ */
 
 #include "leetcode_tree.h"
 #include <vector>
-
-
 
 void helper(TreeNode*T,vector<int> &num,int start,int end,int where){
     if (start > end || T== NULL) return;
@@ -35,7 +37,6 @@ TreeNode *sortedArrayToBST(vector<int> &num) {
 
 void testSortedArrayToBST(){
     vector<int> vc = {1,3};
-
     TreeNode *t = sortedArrayToBST(vc);
     printf("Finished\n");
 }
