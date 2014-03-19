@@ -6,13 +6,8 @@
 //  Copyright (c) 2014年 WangJZ. All rights reserved.
 //  http://oj.leetcode.com/problems/partition-list/
 
-#include "PartitionList.h"
+#include "leetcode_list.h"
 
-struct ListNode {
-    int val;
-    ListNode *next;
-    ListNode(int x) : val(x), next(NULL) {}
-};
 ListNode *partition(ListNode *head, int x) {
     ListNode *a,*b,*cur,*ah,*bh;
     a = new ListNode(0);

@@ -6,19 +6,10 @@
 //  目前状态
 
 
-#include "MergekSortedLists .h"
-#include <vector>
-#include <stdlib.h>
-
-#include <queue>
+#include "leetcode_list.h"
 
 using namespace std;
 
-struct ListNode {
-    int val;
-    ListNode *next;
-    ListNode(int x) : val(x), next(NULL) {}
-};
 
 struct cmp{
     bool operator()(ListNode* t1,ListNode* t2)
@@ -29,31 +20,30 @@ struct cmp{
     }
 };
 
-class MergekSortedLists {
-public:
-    ListNode *mergeKLists(vector<ListNode *> &lists) {
-        if (lists.empty()) return NULL;
-        int k = (int)lists.size();//求k路归并的k是多少
-        
-        priority_queue<ListNode*,vector<ListNode*>,cmp> Q;
-        for(int i = 0;i < k;i++){
-            if ( lists[i] != NULL){
-                Q.push(lists[i]);
-            }
+
+ListNode *mergeKLists(vector<ListNode *> &lists) {
+    if (lists.empty()) return NULL;
+    int k = (int)lists.size();//求k路归并的k是多少
+    
+    priority_queue<ListNode*,vector<ListNode*>,cmp> Q;
+    for(int i = 0;i < k;i++){
+        if ( lists[i] != NULL){
+            Q.push(lists[i]);
         }
-        ListNode guard(-1);
-        ListNode* tail=&guard;
-        while(!Q.empty())
-        {
-            ListNode* toAdd = Q.top();
-            Q.pop();
-            tail->next = toAdd;
-            tail = tail->next;
-            if (toAdd->next) Q.push(toAdd->next);//如果新加入的Node还指向另一个指针，那么把新的指针加入到其中来
-        }
-        return guard.next;
     }
-};
+    ListNode guard(-1);
+    ListNode* tail=&guard;
+    while(!Q.empty())
+    {
+        ListNode* toAdd = Q.top();
+        Q.pop();
+        tail->next = toAdd;
+        tail = tail->next;
+        if (toAdd->next) Q.push(toAdd->next);//如果新加入的Node还指向另一个指针，那么把新的指针加入到其中来
+    }
+    return guard.next;
+}
+
 
 
 class Solution {

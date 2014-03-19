@@ -18,13 +18,7 @@
  1）指针来回赋值的时候，注意使用temp保存中间结果
  2）要画图比较清晰
  */
-#include "MergeTwoSortedLists.h"
-
-struct ListNode {
-    int val;
-    ListNode *next;
-    ListNode(int x) : val(x), next(NULL) {}
-};
+#include "leetcode_list.h"
 
 ListNode *mergeTwoLists(ListNode *l1, ListNode *l2) {
     ListNode *current,*savedHead,*temp;

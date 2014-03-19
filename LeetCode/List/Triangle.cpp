@@ -11,10 +11,7 @@
  从下向上依次查找每一行
  */
 
-#include "Triangle.h"
-
-#include <vector>
-using namespace std;
+#include "leetcode_list.h"
 
 int minimumTotal(vector<vector<int> > &triangle) {
     int length = (int)triangle.size();

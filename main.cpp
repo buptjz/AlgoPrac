@@ -45,8 +45,7 @@
 #include "BestTimetoBuyandSellStockIIIV2.h"
 #include "BinaryTreeMaximumPathSum.h"
 #include "leetcode_tree.h"
-
-#include "Triangle.h"
+#include "leetcode_list.h"
 #include "longestCommonSubstring.h"
 
 #include "longestCommonSubSequence.h"

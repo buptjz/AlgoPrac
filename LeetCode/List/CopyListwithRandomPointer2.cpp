@@ -13,16 +13,15 @@
  
  */
 
-#include "CopyListwithRandomPointer2.h"
-#include <map>
-using namespace std;
+#include "leetcode_list.h"
+
 struct RandomListNode {
     int label;
     RandomListNode *next, *random;
     RandomListNode(int x) : label(x), next(NULL), random(NULL) {}
 };
 
-RandomListNode *copyRandomList2(RandomListNode *head) {
+static RandomListNode *copyRandomList(RandomListNode *head) {
     //使用hashmap来保存节点，key是节点的地址，value是节点的next的值
     map<RandomListNode*, RandomListNode*> nodesMap;
     RandomListNode *saved_head = head;

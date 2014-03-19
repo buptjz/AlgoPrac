@@ -6,14 +6,7 @@
 //  Copyright (c) 2014年 WangJZ. All rights reserved.
 //  http://oj.leetcode.com/problems/swap-nodes-in-pairs/
 
-#include "SwapNodesinPairs.h"
-
-struct ListNode{
-  int val;
-  ListNode *next;
-  ListNode(int x) : val(x), next(NULL) {}
-};
-
+#include "leetcode_list.h"
 
 ListNode* swapPairs(ListNode *head)
 {
