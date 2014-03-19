@@ -7,6 +7,13 @@
 //  http://oj.leetcode.com/problems/binary-tree-inorder-traversal/
 
 
+/*
+ 【注意】此题唯一需要注意的是英文单词  
+ inorder == 中序
+ preorder == 前序
+ postorder == 后序
+ */
+
 #include "leetcode_tree.h"
 
 void helper(vector<int> &a,TreeNode *root){

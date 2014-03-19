@@ -21,6 +21,7 @@
 		8367439E189016670051E377 /* numTrees.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8367439D189016670051E377 /* numTrees.cpp */; };
 		836E020018D93333005D780E /* MinimumDepthofBinaryTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 836E01FF18D93333005D780E /* MinimumDepthofBinaryTree.cpp */; };
 		836E020318D934FD005D780E /* BinaryTreeInorderTraversal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 836E020118D934FD005D780E /* BinaryTreeInorderTraversal.cpp */; };
+		836E020618D935D2005D780E /* SameTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 836E020418D935D2005D780E /* SameTree.cpp */; };
 		836F5F6A18D9307F0015BB81 /* MaximumDepthofBinaryTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 836F5F6818D9307F0015BB81 /* MaximumDepthofBinaryTree.cpp */; };
 		83873800188EB1B2001732CE /* addTwoNumbers.c in Sources */ = {isa = PBXBuildFile; fileRef = 838737FF188EB1B2001732CE /* addTwoNumbers.c */; };
 		83873803188EB5FB001732CE /* addTwoNumbers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83873801188EB5FB001732CE /* addTwoNumbers.cpp */; };
@@ -117,6 +118,7 @@
 		8367439D189016670051E377 /* numTrees.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = numTrees.cpp; sourceTree = "<group>"; };
 		836E01FF18D93333005D780E /* MinimumDepthofBinaryTree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MinimumDepthofBinaryTree.cpp; path = Tree/MinimumDepthofBinaryTree.cpp; sourceTree = "<group>"; };
 		836E020118D934FD005D780E /* BinaryTreeInorderTraversal.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BinaryTreeInorderTraversal.cpp; path = Tree/BinaryTreeInorderTraversal.cpp; sourceTree = "<group>"; };
+		836E020418D935D2005D780E /* SameTree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SameTree.cpp; path = Tree/SameTree.cpp; sourceTree = "<group>"; };
 		836F5F6818D9307F0015BB81 /* MaximumDepthofBinaryTree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MaximumDepthofBinaryTree.cpp; path = Tree/MaximumDepthofBinaryTree.cpp; sourceTree = "<group>"; };
 		838737FE188EACF7001732CE /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 		838737FF188EB1B2001732CE /* addTwoNumbers.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = addTwoNumbers.c; sourceTree = "<group>"; };
@@ -403,6 +405,7 @@
 				836F5F6818D9307F0015BB81 /* MaximumDepthofBinaryTree.cpp */,
 				836E01FF18D93333005D780E /* MinimumDepthofBinaryTree.cpp */,
 				836E020118D934FD005D780E /* BinaryTreeInorderTraversal.cpp */,
+				836E020418D935D2005D780E /* SameTree.cpp */,
 			);
 			name = Tree;
 			sourceTree = "<group>";
@@ -582,6 +585,7 @@
 				83CF229418D82C920085AF17 /* UniqueBinarySearchTrees.cpp in Sources */,
 				83B0CD8118D4A61200B69862 /* SingleNumberIII.cpp in Sources */,
 				83B0CD7C18D4A61200B69862 /* ConstructBinaryTreefromInorderandPostorderTraversal.cpp in Sources */,
+				836E020618D935D2005D780E /* SameTree.cpp in Sources */,
 				83B0CD9818D4A64800B69862 /* MaximalRectangle.cpp in Sources */,
 				8325AFC918C0222600D5AC70 /* LongestCommonPrefix.cpp in Sources */,
 				83AE797D18C87A480085A885 /* MinimumPathSum.cpp in Sources */,
