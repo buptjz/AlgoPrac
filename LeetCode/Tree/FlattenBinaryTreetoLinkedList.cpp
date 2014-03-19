@@ -7,12 +7,43 @@
 //  http://oj.leetcode.com/problems/flatten-binary-tree-to-linked-list/
 
 /*
+ //2014.3.13日更新，思路非常清晰！
+ 思路：
+ 1）把左孩子接到右边root->right = root->left
+ 2）找到原来左孩子的最右节点rightmost
+ 3）把原来的右孩子接到rightmost上
+ 4）递归到root的右节点上
+ */
+
+#include "leetcode_tree.h"
+
+
+void flatten2(TreeNode *root) {
+    if (root == NULL) {
+        return;
+    }
+    if(root->left == NULL){
+        flatten2(root->right);
+        return;
+    }
+    TreeNode *left,*right;
+    left = root->left;
+    right = root->right;
+    root->left = NULL;
+    root->right = left;
+    while(left->right){
+        left = left->right;
+    }
+    left->right = right;
+    flatten2(root->right);
+}
+
+
+/*
  思路：递归的去完成
  在每一个节点上，分四种情况进行讨论，递归，并保持递归子串的头尾指针，这样将左右两个子串串联起来即可
  令root的左为空，右为先序遍历的下一个节点！
  */
-
-#include "leetcode_tree.h"
 
 
 void flattenHelper(TreeNode *root,TreeNode *& head,TreeNode *& tail){
@@ -54,27 +85,7 @@ void flatten(TreeNode *root) {
     }
 }
 
-//2014.3.13日更新，思路非常清晰！
 
-void flatten2(TreeNode *root) {
-    if (root == NULL) {
-        return;
-    }
-    if(root->left == NULL){
-        flatten(root->right);
-        return;
-    }
-    TreeNode *left,*right;
-    left = root->left;
-    right = root->right;
-    root->left = NULL;
-    root->right = left;
-    while(left->right){
-        left = left->right;
-    }
-    left->right = right;
-    flatten2(root->right);
-}
 
 void testFlattern(){
     TreeNode *root = new TreeNode(1);
