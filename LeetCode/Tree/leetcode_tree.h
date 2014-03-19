@@ -35,4 +35,5 @@ void testSortedListToBST();
 void testFlattern();
 void testSingleNumberIII();
 void testGenerateTrees();
+void testMaxPathSum();
 #endif

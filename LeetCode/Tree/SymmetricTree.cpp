@@ -9,11 +9,9 @@
 #include "leetcode_tree.h"
 
 bool isSymmetricHelper(TreeNode *left,TreeNode *right) {
-    if (left == NULL && right == NULL) {
+    if (!left && !right) {
         return true;
-    }else if(left == NULL){
-        return false;
-    }else if(right == NULL){
+    }else if(!left || !right){
         return false;
     }else{
         if (left->val != right->val) {

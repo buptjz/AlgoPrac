@@ -43,7 +43,6 @@
 #include "MaximalRectangle.h"
 #include "BestTimetoBuyandSellStockIII.h"
 #include "BestTimetoBuyandSellStockIIIV2.h"
-#include "BinaryTreeMaximumPathSum.h"
 #include "leetcode_tree.h"
 #include "leetcode_list.h"
 #include "longestCommonSubstring.h"
@@ -94,8 +93,8 @@ int main(int argc, const char * argv[])
 //    testMaximalRectangle();
 //    testMaxProfit3();
 //    testMaxProfit4();
-//    testMaxPathSum();
-    testIsBalance();
+    testMaxPathSum();
+//    testIsBalance();
 //    testZigzagLevelOrder();
 //    testBuildTree();
 //    testPreorderTraversal();
