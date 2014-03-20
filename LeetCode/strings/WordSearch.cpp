@@ -14,11 +14,7 @@
  
  */
 
-#include "WordSearch.h"
-#include <vector>
-#include <string>
-
-using namespace std;
+#include "leetcode_string.h"
 
 int m,n;
 bool existHelper(vector<vector<char>> &board,

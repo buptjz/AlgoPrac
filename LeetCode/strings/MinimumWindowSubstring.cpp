@@ -20,9 +20,7 @@
  例如NRecords的增减、start_point的前进、S_dic的增减
  */
 
-#include "MinimumWindowSubstring.h"
-#include <string>
-using namespace std;
+#include "leetcode_string.h"
 
 string minWindow(string S, string T) {
     int min_length = -1;//当前最小匹配的长度

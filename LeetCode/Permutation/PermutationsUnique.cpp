@@ -12,7 +12,7 @@
 
 #include "leetcode_permutation.h"
 
-void permuteUniqueHelper(int level, vector<int>&num, vector<int>&tmp,
+static void permuteUniqueHelper(int level, vector<int>&num, vector<int>&tmp,
                          vector<vector<int> >&ret, vector<bool>&isVisited,int lenght)
 {
     if(level == lenght)//递归终止条件
@@ -34,7 +34,7 @@ void permuteUniqueHelper(int level, vector<int>&num, vector<int>&tmp,
         tmp.pop_back();
     }
 }
-vector<vector<int> > permuteUnique(vector<int> &num)
+static vector<vector<int> > permuteUnique(vector<int> &num)
 {
     vector<vector<int> > retVec;
     sort(num.begin(), num.end());//原地排序

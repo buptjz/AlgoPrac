@@ -6,11 +6,7 @@
 //  Copyright (c) 2014年 WangJZ. All rights reserved.
 //
 
-#include "LongestCommonPrefix.h"
-#include <string>
-#include <vector>
-
-using namespace std;
+#include "leetcode_string.h"
 
 string longestCommonPrefix(vector<string> &strs) {
     int len = 0;

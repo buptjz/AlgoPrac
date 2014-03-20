@@ -6,7 +6,7 @@
 //  Copyright (c) 2014年 WangJZ. All rights reserved.
 //  http://oj.leetcode.com/problems/string-to-integer-atoi/
 
-#include "atoi.h"
+#include "leetcode_string.h"
 
 int atoi(const char *str) {
     long long MIN_INT =  -2147483648;

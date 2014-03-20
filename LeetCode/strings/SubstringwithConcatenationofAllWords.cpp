@@ -6,10 +6,7 @@
 //  Copyright (c) 2014年 WangJZ. All rights reserved.
 //  http://oj.leetcode.com/problems/substring-with-concatenation-of-all-words/
 
-#include "SubstringwithConcatenationofAllWords.h"
-#include <vector>
-#include <string>
-using namespace std;
+#include "leetcode_string.h"
 
 /*解法一,自己的方案，时间复杂度太高，有朋友给出了解法二，请参看下面的解法二*/
 void findSubstringHelper(string S, vector<string> L,vector<int>&retVec,int start,int word_length){

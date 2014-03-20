@@ -6,12 +6,7 @@
 //  Copyright (c) 2014年 WangJZ. All rights reserved.
 //
 
-#include <stdio.h>
-#include <string>
-#include <stdlib.h>
-#include "Header.h"
-
-using namespace std;
+#include "leetcode_string.h"
 
 int lengthOfLongestSubstring(string s) {
     int length = (int)s.length();

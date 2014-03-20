@@ -12,10 +12,7 @@
  过程中isVisited记录某个位置已经找过了。
  */
 
-#include "WordBreak.h"
-#include <unordered_set>
-#include <vector>
-using namespace std;
+#include "leetcode_string.h"
 
 bool wordBreakHelper(string &s,unordered_set<string> &dict,int position,int max,int min,vector<bool> &isVisited){
     //没到一个新的位置,从最大的能匹配到的，使用backtracking技术

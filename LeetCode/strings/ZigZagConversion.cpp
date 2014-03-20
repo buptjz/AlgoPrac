@@ -6,12 +6,9 @@
 //  Copyright (c) 2014年 WangJZ. All rights reserved.
 //
 
-#include "ZigZagConversion.h"
-#include <string>
+#include "leetcode_string.h"
 
-
-using namespace std;
-string convert(std::string s, int nRows)
+string convert(string s, int nRows)
 {
     int length = (int)s.length();
     if (length == 0 || nRows == 1) return s;//边缘条件又忽略了 "A", 1

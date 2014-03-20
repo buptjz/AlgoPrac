@@ -11,11 +11,7 @@
  但是这种广度优先遍历的算法是不是比深度优先遍历运算次数更多一点？
  */
 
-#include "WordBreakII .h"
-
-#include <unordered_set>
-#include <vector>
-using namespace std;
+#include "leetcode_string.h"
 
 bool wordBreakHelper(string &s,
                      unordered_set<string> &dict,

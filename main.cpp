@@ -7,30 +7,15 @@
 //
 
 #include <stdio.h>
-//#include "functions.h"
-//#include "ConvertSortedArraytoBinarySearchTree.h"
-//#include "2Sum.h"
-//#include "Header.h"
-//#include "ZigZagConversion.h"
-//#include "BinaryTreeLevelOrderTraversal.h"
-
-//#include "NextPermutation.h"
-//#include "PermutationSequence.h"
-
 #include "SingleNumber.h"
 #include "SearchforaRange.h"
 #include "SearchinRotatedSortedArray.h"
 #include "SqrtX.h"
 #include "SearchInsertPosition.h"
-#include "atoi.h"
-#include "LongestCommonPrefix.h"
-#include "SubstringwithConcatenationofAllWords.h"
+
 #include "ValidParentheses.h"
-#include "MinimumWindowSubstring.h"
-#include "RegularExpressionMatching.h"
 #include "ContainerWithMostWater.h"
-#include "WordBreak.h"
-#include "WordBreakII .h"
+
 #include "MinimumPathSum.h"
 #include "BestTimetoBuyandSellStock.h"
 #include "BestTimetoBuyandSellStockII.h"

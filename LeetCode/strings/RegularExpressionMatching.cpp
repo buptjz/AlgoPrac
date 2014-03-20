@@ -6,7 +6,7 @@
 //  Copyright (c) 2014 WangJZ. All rights reserved.
 //
 
-#include "RegularExpressionMatching.h"
+#include "leetcode_string.h"
 bool isMatchHelper(const char *s, const char *p){
     //base case 1：s走到了尽头，匹配完成
     if (*s == '\0') {
