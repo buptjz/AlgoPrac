@@ -139,6 +139,7 @@
 		839E860318C07AF9001EC25A /* SubstringwithConcatenationofAllWords.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubstringwithConcatenationofAllWords.h; sourceTree = "<group>"; };
 		839FECDE18C8BEE10011EAE3 /* WordBreakII .cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "WordBreakII .cpp"; sourceTree = "<group>"; };
 		839FECDF18C8BEE10011EAE3 /* WordBreakII .h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WordBreakII .h"; sourceTree = "<group>"; };
+		83A4B5A718DA7F260089B7FE /* hashtableAndSTLmap.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = hashtableAndSTLmap.md; sourceTree = "<group>"; };
 		83AE797B18C87A480085A885 /* MinimumPathSum.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MinimumPathSum.cpp; sourceTree = "<group>"; };
 		83AE797C18C87A480085A885 /* MinimumPathSum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MinimumPathSum.h; sourceTree = "<group>"; };
 		83B0CD4E18D4A5F900B69862 /* CopyListwithRandomPointer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CopyListwithRandomPointer.cpp; path = List/CopyListwithRandomPointer.cpp; sourceTree = "<group>"; };
@@ -493,6 +494,7 @@
 			children = (
 				83F8C4B518DA746A002FD1E1 /* cict_c++.h */,
 				83F8C4B218DA744C002FD1E1 /* printLastKLines.cpp */,
+				83A4B5A718DA7F260089B7FE /* hashtableAndSTLmap.md */,
 			);
 			path = "C++";
 			sourceTree = "<group>";
