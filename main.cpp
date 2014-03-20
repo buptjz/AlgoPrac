@@ -48,64 +48,10 @@
 #include "longestCommonSubstring.h"
 
 #include "longestCommonSubSequence.h"
+#include "cict_c++.h"
 int main(int argc, const char * argv[])
 {
-
-    // insert code here...
-//    int a[1] = {3,4,1,2};
-//    int b[2] = {1,2};
-//    int result = findMedianSortedArrays(a, 1, b, 2);
-//    int a[12] = {1,1,1,1,2,1,1,1,1,1,1,1};
-//    int result = search(a, 12, 2);
-//    printf("Result is %d\n",result);
-//    testSortedArrayToBST();
-//    testTwoSum();
-//    testLengthOfLongestSubstring();
-//    testConvert();
-//    testNumTrees();
-//    testlevelOrder();
-//    testPermute();
-//    testPermuteUnique();
-//    testNextPermutation();
-//    testGetPermutation();
-//    testSubsetsWithDup();
-//    testCombine();
-//    testCombinationSum();
-//    testSingleNumber();
-//    testSearchRange();
-//    testSearchRotate();
-//    testSqrtX();
-
-//    testSearchInsert();
-//    testAtoi();
-//    testLongestComminPrefix();
-//    testFindSubstring();
-//    testIsValid();
-//    testMinWindow();
-//    testIsMatch();
-//    testMaxArea();
-//    testWordBreak();
-//    testWordBreak2();
-//    testMinPathSum();
-//    testMaxProfit();
-//    testMaxProfit2();
-//    testLargestRectangleArea();
-//    testMaximalRectangle();
-//    testMaxProfit3();
-//    testMaxProfit4();
-    testMaxPathSum();
-//    testIsBalance();
-//    testZigzagLevelOrder();
-//    testBuildTree();
-//    testPreorderTraversal();
-//    testPostorderTraversal();
-//    testSingleNumberIII();
-//    testSortedListToBST();
-//    testFlattern();
-//    testMinimumTotal();
-//    testGenerateTrees();
-//    testLongestCommonSubSequence();
-//    testLongestCommonSubstring();
+    testPrintLastKLines();
     return 0;
 }
 
