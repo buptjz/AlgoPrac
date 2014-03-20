@@ -31,9 +31,11 @@
 #include "cict_c++.h"
 #include "leetcode_permutation.h"
 #include "leetcode_string.h"
+#include "BigNumber.h"
 int main(int argc, const char * argv[])
 {
-    testMinWindow();
+//    testMinWindow();
+    testBigNumber();
     return 0;
 }
 
