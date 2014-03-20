@@ -39,8 +39,8 @@ string minWindow(string S, string T) {
     }
     //O(n)遍历开始
     char cur;
-    for (int i = 0; i < (int)S.length(); i++) {
-        cur = S[i];
+    for (int end = 0; end < (int)S.length(); end++) {
+        cur = S[end];
         if (T_dic[cur] == 0) {//情况1：当前字符在T中没有，略过
             S_dic[cur] ++;
             continue;
@@ -49,40 +49,35 @@ string minWindow(string S, string T) {
             S_dic[cur] ++;
         }else{//情况3：在T中有，但是已经匹配完了，当前字符没有多一个匹配
             S_dic[cur] ++;
-            continue;
         }
         if (NRecords == NChars) {//全都匹配上了
-            while (start_point <= i) {
+            while (start_point <= end) {
                 if (S_dic[S[start_point]] > T_dic[S[start_point]]) {//如果起始点字符在S中出现次数多，说明该字符可以减去
                     S_dic[S[start_point]] --;
                     start_point++;
                 }else{//否则情况一定是相等，相等说明整好用上了，不能减去
                     //如果是最短的，则记录下来
-                    if(min_length > i - start_point + 1 || min_length == -1){
-                        min_length = i - start_point + 1;
+                    if(min_length > end - start_point + 1 || min_length == -1){
+                        min_length = end - start_point + 1;
                         min_index = start_point;
                     }
-                    
-                    //重新计算起始点
-                    if (start_point < (int)S.length() - 1) {
-                        NRecords --;
-                        S_dic[S[start_point]] --;
-                        start_point ++;
-                    }
+//                    //重新计算起始点
+//                    if (start_point < (int)S.length() - 1) {
+//                        NRecords --;
+//                        S_dic[S[start_point]] --;
+//                        start_point ++;
+//                    }
                     break;
                 }
             }
         }
     }
-    if (min_index == -1) {
-        return "";
-    }
-    return S.substr(min_index,min_length);
+    return (min_index == -1)? "":S.substr(min_index,min_length);
 }
 
 void testMinWindow(){
-    string S = "abc";
-    string T = "b";
+    string S = "bdab";
+    string T = "ab";
     string res = minWindow(S, T);
     printf("Finished");
 }

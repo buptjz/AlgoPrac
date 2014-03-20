@@ -16,7 +16,7 @@
  */
 #include "leetcode_stack.h"
 
-bool isPair(char a,char b){
+static bool isPair(char a,char b){
     if (a == '{' && b == '}')return true;
     if (a == '[' && b == ']')return true;
     if (a == '(' && b == ')')return true;

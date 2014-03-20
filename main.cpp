@@ -30,9 +30,10 @@
 #include "longestCommonSubSequence.h"
 #include "cict_c++.h"
 #include "leetcode_permutation.h"
+#include "leetcode_string.h"
 int main(int argc, const char * argv[])
 {
-    testPermute();
+    testMinWindow();
     return 0;
 }
 
