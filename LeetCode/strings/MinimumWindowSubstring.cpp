@@ -61,12 +61,6 @@ string minWindow(string S, string T) {
                         min_length = end - start_point + 1;
                         min_index = start_point;
                     }
-//                    //重新计算起始点
-//                    if (start_point < (int)S.length() - 1) {
-//                        NRecords --;
-//                        S_dic[S[start_point]] --;
-//                        start_point ++;
-//                    }
                     break;
                 }
             }

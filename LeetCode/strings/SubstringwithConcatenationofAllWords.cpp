@@ -52,6 +52,12 @@ vector<int> findSubstring2(string S, vector<string> &L) {
  解法二，来自这里
  http://oj.leetcode.com/discuss/366/better-solution-than-brute-force
  注意map的使用
+ 因为给定单词的长度是确定的，比如是3
+ 那么串abcdefghijk
+ 只需要从a开始，从b开始从c开始三种情况就能覆盖全部的可能
+ 所以最外层用一个循环来查找所有的可能起始点
+ 
+ 在循环内部，每次递增一个单词的去分割查找每一个单词，如果
  */
 
 #include <map>
