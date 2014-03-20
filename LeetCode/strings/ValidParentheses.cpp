@@ -15,10 +15,7 @@
  
  */
 
-#include "ValidParentheses.h"
-#include <string>
-#include <stack>
-using namespace std;
+#include "leetcode_string.h"
 bool isPair(char a,char b){
     if (a == '(' && b == ')')return true;
     return false;
