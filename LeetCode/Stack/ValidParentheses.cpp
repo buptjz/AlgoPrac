@@ -14,34 +14,28 @@
  }
  
  */
+#include "leetcode_stack.h"
 
-#include "leetcode_string.h"
 bool isPair(char a,char b){
+    if (a == '{' && b == '}')return true;
+    if (a == '[' && b == ']')return true;
     if (a == '(' && b == ')')return true;
     return false;
 }
-int longestValidParentheses(string s) {
-    int max_length = 0;
+bool isValid(string s) {
     stack<char> dataStack;
-    stack<int> numberStack;
-    numberStack.push(0);
     for (int i = 0; i < (int)s.length(); i++) {
         if (dataStack.empty() || !isPair(dataStack.top(), s[i])) {//情况1：stack里没有或者不匹配
             dataStack.push(s[i]);
-            numberStack.push(i+1);
         }else{//情况2：匹配
             dataStack.pop();
-            numberStack.pop();
-        }
-        if (max_length < i + 1 - numberStack.top()) {
-            max_length = i + 1 - numberStack.top();
         }
     }
-    return max_length;
-}
-
-void testIsValid(){
-    string s = "(()))";
-    int res = longestValidParentheses(s);
-    printf("finished!");
+    
+    //评判合法的标准时栈是否为空？
+    if (dataStack.empty()) {
+        return true;
+    }else{
+        return false;
+    }
 }
