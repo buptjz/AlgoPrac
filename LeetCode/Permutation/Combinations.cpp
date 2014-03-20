@@ -6,11 +6,9 @@
 //  Copyright (c) 2014年 WangJZ. All rights reserved.
 //
 
-#include "Combinations.h"
-#include <vector>
+#include "leetcode_permutation.h"
 
 using namespace std;
-
 
 void combineHelper(int start,int k,int n,vector<vector<int>> &retVec,vector<int> &tmp){
     if ((int)tmp.size() == k) {

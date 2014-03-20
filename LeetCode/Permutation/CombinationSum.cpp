@@ -12,11 +12,8 @@
  上面包括和不包括就是两道题了，分别是1）一个元素能使用多次，2）一个元素只能使用一次。
  */
 
-#include "CombinationSum.h"
-#include <vector>
+#include "leetcode_permutation.h"
 
-
-using namespace std;
 
 int sum(vector<int> &tmp){
     int total = 0;

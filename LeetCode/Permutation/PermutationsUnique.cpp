@@ -9,11 +9,8 @@
 // 2014.2.22更新 上述解法存在一些问题，如果题目要求是从n个可重复的数中输出k个数的全排列（k!=n）那么上述会出现问题，例如{1,2,2,2}会输出10个数
 //修改方案是使用一个变量记录上次本位置上的选择，例如1之后会选第2个数2，完成后会选择第三个数，是2，与上一次选择重了，就放弃这次选择，其核心思想是保证每一个位置有n个可能，其中重复的选择只选择一次，由于数组是排好顺序的，所以重复的数都挨着，不会被重复选择上。
 
-#include "PermutationsUnique.h"
-#include <vector>
-#include <stdlib.h>
 
-using namespace std;
+#include "leetcode_permutation.h"
 
 void permuteUniqueHelper(int level, vector<int>&num, vector<int>&tmp,
                          vector<vector<int> >&ret, vector<bool>&isVisited,int lenght)

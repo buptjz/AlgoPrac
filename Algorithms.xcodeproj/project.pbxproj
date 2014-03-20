@@ -36,6 +36,7 @@
 		839E860418C07AF9001EC25A /* SubstringwithConcatenationofAllWords.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 839E860218C07AF9001EC25A /* SubstringwithConcatenationofAllWords.cpp */; };
 		839FECE018C8BEE10011EAE3 /* WordBreakII .cpp in Sources */ = {isa = PBXBuildFile; fileRef = 839FECDE18C8BEE10011EAE3 /* WordBreakII .cpp */; };
 		83A4B5AA18DA81100089B7FE /* align_malloc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83A4B5A818DA81100089B7FE /* align_malloc.cpp */; };
+		83A4B5AD18DA86180089B7FE /* PermutationsII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83A4B5AB18DA86180089B7FE /* PermutationsII.cpp */; };
 		83AE797D18C87A480085A885 /* MinimumPathSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83AE797B18C87A480085A885 /* MinimumPathSum.cpp */; };
 		83B0CD5618D4A5F900B69862 /* CopyListwithRandomPointer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83B0CD4E18D4A5F900B69862 /* CopyListwithRandomPointer.cpp */; };
 		83B0CD5718D4A5F900B69862 /* CopyListwithRandomPointer2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83B0CD5018D4A5F900B69862 /* CopyListwithRandomPointer2.cpp */; };
@@ -142,6 +143,8 @@
 		839FECDF18C8BEE10011EAE3 /* WordBreakII .h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WordBreakII .h"; sourceTree = "<group>"; };
 		83A4B5A718DA7F260089B7FE /* hashtableAndSTLmap.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = hashtableAndSTLmap.md; sourceTree = "<group>"; };
 		83A4B5A818DA81100089B7FE /* align_malloc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = align_malloc.cpp; sourceTree = "<group>"; };
+		83A4B5AB18DA86180089B7FE /* PermutationsII.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PermutationsII.cpp; path = Permutation/PermutationsII.cpp; sourceTree = "<group>"; };
+		83A4B5AE18DA863D0089B7FE /* leetcode_permutation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = leetcode_permutation.h; path = Permutation/leetcode_permutation.h; sourceTree = "<group>"; };
 		83AE797B18C87A480085A885 /* MinimumPathSum.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MinimumPathSum.cpp; sourceTree = "<group>"; };
 		83AE797C18C87A480085A885 /* MinimumPathSum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MinimumPathSum.h; sourceTree = "<group>"; };
 		83B0CD4E18D4A5F900B69862 /* CopyListwithRandomPointer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CopyListwithRandomPointer.cpp; path = List/CopyListwithRandomPointer.cpp; sourceTree = "<group>"; };
@@ -181,21 +184,13 @@
 		83B0CD9F18D4A66200B69862 /* BestTimetoBuyandSellStockIIIV2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BestTimetoBuyandSellStockIIIV2.cpp; path = BestTimetoButandSellStock/BestTimetoBuyandSellStockIIIV2.cpp; sourceTree = "<group>"; };
 		83B0CDA018D4A66200B69862 /* BestTimetoBuyandSellStockIIIV2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BestTimetoBuyandSellStockIIIV2.h; path = BestTimetoButandSellStock/BestTimetoBuyandSellStockIIIV2.h; sourceTree = "<group>"; };
 		83B0CDA518D4A67600B69862 /* Combinations.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Combinations.cpp; path = Permutation/Combinations.cpp; sourceTree = "<group>"; };
-		83B0CDA618D4A67600B69862 /* Combinations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Combinations.h; path = Permutation/Combinations.h; sourceTree = "<group>"; };
 		83B0CDA718D4A67600B69862 /* CombinationSum.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CombinationSum.cpp; path = Permutation/CombinationSum.cpp; sourceTree = "<group>"; };
-		83B0CDA818D4A67600B69862 /* CombinationSum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CombinationSum.h; path = Permutation/CombinationSum.h; sourceTree = "<group>"; };
 		83B0CDA918D4A67600B69862 /* NextPermutation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = NextPermutation.cpp; path = Permutation/NextPermutation.cpp; sourceTree = "<group>"; };
-		83B0CDAA18D4A67600B69862 /* NextPermutation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NextPermutation.h; path = Permutation/NextPermutation.h; sourceTree = "<group>"; };
 		83B0CDAB18D4A67600B69862 /* Permutations.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Permutations.cpp; path = Permutation/Permutations.cpp; sourceTree = "<group>"; };
-		83B0CDAC18D4A67600B69862 /* Permutations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Permutations.h; path = Permutation/Permutations.h; sourceTree = "<group>"; };
 		83B0CDAD18D4A67600B69862 /* PermutationSequence.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PermutationSequence.cpp; path = Permutation/PermutationSequence.cpp; sourceTree = "<group>"; };
-		83B0CDAE18D4A67600B69862 /* PermutationSequence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PermutationSequence.h; path = Permutation/PermutationSequence.h; sourceTree = "<group>"; };
 		83B0CDAF18D4A67600B69862 /* PermutationsUnique.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PermutationsUnique.cpp; path = Permutation/PermutationsUnique.cpp; sourceTree = "<group>"; };
-		83B0CDB018D4A67600B69862 /* PermutationsUnique.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PermutationsUnique.h; path = Permutation/PermutationsUnique.h; sourceTree = "<group>"; };
 		83B0CDB118D4A67600B69862 /* Subsets.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Subsets.cpp; path = Permutation/Subsets.cpp; sourceTree = "<group>"; };
-		83B0CDB218D4A67600B69862 /* Subsets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Subsets.h; path = Permutation/Subsets.h; sourceTree = "<group>"; };
 		83B0CDB318D4A67600B69862 /* SubsetsII.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SubsetsII.cpp; path = Permutation/SubsetsII.cpp; sourceTree = "<group>"; };
-		83B0CDB418D4A67600B69862 /* SubsetsII.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SubsetsII.h; path = Permutation/SubsetsII.h; sourceTree = "<group>"; };
 		83B0CDC018D4A6B700B69862 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		83B2072418BAF02000F8785D /* SingleNumber.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SingleNumber.cpp; sourceTree = "<group>"; };
 		83B2072518BAF02000F8785D /* SingleNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingleNumber.h; sourceTree = "<group>"; };
@@ -348,22 +343,16 @@
 		83D6739818CD383D007532E8 /* Permutation */ = {
 			isa = PBXGroup;
 			children = (
-				83B0CDA518D4A67600B69862 /* Combinations.cpp */,
-				83B0CDA618D4A67600B69862 /* Combinations.h */,
-				83B0CDA718D4A67600B69862 /* CombinationSum.cpp */,
-				83B0CDA818D4A67600B69862 /* CombinationSum.h */,
-				83B0CDA918D4A67600B69862 /* NextPermutation.cpp */,
-				83B0CDAA18D4A67600B69862 /* NextPermutation.h */,
+				83A4B5AE18DA863D0089B7FE /* leetcode_permutation.h */,
 				83B0CDAB18D4A67600B69862 /* Permutations.cpp */,
-				83B0CDAC18D4A67600B69862 /* Permutations.h */,
+				83A4B5AB18DA86180089B7FE /* PermutationsII.cpp */,
+				83B0CDA518D4A67600B69862 /* Combinations.cpp */,
+				83B0CDA718D4A67600B69862 /* CombinationSum.cpp */,
+				83B0CDA918D4A67600B69862 /* NextPermutation.cpp */,
 				83B0CDAD18D4A67600B69862 /* PermutationSequence.cpp */,
-				83B0CDAE18D4A67600B69862 /* PermutationSequence.h */,
 				83B0CDAF18D4A67600B69862 /* PermutationsUnique.cpp */,
-				83B0CDB018D4A67600B69862 /* PermutationsUnique.h */,
 				83B0CDB118D4A67600B69862 /* Subsets.cpp */,
-				83B0CDB218D4A67600B69862 /* Subsets.h */,
 				83B0CDB318D4A67600B69862 /* SubsetsII.cpp */,
-				83B0CDB418D4A67600B69862 /* SubsetsII.h */,
 			);
 			name = Permutation;
 			sourceTree = "<group>";
@@ -625,6 +614,7 @@
 				83145ED718BB23AE00D2AD69 /* WordSearch.cpp in Sources */,
 				83B0CDA318D4A66200B69862 /* BestTimetoBuyandSellStockIII.cpp in Sources */,
 				839A7F44188FA9E900F55146 /* ZigZagConversion.cpp in Sources */,
+				83A4B5AD18DA86180089B7FE /* PermutationsII.cpp in Sources */,
 				83B0CDBA18D4A67600B69862 /* PermutationsUnique.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

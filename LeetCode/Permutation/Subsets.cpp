@@ -10,10 +10,7 @@
  例举一个集合的全部子集，使用回溯法，注意复原操作！
  */
 
-#include "Subsets.h"
-#include <vector>
-
-using namespace std;
+#include "leetcode_permutation.h"
 
 void dfs(vector<vector<int>> &retVec,vector<int> &S,vector<bool> &index){
     if (index.size() == S.size()) {

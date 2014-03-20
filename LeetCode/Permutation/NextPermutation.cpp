@@ -6,10 +6,7 @@
 //  Copyright (c) 2014年 WangJZ. All rights reserved.
 //  http://oj.leetcode.com/problems/next-permutation/
 
-#include "NextPermutation.h"
-#include <vector>
-
-using namespace std;
+#include "leetcode_permutation.h"
 
 void nextPermutation(vector<int> &num) {
     int N = (int)num.size();

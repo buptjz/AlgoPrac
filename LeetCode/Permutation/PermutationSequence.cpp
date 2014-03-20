@@ -13,11 +13,7 @@
  发现int转string没有直接的方法
  */
 
-#include "PermutationSequence.h"
-#include <string>
-#include <vector>
-
-using namespace std;
+#include "leetcode_permutation.h"
 
 string int2str(int num)
 {

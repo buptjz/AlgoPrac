@@ -13,10 +13,7 @@
  修正：level指示的是递归的层级，需要用另一个位置来指示从第x位开始，查找，如果我们当前选择了第i位置上得数，进入下一层递归，下一层递归需要从第i+1位之后开始选择候选者！
  */
 
-#include "SubsetsII.h"
-#include <vector>
-
-using namespace std;
+#include "leetcode_permutation.h"
 
 void subsetsWithCertainNumber(int start,int level,int numberInSet, vector<int>&num, vector<int>&tmp, vector<vector<int> >&ret, vector<bool>&isVisited)
 {

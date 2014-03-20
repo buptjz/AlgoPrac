@@ -13,14 +13,10 @@
 //#include "Header.h"
 //#include "ZigZagConversion.h"
 //#include "BinaryTreeLevelOrderTraversal.h"
-#include "Permutations.h"
-#include "PermutationsUnique.h"
+
 //#include "NextPermutation.h"
 //#include "PermutationSequence.h"
-#include "Subsets.h"
-#include "SubsetsII.h"
-#include "Combinations.h"
-#include "CombinationSum.h"
+
 #include "SingleNumber.h"
 #include "SearchforaRange.h"
 #include "SearchinRotatedSortedArray.h"
@@ -49,9 +45,10 @@
 
 #include "longestCommonSubSequence.h"
 #include "cict_c++.h"
+#include "leetcode_permutation.h"
 int main(int argc, const char * argv[])
 {
-    testPrintLastKLines();
+    testPermute();
     return 0;
 }
 
