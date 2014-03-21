@@ -29,6 +29,7 @@
 		83A23E2918DC12550089A169 /* LinkedListCycleII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83A23E2718DC12550089A169 /* LinkedListCycleII.cpp */; };
 		83A23E2C18DC2AC20089A169 /* RemoveDuplicatesfromSortedListII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83A23E2A18DC2AC20089A169 /* RemoveDuplicatesfromSortedListII.cpp */; };
 		83A23E2F18DC2C310089A169 /* RemoveNthNodeFromEndofList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83A23E2D18DC2C310089A169 /* RemoveNthNodeFromEndofList.cpp */; };
+		83A23E3218DC36BD0089A169 /* ReverseLinkedListII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83A23E3018DC36BD0089A169 /* ReverseLinkedListII.cpp */; };
 		83A4B5AA18DA81100089B7FE /* align_malloc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83A4B5A818DA81100089B7FE /* align_malloc.cpp */; };
 		83A4B5AD18DA86180089B7FE /* PermutationsII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83A4B5AB18DA86180089B7FE /* PermutationsII.cpp */; };
 		83AE797D18C87A480085A885 /* MinimumPathSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83AE797B18C87A480085A885 /* MinimumPathSum.cpp */; };
@@ -132,6 +133,7 @@
 		83A23E2718DC12550089A169 /* LinkedListCycleII.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LinkedListCycleII.cpp; path = List/LinkedListCycleII.cpp; sourceTree = "<group>"; };
 		83A23E2A18DC2AC20089A169 /* RemoveDuplicatesfromSortedListII.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RemoveDuplicatesfromSortedListII.cpp; path = List/RemoveDuplicatesfromSortedListII.cpp; sourceTree = "<group>"; };
 		83A23E2D18DC2C310089A169 /* RemoveNthNodeFromEndofList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RemoveNthNodeFromEndofList.cpp; path = List/RemoveNthNodeFromEndofList.cpp; sourceTree = "<group>"; };
+		83A23E3018DC36BD0089A169 /* ReverseLinkedListII.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ReverseLinkedListII.cpp; path = List/ReverseLinkedListII.cpp; sourceTree = "<group>"; };
 		83A4B5A718DA7F260089B7FE /* hashtableAndSTLmap.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = hashtableAndSTLmap.md; sourceTree = "<group>"; };
 		83A4B5A818DA81100089B7FE /* align_malloc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = align_malloc.cpp; sourceTree = "<group>"; };
 		83A4B5AB18DA86180089B7FE /* PermutationsII.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PermutationsII.cpp; path = Permutation/PermutationsII.cpp; sourceTree = "<group>"; };
@@ -252,6 +254,7 @@
 			children = (
 				836E020D18D93EAF005D780E /* leetcode_list.h */,
 				83A23E2D18DC2C310089A169 /* RemoveNthNodeFromEndofList.cpp */,
+				83A23E3018DC36BD0089A169 /* ReverseLinkedListII.cpp */,
 				836E021418D940DF005D780E /* SwapNodesinPairs.cpp */,
 				836E021018D9407E005D780E /* MergeTwoSortedLists.cpp */,
 				836E021818D9435E005D780E /* MergekSortedLists.cpp */,
@@ -566,6 +569,7 @@
 				838ABDE518DAD02600F03599 /* BigNumber.cpp in Sources */,
 				83B0CD7F18D4A61200B69862 /* FlattenBinaryTreetoLinkedList.cpp in Sources */,
 				83E95BC9188D4B7D00E8F548 /* 2Sum.cpp in Sources */,
+				83A23E3218DC36BD0089A169 /* ReverseLinkedListII.cpp in Sources */,
 				83D35EDB18DA9F270040586E /* RegularExpressionMatching.cpp in Sources */,
 				83D35EDF18DA9F270040586E /* WordBreakII .cpp in Sources */,
 				836E021218D9407E005D780E /* MergeTwoSortedLists.cpp in Sources */,

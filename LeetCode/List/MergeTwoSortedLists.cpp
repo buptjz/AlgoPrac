@@ -7,6 +7,31 @@
 //  http://oj.leetcode.com/problems/merge-two-sorted-lists/
 
 
+
+#include "leetcode_list.h"
+
+/*2014.3.21日 更新
+ 练习使用耳机指针，发现二级指针很好用啊，妈妈再也不用担心我的头结点了O(∩_∩)O哈哈~
+ */
+ListNode *mergeTwoLists(ListNode *l1, ListNode *l2){
+    if (l1 == NULL) return l2;
+    if (l2 == NULL) return l1;
+    ListNode *head;
+    ListNode **ppNode = &head;
+    while (l1 && l2) {
+        if (l1->val < l2->val) {
+            *ppNode = l1;
+            l1 = l1->next;
+        }else{
+            *ppNode = l2;
+            l2 = l2->next;
+        }
+        ppNode = &((*ppNode)->next);
+    }
+    *ppNode = (l1) ? l1 :l2;
+    return head;
+}
+
 /*
  合并两个链表，代码需要精简！
  思路：
@@ -18,9 +43,8 @@
  1）指针来回赋值的时候，注意使用temp保存中间结果
  2）要画图比较清晰
  */
-#include "leetcode_list.h"
 
-ListNode *mergeTwoLists(ListNode *l1, ListNode *l2) {
+ListNode *mergeTwoLists2(ListNode *l1, ListNode *l2) {
     ListNode *current,*savedHead,*temp;
     if (l1 == NULL) return l2;
     if (l2 == NULL) return l1;

@@ -75,11 +75,14 @@ int lengthOfLongestSubstring(string s) {
 //}
 
 
-
+int xxxxx;
 
 void testLengthOfLongestSubstring(){
     string s= "hchzvfrkmlnozjk";
     int ret = lengthOfLongestSubstring(s);
     printf("It's %d\n",ret);
-    
+    static int p;//静态变量与全局变量的初始值维0
+    static int *ppint;
+    int *p2 = &p;
+    printf("Finished");
 }
