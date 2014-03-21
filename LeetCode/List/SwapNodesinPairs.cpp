@@ -8,7 +8,26 @@
 
 #include "leetcode_list.h"
 
-ListNode* swapPairs(ListNode *head)
+/*--------------2014.3.21日更新，在网上找到了最好的版本---------------*/
+
+ListNode *swapPairs(ListNode *h)
+{
+    ListNode dummy(0);
+    dummy.next = h;
+    ListNode *pre = &dummy;
+    while (h && h->next)
+    {
+        ListNode *t = h->next->next;
+        pre->next = h->next;
+        h->next->next = h;
+        h->next = t;
+        pre = h;
+        h = t;
+    }
+    return dummy.next;
+}
+
+ListNode* swapPairs2(ListNode *head)
 {
     if (head == NULL) {
         return head;

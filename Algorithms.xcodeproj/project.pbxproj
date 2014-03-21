@@ -21,7 +21,7 @@
 		836E021218D9407E005D780E /* MergeTwoSortedLists.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 836E021018D9407E005D780E /* MergeTwoSortedLists.cpp */; };
 		836E021318D9407E005D780E /* PartitionList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 836E021118D9407E005D780E /* PartitionList.cpp */; };
 		836E021518D940DF005D780E /* SwapNodesinPairs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 836E021418D940DF005D780E /* SwapNodesinPairs.cpp */; };
-		836E021918D9435E005D780E /* MergekSortedLists .cpp in Sources */ = {isa = PBXBuildFile; fileRef = 836E021818D9435E005D780E /* MergekSortedLists .cpp */; };
+		836E021918D9435E005D780E /* MergekSortedLists.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 836E021818D9435E005D780E /* MergekSortedLists.cpp */; };
 		836F5F6A18D9307F0015BB81 /* MaximumDepthofBinaryTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 836F5F6818D9307F0015BB81 /* MaximumDepthofBinaryTree.cpp */; };
 		838ABDE518DAD02600F03599 /* BigNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 838ABDE318DAD02600F03599 /* BigNumber.cpp */; };
 		839C7A8A18BDB74000ED2D07 /* SearchforaRange.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 839C7A8818BDB74000ED2D07 /* SearchforaRange.cpp */; };
@@ -119,7 +119,7 @@
 		836E021018D9407E005D780E /* MergeTwoSortedLists.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MergeTwoSortedLists.cpp; path = List/MergeTwoSortedLists.cpp; sourceTree = "<group>"; };
 		836E021118D9407E005D780E /* PartitionList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PartitionList.cpp; path = List/PartitionList.cpp; sourceTree = "<group>"; };
 		836E021418D940DF005D780E /* SwapNodesinPairs.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SwapNodesinPairs.cpp; path = List/SwapNodesinPairs.cpp; sourceTree = "<group>"; };
-		836E021818D9435E005D780E /* MergekSortedLists .cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "MergekSortedLists .cpp"; path = "List/MergekSortedLists .cpp"; sourceTree = "<group>"; };
+		836E021818D9435E005D780E /* MergekSortedLists.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MergekSortedLists.cpp; path = List/MergekSortedLists.cpp; sourceTree = "<group>"; };
 		836F5F6818D9307F0015BB81 /* MaximumDepthofBinaryTree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MaximumDepthofBinaryTree.cpp; path = Tree/MaximumDepthofBinaryTree.cpp; sourceTree = "<group>"; };
 		838737FE188EACF7001732CE /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 		838ABDE318DAD02600F03599 /* BigNumber.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BigNumber.cpp; sourceTree = "<group>"; };
@@ -249,7 +249,7 @@
 				836E020D18D93EAF005D780E /* leetcode_list.h */,
 				836E021418D940DF005D780E /* SwapNodesinPairs.cpp */,
 				836E021018D9407E005D780E /* MergeTwoSortedLists.cpp */,
-				836E021818D9435E005D780E /* MergekSortedLists .cpp */,
+				836E021818D9435E005D780E /* MergekSortedLists.cpp */,
 				83A23E2418DC11CA0089A169 /* LinkedListCycle.cpp */,
 				83A23E2718DC12550089A169 /* LinkedListCycleII.cpp */,
 				836E021118D9407E005D780E /* PartitionList.cpp */,
@@ -623,7 +623,7 @@
 				836E020318D934FD005D780E /* BinaryTreeInorderTraversal.cpp in Sources */,
 				83B0CDA118D4A66200B69862 /* BestTimetoBuyandSellStock.cpp in Sources */,
 				83B0CDB618D4A67600B69862 /* CombinationSum.cpp in Sources */,
-				836E021918D9435E005D780E /* MergekSortedLists .cpp in Sources */,
+				836E021918D9435E005D780E /* MergekSortedLists.cpp in Sources */,
 				83CE163818BDCBD60081A8E3 /* SearchinRotatedSortedArray.cpp in Sources */,
 				83B0CD5618D4A5F900B69862 /* CopyListwithRandomPointer.cpp in Sources */,
 				836E021318D9407E005D780E /* PartitionList.cpp in Sources */,
