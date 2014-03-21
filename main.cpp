@@ -25,6 +25,7 @@
 #include "BestTimetoBuyandSellStockIIIV2.h"
 #include "leetcode_tree.h"
 #include "leetcode_list.h"
+#include "leetcode_string.h"
 #include "longestCommonSubstring.h"
 
 #include "longestCommonSubSequence.h"
@@ -35,7 +36,8 @@
 int main(int argc, const char * argv[])
 {
 //    testMinWindow();
-    testBigNumber();
+//    testBigNumber();
+    testLengthOfLongestSubstring();
     return 0;
 }
 
