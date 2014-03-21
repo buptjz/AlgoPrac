@@ -25,6 +25,7 @@
 		836F5F6A18D9307F0015BB81 /* MaximumDepthofBinaryTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 836F5F6818D9307F0015BB81 /* MaximumDepthofBinaryTree.cpp */; };
 		838ABDE518DAD02600F03599 /* BigNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 838ABDE318DAD02600F03599 /* BigNumber.cpp */; };
 		839C7A8A18BDB74000ED2D07 /* SearchforaRange.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 839C7A8818BDB74000ED2D07 /* SearchforaRange.cpp */; };
+		83A23E2618DC11CA0089A169 /* LinkedListCycle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83A23E2418DC11CA0089A169 /* LinkedListCycle.cpp */; };
 		83A4B5AA18DA81100089B7FE /* align_malloc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83A4B5A818DA81100089B7FE /* align_malloc.cpp */; };
 		83A4B5AD18DA86180089B7FE /* PermutationsII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83A4B5AB18DA86180089B7FE /* PermutationsII.cpp */; };
 		83AE797D18C87A480085A885 /* MinimumPathSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83AE797B18C87A480085A885 /* MinimumPathSum.cpp */; };
@@ -124,6 +125,7 @@
 		838ABDE418DAD02600F03599 /* BigNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BigNumber.h; sourceTree = "<group>"; };
 		839C7A8818BDB74000ED2D07 /* SearchforaRange.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SearchforaRange.cpp; sourceTree = "<group>"; };
 		839C7A8918BDB74000ED2D07 /* SearchforaRange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchforaRange.h; sourceTree = "<group>"; };
+		83A23E2418DC11CA0089A169 /* LinkedListCycle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LinkedListCycle.cpp; path = List/LinkedListCycle.cpp; sourceTree = "<group>"; };
 		83A4B5A718DA7F260089B7FE /* hashtableAndSTLmap.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = hashtableAndSTLmap.md; sourceTree = "<group>"; };
 		83A4B5A818DA81100089B7FE /* align_malloc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = align_malloc.cpp; sourceTree = "<group>"; };
 		83A4B5AB18DA86180089B7FE /* PermutationsII.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PermutationsII.cpp; path = Permutation/PermutationsII.cpp; sourceTree = "<group>"; };
@@ -242,15 +244,16 @@
 		835382FD18D155BC00EC4216 /* List */ = {
 			isa = PBXGroup;
 			children = (
+				836E020D18D93EAF005D780E /* leetcode_list.h */,
 				836E021418D940DF005D780E /* SwapNodesinPairs.cpp */,
 				836E021018D9407E005D780E /* MergeTwoSortedLists.cpp */,
 				836E021818D9435E005D780E /* MergekSortedLists .cpp */,
+				83A23E2418DC11CA0089A169 /* LinkedListCycle.cpp */,
 				836E021118D9407E005D780E /* PartitionList.cpp */,
 				836E020E18D94005005D780E /* addTwoNumbers.cpp */,
 				83B0CD4E18D4A5F900B69862 /* CopyListwithRandomPointer.cpp */,
 				83B0CD5018D4A5F900B69862 /* CopyListwithRandomPointer2.cpp */,
 				83B0CD5418D4A5F900B69862 /* Triangle.cpp */,
-				836E020D18D93EAF005D780E /* leetcode_list.h */,
 			);
 			name = List;
 			sourceTree = "<group>";
@@ -606,6 +609,7 @@
 				83B0CD8118D4A61200B69862 /* SingleNumberIII.cpp in Sources */,
 				83B0CD7C18D4A61200B69862 /* ConstructBinaryTreefromInorderandPostorderTraversal.cpp in Sources */,
 				836E020618D935D2005D780E /* SameTree.cpp in Sources */,
+				83A23E2618DC11CA0089A169 /* LinkedListCycle.cpp in Sources */,
 				83B0CD9818D4A64800B69862 /* MaximalRectangle.cpp in Sources */,
 				83AE797D18C87A480085A885 /* MinimumPathSum.cpp in Sources */,
 				83B0CD8C18D4A62800B69862 /* PathSumII.cpp in Sources */,
