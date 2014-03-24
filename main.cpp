@@ -14,7 +14,7 @@
 #include "SearchInsertPosition.h"
 
 #include "ContainerWithMostWater.h"
-
+#include "other_sort.h"
 #include "MinimumPathSum.h"
 #include "BestTimetoBuyandSellStock.h"
 #include "BestTimetoBuyandSellStockII.h"
@@ -37,7 +37,8 @@ int main(int argc, const char * argv[])
 {
 //    testMinWindow();
 //    testBigNumber();
-    testLengthOfLongestSubstring();
+//    testLengthOfLongestSubstring();
+    testQuickSort();
     return 0;
 }
 

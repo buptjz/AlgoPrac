@@ -72,6 +72,7 @@
 		83B0CDBC18D4A67600B69862 /* SubsetsII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83B0CDB318D4A67600B69862 /* SubsetsII.cpp */; };
 		83B0CDC118D4A6B700B69862 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83B0CDC018D4A6B700B69862 /* main.cpp */; };
 		83B2072618BAF02000F8785D /* SingleNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83B2072418BAF02000F8785D /* SingleNumber.cpp */; };
+		83C4B96E18E01F6D0028AC56 /* QuickSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83C4B96C18E01F6D0028AC56 /* QuickSort.cpp */; };
 		83CE163818BDCBD60081A8E3 /* SearchinRotatedSortedArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83CE163618BDCBD60081A8E3 /* SearchinRotatedSortedArray.cpp */; };
 		83CE163B18BDD4E70081A8E3 /* SqrtX.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83CE163918BDD4E70081A8E3 /* SqrtX.cpp */; };
 		83CF229418D82C920085AF17 /* UniqueBinarySearchTrees.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83CF229218D82C920085AF17 /* UniqueBinarySearchTrees.cpp */; };
@@ -194,6 +195,8 @@
 		83B0CDC018D4A6B700B69862 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		83B2072418BAF02000F8785D /* SingleNumber.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SingleNumber.cpp; sourceTree = "<group>"; };
 		83B2072518BAF02000F8785D /* SingleNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingleNumber.h; sourceTree = "<group>"; };
+		83C4B96C18E01F6D0028AC56 /* QuickSort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = QuickSort.cpp; sourceTree = "<group>"; };
+		83C4B96F18E022950028AC56 /* other_sort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = other_sort.h; sourceTree = "<group>"; };
 		83CE163618BDCBD60081A8E3 /* SearchinRotatedSortedArray.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SearchinRotatedSortedArray.cpp; sourceTree = "<group>"; };
 		83CE163718BDCBD60081A8E3 /* SearchinRotatedSortedArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchinRotatedSortedArray.h; sourceTree = "<group>"; };
 		83CE163918BDD4E70081A8E3 /* SqrtX.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SqrtX.cpp; sourceTree = "<group>"; };
@@ -329,6 +332,15 @@
 			name = DFSBFS;
 			sourceTree = "<group>";
 		};
+		83C4B96B18E01F2A0028AC56 /* Sort */ = {
+			isa = PBXGroup;
+			children = (
+				83C4B96C18E01F6D0028AC56 /* QuickSort.cpp */,
+				83C4B96F18E022950028AC56 /* other_sort.h */,
+			);
+			path = Sort;
+			sourceTree = "<group>";
+		};
 		83D266CA18D82A7F00621577 /* CiCT */ = {
 			isa = PBXGroup;
 			children = (
@@ -341,6 +353,7 @@
 		83D266D718D82A8300621577 /* Others */ = {
 			isa = PBXGroup;
 			children = (
+				83C4B96B18E01F2A0028AC56 /* Sort */,
 				83D266D818D82A8300621577 /* DP */,
 				83D266DD18D82A8300621577 /* Trees */,
 				838ABDE318DAD02600F03599 /* BigNumber.cpp */,
@@ -662,6 +675,7 @@
 				836E021318D9407E005D780E /* PartitionList.cpp in Sources */,
 				83B0CD7E18D4A61200B69862 /* ConvertSortedListtoBinarySearchTree.cpp in Sources */,
 				83A23E2F18DC2C310089A169 /* RemoveNthNodeFromEndofList.cpp in Sources */,
+				83C4B96E18E01F6D0028AC56 /* QuickSort.cpp in Sources */,
 				8367439E189016670051E377 /* numTrees.cpp in Sources */,
 				83B0CD5718D4A5F900B69862 /* CopyListwithRandomPointer2.cpp in Sources */,
 				83F8C4B418DA744C002FD1E1 /* printLastKLines.cpp in Sources */,
