@@ -19,10 +19,10 @@
 		836C11C718E116CB009F74E7 /* SingleNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 836C11C618E116CB009F74E7 /* SingleNumber.cpp */; };
 		836C11CA18E11809009F74E7 /* MaximumSubarray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 836C11C818E11809009F74E7 /* MaximumSubarray.cpp */; };
 		836C11CC18E118E7009F74E7 /* MinimumPathSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 836C11CB18E118E7009F74E7 /* MinimumPathSum.cpp */; };
-		836C11D618E11942009F74E7 /* LargestRectangularAreainaHistogram.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 836C11CE18E11942009F74E7 /* LargestRectangularAreainaHistogram.cpp */; };
-		836C11D718E11942009F74E7 /* LargestRectangularAreainaHistogramV2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 836C11D018E11942009F74E7 /* LargestRectangularAreainaHistogramV2.cpp */; };
-		836C11D818E11942009F74E7 /* LargestRectangularAreainaHistogramV3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 836C11D218E11942009F74E7 /* LargestRectangularAreainaHistogramV3.cpp */; };
-		836C11D918E11942009F74E7 /* MaximalRectangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 836C11D418E11942009F74E7 /* MaximalRectangle.cpp */; };
+		836C11E918E122C7009F74E7 /* LargestRectangularAreainaHistogram.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 836C11E518E122C7009F74E7 /* LargestRectangularAreainaHistogram.cpp */; };
+		836C11EA18E122C7009F74E7 /* LargestRectangularAreainaHistogramV2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 836C11E618E122C7009F74E7 /* LargestRectangularAreainaHistogramV2.cpp */; };
+		836C11EB18E122C7009F74E7 /* LargestRectangularAreainaHistogramV3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 836C11E718E122C7009F74E7 /* LargestRectangularAreainaHistogramV3.cpp */; };
+		836C11EC18E122C7009F74E7 /* MaximalRectangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 836C11E818E122C7009F74E7 /* MaximalRectangle.cpp */; };
 		836E020018D93333005D780E /* MinimumDepthofBinaryTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 836E01FF18D93333005D780E /* MinimumDepthofBinaryTree.cpp */; };
 		836E020318D934FD005D780E /* BinaryTreeInorderTraversal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 836E020118D934FD005D780E /* BinaryTreeInorderTraversal.cpp */; };
 		836E020618D935D2005D780E /* SameTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 836E020418D935D2005D780E /* SameTree.cpp */; };
@@ -126,10 +126,10 @@
 		836C11C618E116CB009F74E7 /* SingleNumber.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SingleNumber.cpp; sourceTree = "<group>"; };
 		836C11C818E11809009F74E7 /* MaximumSubarray.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MaximumSubarray.cpp; sourceTree = "<group>"; };
 		836C11CB18E118E7009F74E7 /* MinimumPathSum.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MinimumPathSum.cpp; path = LeetCode/Others/MinimumPathSum.cpp; sourceTree = SOURCE_ROOT; };
-		836C11CE18E11942009F74E7 /* LargestRectangularAreainaHistogram.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LargestRectangularAreainaHistogram.cpp; sourceTree = "<group>"; };
-		836C11D018E11942009F74E7 /* LargestRectangularAreainaHistogramV2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LargestRectangularAreainaHistogramV2.cpp; sourceTree = "<group>"; };
-		836C11D218E11942009F74E7 /* LargestRectangularAreainaHistogramV3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LargestRectangularAreainaHistogramV3.cpp; sourceTree = "<group>"; };
-		836C11D418E11942009F74E7 /* MaximalRectangle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MaximalRectangle.cpp; sourceTree = "<group>"; };
+		836C11E518E122C7009F74E7 /* LargestRectangularAreainaHistogram.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LargestRectangularAreainaHistogram.cpp; sourceTree = "<group>"; };
+		836C11E618E122C7009F74E7 /* LargestRectangularAreainaHistogramV2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LargestRectangularAreainaHistogramV2.cpp; sourceTree = "<group>"; };
+		836C11E718E122C7009F74E7 /* LargestRectangularAreainaHistogramV3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LargestRectangularAreainaHistogramV3.cpp; sourceTree = "<group>"; };
+		836C11E818E122C7009F74E7 /* MaximalRectangle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MaximalRectangle.cpp; sourceTree = "<group>"; };
 		836E01FF18D93333005D780E /* MinimumDepthofBinaryTree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MinimumDepthofBinaryTree.cpp; path = Tree/MinimumDepthofBinaryTree.cpp; sourceTree = "<group>"; };
 		836E020118D934FD005D780E /* BinaryTreeInorderTraversal.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BinaryTreeInorderTraversal.cpp; path = Tree/BinaryTreeInorderTraversal.cpp; sourceTree = "<group>"; };
 		836E020418D935D2005D780E /* SameTree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SameTree.cpp; path = Tree/SameTree.cpp; sourceTree = "<group>"; };
@@ -257,7 +257,6 @@
 		833CF2A118DDDF2F00F0183A /* DP */ = {
 			isa = PBXGroup;
 			children = (
-				836C11CD18E11942009F74E7 /* LargestRectangle */,
 				833CF2A818DDE32D00F0183A /* leetcode_dp.h */,
 				833CF2A218DDDF3F00F0183A /* UniquePaths.cpp */,
 				833CF2A518DDE30700F0183A /* UniquePathsII.cpp */,
@@ -314,17 +313,24 @@
 			path = Others;
 			sourceTree = "<group>";
 		};
-		836C11CD18E11942009F74E7 /* LargestRectangle */ = {
+		836C11E318E122C7009F74E7 /* DivideConquer */ = {
 			isa = PBXGroup;
 			children = (
-				836C11CE18E11942009F74E7 /* LargestRectangularAreainaHistogram.cpp */,
-				836C11D018E11942009F74E7 /* LargestRectangularAreainaHistogramV2.cpp */,
-				836C11D218E11942009F74E7 /* LargestRectangularAreainaHistogramV3.cpp */,
-				836C11D418E11942009F74E7 /* MaximalRectangle.cpp */,
+				836C11E418E122C7009F74E7 /* LargestRectangle */,
 			);
-			name = LargestRectangle;
-			path = LeetCode/Others/LargestRectangle;
-			sourceTree = SOURCE_ROOT;
+			path = DivideConquer;
+			sourceTree = "<group>";
+		};
+		836C11E418E122C7009F74E7 /* LargestRectangle */ = {
+			isa = PBXGroup;
+			children = (
+				836C11E518E122C7009F74E7 /* LargestRectangularAreainaHistogram.cpp */,
+				836C11E618E122C7009F74E7 /* LargestRectangularAreainaHistogramV2.cpp */,
+				836C11E718E122C7009F74E7 /* LargestRectangularAreainaHistogramV3.cpp */,
+				836C11E818E122C7009F74E7 /* MaximalRectangle.cpp */,
+			);
+			path = LargestRectangle;
+			sourceTree = "<group>";
 		};
 		83C4403D18CC52A10003B741 /* DFSBFS */ = {
 			isa = PBXGroup;
@@ -487,6 +493,7 @@
 		83E6C6C918828E7F006D399B /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
+				836C11E318E122C7009F74E7 /* DivideConquer */,
 				833CF2A118DDDF2F00F0183A /* DP */,
 				835382FD18D155BC00EC4216 /* List */,
 				83D6739918CD3904007532E8 /* Tree */,
@@ -597,12 +604,12 @@
 			files = (
 				83B0CD8B18D4A62800B69862 /* PathSum.cpp in Sources */,
 				838ABDE518DAD02600F03599 /* BigNumber.cpp in Sources */,
-				836C11D718E11942009F74E7 /* LargestRectangularAreainaHistogramV2.cpp in Sources */,
+				836C11EA18E122C7009F74E7 /* LargestRectangularAreainaHistogramV2.cpp in Sources */,
 				83B0CD7F18D4A61200B69862 /* FlattenBinaryTreetoLinkedList.cpp in Sources */,
 				83A23E3218DC36BD0089A169 /* ReverseLinkedListII.cpp in Sources */,
 				83D35EDB18DA9F270040586E /* RegularExpressionMatching.cpp in Sources */,
 				83D35EDF18DA9F270040586E /* WordBreakII .cpp in Sources */,
-				836C11D618E11942009F74E7 /* LargestRectangularAreainaHistogram.cpp in Sources */,
+				836C11E918E122C7009F74E7 /* LargestRectangularAreainaHistogram.cpp in Sources */,
 				836E021218D9407E005D780E /* MergeTwoSortedLists.cpp in Sources */,
 				83A23E2918DC12550089A169 /* LinkedListCycleII.cpp in Sources */,
 				83B0CD7718D4A61200B69862 /* BinaryTreeLevelOrderTraversal.cpp in Sources */,
@@ -631,10 +638,10 @@
 				83D266B318D8246600621577 /* ConvertSortedArraytoBinarySearchTree.cpp in Sources */,
 				83B0CDB718D4A67600B69862 /* NextPermutation.cpp in Sources */,
 				83B0CDC118D4A6B700B69862 /* main.cpp in Sources */,
-				836C11D818E11942009F74E7 /* LargestRectangularAreainaHistogramV3.cpp in Sources */,
+				836C11EB18E122C7009F74E7 /* LargestRectangularAreainaHistogramV3.cpp in Sources */,
 				83D35EE018DA9F270040586E /* WordSearch.cpp in Sources */,
 				836E020F18D94005005D780E /* addTwoNumbers.cpp in Sources */,
-				836C11D918E11942009F74E7 /* MaximalRectangle.cpp in Sources */,
+				836C11EC18E122C7009F74E7 /* MaximalRectangle.cpp in Sources */,
 				83B0CD7618D4A61200B69862 /* BalancedBinaryTree.cpp in Sources */,
 				836424C718BF7342007A948A /* SearchInsertPosition.cpp in Sources */,
 				83B0CD8318D4A61200B69862 /* UniqueBinarySearchTreesII.cpp in Sources */,

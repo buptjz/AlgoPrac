@@ -20,15 +20,11 @@
 using namespace std;
 
 int *seg_tree;
-// A utility function to get minimum of two numbers
 int minVal(vector<int>&vec,int x, int y){
     if (x == -1) return y;
     if (y == -1) return x;
     return (vec[x] < vec[y])? x : y;
 }
-
-// A utility function to get the middle index from corner indexes.
-int getMid(int s, int e) {  return s + (e -s)/2;  }
 
 /*  A recursive function to get the minimum value in a given range of array
  indexes. The following are parameters for this function.
@@ -51,7 +47,7 @@ int RMQUtil(vector<int>&vec,int *st, int ss, int se, int qs, int qe, int index)
         return -1;
     
     // If a part of this segment overlaps with the given range
-    int mid = getMid(ss, se);
+    int mid = (ss + se) >> 1;
     return minVal(vec,RMQUtil(vec,st, ss, mid, qs, qe, 2*index+1),
                   RMQUtil(vec,st, mid+1, se, qs, qe, 2*index+2));
 }
@@ -84,7 +80,7 @@ int constructSTUtil(vector<int> &vec, int ss, int se, int *st, int si)
     
     // If there are more than one elements, then recur for left and
     // right subtrees and store the minimum of two values in this node
-    int mid = getMid(ss, se);
+    int mid = (ss + se) >> 1;
     st[si] =  minVal(vec,constructSTUtil(vec, ss, mid, st, si*2+1),
                      constructSTUtil(vec, mid+1, se, st, si*2+2));
     return st[si];
