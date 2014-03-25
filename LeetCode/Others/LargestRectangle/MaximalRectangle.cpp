@@ -6,14 +6,13 @@
 //  Copyright (c) 2014 WangJZ. All rights reserved.
 //  http://oj.leetcode.com/problems/maximal-rectangle/
 
-#include "MaximalRectangle.h"
-#include <vector>
-#include <stack>
+
 
 /*
  [思路]http://www.cnblogs.com/lichen782/p/leetcode_maximal_rectangle.html
  */
-using namespace std;
+
+#include "leetcode_dp.h"
 int largestRectangleAreaJZ(vector<int> &height) {
     
     int maxVal = 0;

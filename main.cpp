@@ -13,12 +13,9 @@
 
 #include "ContainerWithMostWater.h"
 #include "other_sort.h"
-#include "MinimumPathSum.h"
+
 #include "BestTimetoBuyandSellStock.h"
 #include "BestTimetoBuyandSellStockII.h"
-#include "LargestRectangularAreainaHistogramV2.h"
-#include "LargestRectangularAreainaHistogramV3.h"
-#include "MaximalRectangle.h"
 #include "BestTimetoBuyandSellStockIII.h"
 #include "BestTimetoBuyandSellStockIIIV2.h"
 #include "leetcode_tree.h"

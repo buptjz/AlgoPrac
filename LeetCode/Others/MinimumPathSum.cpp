@@ -6,10 +6,7 @@
 //  Copyright (c) 2014 WangJZ. All rights reserved.
 //
 
-#include "MinimumPathSum.h"
-#include <vector>
-
-using namespace std;
+#include "leetcode_dp.h"
 
 int minPathSum(vector<vector<int> > &grid) {
     int a_length = (int)grid.size();

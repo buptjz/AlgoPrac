@@ -7,12 +7,8 @@
 //  Copyright (c) 2014 WangJZ. All rights reserved.
 //  http://oj.leetcode.com/problems/largest-rectangle-in-histogram/
 
-#include "LargestRectangularAreainaHistogramV2.h"
-#include <vector>
+#include "leetcode_dp.h"
 
-#include <stdio.h>
-#include <math.h>
-#include <limits.h>
 
 /*
  

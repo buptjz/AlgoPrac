@@ -6,10 +6,7 @@
 //  Copyright (c) 2014 WangJZ. All rights reserved.
 //  http://oj.leetcode.com/problems/largest-rectangle-in-histogram/
 
-#include "LargestRectangularAreainaHistogramV3.h"
-#include <vector>
-#include <stack>
-
+#include "leetcode_dp.h"
 /*
  1) Create an empty stack.
  

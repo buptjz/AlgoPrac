@@ -8,8 +8,10 @@
 
 #ifndef Algorithms_leetcode_dp_h
 #define Algorithms_leetcode_dp_h
-
+#include <math.h>
+#include <limits.h>
 #include <stack>
 #include <vector>
+#include <stack>
 using namespace std;
 #endif
