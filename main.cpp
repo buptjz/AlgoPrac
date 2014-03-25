@@ -32,7 +32,8 @@ int main(int argc, const char * argv[])
 
 //    testSingleNumber();
 //    testThreeSum();
-    testWordBreak();
+//    testWordBreak();
+    testRemoveElement();
     return 0;
 }
 

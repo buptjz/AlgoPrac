@@ -6,6 +6,8 @@
 //  Copyright (c) 2014 WangJZ. All rights reserved.
 //  http://oj.leetcode.com/problems/word-break-ii/
 
+/*也可以采用dp方式，具体参见http://zhaohongze.com/wordpress/2013/12/10/leetcode-word-break-ii/*/
+
 /*
  基本上是在word break 1 上面改的，这里面用到的技巧是设置一个变量successOnce，来看该位置上是否成功过，如果成功过，说明该位置是能够找到的
  但是这种广度优先遍历的算法是不是比深度优先遍历运算次数更多一点？
@@ -44,7 +46,7 @@ bool wordBreakHelper(string &s,
         if (got != dict.end()) {//找到了！
             tmp.push_back(curWord);
             if(!wordBreakHelper(s, dict, position+i, max, min, isVisited,retVec,tmp)) {
-                isVisited[position+i] = true;
+                isVisited[position+i] = true;//该位置不能成功
             }else{
                 successOnce = true;
             }

@@ -15,4 +15,5 @@ using namespace std;
 void testTwoSum();
 void testSingleNumber();
 void testThreeSum();
+void testRemoveElement();
 #endif
