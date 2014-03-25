@@ -14,4 +14,5 @@
 using namespace std;
 void testTwoSum();
 void testSingleNumber();
+void testThreeSum();
 #endif

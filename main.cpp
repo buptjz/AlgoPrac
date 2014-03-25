@@ -29,10 +29,12 @@
 #include "leetcode_string.h"
 #include "BigNumber.h"
 #include "leetcode_others.h"
+
 int main(int argc, const char * argv[])
 {
 
-    testSingleNumber();
+//    testSingleNumber();
+    testThreeSum();
     return 0;
 }
 
