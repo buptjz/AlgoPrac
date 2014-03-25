@@ -33,12 +33,14 @@
 #include "leetcode_permutation.h"
 #include "leetcode_string.h"
 #include "BigNumber.h"
+#include "2Sum.h"
 int main(int argc, const char * argv[])
 {
 //    testMinWindow();
 //    testBigNumber();
 //    testLengthOfLongestSubstring();
-    testQuickSort();
+//    testQuickSort();
+    testTwoSum();
     return 0;
 }
 
