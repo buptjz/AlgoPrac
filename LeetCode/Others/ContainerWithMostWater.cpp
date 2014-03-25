@@ -14,9 +14,7 @@ http://rafal.io/posts/leetcode-11-container-with-most-water.html
 http://blog.unieagle.net/2012/09/16/leetcode%E9%A2%98%E7%9B%AE%EF%BC%9Acontainer-with-most-water/)
 */
 
-#include "ContainerWithMostWater.h"
-#include <vector>
-using namespace std;
+#include "leetcode_others.h"
 
 int maxArea(vector<int> &height) {
     int start = 0;

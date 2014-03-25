@@ -6,9 +6,9 @@
 //  Copyright (c) 2014 WangJZ. All rights reserved.
 //
 
-#include "leetcode_dp.h"
+#include "leetcode_others.h"
 
-int minPathSum(vector<vector<int> > &grid) {
+static int minPathSum(vector<vector<int> > &grid) {
     int a_length = (int)grid.size();
     int b_length = (int)grid[0].size();
 
