@@ -7,8 +7,6 @@
 //
 
 #include <stdio.h>
-#include "SingleNumber.h"
-#include "SearchforaRange.h"
 #include "SearchinRotatedSortedArray.h"
 #include "SqrtX.h"
 #include "SearchInsertPosition.h"
@@ -36,11 +34,8 @@
 #include "leetcode_others.h"
 int main(int argc, const char * argv[])
 {
-//    testMinWindow();
-//    testBigNumber();
-//    testLengthOfLongestSubstring();
-//    testQuickSort();
-    testTwoSum();
+
+    testSingleNumber();
     return 0;
 }
 

@@ -29,5 +29,6 @@ void testTwoSum()
 {
     vector<int> input = {0,4,3,1};
     vector<int> ret = twoSum(input, 4);
+
     printf("finished\n");
 }

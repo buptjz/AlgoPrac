@@ -13,5 +13,5 @@
 #include <map>
 using namespace std;
 void testTwoSum();
-
+void testSingleNumber();
 #endif
