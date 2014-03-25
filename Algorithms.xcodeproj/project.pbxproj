@@ -36,6 +36,7 @@
 		836C121C18E1774D009F74E7 /* SearchinRotatedSortedArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 836C121518E1774D009F74E7 /* SearchinRotatedSortedArray.cpp */; };
 		836C121D18E1774D009F74E7 /* SearchInsertPosition.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 836C121718E1774D009F74E7 /* SearchInsertPosition.cpp */; };
 		836C121E18E1774D009F74E7 /* SqrtX.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 836C121818E1774D009F74E7 /* SqrtX.cpp */; };
+		836C122118E17C7E009F74E7 /* SearchinRotatedSortedArrayII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 836C121F18E17C7E009F74E7 /* SearchinRotatedSortedArrayII.cpp */; };
 		836E020018D93333005D780E /* MinimumDepthofBinaryTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 836E01FF18D93333005D780E /* MinimumDepthofBinaryTree.cpp */; };
 		836E020318D934FD005D780E /* BinaryTreeInorderTraversal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 836E020118D934FD005D780E /* BinaryTreeInorderTraversal.cpp */; };
 		836E020618D935D2005D780E /* SameTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 836E020418D935D2005D780E /* SameTree.cpp */; };
@@ -144,6 +145,7 @@
 		836C121518E1774D009F74E7 /* SearchinRotatedSortedArray.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SearchinRotatedSortedArray.cpp; sourceTree = "<group>"; };
 		836C121718E1774D009F74E7 /* SearchInsertPosition.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SearchInsertPosition.cpp; sourceTree = "<group>"; };
 		836C121818E1774D009F74E7 /* SqrtX.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SqrtX.cpp; sourceTree = "<group>"; };
+		836C121F18E17C7E009F74E7 /* SearchinRotatedSortedArrayII.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SearchinRotatedSortedArrayII.cpp; sourceTree = "<group>"; };
 		836E01FF18D93333005D780E /* MinimumDepthofBinaryTree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MinimumDepthofBinaryTree.cpp; path = Tree/MinimumDepthofBinaryTree.cpp; sourceTree = "<group>"; };
 		836E020118D934FD005D780E /* BinaryTreeInorderTraversal.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BinaryTreeInorderTraversal.cpp; path = Tree/BinaryTreeInorderTraversal.cpp; sourceTree = "<group>"; };
 		836E020418D935D2005D780E /* SameTree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SameTree.cpp; path = Tree/SameTree.cpp; sourceTree = "<group>"; };
@@ -342,6 +344,7 @@
 				836C121318E1774D009F74E7 /* findMedianSortedArrays.cpp */,
 				836C121418E1774D009F74E7 /* SearchforaRange.cpp */,
 				836C121518E1774D009F74E7 /* SearchinRotatedSortedArray.cpp */,
+				836C121F18E17C7E009F74E7 /* SearchinRotatedSortedArrayII.cpp */,
 				836C121718E1774D009F74E7 /* SearchInsertPosition.cpp */,
 				836C121818E1774D009F74E7 /* SqrtX.cpp */,
 			);
@@ -625,6 +628,7 @@
 				83A4B5AA18DA81100089B7FE /* align_malloc.cpp in Sources */,
 				836C11F818E154E1009F74E7 /* SingleNumberIII.cpp in Sources */,
 				836E020018D93333005D780E /* MinimumDepthofBinaryTree.cpp in Sources */,
+				836C122118E17C7E009F74E7 /* SearchinRotatedSortedArrayII.cpp in Sources */,
 				83B0CD7A18D4A61200B69862 /* BinaryTreePreorderTraversal.cpp in Sources */,
 				836E020918D93742005D780E /* ValidateBinarySearchTree.cpp in Sources */,
 				836C11F418E1522C009F74E7 /* 3Sum.cpp in Sources */,

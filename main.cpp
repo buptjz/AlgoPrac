@@ -26,7 +26,8 @@ int main(int argc, const char * argv[])
 //    testSingleNumber();
 //    testThreeSum();
 //    testWordBreak();
-    testRemoveElement();
+//    testRemoveElement();
+    testSearchRotate2();
     return 0;
 }
 
