@@ -6,7 +6,7 @@
 //  Copyright (c) 2014年 WangJZ. All rights reserved.
 //
 
-#include "leetcode_tree.h"
+#include "leetcode_others.h"
 
 int singleNumberIII(int A[], int n) {
     int final = 0;
