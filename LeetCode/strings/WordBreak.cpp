@@ -6,13 +6,40 @@
 //  Copyright (c) 2014 WangJZ. All rights reserved.
 //  http://oj.leetcode.com/problems/word-break/
 
+#include "leetcode_string.h"
+/*
+-----------------2014.3.25更新-----------------
+ 采用动态规划的思想，从前往后找，dp[]是一个数组，记录的是是否能够走到第i个位置上
+ 比如说leetcode和['le','leet']
+ dp[1] = 0;表示第一个位置l是找不到的，
+ dp[2] = 1;表示第2个位置能够走到(因为有le)
+
+ dp[i] = true的条件是：存在任意一个j<i,dp[j]是true，并且s[j,i]这个子串在字典中有。
+ 
+ 【注】这个思路更简洁，比下面的回溯法更清晰
+ */
+
+bool wordBreaku(string s, unordered_set<string> &dict) {
+    int length = (int)s.length();
+    vector<bool> dp = vector<bool>(length+1,false);
+    dp[0] = true;
+    for (int i = 1; i <= length; i++) {
+        for (int j = i-1; j >= 0; j--) {
+            if (dp[j] == false) continue;//本位置不能查找
+            string temp = string(s.begin()+j,s.begin()+i);
+            if (dict.find(temp)!= dict.end()){//如果找到了
+                dp[i] = true;
+                break;
+            }
+        }
+    }
+    return dp[length];
+}
 /*
  思路：有点像backtrack
  每到一个位置，从能构成的最大单词的字母数开始找，一个向下找到最小的
  过程中isVisited记录某个位置已经找过了。
  */
-
-#include "leetcode_string.h"
 
 bool wordBreakHelper(string &s,unordered_set<string> &dict,int position,int max,int min,vector<bool> &isVisited){
     //没到一个新的位置,从最大的能匹配到的，使用backtracking技术
@@ -63,7 +90,7 @@ bool wordBreak(string s, unordered_set<string> &dict) {
 
 void testWordBreak(){
     string s = "leetcode";
-    unordered_set<string> dict = {"leet","c"};
-    bool ret = wordBreak(s, dict);
-    printf("Finished\n");
+    unordered_set<string> dict = {"leet","code"};
+    bool ret = wordBreaku(s, dict);
+    printf("Finishe %d\n",ret);
 }
