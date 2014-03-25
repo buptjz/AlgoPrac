@@ -6,10 +6,7 @@
 //  Copyright (c) 2014 WangJZ. All rights reserved.
 //  http://oj.leetcode.com/problems/path-sum-ii/
 
-#include "PathSumII.h"
-#include <vector>
-using namespace std;
-
+#include "leetcode_others.h"
 struct TreeNode {
     int val;
     TreeNode *left;

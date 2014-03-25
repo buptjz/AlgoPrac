@@ -6,7 +6,7 @@
 //  Copyright (c) 2014年 WangJZ. All rights reserved.
 //
 
-#include "SearchinRotatedSortedArray.h"
+#include "leetcode_others.h"
 
 int searchHelper(int A[],int n,int target,int start,int end){
     if (start > end) return -1;

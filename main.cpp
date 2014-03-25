@@ -7,14 +7,7 @@
 //
 
 #include <stdio.h>
-#include "SearchinRotatedSortedArray.h"
-#include "SqrtX.h"
-#include "SearchInsertPosition.h"
 #include "other_sort.h"
-#include "BestTimetoBuyandSellStock.h"
-#include "BestTimetoBuyandSellStockII.h"
-#include "BestTimetoBuyandSellStockIII.h"
-#include "BestTimetoBuyandSellStockIIIV2.h"
 #include "leetcode_tree.h"
 #include "leetcode_list.h"
 #include "leetcode_string.h"

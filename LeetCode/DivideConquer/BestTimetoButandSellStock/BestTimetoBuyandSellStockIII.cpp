@@ -6,10 +6,7 @@
 //  Copyright (c) 2014 WangJZ. All rights reserved.
 //
 
-#include "BestTimetoBuyandSellStockIII.h"
-#include <vector>
-#include "BestTimetoBuyandSellStock.h"
-using namespace std;
+#include "leetcode_others.h"
 
 /*
 [思路]分别以每一个点作为作为中间点，认为两次操作在分隔的左右两侧，分别计算两侧一次收益的最大值，相加即为该分割点下的最大收益

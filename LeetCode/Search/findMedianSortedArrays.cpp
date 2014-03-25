@@ -3,8 +3,7 @@
  目前没有完成
  */
 
-#include <stdio.h>
-#include "functions.h"
+#include "leetcode_others.h"
 
 double findMedianSortedArrays(int A[], int m, int B[], int n) {
     if(m == 0) return (n % 2) ? B[n>>1] : ((B[n>>1] + B[(n>>1)-1]) / 2.0);

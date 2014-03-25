@@ -6,7 +6,7 @@
 //  Copyright (c) 2014年 WangJZ. All rights reserved.
 // http://oj.leetcode.com/problems/search-insert-position/
 
-#include "SearchInsertPosition.h"
+#include "leetcode_others.h"
 
 int searchInsert(int A[], int n, int target) {
     int start = 0;

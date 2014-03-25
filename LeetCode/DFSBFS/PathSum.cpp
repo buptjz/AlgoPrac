@@ -6,7 +6,7 @@
 //  Copyright (c) 2014 WangJZ. All rights reserved.
 //
 
-#include "PathSum.h"
+#include "leetcode_others.h"
 
 struct TreeNode {
     int val;

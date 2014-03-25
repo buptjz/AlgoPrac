@@ -7,10 +7,7 @@
 //  http://oj.leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/
 
 
-
-#include "BestTimetoBuyandSellStockII.h"
-#include <vector>
-using namespace std;
+#include "leetcode_others.h"
 
 //遇到连续下降，在最低点买入
 //遇到连续上升，在最高点卖出

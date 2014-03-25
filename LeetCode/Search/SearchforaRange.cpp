@@ -10,10 +10,7 @@
  思路：我们要查找的是starting 和ending point,考虑到starting的特点是：该位置的值比target小，而右边的数比target大，ending的特点与此相反，要找到具有这样特点的两个数，采用二分查找的思想就好了，分两次调用二分查找，写的时候注意边缘条件即可！
  */
 
-#include <iostream>
-#include <vector>
-
-using namespace std;
+#include "leetcode_others.h"
 
 int searchRangeHelper(int A[],int n,int target,bool M){
     //binary search

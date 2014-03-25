@@ -7,9 +7,7 @@
 //  http://oj.leetcode.com/problems/best-time-to-buy-and-sell-stock/
 
 
-#include "BestTimetoBuyandSellStock.h"
-#include <vector>
-using namespace std;
+#include "leetcode_others.h"
 
 //Binary search
 int maxProfitHelper(vector<int> &prices,int &max_price,int &min_price,int start,int end){
@@ -44,6 +42,7 @@ int maxProfit(vector<int> &prices) {
 
 /*************************************下面是一种更容易理解的思路*************************************/
 //来自http://blog.csdn.net/fightforyourdream/article/details/14503469的启发
+
 int maxProfitt(vector<int> &prices){
     int length = (int)prices.size();
     if (length == 0) {

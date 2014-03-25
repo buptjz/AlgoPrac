@@ -9,7 +9,7 @@
 /*
  这个问题的核心是设置搜索上界，应该是2*16,如果大于搜索上届，就是上届，否则的话使用二分查找，也可以使用先将32位的整数转换成64位类型再查找
  */
-#include "SqrtX.h"
+#include "leetcode_others.h"
 
 int sqrt(int x) {
     int LARGEST = 46340;

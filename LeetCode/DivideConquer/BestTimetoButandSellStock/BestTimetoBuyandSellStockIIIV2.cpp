@@ -6,9 +6,7 @@
 //  Copyright (c) 2014 WangJZ. All rights reserved.
 //
 
-#include "BestTimetoBuyandSellStockIIIV2.h"
-#include <vector>
-
+#include "leetcode_others.h"
 
 /*
  [思路]Best Time to Buy and Sell Stock III 第一版的改良，参考了
