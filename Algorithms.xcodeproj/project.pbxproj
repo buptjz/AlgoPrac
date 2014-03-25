@@ -27,6 +27,7 @@
 		836C11FC18E15596009F74E7 /* ContainerWithMostWater.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 836C11FB18E15596009F74E7 /* ContainerWithMostWater.cpp */; };
 		836C11FF18E1663E009F74E7 /* RemoveElement.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 836C11FD18E1663E009F74E7 /* RemoveElement.cpp */; };
 		836C120118E16C83009F74E7 /* Triangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 836C120018E16C83009F74E7 /* Triangle.cpp */; };
+		836C120418E16D03009F74E7 /* ReverseInteger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 836C120218E16D03009F74E7 /* ReverseInteger.cpp */; };
 		836E020018D93333005D780E /* MinimumDepthofBinaryTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 836E01FF18D93333005D780E /* MinimumDepthofBinaryTree.cpp */; };
 		836E020318D934FD005D780E /* BinaryTreeInorderTraversal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 836E020118D934FD005D780E /* BinaryTreeInorderTraversal.cpp */; };
 		836E020618D935D2005D780E /* SameTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 836E020418D935D2005D780E /* SameTree.cpp */; };
@@ -135,6 +136,7 @@
 		836C11FB18E15596009F74E7 /* ContainerWithMostWater.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ContainerWithMostWater.cpp; sourceTree = "<group>"; };
 		836C11FD18E1663E009F74E7 /* RemoveElement.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RemoveElement.cpp; sourceTree = "<group>"; };
 		836C120018E16C83009F74E7 /* Triangle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Triangle.cpp; sourceTree = "<group>"; };
+		836C120218E16D03009F74E7 /* ReverseInteger.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ReverseInteger.cpp; sourceTree = "<group>"; };
 		836E01FF18D93333005D780E /* MinimumDepthofBinaryTree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MinimumDepthofBinaryTree.cpp; path = Tree/MinimumDepthofBinaryTree.cpp; sourceTree = "<group>"; };
 		836E020118D934FD005D780E /* BinaryTreeInorderTraversal.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BinaryTreeInorderTraversal.cpp; path = Tree/BinaryTreeInorderTraversal.cpp; sourceTree = "<group>"; };
 		836E020418D935D2005D780E /* SameTree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SameTree.cpp; path = Tree/SameTree.cpp; sourceTree = "<group>"; };
@@ -313,6 +315,7 @@
 				836C11F518E154E1009F74E7 /* MinimumPathSum.cpp */,
 				836C11FB18E15596009F74E7 /* ContainerWithMostWater.cpp */,
 				836C11FD18E1663E009F74E7 /* RemoveElement.cpp */,
+				836C120218E16D03009F74E7 /* ReverseInteger.cpp */,
 			);
 			path = Others;
 			sourceTree = "<group>";
@@ -702,6 +705,7 @@
 				83A4B5AD18DA86180089B7FE /* PermutationsII.cpp in Sources */,
 				83B0CDBA18D4A67600B69862 /* PermutationsUnique.cpp in Sources */,
 				836C11CA18E11809009F74E7 /* MaximumSubarray.cpp in Sources */,
+				836C120418E16D03009F74E7 /* ReverseInteger.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
