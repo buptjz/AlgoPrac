@@ -6,11 +6,7 @@
 //  http://oj.leetcode.com/problems/two-sum/
 //
 
-#include "2Sum.h"
-#include <vector>
-#include <iostream>
-#include <map>
-using namespace std;
+#include "leetcode_others.h"
 
 vector<int> twoSum(vector<int> &numbers, int target) {
     int length = (int)numbers.size();
@@ -28,7 +24,6 @@ vector<int> twoSum(vector<int> &numbers, int target) {
     }
     return retVec;
 }
-
 
 void testTwoSum()
 {

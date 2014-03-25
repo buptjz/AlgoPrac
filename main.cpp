@@ -33,7 +33,7 @@
 #include "leetcode_permutation.h"
 #include "leetcode_string.h"
 #include "BigNumber.h"
-#include "2Sum.h"
+#include "leetcode_others.h"
 int main(int argc, const char * argv[])
 {
 //    testMinWindow();
