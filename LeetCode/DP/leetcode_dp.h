@@ -14,4 +14,6 @@
 #include <vector>
 #include <stack>
 using namespace std;
+
+void testClimbStars();
 #endif

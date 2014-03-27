@@ -20,10 +20,17 @@
 #include "BigNumber.h"
 #include "leetcode_others.h"
 #include "conquerOffer.h"
+#include "leetcode_sort.h"
+#include "leetcode_dp.h"
 int main(int argc, const char * argv[])
 {
 
-    testPrint1ToMaxofNDigits();
+//    testPrint1ToMaxofNDigits();
+//    testMerge();
+//    testsSearchInsert();
+//    testSearchInsert();
+//    testIntervalInsert();
+    testClimbStars();
     return 0;
 }
 

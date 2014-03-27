@@ -8,42 +8,24 @@
 
 #include "leetcode_others.h"
 
+/*----2014.3.27更新 二分查找最后的start位置就是应该插入的位置----*/
 int searchInsert(int A[], int n, int target) {
     int start = 0;
     int end = n - 1;
     int mid;
-    if (target > A[n - 1]) {
-        return n;
-    }
-    if (target < A[0]) {
-        return 0;
-    }
     while (start <= end) {
         mid = ((end - start) >> 1) + start;
-        if (A[mid] == target) {
-            return mid;
-        }else if(A[mid] > target){
-            if (A[mid - 1] < target) {
-                return mid;
-            }else{
-                end = mid - 1;
-            }
-        }else{
-            if (A[mid + 1] > target) {
-                return mid + 1;
-            }else{
-                start = mid + 1;
-            }
-        }
+        if (A[mid] == target) return mid;
+        else if(A[mid] > target) end = mid - 1;
+        else start = mid + 1;
     }
-    return -1;
+    return start;
 }
 
 void testSearchInsert(){
-    int a[] = {1,2,3,4,7};
+    int a[] = {1,1,3,4,7};
     int n = 5;
-    int target = 7;
-    
-    int rest = searchInsert(a, n, target);
-    printf("Finished");
+    int target = 2;
+    int res = searchInsert(a, n, target);
+    printf("Finished %d\n",res);
 }
