@@ -103,6 +103,7 @@
 		83E6C6CD18828E7F006D399B /* LeetCode.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 83E6C6CC18828E7F006D399B /* LeetCode.1 */; };
 		83EC957218E40306001F0D99 /* InsertInterval.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83EC957018E40306001F0D99 /* InsertInterval.cpp */; };
 		83EC957518E4169E001F0D99 /* ClimbingStairs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83EC957318E4169E001F0D99 /* ClimbingStairs.cpp */; };
+		83EC957818E41BEA001F0D99 /* SetMatrixZeroes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83EC957618E41BEA001F0D99 /* SetMatrixZeroes.cpp */; };
 		83F8C4B418DA744C002FD1E1 /* printLastKLines.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83F8C4B218DA744C002FD1E1 /* printLastKLines.cpp */; };
 /* End PBXBuildFile section */
 
@@ -241,6 +242,7 @@
 		83E6C6D518828ED7006D399B /* functions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = functions.h; sourceTree = "<group>"; };
 		83EC957018E40306001F0D99 /* InsertInterval.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = InsertInterval.cpp; sourceTree = "<group>"; };
 		83EC957318E4169E001F0D99 /* ClimbingStairs.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ClimbingStairs.cpp; sourceTree = "<group>"; };
+		83EC957618E41BEA001F0D99 /* SetMatrixZeroes.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SetMatrixZeroes.cpp; sourceTree = "<group>"; };
 		83F8C4A618DA7424002FD1E1 /* arrayAndString.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = arrayAndString.c; sourceTree = "<group>"; };
 		83F8C4A718DA7424002FD1E1 /* arrayAndString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = arrayAndString.h; sourceTree = "<group>"; };
 		83F8C4A818DA7424002FD1E1 /* charReplace.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = charReplace.c; sourceTree = "<group>"; };
@@ -319,6 +321,7 @@
 				836C11FB18E15596009F74E7 /* ContainerWithMostWater.cpp */,
 				836C11FD18E1663E009F74E7 /* RemoveElement.cpp */,
 				836C120218E16D03009F74E7 /* ReverseInteger.cpp */,
+				83EC957618E41BEA001F0D99 /* SetMatrixZeroes.cpp */,
 			);
 			path = Others;
 			sourceTree = "<group>";
@@ -731,6 +734,7 @@
 				83B0CD5618D4A5F900B69862 /* CopyListwithRandomPointer.cpp in Sources */,
 				836C121C18E1774D009F74E7 /* SearchinRotatedSortedArray.cpp in Sources */,
 				836E021318D9407E005D780E /* PartitionList.cpp in Sources */,
+				83EC957818E41BEA001F0D99 /* SetMatrixZeroes.cpp in Sources */,
 				83B0CD7E18D4A61200B69862 /* ConvertSortedListtoBinarySearchTree.cpp in Sources */,
 				8364F66618E3C5AF008F7C13 /* question12.cpp in Sources */,
 				83A23E2F18DC2C310089A169 /* RemoveNthNodeFromEndofList.cpp in Sources */,
