@@ -19,15 +19,11 @@
 #include "leetcode_string.h"
 #include "BigNumber.h"
 #include "leetcode_others.h"
-
+#include "conquerOffer.h"
 int main(int argc, const char * argv[])
 {
 
-//    testSingleNumber();
-//    testThreeSum();
-//    testWordBreak();
-//    testRemoveElement();
-    testSearchRotate2();
+    testPrint1ToMaxofNDigits();
     return 0;
 }
 

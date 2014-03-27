@@ -17,4 +17,5 @@ void testSingleNumber();
 void testThreeSum();
 void testRemoveElement();
 void testSearchRotate2();
+void testPow();
 #endif
