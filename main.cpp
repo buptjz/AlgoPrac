@@ -31,7 +31,8 @@ int main(int argc, const char * argv[])
 //    testSearchInsert();
 //    testIntervalInsert();
 //    testClimbStars();
-    test2Merge();
+//    test2Merge();
+    testIsPalindrome();
     return 0;
 }
 
