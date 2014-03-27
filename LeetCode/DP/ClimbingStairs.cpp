@@ -25,6 +25,7 @@ int climbStairs(int n) {
     return cur;
 }
 
+
 void testClimbStars(){
     printf("Finished %d\n",climbStairs(6));
 }

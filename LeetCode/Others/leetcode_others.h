@@ -19,4 +19,5 @@ void testRemoveElement();
 void testSearchRotate2();
 void testPow();
 void testSearchInsert();
+void test2Merge();
 #endif

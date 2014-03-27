@@ -30,7 +30,8 @@ int main(int argc, const char * argv[])
 //    testsSearchInsert();
 //    testSearchInsert();
 //    testIntervalInsert();
-    testClimbStars();
+//    testClimbStars();
+    test2Merge();
     return 0;
 }
 
