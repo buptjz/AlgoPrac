@@ -20,4 +20,5 @@ void testSearchRotate2();
 void testPow();
 void testSearchInsert();
 void test2Merge();
+void testAddBinary();
 #endif
