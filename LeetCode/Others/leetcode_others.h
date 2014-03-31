@@ -22,4 +22,5 @@ void testSearchInsert();
 void test2Merge();
 void testAddBinary();
 void testAnagrams();
+void testRomanToInt();
 #endif
