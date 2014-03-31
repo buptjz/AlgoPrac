@@ -32,7 +32,8 @@ int f(int x){
 int main(int argc, const char * argv[])
 {
 //    testNumDecodings();
-    testAddBinary();
+//    testAddBinary();
+    testAnagrams();
 }
 
 
