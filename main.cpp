@@ -22,17 +22,21 @@
 #include "conquerOffer.h"
 #include "leetcode_sort.h"
 #include "leetcode_dp.h"
+
+int f(int x){
+    int s = 0;
+    while (x-- > 0) s+=f(x);
+    return max(s,1);
+}
+
 int main(int argc, const char * argv[])
 {
-
-//    testPrint1ToMaxofNDigits();
-//    testMerge();
-//    testsSearchInsert();
-//    testSearchInsert();
-//    testIntervalInsert();
-//    testClimbStars();
-//    test2Merge();
-    testIsPalindrome();
+    int *p = (int *)malloc(sizeof(int *) * 8000000000000);
+    if(p == NULL){
+        printf("fuck\n");
+    }
+    printf("ok\n");
     return 0;
 }
+
 
