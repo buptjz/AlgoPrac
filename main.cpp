@@ -35,7 +35,8 @@ int main(int argc, const char * argv[])
 //    testAddBinary();
 //    testAnagrams();
 //    testGenerateParenthesis();
-    testRomanToInt();
+//    testRomanToInt();
+    testIntToRoman();
 }
 
 
