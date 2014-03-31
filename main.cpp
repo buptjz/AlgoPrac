@@ -31,12 +31,7 @@ int f(int x){
 
 int main(int argc, const char * argv[])
 {
-    int *p = (int *)malloc(sizeof(int *) * 8000000000000);
-    if(p == NULL){
-        printf("fuck\n");
-    }
-    printf("ok\n");
-    return 0;
+    testNumDecodings();
 }
 
 

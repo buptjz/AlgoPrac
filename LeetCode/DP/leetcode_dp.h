@@ -13,7 +13,9 @@
 #include <stack>
 #include <vector>
 #include <stack>
+#include <string>
 using namespace std;
 
 void testClimbStars();
+void testNumDecodings();
 #endif
