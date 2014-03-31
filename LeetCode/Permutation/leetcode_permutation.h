@@ -22,4 +22,5 @@ void testGetPermutation();
 void testPermuteUnique();
 void testSubsets();
 void testSubsetsWithDup();
+void testGenerateParenthesis();
 #endif

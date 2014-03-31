@@ -33,7 +33,8 @@ int main(int argc, const char * argv[])
 {
 //    testNumDecodings();
 //    testAddBinary();
-    testAnagrams();
+//    testAnagrams();
+    testGenerateParenthesis();
 }
 
 
