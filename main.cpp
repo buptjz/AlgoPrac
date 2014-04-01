@@ -23,16 +23,9 @@
 #include "leetcode_sort.h"
 #include "leetcode_dp.h"
 
-int f(int x){
-    int s = 0;
-    while (x-- > 0) s+=f(x);
-    return max(s,1);
-}
-
 int main(int argc, const char * argv[])
 {
-//    testRemoveDuplicates();
-    testRemoveDuplicates2();
+    testMultipley();
 }
 
 
