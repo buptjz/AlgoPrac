@@ -24,4 +24,5 @@ void testSubsets();
 void testSubsetsWithDup();
 void testGenerateParenthesis();
 void testLetterCombinations();
+void testSolveNQueens();
 #endif

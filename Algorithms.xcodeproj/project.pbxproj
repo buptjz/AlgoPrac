@@ -63,6 +63,7 @@
 		837DCDAF18E3017400532881 /* PowXN.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 837DCDAD18E3017400532881 /* PowXN.cpp */; };
 		837E130718E27DE40037AA5B /* ASingleton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 837E130518E27DE40037AA5B /* ASingleton.cpp */; };
 		838ABDE518DAD02600F03599 /* BigNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 838ABDE318DAD02600F03599 /* BigNumber.cpp */; };
+		839B1D0118EAB28A003D5C47 /* N-Queens.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 839B1CFF18EAB28A003D5C47 /* N-Queens.cpp */; };
 		83A23E2618DC11CA0089A169 /* LinkedListCycle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83A23E2418DC11CA0089A169 /* LinkedListCycle.cpp */; };
 		83A23E2918DC12550089A169 /* LinkedListCycleII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83A23E2718DC12550089A169 /* LinkedListCycleII.cpp */; };
 		83A23E2C18DC2AC20089A169 /* RemoveDuplicatesfromSortedListII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83A23E2A18DC2AC20089A169 /* RemoveDuplicatesfromSortedListII.cpp */; };
@@ -201,6 +202,7 @@
 		838737FE188EACF7001732CE /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 		838ABDE318DAD02600F03599 /* BigNumber.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BigNumber.cpp; sourceTree = "<group>"; };
 		838ABDE418DAD02600F03599 /* BigNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BigNumber.h; sourceTree = "<group>"; };
+		839B1CFF18EAB28A003D5C47 /* N-Queens.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "N-Queens.cpp"; path = "Permutation/N-Queens.cpp"; sourceTree = "<group>"; };
 		83A23E2418DC11CA0089A169 /* LinkedListCycle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LinkedListCycle.cpp; path = List/LinkedListCycle.cpp; sourceTree = "<group>"; };
 		83A23E2718DC12550089A169 /* LinkedListCycleII.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LinkedListCycleII.cpp; path = List/LinkedListCycleII.cpp; sourceTree = "<group>"; };
 		83A23E2A18DC2AC20089A169 /* RemoveDuplicatesfromSortedListII.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RemoveDuplicatesfromSortedListII.cpp; path = List/RemoveDuplicatesfromSortedListII.cpp; sourceTree = "<group>"; };
@@ -542,6 +544,7 @@
 				83B0CDB318D4A67600B69862 /* SubsetsII.cpp */,
 				83C4213B18E99EB70055E26B /* GenerateParentheses.cpp */,
 				837C162D18EA49EC00B1F5B9 /* LetterCombinationsofaPhoneNumber.cpp */,
+				839B1CFF18EAB28A003D5C47 /* N-Queens.cpp */,
 			);
 			name = Permutation;
 			sourceTree = "<group>";
@@ -800,6 +803,7 @@
 				837C162F18EA49EC00B1F5B9 /* LetterCombinationsofaPhoneNumber.cpp in Sources */,
 				83A23E2F18DC2C310089A169 /* RemoveNthNodeFromEndofList.cpp in Sources */,
 				83C4B96E18E01F6D0028AC56 /* QuickSort.cpp in Sources */,
+				839B1D0118EAB28A003D5C47 /* N-Queens.cpp in Sources */,
 				8367439E189016670051E377 /* numTrees.cpp in Sources */,
 				83C35B5B18E41F19003A1E73 /* MergeSortedArray.cpp in Sources */,
 				83B0CD5718D4A5F900B69862 /* CopyListwithRandomPointer2.cpp in Sources */,
