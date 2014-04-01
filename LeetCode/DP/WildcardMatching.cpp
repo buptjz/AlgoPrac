@@ -5,7 +5,7 @@
 //  Created by WangJZ on 14-4-1.
 //  Copyright (c) 2014年 WangJZ. All rights reserved.
 //  http://oj.leetcode.com/problems/wildcard-matching/
-
+//  http://blog.csdn.net/hopeztm/article/details/8039777
 #include "leetcode_others.h"
 /*
  更新，来自于http://oj.leetcode.com/discuss/2964/still-get-tle-on-aaaaaaaaaaaaa-exhausted

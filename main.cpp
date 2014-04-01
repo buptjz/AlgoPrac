@@ -26,7 +26,8 @@
 int main(int argc, const char * argv[])
 {
 //    testMultipley();
-    testIsMatch2();
+//    testIsMatch2();
+    testCanCompleteCircuit();
 }
 
 
