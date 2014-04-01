@@ -29,4 +29,5 @@ void testRemoveDuplicates2();
 void testMultipley();
 void testIsMatch2();
 void testCanCompleteCircuit();
+void testTotalQueens();
 #endif

@@ -62,6 +62,7 @@
 		837C162F18EA49EC00B1F5B9 /* LetterCombinationsofaPhoneNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 837C162D18EA49EC00B1F5B9 /* LetterCombinationsofaPhoneNumber.cpp */; };
 		837DCDAF18E3017400532881 /* PowXN.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 837DCDAD18E3017400532881 /* PowXN.cpp */; };
 		837E130718E27DE40037AA5B /* ASingleton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 837E130518E27DE40037AA5B /* ASingleton.cpp */; };
+		8381D1FE18EAF0D300ADA26A /* N-QueensII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8381D1FC18EAF0D300ADA26A /* N-QueensII.cpp */; };
 		838ABDE518DAD02600F03599 /* BigNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 838ABDE318DAD02600F03599 /* BigNumber.cpp */; };
 		839B1D0118EAB28A003D5C47 /* N-Queens.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 839B1CFF18EAB28A003D5C47 /* N-Queens.cpp */; };
 		83A23E2618DC11CA0089A169 /* LinkedListCycle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83A23E2418DC11CA0089A169 /* LinkedListCycle.cpp */; };
@@ -199,6 +200,7 @@
 		837DCDAD18E3017400532881 /* PowXN.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PowXN.cpp; sourceTree = "<group>"; };
 		837E130518E27DE40037AA5B /* ASingleton.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ASingleton.cpp; sourceTree = "<group>"; };
 		837E130618E27DE40037AA5B /* ASingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASingleton.h; sourceTree = "<group>"; };
+		8381D1FC18EAF0D300ADA26A /* N-QueensII.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "N-QueensII.cpp"; path = "Permutation/N-QueensII.cpp"; sourceTree = "<group>"; };
 		838737FE188EACF7001732CE /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 		838ABDE318DAD02600F03599 /* BigNumber.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BigNumber.cpp; sourceTree = "<group>"; };
 		838ABDE418DAD02600F03599 /* BigNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BigNumber.h; sourceTree = "<group>"; };
@@ -545,6 +547,7 @@
 				83C4213B18E99EB70055E26B /* GenerateParentheses.cpp */,
 				837C162D18EA49EC00B1F5B9 /* LetterCombinationsofaPhoneNumber.cpp */,
 				839B1CFF18EAB28A003D5C47 /* N-Queens.cpp */,
+				8381D1FC18EAF0D300ADA26A /* N-QueensII.cpp */,
 			);
 			name = Permutation;
 			sourceTree = "<group>";
@@ -787,6 +790,7 @@
 				836E020618D935D2005D780E /* SameTree.cpp in Sources */,
 				83A23E2618DC11CA0089A169 /* LinkedListCycle.cpp in Sources */,
 				83B0CD8C18D4A62800B69862 /* PathSumII.cpp in Sources */,
+				8381D1FE18EAF0D300ADA26A /* N-QueensII.cpp in Sources */,
 				832E1C3D1882C8C4001BA17B /* searchRotatedArray.c in Sources */,
 				836F5F6A18D9307F0015BB81 /* MaximumDepthofBinaryTree.cpp in Sources */,
 				836C11C718E116CB009F74E7 /* SingleNumber.cpp in Sources */,
