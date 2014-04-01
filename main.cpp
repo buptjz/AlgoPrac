@@ -25,7 +25,8 @@
 
 int main(int argc, const char * argv[])
 {
-    testMultipley();
+//    testMultipley();
+    testIsMatch2();
 }
 
 

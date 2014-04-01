@@ -27,4 +27,5 @@ void testIntToRoman();
 void testRemoveDuplicates();
 void testRemoveDuplicates2();
 void testMultipley();
+void testIsMatch2();
 #endif
