@@ -31,7 +31,8 @@ int f(int x){
 
 int main(int argc, const char * argv[])
 {
-    testRemoveDuplicates();
+//    testRemoveDuplicates();
+    testRemoveDuplicates2();
 }
 
 

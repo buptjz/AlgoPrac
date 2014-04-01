@@ -25,4 +25,5 @@ void testAnagrams();
 void testRomanToInt();
 void testIntToRoman();
 void testRemoveDuplicates();
+void testRemoveDuplicates2();
 #endif
