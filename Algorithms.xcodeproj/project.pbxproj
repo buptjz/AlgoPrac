@@ -63,6 +63,7 @@
 		837DCDAF18E3017400532881 /* PowXN.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 837DCDAD18E3017400532881 /* PowXN.cpp */; };
 		837E130718E27DE40037AA5B /* ASingleton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 837E130518E27DE40037AA5B /* ASingleton.cpp */; };
 		8381D1FE18EAF0D300ADA26A /* N-QueensII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8381D1FC18EAF0D300ADA26A /* N-QueensII.cpp */; };
+		8381D20118EAF3DE00ADA26A /* LengthofLastWord.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8381D1FF18EAF3DE00ADA26A /* LengthofLastWord.cpp */; };
 		838ABDE518DAD02600F03599 /* BigNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 838ABDE318DAD02600F03599 /* BigNumber.cpp */; };
 		839B1D0118EAB28A003D5C47 /* N-Queens.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 839B1CFF18EAB28A003D5C47 /* N-Queens.cpp */; };
 		83A23E2618DC11CA0089A169 /* LinkedListCycle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83A23E2418DC11CA0089A169 /* LinkedListCycle.cpp */; };
@@ -201,6 +202,7 @@
 		837E130518E27DE40037AA5B /* ASingleton.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ASingleton.cpp; sourceTree = "<group>"; };
 		837E130618E27DE40037AA5B /* ASingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASingleton.h; sourceTree = "<group>"; };
 		8381D1FC18EAF0D300ADA26A /* N-QueensII.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "N-QueensII.cpp"; path = "Permutation/N-QueensII.cpp"; sourceTree = "<group>"; };
+		8381D1FF18EAF3DE00ADA26A /* LengthofLastWord.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LengthofLastWord.cpp; sourceTree = "<group>"; };
 		838737FE188EACF7001732CE /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 		838ABDE318DAD02600F03599 /* BigNumber.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BigNumber.cpp; sourceTree = "<group>"; };
 		838ABDE418DAD02600F03599 /* BigNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BigNumber.h; sourceTree = "<group>"; };
@@ -517,6 +519,7 @@
 				83D35ED518DA9F270040586E /* WordSearch.cpp */,
 				83D35ED618DA9F270040586E /* ZigZagConversion.cpp */,
 				8305C6A818E444D1005E8B99 /* ValidPalindrome.cpp */,
+				8381D1FF18EAF3DE00ADA26A /* LengthofLastWord.cpp */,
 			);
 			path = Strings;
 			sourceTree = "<group>";
@@ -819,6 +822,7 @@
 				83666BDF18EA5AAF0084B841 /* MultiplyStrings.cpp in Sources */,
 				83A4B5AD18DA86180089B7FE /* PermutationsII.cpp in Sources */,
 				83B0CDBA18D4A67600B69862 /* PermutationsUnique.cpp in Sources */,
+				8381D20118EAF3DE00ADA26A /* LengthofLastWord.cpp in Sources */,
 				836C11CA18E11809009F74E7 /* MaximumSubarray.cpp in Sources */,
 				836C121018E16DD8009F74E7 /* BestTimetoBuyandSellStockIII.cpp in Sources */,
 				836C120418E16D03009F74E7 /* ReverseInteger.cpp in Sources */,

@@ -25,4 +25,5 @@ void testWordBreak2();
 void testConvert();
 void testLengthOfLongestSubstring();
 void testIsPalindrome();
+void testLengthOfLastWord();
 #endif
