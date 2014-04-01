@@ -31,12 +31,7 @@ int f(int x){
 
 int main(int argc, const char * argv[])
 {
-//    testNumDecodings();
-//    testAddBinary();
-//    testAnagrams();
-//    testGenerateParenthesis();
-//    testRomanToInt();
-    testIntToRoman();
+    testRemoveDuplicates();
 }
 
 

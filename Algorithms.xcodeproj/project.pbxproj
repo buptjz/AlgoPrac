@@ -56,6 +56,7 @@
 		836E021918D9435E005D780E /* MergekSortedLists.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 836E021818D9435E005D780E /* MergekSortedLists.cpp */; };
 		836F5F6A18D9307F0015BB81 /* MaximumDepthofBinaryTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 836F5F6818D9307F0015BB81 /* MaximumDepthofBinaryTree.cpp */; };
 		837C08D218E3F7ED004C85B3 /* MergeIntervals.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 837C08D118E3F7ED004C85B3 /* MergeIntervals.cpp */; };
+		837C162F18EA49EC00B1F5B9 /* LetterCombinationsofaPhoneNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 837C162D18EA49EC00B1F5B9 /* LetterCombinationsofaPhoneNumber.cpp */; };
 		837DCDAF18E3017400532881 /* PowXN.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 837DCDAD18E3017400532881 /* PowXN.cpp */; };
 		837E130718E27DE40037AA5B /* ASingleton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 837E130518E27DE40037AA5B /* ASingleton.cpp */; };
 		838ABDE518DAD02600F03599 /* BigNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 838ABDE318DAD02600F03599 /* BigNumber.cpp */; };
@@ -96,6 +97,7 @@
 		83C4214018E9B2310055E26B /* RomantoInteger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83C4213E18E9B2310055E26B /* RomantoInteger.cpp */; };
 		83C4214318E9B6FC0055E26B /* IntegertoRoman.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83C4214118E9B6FC0055E26B /* IntegertoRoman.cpp */; };
 		83C4B96E18E01F6D0028AC56 /* QuickSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83C4B96C18E01F6D0028AC56 /* QuickSort.cpp */; };
+		83C8EFAF18EA50E0001C2E36 /* RemoveDuplicatesfromSortedArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83C8EFAD18EA50E0001C2E36 /* RemoveDuplicatesfromSortedArray.cpp */; };
 		83CF229418D82C920085AF17 /* UniqueBinarySearchTrees.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83CF229218D82C920085AF17 /* UniqueBinarySearchTrees.cpp */; };
 		83D266B318D8246600621577 /* ConvertSortedArraytoBinarySearchTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83D266B218D8246600621577 /* ConvertSortedArraytoBinarySearchTree.cpp */; };
 		83D35ED718DA9F270040586E /* atoi.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83D35ECB18DA9F270040586E /* atoi.cpp */; };
@@ -185,6 +187,7 @@
 		836F5F6818D9307F0015BB81 /* MaximumDepthofBinaryTree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MaximumDepthofBinaryTree.cpp; path = Tree/MaximumDepthofBinaryTree.cpp; sourceTree = "<group>"; };
 		837C08D118E3F7ED004C85B3 /* MergeIntervals.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MergeIntervals.cpp; sourceTree = "<group>"; };
 		837C08D318E3F800004C85B3 /* leetcode_sort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = leetcode_sort.h; sourceTree = "<group>"; };
+		837C162D18EA49EC00B1F5B9 /* LetterCombinationsofaPhoneNumber.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LetterCombinationsofaPhoneNumber.cpp; path = Permutation/LetterCombinationsofaPhoneNumber.cpp; sourceTree = "<group>"; };
 		837DCDAD18E3017400532881 /* PowXN.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PowXN.cpp; sourceTree = "<group>"; };
 		837E130518E27DE40037AA5B /* ASingleton.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ASingleton.cpp; sourceTree = "<group>"; };
 		837E130618E27DE40037AA5B /* ASingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASingleton.h; sourceTree = "<group>"; };
@@ -231,6 +234,7 @@
 		83C4214118E9B6FC0055E26B /* IntegertoRoman.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IntegertoRoman.cpp; sourceTree = "<group>"; };
 		83C4B96C18E01F6D0028AC56 /* QuickSort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = QuickSort.cpp; sourceTree = "<group>"; };
 		83C4B96F18E022950028AC56 /* other_sort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = other_sort.h; sourceTree = "<group>"; };
+		83C8EFAD18EA50E0001C2E36 /* RemoveDuplicatesfromSortedArray.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RemoveDuplicatesfromSortedArray.cpp; sourceTree = "<group>"; };
 		83CF229218D82C920085AF17 /* UniqueBinarySearchTrees.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = UniqueBinarySearchTrees.cpp; path = Tree/UniqueBinarySearchTrees.cpp; sourceTree = "<group>"; };
 		83D266B218D8246600621577 /* ConvertSortedArraytoBinarySearchTree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ConvertSortedArraytoBinarySearchTree.cpp; path = Tree/ConvertSortedArraytoBinarySearchTree.cpp; sourceTree = "<group>"; };
 		83D266B518D8249700621577 /* leetcode_tree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = leetcode_tree.h; path = Tree/leetcode_tree.h; sourceTree = "<group>"; };
@@ -348,6 +352,7 @@
 				833A041618E954EE00DAEE00 /* Anagrams.cpp */,
 				83C4213E18E9B2310055E26B /* RomantoInteger.cpp */,
 				83C4214118E9B6FC0055E26B /* IntegertoRoman.cpp */,
+				83C8EFAD18EA50E0001C2E36 /* RemoveDuplicatesfromSortedArray.cpp */,
 			);
 			path = Others;
 			sourceTree = "<group>";
@@ -524,6 +529,7 @@
 				83B0CDB118D4A67600B69862 /* Subsets.cpp */,
 				83B0CDB318D4A67600B69862 /* SubsetsII.cpp */,
 				83C4213B18E99EB70055E26B /* GenerateParentheses.cpp */,
+				837C162D18EA49EC00B1F5B9 /* LetterCombinationsofaPhoneNumber.cpp */,
 			);
 			name = Permutation;
 			sourceTree = "<group>";
@@ -758,6 +764,7 @@
 				8305C6AD18E45938005E8B99 /* WordLadder.cpp in Sources */,
 				83CF229418D82C920085AF17 /* UniqueBinarySearchTrees.cpp in Sources */,
 				836C120F18E16DD8009F74E7 /* BestTimetoBuyandSellStockII.cpp in Sources */,
+				83C8EFAF18EA50E0001C2E36 /* RemoveDuplicatesfromSortedArray.cpp in Sources */,
 				83B0CD7C18D4A61200B69862 /* ConstructBinaryTreefromInorderandPostorderTraversal.cpp in Sources */,
 				836E020618D935D2005D780E /* SameTree.cpp in Sources */,
 				83A23E2618DC11CA0089A169 /* LinkedListCycle.cpp in Sources */,
@@ -775,6 +782,7 @@
 				83EC957818E41BEA001F0D99 /* SetMatrixZeroes.cpp in Sources */,
 				83B0CD7E18D4A61200B69862 /* ConvertSortedListtoBinarySearchTree.cpp in Sources */,
 				8364F66618E3C5AF008F7C13 /* question12.cpp in Sources */,
+				837C162F18EA49EC00B1F5B9 /* LetterCombinationsofaPhoneNumber.cpp in Sources */,
 				83A23E2F18DC2C310089A169 /* RemoveNthNodeFromEndofList.cpp in Sources */,
 				83C4B96E18E01F6D0028AC56 /* QuickSort.cpp in Sources */,
 				8367439E189016670051E377 /* numTrees.cpp in Sources */,

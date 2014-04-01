@@ -24,4 +24,5 @@ void testAddBinary();
 void testAnagrams();
 void testRomanToInt();
 void testIntToRoman();
+void testRemoveDuplicates();
 #endif

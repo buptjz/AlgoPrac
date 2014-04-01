@@ -737,7 +737,7 @@
                   symbolName = "anagrams(std::__1::vector&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt;, std::__1::allocator&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; &gt; &gt;&amp;)"
                   moduleName = "Algorithms"
                   urlString = "file:///Volumes/HDD/developer/AlgoPrac/LeetCode/Others/Anagrams.cpp"
-                  timestampString = "417971186.434488"
+                  timestampString = "418009793.304173"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "36"
@@ -751,7 +751,7 @@
                   symbolName = "anagrams(std::__1::vector&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt;, std::__1::allocator&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; &gt; &gt;&amp;)"
                   moduleName = "Algorithms"
                   urlString = "file:///Volumes/HDD/developer/AlgoPrac/LeetCode/Others/Anagrams.cpp"
-                  timestampString = "417971186.434941"
+                  timestampString = "418009793.304605"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "36"
@@ -765,7 +765,7 @@
                   symbolName = "anagrams(std::__1::vector&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt;, std::__1::allocator&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; &gt; &gt;&amp;)"
                   moduleName = "Algorithms"
                   urlString = "file:///Volumes/HDD/developer/AlgoPrac/LeetCode/Others/Anagrams.cpp"
-                  timestampString = "417971186.435414"
+                  timestampString = "418009793.304976"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "36"
@@ -779,7 +779,7 @@
                   symbolName = "anagrams(std::__1::vector&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt;, std::__1::allocator&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; &gt; &gt;&amp;)"
                   moduleName = "Algorithms"
                   urlString = "file:///Volumes/HDD/developer/AlgoPrac/LeetCode/Others/Anagrams.cpp"
-                  timestampString = "417971186.435889"
+                  timestampString = "418009793.305379"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "36"
@@ -802,6 +802,38 @@
             startingLineNumber = "44"
             endingLineNumber = "44"
             landmarkName = "testGenerateParenthesis()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LeetCode/Permutation/LetterCombinationsofaPhoneNumber.cpp"
+            timestampString = "418008895.266787"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "65"
+            endingLineNumber = "65"
+            landmarkName = "testLetterCombinations()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LeetCode/Others/RemoveDuplicatesfromSortedArray.cpp"
+            timestampString = "418009728.112372"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "testRemoveDuplicates()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
