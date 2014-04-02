@@ -65,6 +65,7 @@
 		837DCDAF18E3017400532881 /* PowXN.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 837DCDAD18E3017400532881 /* PowXN.cpp */; };
 		837E130718E27DE40037AA5B /* ASingleton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 837E130518E27DE40037AA5B /* ASingleton.cpp */; };
 		8381A4C518EBE3F0008851BC /* JumpGame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8381A4C318EBE3F0008851BC /* JumpGame.cpp */; };
+		8381A4C818EBEB9E008851BC /* PopulatingNextRightPointersinEachNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8381A4C618EBEB9E008851BC /* PopulatingNextRightPointersinEachNode.cpp */; };
 		8381D1FE18EAF0D300ADA26A /* N-QueensII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8381D1FC18EAF0D300ADA26A /* N-QueensII.cpp */; };
 		8381D20118EAF3DE00ADA26A /* LengthofLastWord.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8381D1FF18EAF3DE00ADA26A /* LengthofLastWord.cpp */; };
 		838ABDE518DAD02600F03599 /* BigNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 838ABDE318DAD02600F03599 /* BigNumber.cpp */; };
@@ -209,6 +210,7 @@
 		837E130518E27DE40037AA5B /* ASingleton.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ASingleton.cpp; sourceTree = "<group>"; };
 		837E130618E27DE40037AA5B /* ASingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASingleton.h; sourceTree = "<group>"; };
 		8381A4C318EBE3F0008851BC /* JumpGame.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JumpGame.cpp; sourceTree = "<group>"; };
+		8381A4C618EBEB9E008851BC /* PopulatingNextRightPointersinEachNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PopulatingNextRightPointersinEachNode.cpp; path = Tree/PopulatingNextRightPointersinEachNode.cpp; sourceTree = "<group>"; };
 		8381D1FC18EAF0D300ADA26A /* N-QueensII.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "N-QueensII.cpp"; path = "Permutation/N-QueensII.cpp"; sourceTree = "<group>"; };
 		8381D1FF18EAF3DE00ADA26A /* LengthofLastWord.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LengthofLastWord.cpp; sourceTree = "<group>"; };
 		838737FE188EACF7001732CE /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
@@ -596,6 +598,7 @@
 				836E020418D935D2005D780E /* SameTree.cpp */,
 				836E020718D93742005D780E /* ValidateBinarySearchTree.cpp */,
 				832BBD8218E9189900C11E2E /* SumRoottoLeafNumbers.cpp */,
+				8381A4C618EBEB9E008851BC /* PopulatingNextRightPointersinEachNode.cpp */,
 			);
 			name = Tree;
 			sourceTree = "<group>";
@@ -789,6 +792,7 @@
 				83B0CDB918D4A67600B69862 /* PermutationSequence.cpp in Sources */,
 				83B0CD8018D4A61200B69862 /* RecoverBinarySearchTree.cpp in Sources */,
 				836C121A18E1774D009F74E7 /* findMedianSortedArrays.cpp in Sources */,
+				8381A4C818EBEB9E008851BC /* PopulatingNextRightPointersinEachNode.cpp in Sources */,
 				83DE2D1718EBB1140018C486 /* 3SumClosest.cpp in Sources */,
 				832762C418D977F3003A6B43 /* BinaryTreeMaximumPathSum.cpp in Sources */,
 				83D35EDC18DA9F270040586E /* SubstringwithConcatenationofAllWords.cpp in Sources */,
