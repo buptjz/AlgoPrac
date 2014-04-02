@@ -18,4 +18,6 @@ using namespace std;
 
 void testClimbStars();
 void testNumDecodings();
+void testJump();
+void testCanJump();
 #endif

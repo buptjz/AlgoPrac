@@ -23,6 +23,7 @@
 		8364F66618E3C5AF008F7C13 /* question12.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8364F66418E3C5AF008F7C13 /* question12.cpp */; };
 		83666BDF18EA5AAF0084B841 /* MultiplyStrings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83666BDD18EA5AAF0084B841 /* MultiplyStrings.cpp */; };
 		8367439E189016670051E377 /* numTrees.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8367439D189016670051E377 /* numTrees.cpp */; };
+		836A684E18EBBDEF005140BD /* JumpGameII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 836A684C18EBBDEF005140BD /* JumpGameII.cpp */; };
 		836C11C718E116CB009F74E7 /* SingleNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 836C11C618E116CB009F74E7 /* SingleNumber.cpp */; };
 		836C11CA18E11809009F74E7 /* MaximumSubarray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 836C11C818E11809009F74E7 /* MaximumSubarray.cpp */; };
 		836C11E918E122C7009F74E7 /* LargestRectangularAreainaHistogram.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 836C11E518E122C7009F74E7 /* LargestRectangularAreainaHistogram.cpp */; };
@@ -63,6 +64,7 @@
 		837C162F18EA49EC00B1F5B9 /* LetterCombinationsofaPhoneNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 837C162D18EA49EC00B1F5B9 /* LetterCombinationsofaPhoneNumber.cpp */; };
 		837DCDAF18E3017400532881 /* PowXN.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 837DCDAD18E3017400532881 /* PowXN.cpp */; };
 		837E130718E27DE40037AA5B /* ASingleton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 837E130518E27DE40037AA5B /* ASingleton.cpp */; };
+		8381A4C518EBE3F0008851BC /* JumpGame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8381A4C318EBE3F0008851BC /* JumpGame.cpp */; };
 		8381D1FE18EAF0D300ADA26A /* N-QueensII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8381D1FC18EAF0D300ADA26A /* N-QueensII.cpp */; };
 		8381D20118EAF3DE00ADA26A /* LengthofLastWord.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8381D1FF18EAF3DE00ADA26A /* LengthofLastWord.cpp */; };
 		838ABDE518DAD02600F03599 /* BigNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 838ABDE318DAD02600F03599 /* BigNumber.cpp */; };
@@ -161,6 +163,7 @@
 		8364F66418E3C5AF008F7C13 /* question12.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = question12.cpp; sourceTree = "<group>"; };
 		83666BDD18EA5AAF0084B841 /* MultiplyStrings.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MultiplyStrings.cpp; sourceTree = "<group>"; };
 		8367439D189016670051E377 /* numTrees.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = numTrees.cpp; sourceTree = "<group>"; };
+		836A684C18EBBDEF005140BD /* JumpGameII.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JumpGameII.cpp; sourceTree = "<group>"; };
 		836C11C518E11196009F74E7 /* leetcode_others.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = leetcode_others.h; path = Others/leetcode_others.h; sourceTree = "<group>"; };
 		836C11C618E116CB009F74E7 /* SingleNumber.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SingleNumber.cpp; sourceTree = "<group>"; };
 		836C11C818E11809009F74E7 /* MaximumSubarray.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MaximumSubarray.cpp; sourceTree = "<group>"; };
@@ -205,6 +208,7 @@
 		837DCDAD18E3017400532881 /* PowXN.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PowXN.cpp; sourceTree = "<group>"; };
 		837E130518E27DE40037AA5B /* ASingleton.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ASingleton.cpp; sourceTree = "<group>"; };
 		837E130618E27DE40037AA5B /* ASingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASingleton.h; sourceTree = "<group>"; };
+		8381A4C318EBE3F0008851BC /* JumpGame.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JumpGame.cpp; sourceTree = "<group>"; };
 		8381D1FC18EAF0D300ADA26A /* N-QueensII.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "N-QueensII.cpp"; path = "Permutation/N-QueensII.cpp"; sourceTree = "<group>"; };
 		8381D1FF18EAF3DE00ADA26A /* LengthofLastWord.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LengthofLastWord.cpp; sourceTree = "<group>"; };
 		838737FE188EACF7001732CE /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
@@ -323,6 +327,8 @@
 				83EC957318E4169E001F0D99 /* ClimbingStairs.cpp */,
 				832BBD8518E93AF400C11E2E /* DecodeWays.cpp */,
 				8327F21718EA695600F44B0E /* WildcardMatching.cpp */,
+				836A684C18EBBDEF005140BD /* JumpGameII.cpp */,
+				8381A4C318EBE3F0008851BC /* JumpGame.cpp */,
 			);
 			path = DP;
 			sourceTree = "<group>";
@@ -758,6 +764,7 @@
 				83D35EE118DA9F270040586E /* ZigZagConversion.cpp in Sources */,
 				83B0CDBC18D4A67600B69862 /* SubsetsII.cpp in Sources */,
 				83B0CD7D18D4A61200B69862 /* ConstructBinaryTreefromInorderandPreorderTraversal.cpp in Sources */,
+				836A684E18EBBDEF005140BD /* JumpGameII.cpp in Sources */,
 				83B0CDB518D4A67600B69862 /* Combinations.cpp in Sources */,
 				837DCDAF18E3017400532881 /* PowXN.cpp in Sources */,
 				836C11FC18E15596009F74E7 /* ContainerWithMostWater.cpp in Sources */,
@@ -765,6 +772,7 @@
 				8327F21918EA695600F44B0E /* WildcardMatching.cpp in Sources */,
 				836E021518D940DF005D780E /* SwapNodesinPairs.cpp in Sources */,
 				83D35EDA18DA9F270040586E /* MinimumWindowSubstring.cpp in Sources */,
+				8381A4C518EBE3F0008851BC /* JumpGame.cpp in Sources */,
 				83D266B318D8246600621577 /* ConvertSortedArraytoBinarySearchTree.cpp in Sources */,
 				83B0CDB718D4A67600B69862 /* NextPermutation.cpp in Sources */,
 				83B0CDC118D4A6B700B69862 /* main.cpp in Sources */,
