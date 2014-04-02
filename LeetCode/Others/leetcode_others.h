@@ -32,4 +32,5 @@ void testCanCompleteCircuit();
 void testTotalQueens();
 void testIsValidSudoku();
 void testThreeSumClosest();
+void testGeneratePTri();
 #endif

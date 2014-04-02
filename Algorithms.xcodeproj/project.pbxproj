@@ -67,6 +67,8 @@
 		8381A4C518EBE3F0008851BC /* JumpGame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8381A4C318EBE3F0008851BC /* JumpGame.cpp */; };
 		8381A4C818EBEB9E008851BC /* PopulatingNextRightPointersinEachNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8381A4C618EBEB9E008851BC /* PopulatingNextRightPointersinEachNode.cpp */; };
 		8381A4CB18EBF3B9008851BC /* PopulatingNextRightPointersinEachNodeII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8381A4C918EBF3B9008851BC /* PopulatingNextRightPointersinEachNodeII.cpp */; };
+		8381A4CE18EC055A008851BC /* PascalsTriangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8381A4CC18EC055A008851BC /* PascalsTriangle.cpp */; };
+		8381A4D118EC0BF7008851BC /* PascalsTriangleII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8381A4CF18EC0BF7008851BC /* PascalsTriangleII.cpp */; };
 		8381D1FE18EAF0D300ADA26A /* N-QueensII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8381D1FC18EAF0D300ADA26A /* N-QueensII.cpp */; };
 		8381D20118EAF3DE00ADA26A /* LengthofLastWord.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8381D1FF18EAF3DE00ADA26A /* LengthofLastWord.cpp */; };
 		838ABDE518DAD02600F03599 /* BigNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 838ABDE318DAD02600F03599 /* BigNumber.cpp */; };
@@ -213,6 +215,8 @@
 		8381A4C318EBE3F0008851BC /* JumpGame.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JumpGame.cpp; sourceTree = "<group>"; };
 		8381A4C618EBEB9E008851BC /* PopulatingNextRightPointersinEachNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PopulatingNextRightPointersinEachNode.cpp; path = Tree/PopulatingNextRightPointersinEachNode.cpp; sourceTree = "<group>"; };
 		8381A4C918EBF3B9008851BC /* PopulatingNextRightPointersinEachNodeII.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PopulatingNextRightPointersinEachNodeII.cpp; path = Tree/PopulatingNextRightPointersinEachNodeII.cpp; sourceTree = "<group>"; };
+		8381A4CC18EC055A008851BC /* PascalsTriangle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PascalsTriangle.cpp; sourceTree = "<group>"; };
+		8381A4CF18EC0BF7008851BC /* PascalsTriangleII.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PascalsTriangleII.cpp; sourceTree = "<group>"; };
 		8381D1FC18EAF0D300ADA26A /* N-QueensII.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "N-QueensII.cpp"; path = "Permutation/N-QueensII.cpp"; sourceTree = "<group>"; };
 		8381D1FF18EAF3DE00ADA26A /* LengthofLastWord.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LengthofLastWord.cpp; sourceTree = "<group>"; };
 		838737FE188EACF7001732CE /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
@@ -387,6 +391,8 @@
 				83C7AB4418EA534D00A51E3F /* RemoveDuplicatesfromSortedArrayII.cpp */,
 				83666BDD18EA5AAF0084B841 /* MultiplyStrings.cpp */,
 				832675B818EBAA5100143F77 /* ValidSudoku.cpp */,
+				8381A4CC18EC055A008851BC /* PascalsTriangle.cpp */,
+				8381A4CF18EC0BF7008851BC /* PascalsTriangleII.cpp */,
 			);
 			path = Others;
 			sourceTree = "<group>";
@@ -820,6 +826,7 @@
 				836E020618D935D2005D780E /* SameTree.cpp in Sources */,
 				83A23E2618DC11CA0089A169 /* LinkedListCycle.cpp in Sources */,
 				83B0CD8C18D4A62800B69862 /* PathSumII.cpp in Sources */,
+				8381A4CE18EC055A008851BC /* PascalsTriangle.cpp in Sources */,
 				8381D1FE18EAF0D300ADA26A /* N-QueensII.cpp in Sources */,
 				832E1C3D1882C8C4001BA17B /* searchRotatedArray.c in Sources */,
 				836F5F6A18D9307F0015BB81 /* MaximumDepthofBinaryTree.cpp in Sources */,
@@ -835,6 +842,7 @@
 				83B0CD7E18D4A61200B69862 /* ConvertSortedListtoBinarySearchTree.cpp in Sources */,
 				8364F66618E3C5AF008F7C13 /* question12.cpp in Sources */,
 				837C162F18EA49EC00B1F5B9 /* LetterCombinationsofaPhoneNumber.cpp in Sources */,
+				8381A4D118EC0BF7008851BC /* PascalsTriangleII.cpp in Sources */,
 				83A23E2F18DC2C310089A169 /* RemoveNthNodeFromEndofList.cpp in Sources */,
 				83C4B96E18E01F6D0028AC56 /* QuickSort.cpp in Sources */,
 				839B1D0118EAB28A003D5C47 /* N-Queens.cpp in Sources */,
