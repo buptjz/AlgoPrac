@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		8305C6AA18E444D1005E8B99 /* ValidPalindrome.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8305C6A818E444D1005E8B99 /* ValidPalindrome.cpp */; };
 		8305C6AD18E45938005E8B99 /* WordLadder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8305C6AB18E45938005E8B99 /* WordLadder.cpp */; };
+		8323DDC218EC4D29004BF125 /* 4Sum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8323DDC018EC4D29004BF125 /* 4Sum.cpp */; };
 		832675BA18EBAA5100143F77 /* ValidSudoku.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 832675B818EBAA5100143F77 /* ValidSudoku.cpp */; };
 		832762C418D977F3003A6B43 /* BinaryTreeMaximumPathSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 832762C318D977F3003A6B43 /* BinaryTreeMaximumPathSum.cpp */; };
 		8327F21918EA695600F44B0E /* WildcardMatching.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8327F21718EA695600F44B0E /* WildcardMatching.cpp */; };
@@ -151,6 +152,7 @@
 /* Begin PBXFileReference section */
 		8305C6A818E444D1005E8B99 /* ValidPalindrome.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ValidPalindrome.cpp; sourceTree = "<group>"; };
 		8305C6AB18E45938005E8B99 /* WordLadder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = WordLadder.cpp; path = DFSBFS/WordLadder.cpp; sourceTree = "<group>"; };
+		8323DDC018EC4D29004BF125 /* 4Sum.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 4Sum.cpp; sourceTree = "<group>"; };
 		832675B818EBAA5100143F77 /* ValidSudoku.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ValidSudoku.cpp; sourceTree = "<group>"; };
 		832762C318D977F3003A6B43 /* BinaryTreeMaximumPathSum.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BinaryTreeMaximumPathSum.cpp; path = Tree/BinaryTreeMaximumPathSum.cpp; sourceTree = "<group>"; };
 		8327F21718EA695600F44B0E /* WildcardMatching.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WildcardMatching.cpp; sourceTree = "<group>"; };
@@ -424,6 +426,7 @@
 				836C11F118E1522C009F74E7 /* 2Sum.cpp */,
 				836C11F218E1522C009F74E7 /* 3Sum.cpp */,
 				83DE2D1518EBB1140018C486 /* 3SumClosest.cpp */,
+				8323DDC018EC4D29004BF125 /* 4Sum.cpp */,
 			);
 			path = kSum;
 			sourceTree = "<group>";
@@ -773,6 +776,7 @@
 				833CF2A718DDE30700F0183A /* UniquePathsII.cpp in Sources */,
 				837E130718E27DE40037AA5B /* ASingleton.cpp in Sources */,
 				832BBD8718E93AF400C11E2E /* DecodeWays.cpp in Sources */,
+				8323DDC218EC4D29004BF125 /* 4Sum.cpp in Sources */,
 				83EC957518E4169E001F0D99 /* ClimbingStairs.cpp in Sources */,
 				83D35EE118DA9F270040586E /* ZigZagConversion.cpp in Sources */,
 				83B0CDBC18D4A67600B69862 /* SubsetsII.cpp in Sources */,
