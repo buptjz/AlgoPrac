@@ -30,4 +30,6 @@ void testMultipley();
 void testIsMatch2();
 void testCanCompleteCircuit();
 void testTotalQueens();
+void testIsValidSudoku();
+void testThreeSumClosest();
 #endif

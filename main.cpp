@@ -25,7 +25,9 @@
 
 int main(int argc, const char * argv[])
 {
-    testSolveSudoku();
+//    testSolveSudoku();
+//    testIsValidSudoku();
+    testThreeSumClosest();
 }
 
 
