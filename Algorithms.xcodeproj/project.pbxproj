@@ -66,6 +66,7 @@
 		837E130718E27DE40037AA5B /* ASingleton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 837E130518E27DE40037AA5B /* ASingleton.cpp */; };
 		8381A4C518EBE3F0008851BC /* JumpGame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8381A4C318EBE3F0008851BC /* JumpGame.cpp */; };
 		8381A4C818EBEB9E008851BC /* PopulatingNextRightPointersinEachNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8381A4C618EBEB9E008851BC /* PopulatingNextRightPointersinEachNode.cpp */; };
+		8381A4CB18EBF3B9008851BC /* PopulatingNextRightPointersinEachNodeII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8381A4C918EBF3B9008851BC /* PopulatingNextRightPointersinEachNodeII.cpp */; };
 		8381D1FE18EAF0D300ADA26A /* N-QueensII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8381D1FC18EAF0D300ADA26A /* N-QueensII.cpp */; };
 		8381D20118EAF3DE00ADA26A /* LengthofLastWord.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8381D1FF18EAF3DE00ADA26A /* LengthofLastWord.cpp */; };
 		838ABDE518DAD02600F03599 /* BigNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 838ABDE318DAD02600F03599 /* BigNumber.cpp */; };
@@ -211,6 +212,7 @@
 		837E130618E27DE40037AA5B /* ASingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASingleton.h; sourceTree = "<group>"; };
 		8381A4C318EBE3F0008851BC /* JumpGame.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JumpGame.cpp; sourceTree = "<group>"; };
 		8381A4C618EBEB9E008851BC /* PopulatingNextRightPointersinEachNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PopulatingNextRightPointersinEachNode.cpp; path = Tree/PopulatingNextRightPointersinEachNode.cpp; sourceTree = "<group>"; };
+		8381A4C918EBF3B9008851BC /* PopulatingNextRightPointersinEachNodeII.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PopulatingNextRightPointersinEachNodeII.cpp; path = Tree/PopulatingNextRightPointersinEachNodeII.cpp; sourceTree = "<group>"; };
 		8381D1FC18EAF0D300ADA26A /* N-QueensII.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "N-QueensII.cpp"; path = "Permutation/N-QueensII.cpp"; sourceTree = "<group>"; };
 		8381D1FF18EAF3DE00ADA26A /* LengthofLastWord.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LengthofLastWord.cpp; sourceTree = "<group>"; };
 		838737FE188EACF7001732CE /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
@@ -599,6 +601,7 @@
 				836E020718D93742005D780E /* ValidateBinarySearchTree.cpp */,
 				832BBD8218E9189900C11E2E /* SumRoottoLeafNumbers.cpp */,
 				8381A4C618EBEB9E008851BC /* PopulatingNextRightPointersinEachNode.cpp */,
+				8381A4C918EBF3B9008851BC /* PopulatingNextRightPointersinEachNodeII.cpp */,
 			);
 			name = Tree;
 			sourceTree = "<group>";
@@ -745,6 +748,7 @@
 				836C120E18E16DD8009F74E7 /* BestTimetoBuyandSellStock.cpp in Sources */,
 				83A23E2918DC12550089A169 /* LinkedListCycleII.cpp in Sources */,
 				83B0CD7718D4A61200B69862 /* BinaryTreeLevelOrderTraversal.cpp in Sources */,
+				8381A4CB18EBF3B9008851BC /* PopulatingNextRightPointersinEachNodeII.cpp in Sources */,
 				83C7AB4618EA534D00A51E3F /* RemoveDuplicatesfromSortedArrayII.cpp in Sources */,
 				83A4B5AA18DA81100089B7FE /* align_malloc.cpp in Sources */,
 				836C11F818E154E1009F74E7 /* SingleNumberIII.cpp in Sources */,
