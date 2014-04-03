@@ -31,7 +31,8 @@ int main(int argc, const char * argv[])
 //    testRestoreIpaddresses();
 //    testSortCorlors();
 //    testFirstMissingPositive();
-    testPlusOne();
+//    testPlusOne();
+    testRotate();
 }
 
 

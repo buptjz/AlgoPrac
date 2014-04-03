@@ -37,4 +37,5 @@ void testCountAndSay();
 void testIsIsPalindrome();
 void testIsCrramble();
 void testPlusOne();
+void testRotate();
 #endif
