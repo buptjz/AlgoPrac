@@ -24,6 +24,7 @@
 		833CF2A418DDDF3F00F0183A /* UniquePaths.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 833CF2A218DDDF3F00F0183A /* UniquePaths.cpp */; };
 		833CF2A718DDE30700F0183A /* UniquePathsII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 833CF2A518DDE30700F0183A /* UniquePathsII.cpp */; };
 		8348FE1218ED309A008ECA69 /* ScrambleString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8348FE1018ED309A008ECA69 /* ScrambleString.cpp */; };
+		834E005718ED9D500076F371 /* PlusOne.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 834E005518ED9D500076F371 /* PlusOne.cpp */; };
 		8364F66618E3C5AF008F7C13 /* question12.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8364F66418E3C5AF008F7C13 /* question12.cpp */; };
 		83666BDF18EA5AAF0084B841 /* MultiplyStrings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83666BDD18EA5AAF0084B841 /* MultiplyStrings.cpp */; };
 		8367439E189016670051E377 /* numTrees.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8367439D189016670051E377 /* numTrees.cpp */; };
@@ -175,6 +176,7 @@
 		833CF2A518DDE30700F0183A /* UniquePathsII.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UniquePathsII.cpp; sourceTree = "<group>"; };
 		833CF2A818DDE32D00F0183A /* leetcode_dp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = leetcode_dp.h; sourceTree = "<group>"; };
 		8348FE1018ED309A008ECA69 /* ScrambleString.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ScrambleString.cpp; path = DFSBFS/ScrambleString.cpp; sourceTree = "<group>"; };
+		834E005518ED9D500076F371 /* PlusOne.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PlusOne.cpp; sourceTree = "<group>"; };
 		83595CB418E3CCB9004B34AA /* conquerOffer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = conquerOffer.h; sourceTree = "<group>"; };
 		8364F66418E3C5AF008F7C13 /* question12.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = question12.cpp; sourceTree = "<group>"; };
 		83666BDD18EA5AAF0084B841 /* MultiplyStrings.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MultiplyStrings.cpp; sourceTree = "<group>"; };
@@ -411,6 +413,7 @@
 				8381A4CF18EC0BF7008851BC /* PascalsTriangleII.cpp */,
 				831DF56D18ECFFD60055DF57 /* CountandSay.cpp */,
 				83962C4F18ED06F7008BFCF3 /* PalindromeNumber.cpp */,
+				834E005518ED9D500076F371 /* PlusOne.cpp */,
 			);
 			path = Others;
 			sourceTree = "<group>";
@@ -791,6 +794,7 @@
 				836C11F418E1522C009F74E7 /* 3Sum.cpp in Sources */,
 				83C4214318E9B6FC0055E26B /* IntegertoRoman.cpp in Sources */,
 				83B0CDB818D4A67600B69862 /* Permutations.cpp in Sources */,
+				834E005718ED9D500076F371 /* PlusOne.cpp in Sources */,
 				833CF2A018DDDCC300F0183A /* RemoveDuplicatesfromSortedList.cpp in Sources */,
 				83D35ED918DA9F270040586E /* LongestSubstringWithoutRepeatingCharacters.cpp in Sources */,
 				83A23E2C18DC2AC20089A169 /* RemoveDuplicatesfromSortedListII.cpp in Sources */,

@@ -30,7 +30,8 @@ int main(int argc, const char * argv[])
 //    testIsCrramble();
 //    testRestoreIpaddresses();
 //    testSortCorlors();
-    testFirstMissingPositive();
+//    testFirstMissingPositive();
+    testPlusOne();
 }
 
 

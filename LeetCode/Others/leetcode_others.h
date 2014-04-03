@@ -36,5 +36,5 @@ void testGeneratePTri();
 void testCountAndSay();
 void testIsIsPalindrome();
 void testIsCrramble();
-
+void testPlusOne();
 #endif
