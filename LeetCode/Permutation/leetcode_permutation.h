@@ -27,4 +27,5 @@ void testLetterCombinations();
 void testSolveNQueens();
 void testSolveSudoku();
 void testGrayCode();
+void testRestoreIpaddresses();
 #endif

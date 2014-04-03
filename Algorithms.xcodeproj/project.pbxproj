@@ -68,6 +68,7 @@
 		837C162F18EA49EC00B1F5B9 /* LetterCombinationsofaPhoneNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 837C162D18EA49EC00B1F5B9 /* LetterCombinationsofaPhoneNumber.cpp */; };
 		837DCDAF18E3017400532881 /* PowXN.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 837DCDAD18E3017400532881 /* PowXN.cpp */; };
 		837E130718E27DE40037AA5B /* ASingleton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 837E130518E27DE40037AA5B /* ASingleton.cpp */; };
+		837FE15818ED452800145C16 /* RestoreIPAddresses.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 837FE15618ED452800145C16 /* RestoreIPAddresses.cpp */; };
 		8381A4C518EBE3F0008851BC /* JumpGame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8381A4C318EBE3F0008851BC /* JumpGame.cpp */; };
 		8381A4C818EBEB9E008851BC /* PopulatingNextRightPointersinEachNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8381A4C618EBEB9E008851BC /* PopulatingNextRightPointersinEachNode.cpp */; };
 		8381A4CB18EBF3B9008851BC /* PopulatingNextRightPointersinEachNodeII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8381A4C918EBF3B9008851BC /* PopulatingNextRightPointersinEachNodeII.cpp */; };
@@ -221,6 +222,7 @@
 		837DCDAD18E3017400532881 /* PowXN.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PowXN.cpp; sourceTree = "<group>"; };
 		837E130518E27DE40037AA5B /* ASingleton.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ASingleton.cpp; sourceTree = "<group>"; };
 		837E130618E27DE40037AA5B /* ASingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASingleton.h; sourceTree = "<group>"; };
+		837FE15618ED452800145C16 /* RestoreIPAddresses.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RestoreIPAddresses.cpp; path = Permutation/RestoreIPAddresses.cpp; sourceTree = "<group>"; };
 		8381A4C318EBE3F0008851BC /* JumpGame.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JumpGame.cpp; sourceTree = "<group>"; };
 		8381A4C618EBEB9E008851BC /* PopulatingNextRightPointersinEachNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PopulatingNextRightPointersinEachNode.cpp; path = Tree/PopulatingNextRightPointersinEachNode.cpp; sourceTree = "<group>"; };
 		8381A4C918EBF3B9008851BC /* PopulatingNextRightPointersinEachNodeII.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PopulatingNextRightPointersinEachNodeII.cpp; path = Tree/PopulatingNextRightPointersinEachNodeII.cpp; sourceTree = "<group>"; };
@@ -591,6 +593,7 @@
 				8381D1FC18EAF0D300ADA26A /* N-QueensII.cpp */,
 				83906DCE18EB989000C8CDF9 /* SudokuSolver.cpp */,
 				831DF56A18ECF0FA0055DF57 /* GrayCode.cpp */,
+				837FE15618ED452800145C16 /* RestoreIPAddresses.cpp */,
 			);
 			name = Permutation;
 			sourceTree = "<group>";
@@ -804,6 +807,7 @@
 				83D35EDA18DA9F270040586E /* MinimumWindowSubstring.cpp in Sources */,
 				8381A4C518EBE3F0008851BC /* JumpGame.cpp in Sources */,
 				83D266B318D8246600621577 /* ConvertSortedArraytoBinarySearchTree.cpp in Sources */,
+				837FE15818ED452800145C16 /* RestoreIPAddresses.cpp in Sources */,
 				83B0CDB718D4A67600B69862 /* NextPermutation.cpp in Sources */,
 				83B0CDC118D4A6B700B69862 /* main.cpp in Sources */,
 				836C11EB18E122C7009F74E7 /* LargestRectangularAreainaHistogramV3.cpp in Sources */,
