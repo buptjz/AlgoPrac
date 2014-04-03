@@ -23,6 +23,7 @@
 		833CF2A018DDDCC300F0183A /* RemoveDuplicatesfromSortedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 833CF29E18DDDCC300F0183A /* RemoveDuplicatesfromSortedList.cpp */; };
 		833CF2A418DDDF3F00F0183A /* UniquePaths.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 833CF2A218DDDF3F00F0183A /* UniquePaths.cpp */; };
 		833CF2A718DDE30700F0183A /* UniquePathsII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 833CF2A518DDE30700F0183A /* UniquePathsII.cpp */; };
+		8348FE1218ED309A008ECA69 /* ScrambleString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8348FE1018ED309A008ECA69 /* ScrambleString.cpp */; };
 		8364F66618E3C5AF008F7C13 /* question12.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8364F66418E3C5AF008F7C13 /* question12.cpp */; };
 		83666BDF18EA5AAF0084B841 /* MultiplyStrings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83666BDD18EA5AAF0084B841 /* MultiplyStrings.cpp */; };
 		8367439E189016670051E377 /* numTrees.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8367439D189016670051E377 /* numTrees.cpp */; };
@@ -170,6 +171,7 @@
 		833CF2A218DDDF3F00F0183A /* UniquePaths.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UniquePaths.cpp; sourceTree = "<group>"; };
 		833CF2A518DDE30700F0183A /* UniquePathsII.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UniquePathsII.cpp; sourceTree = "<group>"; };
 		833CF2A818DDE32D00F0183A /* leetcode_dp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = leetcode_dp.h; sourceTree = "<group>"; };
+		8348FE1018ED309A008ECA69 /* ScrambleString.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ScrambleString.cpp; path = DFSBFS/ScrambleString.cpp; sourceTree = "<group>"; };
 		83595CB418E3CCB9004B34AA /* conquerOffer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = conquerOffer.h; sourceTree = "<group>"; };
 		8364F66418E3C5AF008F7C13 /* question12.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = question12.cpp; sourceTree = "<group>"; };
 		83666BDD18EA5AAF0084B841 /* MultiplyStrings.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MultiplyStrings.cpp; sourceTree = "<group>"; };
@@ -480,6 +482,7 @@
 				83B0CD8618D4A62800B69862 /* PathSum.cpp */,
 				83B0CD8818D4A62800B69862 /* PathSumII.cpp */,
 				8305C6AB18E45938005E8B99 /* WordLadder.cpp */,
+				8348FE1018ED309A008ECA69 /* ScrambleString.cpp */,
 			);
 			name = DFSBFS;
 			sourceTree = "<group>";
@@ -758,6 +761,7 @@
 				83906DD018EB989000C8CDF9 /* SudokuSolver.cpp in Sources */,
 				836C121B18E1774D009F74E7 /* SearchforaRange.cpp in Sources */,
 				83D35EDB18DA9F270040586E /* RegularExpressionMatching.cpp in Sources */,
+				8348FE1218ED309A008ECA69 /* ScrambleString.cpp in Sources */,
 				83D35EDF18DA9F270040586E /* WordBreakII.cpp in Sources */,
 				836C11E918E122C7009F74E7 /* LargestRectangularAreainaHistogram.cpp in Sources */,
 				836E021218D9407E005D780E /* MergeTwoSortedLists.cpp in Sources */,
