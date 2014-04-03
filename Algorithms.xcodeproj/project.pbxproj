@@ -10,6 +10,7 @@
 		8305C6AA18E444D1005E8B99 /* ValidPalindrome.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8305C6A818E444D1005E8B99 /* ValidPalindrome.cpp */; };
 		8305C6AD18E45938005E8B99 /* WordLadder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8305C6AB18E45938005E8B99 /* WordLadder.cpp */; };
 		831DF56C18ECF0FA0055DF57 /* GrayCode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 831DF56A18ECF0FA0055DF57 /* GrayCode.cpp */; };
+		831DF56F18ECFFD60055DF57 /* CountandSay.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 831DF56D18ECFFD60055DF57 /* CountandSay.cpp */; };
 		8323DDC218EC4D29004BF125 /* 4Sum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8323DDC018EC4D29004BF125 /* 4Sum.cpp */; };
 		832675BA18EBAA5100143F77 /* ValidSudoku.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 832675B818EBAA5100143F77 /* ValidSudoku.cpp */; };
 		832762C418D977F3003A6B43 /* BinaryTreeMaximumPathSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 832762C318D977F3003A6B43 /* BinaryTreeMaximumPathSum.cpp */; };
@@ -154,6 +155,7 @@
 		8305C6A818E444D1005E8B99 /* ValidPalindrome.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ValidPalindrome.cpp; sourceTree = "<group>"; };
 		8305C6AB18E45938005E8B99 /* WordLadder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = WordLadder.cpp; path = DFSBFS/WordLadder.cpp; sourceTree = "<group>"; };
 		831DF56A18ECF0FA0055DF57 /* GrayCode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GrayCode.cpp; path = Permutation/GrayCode.cpp; sourceTree = "<group>"; };
+		831DF56D18ECFFD60055DF57 /* CountandSay.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CountandSay.cpp; sourceTree = "<group>"; };
 		8323DDC018EC4D29004BF125 /* 4Sum.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 4Sum.cpp; sourceTree = "<group>"; };
 		832675B818EBAA5100143F77 /* ValidSudoku.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ValidSudoku.cpp; sourceTree = "<group>"; };
 		832762C318D977F3003A6B43 /* BinaryTreeMaximumPathSum.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BinaryTreeMaximumPathSum.cpp; path = Tree/BinaryTreeMaximumPathSum.cpp; sourceTree = "<group>"; };
@@ -397,6 +399,7 @@
 				832675B818EBAA5100143F77 /* ValidSudoku.cpp */,
 				8381A4CC18EC055A008851BC /* PascalsTriangle.cpp */,
 				8381A4CF18EC0BF7008851BC /* PascalsTriangleII.cpp */,
+				831DF56D18ECFFD60055DF57 /* CountandSay.cpp */,
 			);
 			path = Others;
 			sourceTree = "<group>";
@@ -848,6 +851,7 @@
 				836E021318D9407E005D780E /* PartitionList.cpp in Sources */,
 				83EC957818E41BEA001F0D99 /* SetMatrixZeroes.cpp in Sources */,
 				83B0CD7E18D4A61200B69862 /* ConvertSortedListtoBinarySearchTree.cpp in Sources */,
+				831DF56F18ECFFD60055DF57 /* CountandSay.cpp in Sources */,
 				8364F66618E3C5AF008F7C13 /* question12.cpp in Sources */,
 				837C162F18EA49EC00B1F5B9 /* LetterCombinationsofaPhoneNumber.cpp in Sources */,
 				8381A4D118EC0BF7008851BC /* PascalsTriangleII.cpp in Sources */,

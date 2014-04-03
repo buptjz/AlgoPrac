@@ -33,4 +33,5 @@ void testTotalQueens();
 void testIsValidSudoku();
 void testThreeSumClosest();
 void testGeneratePTri();
+void testCountAndSay();
 #endif

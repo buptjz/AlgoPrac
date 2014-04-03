@@ -25,9 +25,7 @@
 
 int main(int argc, const char * argv[])
 {
-//    testCanJump();
-//    testGeneratePTri();
-    testGrayCode();
+    testCountAndSay();
 }
 
 
