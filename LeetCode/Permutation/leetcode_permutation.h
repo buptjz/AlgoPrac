@@ -26,4 +26,5 @@ void testGenerateParenthesis();
 void testLetterCombinations();
 void testSolveNQueens();
 void testSolveSudoku();
+void testGrayCode();
 #endif
