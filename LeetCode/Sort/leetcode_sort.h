@@ -14,6 +14,7 @@ using namespace std;
 void testMerge();
 void testsSearchInsert();
 void testIntervalInsert();
+void testSortCorlors();
 struct Interval {
     int start;
     int end;

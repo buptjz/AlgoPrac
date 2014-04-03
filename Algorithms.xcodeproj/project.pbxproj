@@ -135,6 +135,7 @@
 		83D35EE718DA9F6E0040586E /* LongestValidParentheses.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83D35EE518DA9F6E0040586E /* LongestValidParentheses.cpp */; };
 		83DE2D1718EBB1140018C486 /* 3SumClosest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83DE2D1518EBB1140018C486 /* 3SumClosest.cpp */; };
 		83E6C6CD18828E7F006D399B /* LeetCode.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 83E6C6CC18828E7F006D399B /* LeetCode.1 */; };
+		83E78F9318ED517A00C21E63 /* SortColors.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83E78F9118ED517A00C21E63 /* SortColors.cpp */; };
 		83EC957218E40306001F0D99 /* InsertInterval.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83EC957018E40306001F0D99 /* InsertInterval.cpp */; };
 		83EC957518E4169E001F0D99 /* ClimbingStairs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83EC957318E4169E001F0D99 /* ClimbingStairs.cpp */; };
 		83EC957818E41BEA001F0D99 /* SetMatrixZeroes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83EC957618E41BEA001F0D99 /* SetMatrixZeroes.cpp */; };
@@ -308,6 +309,7 @@
 		83E6C6C718828E7F006D399B /* Algorithms */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithms; sourceTree = BUILT_PRODUCTS_DIR; };
 		83E6C6CC18828E7F006D399B /* LeetCode.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = LeetCode.1; sourceTree = "<group>"; };
 		83E6C6D518828ED7006D399B /* functions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = functions.h; sourceTree = "<group>"; };
+		83E78F9118ED517A00C21E63 /* SortColors.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SortColors.cpp; sourceTree = "<group>"; };
 		83EC957018E40306001F0D99 /* InsertInterval.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = InsertInterval.cpp; sourceTree = "<group>"; };
 		83EC957318E4169E001F0D99 /* ClimbingStairs.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ClimbingStairs.cpp; sourceTree = "<group>"; };
 		83EC957618E41BEA001F0D99 /* SetMatrixZeroes.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SetMatrixZeroes.cpp; sourceTree = "<group>"; };
@@ -474,6 +476,7 @@
 				837C08D318E3F800004C85B3 /* leetcode_sort.h */,
 				837C08D118E3F7ED004C85B3 /* MergeIntervals.cpp */,
 				83EC957018E40306001F0D99 /* InsertInterval.cpp */,
+				83E78F9118ED517A00C21E63 /* SortColors.cpp */,
 			);
 			path = Sort;
 			sourceTree = "<group>";
@@ -816,6 +819,7 @@
 				83C4213D18E99EB70055E26B /* GenerateParentheses.cpp in Sources */,
 				836E020F18D94005005D780E /* addTwoNumbers.cpp in Sources */,
 				836C11EC18E122C7009F74E7 /* MaximalRectangle.cpp in Sources */,
+				83E78F9318ED517A00C21E63 /* SortColors.cpp in Sources */,
 				83EC957218E40306001F0D99 /* InsertInterval.cpp in Sources */,
 				836C121118E16DD8009F74E7 /* BestTimetoBuyandSellStockIIIV2.cpp in Sources */,
 				83B0CD7618D4A61200B69862 /* BalancedBinaryTree.cpp in Sources */,

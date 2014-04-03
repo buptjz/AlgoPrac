@@ -28,7 +28,8 @@ int main(int argc, const char * argv[])
 //    testCountAndSay();
 //    testIsIsPalindrome();
 //    testIsCrramble();
-    testRestoreIpaddresses();
+//    testRestoreIpaddresses();
+    testSortCorlors();
 }
 
 
