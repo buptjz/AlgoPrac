@@ -15,6 +15,7 @@ void testMerge();
 void testsSearchInsert();
 void testIntervalInsert();
 void testSortCorlors();
+void testFirstMissingPositive();
 struct Interval {
     int start;
     int end;

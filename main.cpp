@@ -29,7 +29,8 @@ int main(int argc, const char * argv[])
 //    testIsIsPalindrome();
 //    testIsCrramble();
 //    testRestoreIpaddresses();
-    testSortCorlors();
+//    testSortCorlors();
+    testFirstMissingPositive();
 }
 
 

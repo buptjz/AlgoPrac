@@ -136,6 +136,7 @@
 		83DE2D1718EBB1140018C486 /* 3SumClosest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83DE2D1518EBB1140018C486 /* 3SumClosest.cpp */; };
 		83E6C6CD18828E7F006D399B /* LeetCode.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 83E6C6CC18828E7F006D399B /* LeetCode.1 */; };
 		83E78F9318ED517A00C21E63 /* SortColors.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83E78F9118ED517A00C21E63 /* SortColors.cpp */; };
+		83E78F9618ED598D00C21E63 /* FirstMissingPositive.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83E78F9418ED598D00C21E63 /* FirstMissingPositive.cpp */; };
 		83EC957218E40306001F0D99 /* InsertInterval.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83EC957018E40306001F0D99 /* InsertInterval.cpp */; };
 		83EC957518E4169E001F0D99 /* ClimbingStairs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83EC957318E4169E001F0D99 /* ClimbingStairs.cpp */; };
 		83EC957818E41BEA001F0D99 /* SetMatrixZeroes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83EC957618E41BEA001F0D99 /* SetMatrixZeroes.cpp */; };
@@ -310,6 +311,7 @@
 		83E6C6CC18828E7F006D399B /* LeetCode.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = LeetCode.1; sourceTree = "<group>"; };
 		83E6C6D518828ED7006D399B /* functions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = functions.h; sourceTree = "<group>"; };
 		83E78F9118ED517A00C21E63 /* SortColors.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SortColors.cpp; sourceTree = "<group>"; };
+		83E78F9418ED598D00C21E63 /* FirstMissingPositive.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FirstMissingPositive.cpp; sourceTree = "<group>"; };
 		83EC957018E40306001F0D99 /* InsertInterval.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = InsertInterval.cpp; sourceTree = "<group>"; };
 		83EC957318E4169E001F0D99 /* ClimbingStairs.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ClimbingStairs.cpp; sourceTree = "<group>"; };
 		83EC957618E41BEA001F0D99 /* SetMatrixZeroes.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SetMatrixZeroes.cpp; sourceTree = "<group>"; };
@@ -477,6 +479,7 @@
 				837C08D118E3F7ED004C85B3 /* MergeIntervals.cpp */,
 				83EC957018E40306001F0D99 /* InsertInterval.cpp */,
 				83E78F9118ED517A00C21E63 /* SortColors.cpp */,
+				83E78F9418ED598D00C21E63 /* FirstMissingPositive.cpp */,
 			);
 			path = Sort;
 			sourceTree = "<group>";
@@ -777,6 +780,7 @@
 				83A23E2918DC12550089A169 /* LinkedListCycleII.cpp in Sources */,
 				83B0CD7718D4A61200B69862 /* BinaryTreeLevelOrderTraversal.cpp in Sources */,
 				8381A4CB18EBF3B9008851BC /* PopulatingNextRightPointersinEachNodeII.cpp in Sources */,
+				83E78F9618ED598D00C21E63 /* FirstMissingPositive.cpp in Sources */,
 				83C7AB4618EA534D00A51E3F /* RemoveDuplicatesfromSortedArrayII.cpp in Sources */,
 				83A4B5AA18DA81100089B7FE /* align_malloc.cpp in Sources */,
 				836C11F818E154E1009F74E7 /* SingleNumberIII.cpp in Sources */,
