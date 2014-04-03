@@ -34,4 +34,5 @@ void testIsValidSudoku();
 void testThreeSumClosest();
 void testGeneratePTri();
 void testCountAndSay();
+void testIsIsPalindrome();
 #endif
