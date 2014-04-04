@@ -64,6 +64,7 @@
 		836E021318D9407E005D780E /* PartitionList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 836E021118D9407E005D780E /* PartitionList.cpp */; };
 		836E021518D940DF005D780E /* SwapNodesinPairs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 836E021418D940DF005D780E /* SwapNodesinPairs.cpp */; };
 		836E021918D9435E005D780E /* MergekSortedLists.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 836E021818D9435E005D780E /* MergekSortedLists.cpp */; };
+		836EAB0E18EE33AC0019C474 /* Searcha2DMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 836EAB0C18EE33AC0019C474 /* Searcha2DMatrix.cpp */; };
 		836F5F6A18D9307F0015BB81 /* MaximumDepthofBinaryTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 836F5F6818D9307F0015BB81 /* MaximumDepthofBinaryTree.cpp */; };
 		83710F6F18EAA66F00C38F13 /* GasStation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83710F6D18EAA66F00C38F13 /* GasStation.cpp */; };
 		837C08D218E3F7ED004C85B3 /* MergeIntervals.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 837C08D118E3F7ED004C85B3 /* MergeIntervals.cpp */; };
@@ -220,6 +221,7 @@
 		836E021118D9407E005D780E /* PartitionList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PartitionList.cpp; path = List/PartitionList.cpp; sourceTree = "<group>"; };
 		836E021418D940DF005D780E /* SwapNodesinPairs.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SwapNodesinPairs.cpp; path = List/SwapNodesinPairs.cpp; sourceTree = "<group>"; };
 		836E021818D9435E005D780E /* MergekSortedLists.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MergekSortedLists.cpp; path = List/MergekSortedLists.cpp; sourceTree = "<group>"; };
+		836EAB0C18EE33AC0019C474 /* Searcha2DMatrix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Searcha2DMatrix.cpp; sourceTree = "<group>"; };
 		836F5F6818D9307F0015BB81 /* MaximumDepthofBinaryTree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MaximumDepthofBinaryTree.cpp; path = Tree/MaximumDepthofBinaryTree.cpp; sourceTree = "<group>"; };
 		83710F6D18EAA66F00C38F13 /* GasStation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GasStation.cpp; sourceTree = "<group>"; };
 		837C08D118E3F7ED004C85B3 /* MergeIntervals.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MergeIntervals.cpp; sourceTree = "<group>"; };
@@ -474,6 +476,7 @@
 				836C121F18E17C7E009F74E7 /* SearchinRotatedSortedArrayII.cpp */,
 				836C121718E1774D009F74E7 /* SearchInsertPosition.cpp */,
 				836C121818E1774D009F74E7 /* SqrtX.cpp */,
+				836EAB0C18EE33AC0019C474 /* Searcha2DMatrix.cpp */,
 			);
 			path = Search;
 			sourceTree = "<group>";
@@ -797,6 +800,7 @@
 				836C11F418E1522C009F74E7 /* 3Sum.cpp in Sources */,
 				83C4214318E9B6FC0055E26B /* IntegertoRoman.cpp in Sources */,
 				83B0CDB818D4A67600B69862 /* Permutations.cpp in Sources */,
+				836EAB0E18EE33AC0019C474 /* Searcha2DMatrix.cpp in Sources */,
 				834E005718ED9D500076F371 /* PlusOne.cpp in Sources */,
 				833CF2A018DDDCC300F0183A /* RemoveDuplicatesfromSortedList.cpp in Sources */,
 				834E005A18EDA2AC0076F371 /* RotateImage.cpp in Sources */,
