@@ -25,14 +25,7 @@
 
 int main(int argc, const char * argv[])
 {
-//    testCountAndSay();
-//    testIsIsPalindrome();
-//    testIsCrramble();
-//    testRestoreIpaddresses();
-//    testSortCorlors();
-//    testFirstMissingPositive();
-//    testPlusOne();
-    testRotate();
+    testSmplifyPath();
 }
 
 

@@ -38,4 +38,5 @@ void testIsIsPalindrome();
 void testIsCrramble();
 void testPlusOne();
 void testRotate();
+void testSmplifyPath();
 #endif
