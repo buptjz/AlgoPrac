@@ -1007,7 +1007,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "39"
             endingLineNumber = "39"
-            landmarkName = "testSmplifyPath()"
+            landmarkName = "simplifyPath(string path)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
