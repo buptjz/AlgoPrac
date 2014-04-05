@@ -28,7 +28,8 @@ int main(int argc, const char * argv[])
 //    testSmplifyPath();
 //    testReorderList();
 //    testCandy();
-    testLongestConsecutive();
+//    testLongestConsecutive();
+    testSortList();
 }
 
 
