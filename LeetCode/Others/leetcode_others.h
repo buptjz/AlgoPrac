@@ -40,4 +40,5 @@ void testPlusOne();
 void testRotate();
 void testSmplifyPath();
 void testLongestConsecutive();
+void testSopralOrder();
 #endif

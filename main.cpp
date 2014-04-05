@@ -23,13 +23,10 @@
 #include "leetcode_sort.h"
 #include "leetcode_dp.h"
 
-int main(int argc, const char * argv[])
-{
-//    testSmplifyPath();
-//    testReorderList();
-//    testCandy();
-//    testLongestConsecutive();
-    testSortList();
-}
+using namespace std;
 
+int main(void) {
+    testSopralOrder();
+    return 1;
+}
 
