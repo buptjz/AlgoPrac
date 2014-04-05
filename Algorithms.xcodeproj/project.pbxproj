@@ -74,6 +74,7 @@
 		836F5F6A18D9307F0015BB81 /* MaximumDepthofBinaryTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 836F5F6818D9307F0015BB81 /* MaximumDepthofBinaryTree.cpp */; };
 		83710F6F18EAA66F00C38F13 /* GasStation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83710F6D18EAA66F00C38F13 /* GasStation.cpp */; };
 		8376836218F02FA3000A401B /* SpiralMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8376836018F02FA3000A401B /* SpiralMatrix.cpp */; };
+		8376836518F04731000A401B /* TrappingRainWater.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8376836318F04731000A401B /* TrappingRainWater.cpp */; };
 		837C08D218E3F7ED004C85B3 /* MergeIntervals.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 837C08D118E3F7ED004C85B3 /* MergeIntervals.cpp */; };
 		837C162F18EA49EC00B1F5B9 /* LetterCombinationsofaPhoneNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 837C162D18EA49EC00B1F5B9 /* LetterCombinationsofaPhoneNumber.cpp */; };
 		837DCDAF18E3017400532881 /* PowXN.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 837DCDAD18E3017400532881 /* PowXN.cpp */; };
@@ -240,6 +241,7 @@
 		836F5F6818D9307F0015BB81 /* MaximumDepthofBinaryTree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MaximumDepthofBinaryTree.cpp; path = Tree/MaximumDepthofBinaryTree.cpp; sourceTree = "<group>"; };
 		83710F6D18EAA66F00C38F13 /* GasStation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GasStation.cpp; sourceTree = "<group>"; };
 		8376836018F02FA3000A401B /* SpiralMatrix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SpiralMatrix.cpp; sourceTree = "<group>"; };
+		8376836318F04731000A401B /* TrappingRainWater.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TrappingRainWater.cpp; sourceTree = "<group>"; };
 		837C08D118E3F7ED004C85B3 /* MergeIntervals.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MergeIntervals.cpp; sourceTree = "<group>"; };
 		837C08D318E3F800004C85B3 /* leetcode_sort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = leetcode_sort.h; sourceTree = "<group>"; };
 		837C162D18EA49EC00B1F5B9 /* LetterCombinationsofaPhoneNumber.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LetterCombinationsofaPhoneNumber.cpp; path = Permutation/LetterCombinationsofaPhoneNumber.cpp; sourceTree = "<group>"; };
@@ -452,6 +454,7 @@
 				836C120518E16DD8009F74E7 /* BestTimetoButandSellStock */,
 				836C11E418E122C7009F74E7 /* LargestRectangle */,
 				837DCDAD18E3017400532881 /* PowXN.cpp */,
+				8376836318F04731000A401B /* TrappingRainWater.cpp */,
 			);
 			path = DivideConquer;
 			sourceTree = "<group>";
@@ -948,6 +951,7 @@
 				83B0CDBA18D4A67600B69862 /* PermutationsUnique.cpp in Sources */,
 				8381D20118EAF3DE00ADA26A /* LengthofLastWord.cpp in Sources */,
 				836C11CA18E11809009F74E7 /* MaximumSubarray.cpp in Sources */,
+				8376836518F04731000A401B /* TrappingRainWater.cpp in Sources */,
 				836C121018E16DD8009F74E7 /* BestTimetoBuyandSellStockIII.cpp in Sources */,
 				836C120418E16D03009F74E7 /* ReverseInteger.cpp in Sources */,
 				832675BA18EBAA5100143F77 /* ValidSudoku.cpp in Sources */,

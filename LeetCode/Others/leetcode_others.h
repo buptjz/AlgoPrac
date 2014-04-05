@@ -41,4 +41,5 @@ void testRotate();
 void testSmplifyPath();
 void testLongestConsecutive();
 void testSopralOrder();
+void testTrap();
 #endif

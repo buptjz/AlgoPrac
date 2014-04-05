@@ -26,7 +26,8 @@
 using namespace std;
 
 int main(void) {
-    testSopralOrder();
+//    testSopralOrder();
+    testTrap();
     return 1;
 }
 
