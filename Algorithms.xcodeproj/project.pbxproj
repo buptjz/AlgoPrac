@@ -87,6 +87,7 @@
 		83906DD018EB989000C8CDF9 /* SudokuSolver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83906DCE18EB989000C8CDF9 /* SudokuSolver.cpp */; };
 		83962C5118ED06F7008BFCF3 /* PalindromeNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83962C4F18ED06F7008BFCF3 /* PalindromeNumber.cpp */; };
 		839B1D0118EAB28A003D5C47 /* N-Queens.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 839B1CFF18EAB28A003D5C47 /* N-Queens.cpp */; };
+		83A1B5C818EFB78500DE3F6F /* Candy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83A1B5C618EFB78500DE3F6F /* Candy.cpp */; };
 		83A23E2618DC11CA0089A169 /* LinkedListCycle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83A23E2418DC11CA0089A169 /* LinkedListCycle.cpp */; };
 		83A23E2918DC12550089A169 /* LinkedListCycleII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83A23E2718DC12550089A169 /* LinkedListCycleII.cpp */; };
 		83A23E2C18DC2AC20089A169 /* RemoveDuplicatesfromSortedListII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83A23E2A18DC2AC20089A169 /* RemoveDuplicatesfromSortedListII.cpp */; };
@@ -252,6 +253,7 @@
 		83906DCE18EB989000C8CDF9 /* SudokuSolver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SudokuSolver.cpp; path = Permutation/SudokuSolver.cpp; sourceTree = "<group>"; };
 		83962C4F18ED06F7008BFCF3 /* PalindromeNumber.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PalindromeNumber.cpp; sourceTree = "<group>"; };
 		839B1CFF18EAB28A003D5C47 /* N-Queens.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "N-Queens.cpp"; path = "Permutation/N-Queens.cpp"; sourceTree = "<group>"; };
+		83A1B5C618EFB78500DE3F6F /* Candy.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Candy.cpp; sourceTree = "<group>"; };
 		83A23E2418DC11CA0089A169 /* LinkedListCycle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LinkedListCycle.cpp; path = List/LinkedListCycle.cpp; sourceTree = "<group>"; };
 		83A23E2718DC12550089A169 /* LinkedListCycleII.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LinkedListCycleII.cpp; path = List/LinkedListCycleII.cpp; sourceTree = "<group>"; };
 		83A23E2A18DC2AC20089A169 /* RemoveDuplicatesfromSortedListII.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RemoveDuplicatesfromSortedListII.cpp; path = List/RemoveDuplicatesfromSortedListII.cpp; sourceTree = "<group>"; };
@@ -367,6 +369,7 @@
 				8327F21718EA695600F44B0E /* WildcardMatching.cpp */,
 				836A684C18EBBDEF005140BD /* JumpGameII.cpp */,
 				8381A4C318EBE3F0008851BC /* JumpGame.cpp */,
+				83A1B5C618EFB78500DE3F6F /* Candy.cpp */,
 			);
 			path = DP;
 			sourceTree = "<group>";
@@ -814,6 +817,7 @@
 				83B0CDB818D4A67600B69862 /* Permutations.cpp in Sources */,
 				836EAB0E18EE33AC0019C474 /* Searcha2DMatrix.cpp in Sources */,
 				834E005718ED9D500076F371 /* PlusOne.cpp in Sources */,
+				83A1B5C818EFB78500DE3F6F /* Candy.cpp in Sources */,
 				833CF2A018DDDCC300F0183A /* RemoveDuplicatesfromSortedList.cpp in Sources */,
 				834E005A18EDA2AC0076F371 /* RotateImage.cpp in Sources */,
 				83D35ED918DA9F270040586E /* LongestSubstringWithoutRepeatingCharacters.cpp in Sources */,

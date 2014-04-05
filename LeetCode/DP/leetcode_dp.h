@@ -14,10 +14,12 @@
 #include <vector>
 #include <stack>
 #include <string>
+#include <iostream>
 using namespace std;
 
 void testClimbStars();
 void testNumDecodings();
 void testJump();
 void testCanJump();
+void testCandy();
 #endif

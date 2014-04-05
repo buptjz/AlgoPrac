@@ -17,7 +17,7 @@ excited
 ListNode *p2;// point to the second half head.
 ListNode *last;//point to the first half last.
 void locate(ListNode *head){
-    //locate the position of p2 and last,pay attetion there r 2 situtions, even/odd numbers nodes 
+    //locate the position of p2 and last,pay attetion there r 2 situtions, even/odd numbers nodes
     ListNode *fast,*slow;
     fast = slow = head;
     while (true) {
