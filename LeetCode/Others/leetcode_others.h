@@ -39,4 +39,5 @@ void testIsCrramble();
 void testPlusOne();
 void testRotate();
 void testSmplifyPath();
+void testLongestConsecutive();
 #endif
