@@ -154,6 +154,7 @@
 		83E78F9318ED517A00C21E63 /* SortColors.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83E78F9118ED517A00C21E63 /* SortColors.cpp */; };
 		83E78F9618ED598D00C21E63 /* FirstMissingPositive.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83E78F9418ED598D00C21E63 /* FirstMissingPositive.cpp */; };
 		83E919E218F1350C00754406 /* EditDistance.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83E919E018F1350C00754406 /* EditDistance.cpp */; };
+		83E919E518F13C5900754406 /* LRUCache.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83E919E318F13C5900754406 /* LRUCache.cpp */; };
 		83EC957218E40306001F0D99 /* InsertInterval.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83EC957018E40306001F0D99 /* InsertInterval.cpp */; };
 		83EC957518E4169E001F0D99 /* ClimbingStairs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83EC957318E4169E001F0D99 /* ClimbingStairs.cpp */; };
 		83EC957818E41BEA001F0D99 /* SetMatrixZeroes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83EC957618E41BEA001F0D99 /* SetMatrixZeroes.cpp */; };
@@ -346,6 +347,7 @@
 		83E78F9118ED517A00C21E63 /* SortColors.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SortColors.cpp; sourceTree = "<group>"; };
 		83E78F9418ED598D00C21E63 /* FirstMissingPositive.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FirstMissingPositive.cpp; sourceTree = "<group>"; };
 		83E919E018F1350C00754406 /* EditDistance.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EditDistance.cpp; sourceTree = "<group>"; };
+		83E919E318F13C5900754406 /* LRUCache.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LRUCache.cpp; sourceTree = "<group>"; };
 		83EC957018E40306001F0D99 /* InsertInterval.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = InsertInterval.cpp; sourceTree = "<group>"; };
 		83EC957318E4169E001F0D99 /* ClimbingStairs.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ClimbingStairs.cpp; sourceTree = "<group>"; };
 		83EC957618E41BEA001F0D99 /* SetMatrixZeroes.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SetMatrixZeroes.cpp; sourceTree = "<group>"; };
@@ -457,6 +459,7 @@
 				8357F17918EE444900A43513 /* ValidNumber.cpp */,
 				8376836018F02FA3000A401B /* SpiralMatrix.cpp */,
 				834F6CBC18F0E67F0004BF8D /* SpiralMatrixII.cpp */,
+				83E919E318F13C5900754406 /* LRUCache.cpp */,
 			);
 			path = Others;
 			sourceTree = "<group>";
@@ -814,6 +817,7 @@
 			files = (
 				83B0CD8B18D4A62800B69862 /* PathSum.cpp in Sources */,
 				838ABDE518DAD02600F03599 /* BigNumber.cpp in Sources */,
+				83E919E518F13C5900754406 /* LRUCache.cpp in Sources */,
 				8305C6AA18E444D1005E8B99 /* ValidPalindrome.cpp in Sources */,
 				836C11EA18E122C7009F74E7 /* LargestRectangularAreainaHistogramV2.cpp in Sources */,
 				83B0CD7F18D4A61200B69862 /* FlattenBinaryTreetoLinkedList.cpp in Sources */,
