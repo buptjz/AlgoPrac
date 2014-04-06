@@ -4,7 +4,7 @@
 //
 //  Created by WangJZ on 14-1-12.
 //  Copyright (c) 2014年 WangJZ. All rights reserved.
-//
+//  
 
 #include <stdio.h>
 #include "other_sort.h"
@@ -26,7 +26,7 @@
 using namespace std;
 
 int main(void) {
-    testGenerateMatrix();
+    testLongestPalindrome();
     return -1;
 }
 

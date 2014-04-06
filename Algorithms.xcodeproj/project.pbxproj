@@ -88,6 +88,7 @@
 		8381A4D118EC0BF7008851BC /* PascalsTriangleII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8381A4CF18EC0BF7008851BC /* PascalsTriangleII.cpp */; };
 		8381D1FE18EAF0D300ADA26A /* N-QueensII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8381D1FC18EAF0D300ADA26A /* N-QueensII.cpp */; };
 		8381D20118EAF3DE00ADA26A /* LengthofLastWord.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8381D1FF18EAF3DE00ADA26A /* LengthofLastWord.cpp */; };
+		8384520B18F0EDEB008D7146 /* LongestPalindromicSubstring.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8384520918F0EDEB008D7146 /* LongestPalindromicSubstring.cpp */; };
 		838ABDE518DAD02600F03599 /* BigNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 838ABDE318DAD02600F03599 /* BigNumber.cpp */; };
 		83906DD018EB989000C8CDF9 /* SudokuSolver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83906DCE18EB989000C8CDF9 /* SudokuSolver.cpp */; };
 		83962C5118ED06F7008BFCF3 /* PalindromeNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83962C4F18ED06F7008BFCF3 /* PalindromeNumber.cpp */; };
@@ -125,7 +126,6 @@
 		83B0CDBB18D4A67600B69862 /* Subsets.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83B0CDB118D4A67600B69862 /* Subsets.cpp */; };
 		83B0CDBC18D4A67600B69862 /* SubsetsII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83B0CDB318D4A67600B69862 /* SubsetsII.cpp */; };
 		83B0CDC118D4A6B700B69862 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83B0CDC018D4A6B700B69862 /* main.cpp */; };
-		83C0715418F01A5B0042F2B1 /* LongestRepeatedSequence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83C0715218F01A5B0042F2B1 /* LongestRepeatedSequence.cpp */; };
 		83C35B5B18E41F19003A1E73 /* MergeSortedArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83C35B5918E41F19003A1E73 /* MergeSortedArray.cpp */; };
 		83C4213D18E99EB70055E26B /* GenerateParentheses.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83C4213B18E99EB70055E26B /* GenerateParentheses.cpp */; };
 		83C4214018E9B2310055E26B /* RomantoInteger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83C4213E18E9B2310055E26B /* RomantoInteger.cpp */; };
@@ -258,6 +258,7 @@
 		8381A4CF18EC0BF7008851BC /* PascalsTriangleII.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PascalsTriangleII.cpp; sourceTree = "<group>"; };
 		8381D1FC18EAF0D300ADA26A /* N-QueensII.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "N-QueensII.cpp"; path = "Permutation/N-QueensII.cpp"; sourceTree = "<group>"; };
 		8381D1FF18EAF3DE00ADA26A /* LengthofLastWord.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LengthofLastWord.cpp; sourceTree = "<group>"; };
+		8384520918F0EDEB008D7146 /* LongestPalindromicSubstring.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LongestPalindromicSubstring.cpp; sourceTree = "<group>"; };
 		838737FE188EACF7001732CE /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 		838ABDE318DAD02600F03599 /* BigNumber.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BigNumber.cpp; sourceTree = "<group>"; };
 		838ABDE418DAD02600F03599 /* BigNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BigNumber.h; sourceTree = "<group>"; };
@@ -299,7 +300,6 @@
 		83B0CDB118D4A67600B69862 /* Subsets.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Subsets.cpp; path = Permutation/Subsets.cpp; sourceTree = "<group>"; };
 		83B0CDB318D4A67600B69862 /* SubsetsII.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SubsetsII.cpp; path = Permutation/SubsetsII.cpp; sourceTree = "<group>"; };
 		83B0CDC018D4A6B700B69862 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		83C0715218F01A5B0042F2B1 /* LongestRepeatedSequence.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LongestRepeatedSequence.cpp; sourceTree = "<group>"; };
 		83C35B5918E41F19003A1E73 /* MergeSortedArray.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MergeSortedArray.cpp; sourceTree = "<group>"; };
 		83C4213B18E99EB70055E26B /* GenerateParentheses.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GenerateParentheses.cpp; path = Permutation/GenerateParentheses.cpp; sourceTree = "<group>"; };
 		83C4213E18E9B2310055E26B /* RomantoInteger.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RomantoInteger.cpp; sourceTree = "<group>"; };
@@ -382,6 +382,7 @@
 				836A684C18EBBDEF005140BD /* JumpGameII.cpp */,
 				8381A4C318EBE3F0008851BC /* JumpGame.cpp */,
 				83A1B5C618EFB78500DE3F6F /* Candy.cpp */,
+				8384520918F0EDEB008D7146 /* LongestPalindromicSubstring.cpp */,
 			);
 			path = DP;
 			sourceTree = "<group>";
@@ -522,15 +523,6 @@
 				833D95B918EFF68800D67219 /* SortList.cpp */,
 			);
 			path = Sort;
-			sourceTree = "<group>";
-		};
-		83C0715118F01A490042F2B1 /* Mircosoft */ = {
-			isa = PBXGroup;
-			children = (
-				83C0715218F01A5B0042F2B1 /* LongestRepeatedSequence.cpp */,
-			);
-			name = Mircosoft;
-			path = ../Mircosoft;
 			sourceTree = "<group>";
 		};
 		83C4403D18CC52A10003B741 /* DFSBFS */ = {
@@ -689,7 +681,6 @@
 		83E6C6BE18828E7F006D399B = {
 			isa = PBXGroup;
 			children = (
-				83C0715118F01A490042F2B1 /* Mircosoft */,
 				8364F66318E3C59D008F7C13 /* Offer */,
 				83B0CDC018D4A6B700B69862 /* main.cpp */,
 				83E6C6C918828E7F006D399B /* LeetCode */,
@@ -937,7 +928,6 @@
 				8364F66618E3C5AF008F7C13 /* question12.cpp in Sources */,
 				837C162F18EA49EC00B1F5B9 /* LetterCombinationsofaPhoneNumber.cpp in Sources */,
 				8357F17B18EE444900A43513 /* ValidNumber.cpp in Sources */,
-				83C0715418F01A5B0042F2B1 /* LongestRepeatedSequence.cpp in Sources */,
 				8381A4D118EC0BF7008851BC /* PascalsTriangleII.cpp in Sources */,
 				83A23E2F18DC2C310089A169 /* RemoveNthNodeFromEndofList.cpp in Sources */,
 				83C4B96E18E01F6D0028AC56 /* QuickSort.cpp in Sources */,
@@ -948,6 +938,7 @@
 				837C08D218E3F7ED004C85B3 /* MergeIntervals.cpp in Sources */,
 				83C4214018E9B2310055E26B /* RomantoInteger.cpp in Sources */,
 				836C11F318E1522C009F74E7 /* 2Sum.cpp in Sources */,
+				8384520B18F0EDEB008D7146 /* LongestPalindromicSubstring.cpp in Sources */,
 				836C121E18E1774D009F74E7 /* SqrtX.cpp in Sources */,
 				83F8C4B418DA744C002FD1E1 /* printLastKLines.cpp in Sources */,
 				83666BDF18EA5AAF0084B841 /* MultiplyStrings.cpp in Sources */,
