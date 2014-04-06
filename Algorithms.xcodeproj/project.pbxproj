@@ -90,6 +90,7 @@
 		8381D20118EAF3DE00ADA26A /* LengthofLastWord.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8381D1FF18EAF3DE00ADA26A /* LengthofLastWord.cpp */; };
 		8384520B18F0EDEB008D7146 /* LongestPalindromicSubstring.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8384520918F0EDEB008D7146 /* LongestPalindromicSubstring.cpp */; };
 		838ABDE518DAD02600F03599 /* BigNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 838ABDE318DAD02600F03599 /* BigNumber.cpp */; };
+		838F9EDC18F0FE5000B7685A /* PalindromePartitioning.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 838F9EDA18F0FE5000B7685A /* PalindromePartitioning.cpp */; };
 		83906DD018EB989000C8CDF9 /* SudokuSolver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83906DCE18EB989000C8CDF9 /* SudokuSolver.cpp */; };
 		83962C5118ED06F7008BFCF3 /* PalindromeNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83962C4F18ED06F7008BFCF3 /* PalindromeNumber.cpp */; };
 		839B1D0118EAB28A003D5C47 /* N-Queens.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 839B1CFF18EAB28A003D5C47 /* N-Queens.cpp */; };
@@ -262,6 +263,7 @@
 		838737FE188EACF7001732CE /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 		838ABDE318DAD02600F03599 /* BigNumber.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BigNumber.cpp; sourceTree = "<group>"; };
 		838ABDE418DAD02600F03599 /* BigNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BigNumber.h; sourceTree = "<group>"; };
+		838F9EDA18F0FE5000B7685A /* PalindromePartitioning.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PalindromePartitioning.cpp; sourceTree = "<group>"; };
 		83906DCE18EB989000C8CDF9 /* SudokuSolver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SudokuSolver.cpp; path = Permutation/SudokuSolver.cpp; sourceTree = "<group>"; };
 		83962C4F18ED06F7008BFCF3 /* PalindromeNumber.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PalindromeNumber.cpp; sourceTree = "<group>"; };
 		839B1CFF18EAB28A003D5C47 /* N-Queens.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "N-Queens.cpp"; path = "Permutation/N-Queens.cpp"; sourceTree = "<group>"; };
@@ -383,6 +385,7 @@
 				8381A4C318EBE3F0008851BC /* JumpGame.cpp */,
 				83A1B5C618EFB78500DE3F6F /* Candy.cpp */,
 				8384520918F0EDEB008D7146 /* LongestPalindromicSubstring.cpp */,
+				838F9EDA18F0FE5000B7685A /* PalindromePartitioning.cpp */,
 			);
 			path = DP;
 			sourceTree = "<group>";
@@ -861,6 +864,7 @@
 				836E021518D940DF005D780E /* SwapNodesinPairs.cpp in Sources */,
 				83D35EDA18DA9F270040586E /* MinimumWindowSubstring.cpp in Sources */,
 				832CA91718EE4C470073B408 /* CloneGraph.cpp in Sources */,
+				838F9EDC18F0FE5000B7685A /* PalindromePartitioning.cpp in Sources */,
 				8381A4C518EBE3F0008851BC /* JumpGame.cpp in Sources */,
 				83D266B318D8246600621577 /* ConvertSortedArraytoBinarySearchTree.cpp in Sources */,
 				837FE15818ED452800145C16 /* RestoreIPAddresses.cpp in Sources */,

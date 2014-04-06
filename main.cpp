@@ -26,7 +26,8 @@
 using namespace std;
 
 int main(void) {
-    testLongestPalindrome();
-    return -1;
+//    testLongestPalindrome();
+    testPP();
+    return 0;
 }
 

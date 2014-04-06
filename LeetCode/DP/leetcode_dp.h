@@ -22,4 +22,5 @@ void testNumDecodings();
 void testJump();
 void testCanJump();
 void testCandy();
+void testPP();
 #endif
