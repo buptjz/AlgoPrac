@@ -26,8 +26,7 @@
 using namespace std;
 
 int main(void) {
-//    testSopralOrder();
-    testTrap();
-    return 1;
+    testGenerateMatrix();
+    return -1;
 }
 

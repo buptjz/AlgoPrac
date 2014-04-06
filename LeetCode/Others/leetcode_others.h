@@ -42,4 +42,5 @@ void testSmplifyPath();
 void testLongestConsecutive();
 void testSopralOrder();
 void testTrap();
+void testGenerateMatrix();
 #endif
