@@ -6,6 +6,9 @@
 //  Copyright (c) 2014年 WangJZ. All rights reserved.
 //  http://oj.leetcode.com/problems/palindrome-partitioning/
 
+/*
+ 先利用动态规划的方法找到每一个子串是不是回文的，然后利用回溯法来构造每一个分割
+*/
 #include "leetcode_dp.h"
 vector<vector<string> > ret;
 static vector<string> temp;
