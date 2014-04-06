@@ -128,6 +128,7 @@
 		83B0CDBB18D4A67600B69862 /* Subsets.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83B0CDB118D4A67600B69862 /* Subsets.cpp */; };
 		83B0CDBC18D4A67600B69862 /* SubsetsII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83B0CDB318D4A67600B69862 /* SubsetsII.cpp */; };
 		83B0CDC118D4A6B700B69862 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83B0CDC018D4A6B700B69862 /* main.cpp */; };
+		83B7C3A018F16A32009DC3A0 /* RotateList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83B7C39E18F16A32009DC3A0 /* RotateList.cpp */; };
 		83BC09A018F1258B00A1B49B /* PalindromePartitioningII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83BC099E18F1258B00A1B49B /* PalindromePartitioningII.cpp */; };
 		83C35B5B18E41F19003A1E73 /* MergeSortedArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83C35B5918E41F19003A1E73 /* MergeSortedArray.cpp */; };
 		83C4213D18E99EB70055E26B /* GenerateParentheses.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83C4213B18E99EB70055E26B /* GenerateParentheses.cpp */; };
@@ -307,6 +308,7 @@
 		83B0CDB118D4A67600B69862 /* Subsets.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Subsets.cpp; path = Permutation/Subsets.cpp; sourceTree = "<group>"; };
 		83B0CDB318D4A67600B69862 /* SubsetsII.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SubsetsII.cpp; path = Permutation/SubsetsII.cpp; sourceTree = "<group>"; };
 		83B0CDC018D4A6B700B69862 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		83B7C39E18F16A32009DC3A0 /* RotateList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RotateList.cpp; path = List/RotateList.cpp; sourceTree = "<group>"; };
 		83BC099E18F1258B00A1B49B /* PalindromePartitioningII.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PalindromePartitioningII.cpp; sourceTree = "<group>"; };
 		83C35B5918E41F19003A1E73 /* MergeSortedArray.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MergeSortedArray.cpp; sourceTree = "<group>"; };
 		83C4213B18E99EB70055E26B /* GenerateParentheses.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GenerateParentheses.cpp; path = Permutation/GenerateParentheses.cpp; sourceTree = "<group>"; };
@@ -419,6 +421,7 @@
 				83B0CD5018D4A5F900B69862 /* CopyListwithRandomPointer2.cpp */,
 				836D865318EFA91000044C79 /* ReorderList.cpp */,
 				8323B9A518F148C600DD9FE0 /* InsertionSortList.cpp */,
+				83B7C39E18F16A32009DC3A0 /* RotateList.cpp */,
 			);
 			name = List;
 			sourceTree = "<group>";
@@ -906,6 +909,7 @@
 				836D865518EFA91000044C79 /* ReorderList.cpp in Sources */,
 				832BBD8A18E948BE00C11E2E /* AddBinary.cpp in Sources */,
 				83B0CD7818D4A61200B69862 /* BinaryTreePostorderTraversal.cpp in Sources */,
+				83B7C3A018F16A32009DC3A0 /* RotateList.cpp in Sources */,
 				83B0CD7B18D4A61200B69862 /* BinaryTreeZigzagLevelOrderTraversal.cpp in Sources */,
 				83962C5118ED06F7008BFCF3 /* PalindromeNumber.cpp in Sources */,
 				83D35ED818DA9F270040586E /* LongestCommonPrefix.cpp in Sources */,

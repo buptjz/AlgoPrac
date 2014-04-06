@@ -18,6 +18,7 @@
 using namespace std;
 void testMinimumTotal();
 void testReorderList();
+void testRotateRight();
 struct ListNode {
     int val;
     ListNode *next;

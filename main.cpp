@@ -29,7 +29,8 @@ int main(void) {
 //    testLongestPalindrome();
 //    testPP();
 //    testMinCut();
-    testMinDistance();
+//    testMinDistance();
+    testRotateRight();
     return 0;
 }
 
