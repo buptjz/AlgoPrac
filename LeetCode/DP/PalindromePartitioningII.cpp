@@ -6,6 +6,10 @@
 //  Copyright (c) 2014年 WangJZ. All rights reserved.
 //  http://oj.leetcode.com/problems/palindrome-partitioning-ii/
 
+
+/*
+ 在1的基础上做了简单的修改，先dp寻找任意子串是否是回文，然后利用dp逐步的去递推到最后一个位置上需要多少个分割。
+ */
 #include "leetcode_dp.h"
 
 static vector<vector<string> > ret;

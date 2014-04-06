@@ -24,4 +24,5 @@ void testCanJump();
 void testCandy();
 void testPP();
 void testMinCut();
+void testMinDistance();
 #endif

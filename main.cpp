@@ -28,7 +28,8 @@ using namespace std;
 int main(void) {
 //    testLongestPalindrome();
 //    testPP();
-    testMinCut();
+//    testMinCut();
+    testMinDistance();
     return 0;
 }
 
