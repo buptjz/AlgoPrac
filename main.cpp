@@ -12,7 +12,7 @@
 #include "leetcode_list.h"
 #include "leetcode_string.h"
 #include "longestCommonSubstring.h"
-
+#include "leetcode_stack.h"
 #include "longestCommonSubSequence.h"
 #include "cict_c++.h"
 #include "leetcode_permutation.h"
@@ -32,7 +32,8 @@ int main(void) {
 //    testMinDistance();
 //    testRotateRight();
 //    testReverseKGroup();
-    testNumDistinct();
+//    testNumDistinct();
+    testEvalRPN();
     return 0;
 }
 
