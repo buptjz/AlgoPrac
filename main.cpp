@@ -31,7 +31,8 @@ int main(void) {
 //    testMinCut();
 //    testMinDistance();
 //    testRotateRight();
-    testReverseKGroup();
+//    testReverseKGroup();
+    testNumDistinct();
     return 0;
 }
 

@@ -25,4 +25,5 @@ void testCandy();
 void testPP();
 void testMinCut();
 void testMinDistance();
+void testNumDistinct();
 #endif

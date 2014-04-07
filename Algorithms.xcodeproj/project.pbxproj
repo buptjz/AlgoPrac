@@ -131,6 +131,7 @@
 		83B7C3A018F16A32009DC3A0 /* RotateList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83B7C39E18F16A32009DC3A0 /* RotateList.cpp */; };
 		83BC09A018F1258B00A1B49B /* PalindromePartitioningII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83BC099E18F1258B00A1B49B /* PalindromePartitioningII.cpp */; };
 		83C324D518F23F0B007ED67C /* ReverseNodesink-Group.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83C324D318F23F0B007ED67C /* ReverseNodesink-Group.cpp */; };
+		83C324D818F25AB3007ED67C /* DistinctSubsequences.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83C324D618F25AB3007ED67C /* DistinctSubsequences.cpp */; };
 		83C35B5B18E41F19003A1E73 /* MergeSortedArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83C35B5918E41F19003A1E73 /* MergeSortedArray.cpp */; };
 		83C4213D18E99EB70055E26B /* GenerateParentheses.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83C4213B18E99EB70055E26B /* GenerateParentheses.cpp */; };
 		83C4214018E9B2310055E26B /* RomantoInteger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83C4213E18E9B2310055E26B /* RomantoInteger.cpp */; };
@@ -312,6 +313,7 @@
 		83B7C39E18F16A32009DC3A0 /* RotateList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RotateList.cpp; path = List/RotateList.cpp; sourceTree = "<group>"; };
 		83BC099E18F1258B00A1B49B /* PalindromePartitioningII.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PalindromePartitioningII.cpp; sourceTree = "<group>"; };
 		83C324D318F23F0B007ED67C /* ReverseNodesink-Group.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "ReverseNodesink-Group.cpp"; path = "List/ReverseNodesink-Group.cpp"; sourceTree = "<group>"; };
+		83C324D618F25AB3007ED67C /* DistinctSubsequences.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DistinctSubsequences.cpp; sourceTree = "<group>"; };
 		83C35B5918E41F19003A1E73 /* MergeSortedArray.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MergeSortedArray.cpp; sourceTree = "<group>"; };
 		83C4213B18E99EB70055E26B /* GenerateParentheses.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GenerateParentheses.cpp; path = Permutation/GenerateParentheses.cpp; sourceTree = "<group>"; };
 		83C4213E18E9B2310055E26B /* RomantoInteger.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RomantoInteger.cpp; sourceTree = "<group>"; };
@@ -400,6 +402,7 @@
 				838F9EDA18F0FE5000B7685A /* PalindromePartitioning.cpp */,
 				83BC099E18F1258B00A1B49B /* PalindromePartitioningII.cpp */,
 				83E919E018F1350C00754406 /* EditDistance.cpp */,
+				83C324D618F25AB3007ED67C /* DistinctSubsequences.cpp */,
 			);
 			path = DP;
 			sourceTree = "<group>";
@@ -879,6 +882,7 @@
 				837DCDAF18E3017400532881 /* PowXN.cpp in Sources */,
 				836C11FC18E15596009F74E7 /* ContainerWithMostWater.cpp in Sources */,
 				836C121D18E1774D009F74E7 /* SearchInsertPosition.cpp in Sources */,
+				83C324D818F25AB3007ED67C /* DistinctSubsequences.cpp in Sources */,
 				83E919E218F1350C00754406 /* EditDistance.cpp in Sources */,
 				8327F21918EA695600F44B0E /* WildcardMatching.cpp in Sources */,
 				836E021518D940DF005D780E /* SwapNodesinPairs.cpp in Sources */,
