@@ -14,6 +14,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <unordered_set>
+#include <iostream>
+
 using namespace std;
 void testAtoi();
 void testLongestComminPrefix();
@@ -26,4 +28,6 @@ void testConvert();
 void testLengthOfLongestSubstring();
 void testIsPalindrome();
 void testLengthOfLastWord();
+void testReverseWords();
+void testIsInterleave();
 #endif

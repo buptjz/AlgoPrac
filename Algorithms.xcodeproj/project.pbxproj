@@ -92,6 +92,7 @@
 		8381D20118EAF3DE00ADA26A /* LengthofLastWord.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8381D1FF18EAF3DE00ADA26A /* LengthofLastWord.cpp */; };
 		8384520B18F0EDEB008D7146 /* LongestPalindromicSubstring.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8384520918F0EDEB008D7146 /* LongestPalindromicSubstring.cpp */; };
 		838ABDE518DAD02600F03599 /* BigNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 838ABDE318DAD02600F03599 /* BigNumber.cpp */; };
+		838F3A0218F2F2F4006F7121 /* ReverseWordsinaString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 838F3A0018F2F2F4006F7121 /* ReverseWordsinaString.cpp */; };
 		838F9EDC18F0FE5000B7685A /* PalindromePartitioning.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 838F9EDA18F0FE5000B7685A /* PalindromePartitioning.cpp */; };
 		83906DD018EB989000C8CDF9 /* SudokuSolver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83906DCE18EB989000C8CDF9 /* SudokuSolver.cpp */; };
 		83962C5118ED06F7008BFCF3 /* PalindromeNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83962C4F18ED06F7008BFCF3 /* PalindromeNumber.cpp */; };
@@ -131,6 +132,7 @@
 		83B0CDC118D4A6B700B69862 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83B0CDC018D4A6B700B69862 /* main.cpp */; };
 		83B7C3A018F16A32009DC3A0 /* RotateList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83B7C39E18F16A32009DC3A0 /* RotateList.cpp */; };
 		83BC09A018F1258B00A1B49B /* PalindromePartitioningII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83BC099E18F1258B00A1B49B /* PalindromePartitioningII.cpp */; };
+		83BEB9F718F2F7E6007DD357 /* InterleavingString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83BEB9F518F2F7E6007DD357 /* InterleavingString.cpp */; };
 		83C324D518F23F0B007ED67C /* ReverseNodesink-Group.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83C324D318F23F0B007ED67C /* ReverseNodesink-Group.cpp */; };
 		83C324D818F25AB3007ED67C /* DistinctSubsequences.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83C324D618F25AB3007ED67C /* DistinctSubsequences.cpp */; };
 		83C35B5B18E41F19003A1E73 /* MergeSortedArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83C35B5918E41F19003A1E73 /* MergeSortedArray.cpp */; };
@@ -273,6 +275,7 @@
 		838737FE188EACF7001732CE /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 		838ABDE318DAD02600F03599 /* BigNumber.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BigNumber.cpp; sourceTree = "<group>"; };
 		838ABDE418DAD02600F03599 /* BigNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BigNumber.h; sourceTree = "<group>"; };
+		838F3A0018F2F2F4006F7121 /* ReverseWordsinaString.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ReverseWordsinaString.cpp; sourceTree = "<group>"; };
 		838F9EDA18F0FE5000B7685A /* PalindromePartitioning.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PalindromePartitioning.cpp; sourceTree = "<group>"; };
 		83906DCE18EB989000C8CDF9 /* SudokuSolver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SudokuSolver.cpp; path = Permutation/SudokuSolver.cpp; sourceTree = "<group>"; };
 		83962C4F18ED06F7008BFCF3 /* PalindromeNumber.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PalindromeNumber.cpp; sourceTree = "<group>"; };
@@ -314,6 +317,7 @@
 		83B0CDC018D4A6B700B69862 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		83B7C39E18F16A32009DC3A0 /* RotateList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RotateList.cpp; path = List/RotateList.cpp; sourceTree = "<group>"; };
 		83BC099E18F1258B00A1B49B /* PalindromePartitioningII.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PalindromePartitioningII.cpp; sourceTree = "<group>"; };
+		83BEB9F518F2F7E6007DD357 /* InterleavingString.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = InterleavingString.cpp; sourceTree = "<group>"; };
 		83C324D318F23F0B007ED67C /* ReverseNodesink-Group.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "ReverseNodesink-Group.cpp"; path = "List/ReverseNodesink-Group.cpp"; sourceTree = "<group>"; };
 		83C324D618F25AB3007ED67C /* DistinctSubsequences.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DistinctSubsequences.cpp; sourceTree = "<group>"; };
 		83C35B5918E41F19003A1E73 /* MergeSortedArray.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MergeSortedArray.cpp; sourceTree = "<group>"; };
@@ -634,6 +638,8 @@
 				83D35ED618DA9F270040586E /* ZigZagConversion.cpp */,
 				8305C6A818E444D1005E8B99 /* ValidPalindrome.cpp */,
 				8381D1FF18EAF3DE00ADA26A /* LengthofLastWord.cpp */,
+				838F3A0018F2F2F4006F7121 /* ReverseWordsinaString.cpp */,
+				83BEB9F518F2F7E6007DD357 /* InterleavingString.cpp */,
 			);
 			path = Strings;
 			sourceTree = "<group>";
@@ -874,6 +880,7 @@
 				836C120118E16C83009F74E7 /* Triangle.cpp in Sources */,
 				833CF2A718DDE30700F0183A /* UniquePathsII.cpp in Sources */,
 				837E130718E27DE40037AA5B /* ASingleton.cpp in Sources */,
+				83BEB9F718F2F7E6007DD357 /* InterleavingString.cpp in Sources */,
 				832BBD8718E93AF400C11E2E /* DecodeWays.cpp in Sources */,
 				8323DDC218EC4D29004BF125 /* 4Sum.cpp in Sources */,
 				83EC957518E4169E001F0D99 /* ClimbingStairs.cpp in Sources */,
@@ -889,6 +896,7 @@
 				83E919E218F1350C00754406 /* EditDistance.cpp in Sources */,
 				8327F21918EA695600F44B0E /* WildcardMatching.cpp in Sources */,
 				836E021518D940DF005D780E /* SwapNodesinPairs.cpp in Sources */,
+				838F3A0218F2F2F4006F7121 /* ReverseWordsinaString.cpp in Sources */,
 				83D35EDA18DA9F270040586E /* MinimumWindowSubstring.cpp in Sources */,
 				83C324D518F23F0B007ED67C /* ReverseNodesink-Group.cpp in Sources */,
 				832CA91718EE4C470073B408 /* CloneGraph.cpp in Sources */,

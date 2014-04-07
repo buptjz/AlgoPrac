@@ -26,14 +26,7 @@
 using namespace std;
 
 int main(void) {
-//    testLongestPalindrome();
-//    testPP();
-//    testMinCut();
-//    testMinDistance();
-//    testRotateRight();
-//    testReverseKGroup();
-//    testNumDistinct();
-    testEvalRPN();
+    testIsInterleave();
     return 0;
 }
 

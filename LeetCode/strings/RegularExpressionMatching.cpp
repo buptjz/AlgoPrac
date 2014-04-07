@@ -7,6 +7,39 @@
 //
 
 #include "leetcode_string.h"
+
+/*
+ 
+ update 2014.4.7
+ 
+ 此法的秘诀在于if (isMatch(s, p+2)) return true;这一行
+ 这里有点像backtrack
+ 先让p+2，与s匹配，如果不匹配，令p退回的到原来的状态，令s+1，再另p变成p+2，直到用尽所有的s，
+ 这样比isMatch(s,p+2) && isMatch(s+1,p)相比较而言，节省了非常多的计算
+ 因为
+ isMatch(s+1,p)和isMatch(s,p+2)的下一步都可能会计算isMatch(s+1,p+2)
+ 
+ '.' Matches any single character.
+ '*' Matches zero or more of the preceding element.
+ 
+ */
+bool isMatch(const char *s, const char *p) {
+    if (*p == '\0') return *s == '\0';
+    
+    //next char is not *
+    if (*(p+1) != '*')
+        return ((*p == *s || (*p == '.' && *s!='\0' )) && isMatch(s+1, p+1));
+    
+    //next char is *
+    while ((*s == *p) || (*p=='.' && *s!='\0')) {
+        if (isMatch(s, p+2)) return true;
+        s++;
+    }
+    return isMatch(s, p+2);
+}
+
+//下面的代码没有通过
+
 bool isMatchHelper(const char *s, const char *p){
     //base case 1：s走到了尽头，匹配完成
     if (*s == '\0') {
@@ -49,7 +82,7 @@ bool isMatchHelper(const char *s, const char *p){
             break;
     }
 }
-bool isMatch(const char *s, const char *p) {
+bool isMatch2(const char *s, const char *p) {
     if (*p == '*') {
         return false;
     }else{
