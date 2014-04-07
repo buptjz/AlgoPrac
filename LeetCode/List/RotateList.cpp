@@ -17,13 +17,12 @@ ListNode *rotateRight(ListNode *head, int k) {
     int length = 1;
     ListNode *dummy = new ListNode(0);
     dummy->next = head;
-    ListNode *end;
     
+    //Calculate the length of the list
     while (head->next) {
         length++;
         head = head->next;
     }
-    end = head;
     
     //the actual rotate times.
     k = k % length;
@@ -32,9 +31,8 @@ ListNode *rotateRight(ListNode *head, int k) {
     //The kth to last will be 1th in the new list,let the back to be the (k-1)th to last
     ListNode *back,*front;
     back = front = dummy->next;
-    int kk = k;
-    while (kk-- > 0) front = front->next;
-    while (front != end) {
+    while (k-- > 0) front = front->next;
+    while (front->next) {
         front = front->next;
         back = back->next;
     }
@@ -43,7 +41,7 @@ ListNode *rotateRight(ListNode *head, int k) {
     head = dummy->next;
     dummy->next = back->next;
     back->next = nullptr;
-    end->next = head;
+    front->next = head;
     return dummy->next;
 }
 
@@ -52,7 +50,7 @@ void testRotateRight(){
     root->next = new ListNode(2);
     root->next->next = new ListNode(3);
     root->next->next->next = new ListNode(4);
-    ListNode *res = rotateRight(root, 5);
+    ListNode *res = rotateRight(root, 1);
     cout<<"Finished"<<endl;
 }
 

@@ -19,6 +19,7 @@ using namespace std;
 void testMinimumTotal();
 void testReorderList();
 void testRotateRight();
+void testReverseKGroup();
 struct ListNode {
     int val;
     ListNode *next;

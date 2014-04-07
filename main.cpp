@@ -30,7 +30,8 @@ int main(void) {
 //    testPP();
 //    testMinCut();
 //    testMinDistance();
-    testRotateRight();
+//    testRotateRight();
+    testReverseKGroup();
     return 0;
 }
 
