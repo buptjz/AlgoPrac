@@ -12,6 +12,40 @@
 
 #include "leetcode_stack.h"
 
+/*2014.4.9日更新，发现可以使用stoi函数代替我写的stringToInt*/
+int evalRPN(vector<string> &tokens) {
+    if (tokens.size() == 0) return 0;
+    int first,second;
+    stack<int> st;
+    for (int i = 0 ; i < tokens.size(); i++) {
+        if (tokens[i] == "*" ||tokens[i] == "+" ||
+            tokens[i] == "-" ||tokens[i] == "/") {
+            second = st.top();st.pop();
+            first = st.top();st.pop();
+            switch (tokens[i][0]) {
+                case '+':
+                    st.push(first + second);
+                    break;
+                case '-':
+                    st.push(first - second);
+                    break;
+                case '*':
+                    st.push(first * second);
+                    break;
+                case '/':
+                    st.push(first / second);
+                    break;
+                default:
+                    break;
+            }
+        }else{
+            st.push(stoi(tokens[i]));
+        }
+    }
+    return st.top();
+}
+
+
 int stringToInt(string s){
     int sign,sum;
     if (s[0] == '-') {
@@ -25,26 +59,20 @@ int stringToInt(string s){
         sum = s[0] - '0';
     }
     
-    int length = (int)s.size();
-    for (int i = 1; i < length; i++)
+    for (int i = 1; i < s.size(); i++)
         sum = sum * 10 + (s[i] - '0');
     return sum * sign;
 }
-int evalRPN(vector<string> &tokens) {
+int evalRPN2(vector<string> &tokens) {
     if (tokens.size() == 0) return 0;
     int first,second;
     stack<int> st;
     for (int i = 0 ; i < tokens.size(); i++) {
-        if (tokens[i] == "*" ||
-            tokens[i] == "+" ||
-            tokens[i] == "-" ||
-            tokens[i] == "/") {
-            char sign = tokens[i][0];
-            second = st.top();
-            st.pop();
-            first = st.top();
-            st.pop();
-            switch (sign) {
+        if (tokens[i] == "*" ||tokens[i] == "+" ||
+            tokens[i] == "-" ||tokens[i] == "/") {
+            second = st.top();st.pop();
+            first = st.top();st.pop();
+            switch (tokens[i][0]) {
                 case '+':
                     st.push(first + second);
                     break;

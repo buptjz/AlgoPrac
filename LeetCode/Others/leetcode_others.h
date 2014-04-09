@@ -44,5 +44,5 @@ void testSopralOrder();
 void testTrap();
 void testGenerateMatrix();
 void testLongestPalindrome();
-
+void testDivide();
 #endif

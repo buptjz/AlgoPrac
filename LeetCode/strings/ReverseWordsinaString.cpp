@@ -7,6 +7,16 @@
 //  http://oj.leetcode.com/problems/reverse-words-in-a-string/
 
 /*
+ 这个方法没有问题，用到了一个额外的数组
+ 如果需要原地进行，可以用如下这个技巧：
+ 
+ 原字符串是“i like this program very much”
+ 1) Reverse the individual words, we get the below string.
+ "i ekil siht margorp yrev hcum"
+ 2) Reverse the whole string from start to end and you get the desired output.
+ "much very program this like i"
+ ref：http://www.geeksforgeeks.org/reverse-words-in-a-given-string/
+ 
  苦练基本功，细心+复盘
  */
 

@@ -26,7 +26,7 @@
 using namespace std;
 
 int main(void) {
-    testIsInterleave();
+    testDivide();
     return 0;
 }
 

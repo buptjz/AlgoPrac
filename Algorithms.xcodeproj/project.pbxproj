@@ -24,6 +24,7 @@
 		832E1C3D1882C8C4001BA17B /* searchRotatedArray.c in Sources */ = {isa = PBXBuildFile; fileRef = 832E1C3C1882C8C4001BA17B /* searchRotatedArray.c */; };
 		8334996F18F25E110018D78D /* EvaluateReversePolishNotation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8334996D18F25E110018D78D /* EvaluateReversePolishNotation.cpp */; };
 		833A041818E954EE00DAEE00 /* Anagrams.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 833A041618E954EE00DAEE00 /* Anagrams.cpp */; };
+		833BAF9118F3C5EF0061F988 /* DivideTwoIntegers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 833BAF8F18F3C5EF0061F988 /* DivideTwoIntegers.cpp */; };
 		833CF2A018DDDCC300F0183A /* RemoveDuplicatesfromSortedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 833CF29E18DDDCC300F0183A /* RemoveDuplicatesfromSortedList.cpp */; };
 		833CF2A418DDDF3F00F0183A /* UniquePaths.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 833CF2A218DDDF3F00F0183A /* UniquePaths.cpp */; };
 		833CF2A718DDE30700F0183A /* UniquePathsII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 833CF2A518DDE30700F0183A /* UniquePathsII.cpp */; };
@@ -199,6 +200,7 @@
 		832E1C3C1882C8C4001BA17B /* searchRotatedArray.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = searchRotatedArray.c; sourceTree = "<group>"; };
 		8334996D18F25E110018D78D /* EvaluateReversePolishNotation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EvaluateReversePolishNotation.cpp; sourceTree = "<group>"; };
 		833A041618E954EE00DAEE00 /* Anagrams.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Anagrams.cpp; sourceTree = "<group>"; };
+		833BAF8F18F3C5EF0061F988 /* DivideTwoIntegers.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DivideTwoIntegers.cpp; sourceTree = "<group>"; };
 		833CF29E18DDDCC300F0183A /* RemoveDuplicatesfromSortedList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RemoveDuplicatesfromSortedList.cpp; path = List/RemoveDuplicatesfromSortedList.cpp; sourceTree = "<group>"; };
 		833CF2A218DDDF3F00F0183A /* UniquePaths.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UniquePaths.cpp; sourceTree = "<group>"; };
 		833CF2A518DDE30700F0183A /* UniquePathsII.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UniquePathsII.cpp; sourceTree = "<group>"; };
@@ -478,6 +480,7 @@
 				8376836018F02FA3000A401B /* SpiralMatrix.cpp */,
 				834F6CBC18F0E67F0004BF8D /* SpiralMatrixII.cpp */,
 				83E919E318F13C5900754406 /* LRUCache.cpp */,
+				833BAF8F18F3C5EF0061F988 /* DivideTwoIntegers.cpp */,
 			);
 			path = Others;
 			sourceTree = "<group>";
@@ -874,6 +877,7 @@
 				83A1B5C818EFB78500DE3F6F /* Candy.cpp in Sources */,
 				833CF2A018DDDCC300F0183A /* RemoveDuplicatesfromSortedList.cpp in Sources */,
 				834E005A18EDA2AC0076F371 /* RotateImage.cpp in Sources */,
+				833BAF9118F3C5EF0061F988 /* DivideTwoIntegers.cpp in Sources */,
 				83D35ED918DA9F270040586E /* LongestSubstringWithoutRepeatingCharacters.cpp in Sources */,
 				83A23E2C18DC2AC20089A169 /* RemoveDuplicatesfromSortedListII.cpp in Sources */,
 				833CF2A418DDDF3F00F0183A /* UniquePaths.cpp in Sources */,
