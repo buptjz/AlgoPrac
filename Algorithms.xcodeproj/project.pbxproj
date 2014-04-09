@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		8305C6AD18E45938005E8B99 /* WordLadder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8305C6AB18E45938005E8B99 /* WordLadder.cpp */; };
 		830B7B1C18EFE60400AF872F /* LongestConsecutiveSequence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 830B7B1A18EFE60400AF872F /* LongestConsecutiveSequence.cpp */; };
-		831DF56C18ECF0FA0055DF57 /* GrayCode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 831DF56A18ECF0FA0055DF57 /* GrayCode.cpp */; };
+		8319FA6218F53EAD005AF80B /* GrayCode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8319FA6118F53EAD005AF80B /* GrayCode.cpp */; };
 		831DF56F18ECFFD60055DF57 /* CountandSay.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 831DF56D18ECFFD60055DF57 /* CountandSay.cpp */; };
 		8323DDC218EC4D29004BF125 /* 4Sum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8323DDC018EC4D29004BF125 /* 4Sum.cpp */; };
 		832675BA18EBAA5100143F77 /* ValidSudoku.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 832675B818EBAA5100143F77 /* ValidSudoku.cpp */; };
@@ -185,7 +185,7 @@
 /* Begin PBXFileReference section */
 		8305C6AB18E45938005E8B99 /* WordLadder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = WordLadder.cpp; path = DFSBFS/WordLadder.cpp; sourceTree = "<group>"; };
 		830B7B1A18EFE60400AF872F /* LongestConsecutiveSequence.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LongestConsecutiveSequence.cpp; sourceTree = "<group>"; };
-		831DF56A18ECF0FA0055DF57 /* GrayCode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GrayCode.cpp; path = Permutation/GrayCode.cpp; sourceTree = "<group>"; };
+		8319FA6118F53EAD005AF80B /* GrayCode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GrayCode.cpp; sourceTree = "<group>"; };
 		831DF56D18ECFFD60055DF57 /* CountandSay.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CountandSay.cpp; sourceTree = "<group>"; };
 		8323DDC018EC4D29004BF125 /* 4Sum.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 4Sum.cpp; sourceTree = "<group>"; };
 		832675B818EBAA5100143F77 /* ValidSudoku.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ValidSudoku.cpp; sourceTree = "<group>"; };
@@ -393,6 +393,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8319FA6018F53EAD005AF80B /* Math */ = {
+			isa = PBXGroup;
+			children = (
+				8319FA6118F53EAD005AF80B /* GrayCode.cpp */,
+			);
+			path = Math;
+			sourceTree = "<group>";
+		};
 		8333A25818F519C200F55A4C /* TwoPointer */ = {
 			isa = PBXGroup;
 			children = (
@@ -683,7 +691,6 @@
 				839B1CFF18EAB28A003D5C47 /* N-Queens.cpp */,
 				8381D1FC18EAF0D300ADA26A /* N-QueensII.cpp */,
 				83906DCE18EB989000C8CDF9 /* SudokuSolver.cpp */,
-				831DF56A18ECF0FA0055DF57 /* GrayCode.cpp */,
 				837FE15618ED452800145C16 /* RestoreIPAddresses.cpp */,
 			);
 			name = Permutation;
@@ -744,6 +751,7 @@
 		83E6C6C918828E7F006D399B /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
+				8319FA6018F53EAD005AF80B /* Math */,
 				8333A25818F519C200F55A4C /* TwoPointer */,
 				836C11C518E11196009F74E7 /* leetcode_others.h */,
 				837C08CF18E3F7DC004C85B3 /* Sort */,
@@ -956,7 +964,6 @@
 				830B7B1C18EFE60400AF872F /* LongestConsecutiveSequence.cpp in Sources */,
 				8305C6AD18E45938005E8B99 /* WordLadder.cpp in Sources */,
 				83CF229418D82C920085AF17 /* UniqueBinarySearchTrees.cpp in Sources */,
-				831DF56C18ECF0FA0055DF57 /* GrayCode.cpp in Sources */,
 				836C120F18E16DD8009F74E7 /* BestTimetoBuyandSellStockII.cpp in Sources */,
 				83C8EFAF18EA50E0001C2E36 /* RemoveDuplicatesfromSortedArray.cpp in Sources */,
 				83B0CD7C18D4A61200B69862 /* ConstructBinaryTreefromInorderandPostorderTraversal.cpp in Sources */,
@@ -975,6 +982,7 @@
 				836C121C18E1774D009F74E7 /* SearchinRotatedSortedArray.cpp in Sources */,
 				832BBD8418E9189900C11E2E /* SumRoottoLeafNumbers.cpp in Sources */,
 				836E021318D9407E005D780E /* PartitionList.cpp in Sources */,
+				8319FA6218F53EAD005AF80B /* GrayCode.cpp in Sources */,
 				83EC957818E41BEA001F0D99 /* SetMatrixZeroes.cpp in Sources */,
 				834F6CBE18F0E67F0004BF8D /* SpiralMatrixII.cpp in Sources */,
 				83B0CD7E18D4A61200B69862 /* ConvertSortedListtoBinarySearchTree.cpp in Sources */,
