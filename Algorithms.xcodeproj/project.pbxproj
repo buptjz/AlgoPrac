@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8305C6AA18E444D1005E8B99 /* ValidPalindrome.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8305C6A818E444D1005E8B99 /* ValidPalindrome.cpp */; };
 		8305C6AD18E45938005E8B99 /* WordLadder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8305C6AB18E45938005E8B99 /* WordLadder.cpp */; };
 		830B7B1C18EFE60400AF872F /* LongestConsecutiveSequence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 830B7B1A18EFE60400AF872F /* LongestConsecutiveSequence.cpp */; };
 		831DF56C18ECF0FA0055DF57 /* GrayCode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 831DF56A18ECF0FA0055DF57 /* GrayCode.cpp */; };
@@ -21,6 +20,7 @@
 		832BBD8A18E948BE00C11E2E /* AddBinary.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 832BBD8818E948BE00C11E2E /* AddBinary.cpp */; };
 		832CA91718EE4C470073B408 /* CloneGraph.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 832CA91518EE4C470073B408 /* CloneGraph.cpp */; };
 		832E1C3D1882C8C4001BA17B /* searchRotatedArray.c in Sources */ = {isa = PBXBuildFile; fileRef = 832E1C3C1882C8C4001BA17B /* searchRotatedArray.c */; };
+		8333A25A18F519C200F55A4C /* ValidPalindrome.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8333A25918F519C200F55A4C /* ValidPalindrome.cpp */; };
 		8334996F18F25E110018D78D /* EvaluateReversePolishNotation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8334996D18F25E110018D78D /* EvaluateReversePolishNotation.cpp */; };
 		833A041818E954EE00DAEE00 /* Anagrams.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 833A041618E954EE00DAEE00 /* Anagrams.cpp */; };
 		833BAF9118F3C5EF0061F988 /* DivideTwoIntegers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 833BAF8F18F3C5EF0061F988 /* DivideTwoIntegers.cpp */; };
@@ -183,7 +183,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		8305C6A818E444D1005E8B99 /* ValidPalindrome.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ValidPalindrome.cpp; sourceTree = "<group>"; };
 		8305C6AB18E45938005E8B99 /* WordLadder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = WordLadder.cpp; path = DFSBFS/WordLadder.cpp; sourceTree = "<group>"; };
 		830B7B1A18EFE60400AF872F /* LongestConsecutiveSequence.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LongestConsecutiveSequence.cpp; sourceTree = "<group>"; };
 		831DF56A18ECF0FA0055DF57 /* GrayCode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GrayCode.cpp; path = Permutation/GrayCode.cpp; sourceTree = "<group>"; };
@@ -197,6 +196,7 @@
 		832BBD8818E948BE00C11E2E /* AddBinary.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AddBinary.cpp; sourceTree = "<group>"; };
 		832CA91518EE4C470073B408 /* CloneGraph.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CloneGraph.cpp; path = DFSBFS/CloneGraph.cpp; sourceTree = "<group>"; };
 		832E1C3C1882C8C4001BA17B /* searchRotatedArray.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = searchRotatedArray.c; sourceTree = "<group>"; };
+		8333A25918F519C200F55A4C /* ValidPalindrome.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ValidPalindrome.cpp; sourceTree = "<group>"; };
 		8334996D18F25E110018D78D /* EvaluateReversePolishNotation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EvaluateReversePolishNotation.cpp; sourceTree = "<group>"; };
 		833A041618E954EE00DAEE00 /* Anagrams.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Anagrams.cpp; sourceTree = "<group>"; };
 		833BAF8F18F3C5EF0061F988 /* DivideTwoIntegers.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DivideTwoIntegers.cpp; sourceTree = "<group>"; };
@@ -393,6 +393,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8333A25818F519C200F55A4C /* TwoPointer */ = {
+			isa = PBXGroup;
+			children = (
+				8333A25918F519C200F55A4C /* ValidPalindrome.cpp */,
+			);
+			path = TwoPointer;
+			sourceTree = "<group>";
+		};
 		833CF2A118DDDF2F00F0183A /* DP */ = {
 			isa = PBXGroup;
 			children = (
@@ -639,7 +647,6 @@
 				83D35ED418DA9F270040586E /* WordBreakII.cpp */,
 				83D35ED518DA9F270040586E /* WordSearch.cpp */,
 				83D35ED618DA9F270040586E /* ZigZagConversion.cpp */,
-				8305C6A818E444D1005E8B99 /* ValidPalindrome.cpp */,
 				8381D1FF18EAF3DE00ADA26A /* LengthofLastWord.cpp */,
 				838F3A0018F2F2F4006F7121 /* ReverseWordsinaString.cpp */,
 				83BEB9F518F2F7E6007DD357 /* InterleavingString.cpp */,
@@ -737,6 +744,7 @@
 		83E6C6C918828E7F006D399B /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
+				8333A25818F519C200F55A4C /* TwoPointer */,
 				836C11C518E11196009F74E7 /* leetcode_others.h */,
 				837C08CF18E3F7DC004C85B3 /* Sort */,
 				836C11F018E1522C009F74E7 /* kSum */,
@@ -842,7 +850,6 @@
 				83B0CD8B18D4A62800B69862 /* PathSum.cpp in Sources */,
 				838ABDE518DAD02600F03599 /* BigNumber.cpp in Sources */,
 				83E919E518F13C5900754406 /* LRUCache.cpp in Sources */,
-				8305C6AA18E444D1005E8B99 /* ValidPalindrome.cpp in Sources */,
 				836C11EA18E122C7009F74E7 /* LargestRectangularAreainaHistogramV2.cpp in Sources */,
 				83B0CD7F18D4A61200B69862 /* FlattenBinaryTreetoLinkedList.cpp in Sources */,
 				83A23E3218DC36BD0089A169 /* ReverseLinkedListII.cpp in Sources */,
@@ -860,6 +867,7 @@
 				83B0CD7718D4A61200B69862 /* BinaryTreeLevelOrderTraversal.cpp in Sources */,
 				8381A4CB18EBF3B9008851BC /* PopulatingNextRightPointersinEachNodeII.cpp in Sources */,
 				83E78F9618ED598D00C21E63 /* FirstMissingPositive.cpp in Sources */,
+				8333A25A18F519C200F55A4C /* ValidPalindrome.cpp in Sources */,
 				83C7AB4618EA534D00A51E3F /* RemoveDuplicatesfromSortedArrayII.cpp in Sources */,
 				83A4B5AA18DA81100089B7FE /* align_malloc.cpp in Sources */,
 				836C11F818E154E1009F74E7 /* SingleNumberIII.cpp in Sources */,

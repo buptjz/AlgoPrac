@@ -8,7 +8,10 @@
 
 #include "leetcode_others.h"
 #include <unordered_set>
-//2014.4.9日更新，使用了unorder_set
+/*
+ 2014.4.9日更新，使用了unorder_set
+ 参考http://siqi43.wordpress.com/2014/03/13/longest-consecutive-sequence/
+*/
 int longestConsecutive(vector<int> &num) {
     if (num.size() == 0) return 0;
     unordered_set<int> table;
