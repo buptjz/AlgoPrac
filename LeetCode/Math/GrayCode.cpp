@@ -6,8 +6,6 @@
 //  Copyright (c) 2014年 WangJZ. All rights reserved.
 //  http://oj.leetcode.com/problems/gray-code/
 
-
-
 #include "leetcode_permutation.h"
 #include <math.h>
 

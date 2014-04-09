@@ -34,6 +34,7 @@
 		834E005A18EDA2AC0076F371 /* RotateImage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 834E005818EDA2AC0076F371 /* RotateImage.cpp */; };
 		834F6CBE18F0E67F0004BF8D /* SpiralMatrixII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 834F6CBC18F0E67F0004BF8D /* SpiralMatrixII.cpp */; };
 		8357F17B18EE444900A43513 /* ValidNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8357F17918EE444900A43513 /* ValidNumber.cpp */; };
+		836378AF18F56E4400908415 /* HowManyTables.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 836378AD18F56E4400908415 /* HowManyTables.cpp */; };
 		8364F66618E3C5AF008F7C13 /* question12.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8364F66418E3C5AF008F7C13 /* question12.cpp */; };
 		83666BDF18EA5AAF0084B841 /* MultiplyStrings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83666BDD18EA5AAF0084B841 /* MultiplyStrings.cpp */; };
 		8367439E189016670051E377 /* numTrees.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8367439D189016670051E377 /* numTrees.cpp */; };
@@ -212,6 +213,7 @@
 		834F6CBC18F0E67F0004BF8D /* SpiralMatrixII.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SpiralMatrixII.cpp; sourceTree = "<group>"; };
 		8357F17918EE444900A43513 /* ValidNumber.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ValidNumber.cpp; sourceTree = "<group>"; };
 		83595CB418E3CCB9004B34AA /* conquerOffer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = conquerOffer.h; sourceTree = "<group>"; };
+		836378AD18F56E4400908415 /* HowManyTables.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HowManyTables.cpp; sourceTree = "<group>"; };
 		8364F66418E3C5AF008F7C13 /* question12.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = question12.cpp; sourceTree = "<group>"; };
 		83666BDD18EA5AAF0084B841 /* MultiplyStrings.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MultiplyStrings.cpp; sourceTree = "<group>"; };
 		8367439D189016670051E377 /* numTrees.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = numTrees.cpp; sourceTree = "<group>"; };
@@ -615,6 +617,7 @@
 				838ABDE418DAD02600F03599 /* BigNumber.h */,
 				837E130618E27DE40037AA5B /* ASingleton.h */,
 				837E130518E27DE40037AA5B /* ASingleton.cpp */,
+				836378AD18F56E4400908415 /* HowManyTables.cpp */,
 			);
 			path = Others;
 			sourceTree = SOURCE_ROOT;
@@ -919,6 +922,7 @@
 				836E021518D940DF005D780E /* SwapNodesinPairs.cpp in Sources */,
 				838F3A0218F2F2F4006F7121 /* ReverseWordsinaString.cpp in Sources */,
 				83D35EDA18DA9F270040586E /* MinimumWindowSubstring.cpp in Sources */,
+				836378AF18F56E4400908415 /* HowManyTables.cpp in Sources */,
 				83C324D518F23F0B007ED67C /* ReverseNodesink-Group.cpp in Sources */,
 				832CA91718EE4C470073B408 /* CloneGraph.cpp in Sources */,
 				838F9EDC18F0FE5000B7685A /* PalindromePartitioning.cpp in Sources */,
