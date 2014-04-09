@@ -11,6 +11,7 @@
     没有找到直接计算的通项，还是自低向上的动态规划法，在I的基础上简单改写的
  2014.4.9日更新，只使用一个数组，滚动完成，从后向前，不会覆盖！最精简版本
 杨辉三角的性质
+思考： 杨辉三角与二项式系数（1+x）的n次幂怎么求？
 http://www.cnblogs.com/shawnhue/p/leetcode_119.html
  */
 vector<int> getRow(int rowIndex) {

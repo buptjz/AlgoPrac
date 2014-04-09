@@ -6,6 +6,39 @@
 //  Copyright (c) 2014年 WangJZ. All rights reserved.
 //
 
+#include "leetcode_tree.h"
+
+/*
+ 2014.4.9日更新，只用一次递归即可
+ 递归的次序是root，right，left
+ 
+ */
+void findAndSet(TreeLinkNode *nodeTobeSet,TreeLinkNode *lastLevel){
+    while (nodeTobeSet->next == NULL && lastLevel->next) {
+        lastLevel = lastLevel->next;
+        if (lastLevel->left) {
+            nodeTobeSet->next = lastLevel->left;
+            nodeTobeSet = lastLevel->left;
+        }else if(lastLevel->right) {
+            nodeTobeSet->next = lastLevel->right;
+            nodeTobeSet = lastLevel->right;
+        }
+    }
+}
+static void connect(TreeLinkNode *root) {
+    if (!root|| (!root->left && !root->right)) return;
+    if (root->right) {//有右孩子
+        findAndSet(root->right,root);
+        connect(root->right);
+        if (root->left) {//既有右孩子，又有左孩子
+            root->left->next = root->right;
+            connect(root->left);
+        }
+    }else{//没有右孩子，有左孩子
+        findAndSet(root->left, root);
+        connect(root->left);
+    }
+}
 /*
  代码有点ugly，需要看看别人的
  思路：第一次遍历先将左孩子的next指向其兄弟
@@ -17,9 +50,6 @@
  
  这样就优先的将右侧的所有节点都设置了next。
  */
-
-
-#include "leetcode_tree.h"
 
 static void firstTraverse(TreeLinkNode *root){
     if (root == NULL) return;
@@ -49,10 +79,7 @@ static void secondTraverse(TreeLinkNode *root){
     secondTraverse(root->left);//交换了这俩的顺序，瞬间就对了！
 }
 
-static void connect(TreeLinkNode *root) {
-    //分两边递归，第一遍令左孩子的next指向兄弟t
-    //第二遍改变所有右孩子的next，如果父节点的next是空的，那么,右孩子的next为空，如果不为空，那么
-    //rightchild->next = parent->next->left;
+static void connect2(TreeLinkNode *root) {
     firstTraverse(root);
     secondTraverse(root);
 }
