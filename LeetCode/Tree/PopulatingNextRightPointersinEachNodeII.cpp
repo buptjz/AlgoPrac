@@ -11,6 +11,8 @@
 /*
  2014.4.9日更新，只用一次递归即可
  递归的次序是root，right，left
+ 这里有更简洁的方法！
+ http://discuss.leetcode.com/questions/282/populating-next-right-pointers-in-each-node-ii
  
  */
 void findAndSet(TreeLinkNode *nodeTobeSet,TreeLinkNode *lastLevel){
