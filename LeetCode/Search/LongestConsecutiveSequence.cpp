@@ -6,14 +6,42 @@
 //  Copyright (c) 2014年 WangJZ. All rights reserved.
 //  http://oj.leetcode.com/problems/longest-consecutive-sequence/
 
+#include "leetcode_others.h"
+#include <unordered_set>
+//2014.4.9日更新，使用了unorder_set
+int longestConsecutive(vector<int> &num) {
+    if (num.size() == 0) return 0;
+    unordered_set<int> table;
+    
+    for (int i = 0; i < num.size(); i++)
+        table.insert(num[i]);
+    
+    int max_consec = 1;
+    for (int e : num){
+        int count = 1;
+        int left = e - 1,right = e + 1;
+        while (table.find(left) != table.end()){
+            count++;
+            table.erase(left);
+            left--;
+        }
+        while (table.find(right) != table.end()){
+            count++;
+            table.erase(right);
+            right++;
+        }
+        max_consec = max(max_consec,count);
+    }
+    return max_consec;
+}
+
 /*
 使用了map记录信息，不知道算不算违规
 */
 
-#include "leetcode_others.h"
 
 
-int longestConsecutive(vector<int> &num) {
+int longestConsecutive2(vector<int> &num) {
     if (num.size() == 0) return 0;
     map<int, bool> dic;
     for (int i = 0; i < num.size(); i++) {
@@ -48,7 +76,7 @@ int longestConsecutive(vector<int> &num) {
 }
 
 void testLongestConsecutive(){
-    vector<int > a = {300,200,2,3,1,5};
+    vector<int > a = {1,0,-1};
     int res = longestConsecutive(a);
     cout<<res<<endl;
 }

@@ -4,7 +4,9 @@
 //
 //  Created by WangJZ on 14-4-4.
 //  Copyright (c) 2014年 WangJZ. All rights reserved.
-//
+//  http://oj.leetcode.com/problems/clone-graph/
+
+//与random pointer的list的复制基本一样，需要注意的是一个节点可能有多个指向自身的指针
 
 #include "leetcode_others.h"
 

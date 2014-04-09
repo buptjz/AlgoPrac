@@ -26,7 +26,7 @@
 using namespace std;
 
 int main(void) {
-    testDivide();
+    testLongestConsecutive();
     return 0;
 }
 
