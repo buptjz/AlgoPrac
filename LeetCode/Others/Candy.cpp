@@ -18,6 +18,8 @@
  [1 2 4 3 2 1 2 ]
 可以看到数字7是第一个下降点之前的点，它本身发到两块糖，但由于后面连续的下降子串数量大于4，所以accum上面要加上3个糖
  
+ 
+牛逼的两遍法    http://zhaohongze.com/wordpress/2013/12/10/leetcode-candy/
  */
 
 #include "leetcode_dp.h"

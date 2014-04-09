@@ -7,6 +7,12 @@
 //  http://oj.leetcode.com/problems/reorder-list/
 
 /*
+ http://www.cnblogs.com/TenosDoIt/p/3416938.html给出了更直观的解法，
+ 第一部分和我的相同，都是找到后半段，
+ 找到后将后半段翻转，然后合并两个链表。
+ 
+ 引申出来的问题：完美洗牌http://www.cnblogs.com/TenosDoIt/p/3416938.html
+ 
 excited
  算是第一个自己想出来的比较难的递归方法，思路和用排序链表构建二叉查找树很类似
  
