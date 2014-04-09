@@ -12,16 +12,17 @@
 
 //编码太复杂了，ugly!!!
 /*
- 不管怎样，还是做出来了，而且用了二级指针
+ 不管怎样，还是做出来了
  第一趟对2个数进行排序
  第二趟对4个
  第三趟对8个
  直到最后
  
  相当于做了原地的归并排序
+ 如果像网上很多人说的递归的归并排序，其实它所使用的空间不是常数的，而是logN的，不管怎样，还是参考一下
+ http://www.cnblogs.com/TenosDoIt/p/3434550.html
 */
 void sortListHelper(ListNode **head,int step){
-    ListNode **saveHead = head;
     int save_step = step;
     ListNode *p1,*p2;
     p1 = p2 = *head;
