@@ -75,7 +75,6 @@
 		836E021518D940DF005D780E /* SwapNodesinPairs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 836E021418D940DF005D780E /* SwapNodesinPairs.cpp */; };
 		836E021918D9435E005D780E /* MergekSortedLists.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 836E021818D9435E005D780E /* MergekSortedLists.cpp */; };
 		836EAB0E18EE33AC0019C474 /* Searcha2DMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 836EAB0C18EE33AC0019C474 /* Searcha2DMatrix.cpp */; };
-		836EAB1118EE37100019C474 /* SimplifyPath.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 836EAB0F18EE37100019C474 /* SimplifyPath.cpp */; };
 		836F5F6A18D9307F0015BB81 /* MaximumDepthofBinaryTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 836F5F6818D9307F0015BB81 /* MaximumDepthofBinaryTree.cpp */; };
 		8376836218F02FA3000A401B /* SpiralMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8376836018F02FA3000A401B /* SpiralMatrix.cpp */; };
 		8376836518F04731000A401B /* TrappingRainWater.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8376836318F04731000A401B /* TrappingRainWater.cpp */; };
@@ -131,6 +130,7 @@
 		83B0CDBC18D4A67600B69862 /* SubsetsII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83B0CDB318D4A67600B69862 /* SubsetsII.cpp */; };
 		83B0CDC118D4A6B700B69862 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83B0CDC018D4A6B700B69862 /* main.cpp */; };
 		83B7C3A018F16A32009DC3A0 /* RotateList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83B7C39E18F16A32009DC3A0 /* RotateList.cpp */; };
+		83BA986518F6406700292E6D /* SimplifyPath.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83BA986418F6406700292E6D /* SimplifyPath.cpp */; };
 		83BC09A018F1258B00A1B49B /* PalindromePartitioningII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83BC099E18F1258B00A1B49B /* PalindromePartitioningII.cpp */; };
 		83C2662A18F4E07D0018A251 /* InsertionSortList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83C2662918F4E07D0018A251 /* InsertionSortList.cpp */; };
 		83C2662C18F4E60F0018A251 /* Candy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83C2662B18F4E60F0018A251 /* Candy.cpp */; };
@@ -256,7 +256,6 @@
 		836E021418D940DF005D780E /* SwapNodesinPairs.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SwapNodesinPairs.cpp; path = List/SwapNodesinPairs.cpp; sourceTree = "<group>"; };
 		836E021818D9435E005D780E /* MergekSortedLists.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MergekSortedLists.cpp; path = List/MergekSortedLists.cpp; sourceTree = "<group>"; };
 		836EAB0C18EE33AC0019C474 /* Searcha2DMatrix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Searcha2DMatrix.cpp; sourceTree = "<group>"; };
-		836EAB0F18EE37100019C474 /* SimplifyPath.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SimplifyPath.cpp; sourceTree = "<group>"; };
 		836F5F6818D9307F0015BB81 /* MaximumDepthofBinaryTree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MaximumDepthofBinaryTree.cpp; path = Tree/MaximumDepthofBinaryTree.cpp; sourceTree = "<group>"; };
 		8376836018F02FA3000A401B /* SpiralMatrix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SpiralMatrix.cpp; sourceTree = "<group>"; };
 		8376836318F04731000A401B /* TrappingRainWater.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TrappingRainWater.cpp; sourceTree = "<group>"; };
@@ -318,6 +317,7 @@
 		83B0CDB318D4A67600B69862 /* SubsetsII.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SubsetsII.cpp; path = Permutation/SubsetsII.cpp; sourceTree = "<group>"; };
 		83B0CDC018D4A6B700B69862 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		83B7C39E18F16A32009DC3A0 /* RotateList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RotateList.cpp; path = List/RotateList.cpp; sourceTree = "<group>"; };
+		83BA986418F6406700292E6D /* SimplifyPath.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SimplifyPath.cpp; sourceTree = "<group>"; };
 		83BC099E18F1258B00A1B49B /* PalindromePartitioningII.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PalindromePartitioningII.cpp; sourceTree = "<group>"; };
 		83C2662918F4E07D0018A251 /* InsertionSortList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = InsertionSortList.cpp; sourceTree = "<group>"; };
 		83C2662B18F4E60F0018A251 /* Candy.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Candy.cpp; sourceTree = "<group>"; };
@@ -494,7 +494,6 @@
 				83962C4F18ED06F7008BFCF3 /* PalindromeNumber.cpp */,
 				834E005518ED9D500076F371 /* PlusOne.cpp */,
 				834E005818EDA2AC0076F371 /* RotateImage.cpp */,
-				836EAB0F18EE37100019C474 /* SimplifyPath.cpp */,
 				8357F17918EE444900A43513 /* ValidNumber.cpp */,
 				8376836018F02FA3000A401B /* SpiralMatrix.cpp */,
 				834F6CBC18F0E67F0004BF8D /* SpiralMatrixII.cpp */,
@@ -668,6 +667,7 @@
 		83D35EE218DA9F2E0040586E /* Stack */ = {
 			isa = PBXGroup;
 			children = (
+				83BA986418F6406700292E6D /* SimplifyPath.cpp */,
 				83D35EE818DA9F940040586E /* leetcode_stack.h */,
 				83D35EE318DA9F460040586E /* ValidParentheses.cpp */,
 				83D35EE518DA9F6E0040586E /* LongestValidParentheses.cpp */,
@@ -917,6 +917,7 @@
 				836C11FC18E15596009F74E7 /* ContainerWithMostWater.cpp in Sources */,
 				836C121D18E1774D009F74E7 /* SearchInsertPosition.cpp in Sources */,
 				83C324D818F25AB3007ED67C /* DistinctSubsequences.cpp in Sources */,
+				83BA986518F6406700292E6D /* SimplifyPath.cpp in Sources */,
 				83E919E218F1350C00754406 /* EditDistance.cpp in Sources */,
 				8327F21918EA695600F44B0E /* WildcardMatching.cpp in Sources */,
 				836E021518D940DF005D780E /* SwapNodesinPairs.cpp in Sources */,
@@ -963,7 +964,6 @@
 				83D35EE418DA9F460040586E /* ValidParentheses.cpp in Sources */,
 				83D35ED718DA9F270040586E /* atoi.cpp in Sources */,
 				83D35EE718DA9F6E0040586E /* LongestValidParentheses.cpp in Sources */,
-				836EAB1118EE37100019C474 /* SimplifyPath.cpp in Sources */,
 				83B0CD8218D4A61200B69862 /* SymmetricTree.cpp in Sources */,
 				830B7B1C18EFE60400AF872F /* LongestConsecutiveSequence.cpp in Sources */,
 				8305C6AD18E45938005E8B99 /* WordLadder.cpp in Sources */,

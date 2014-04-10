@@ -10,6 +10,7 @@
  2014.4.10日更新
  http://blog.csdn.net/zxzxy1988/article/details/8596144
 */
+
 void sortColors(int A[], int n) {
     int left = 0;
     int right = n - 1;
@@ -20,10 +21,10 @@ void sortColors(int A[], int n) {
             index++;
             left++;
         }else if(A[index] == 1){
-            continue;
+            index++;
         }else{
             swap(A[index], A[right]);
-            index++;
+            right--;
         }
     }
 }

@@ -26,7 +26,7 @@
 using namespace std;
 
 int main(void) {
-
+    testSortCorlors();
     return 0;
 }
 
