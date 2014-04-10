@@ -13,8 +13,12 @@
 #include "leetcode_others.h"
 
 bool isScramble(string s1, string s2) {
+    // 递归 + 剪枝
+    // 剪枝：统计每个字母的个数，不等 则返回
+    // 递归：关键任务是确定分割点。暴力破解，遍历从1~len-1的分割点
+    //       每个分割点有两种可能，翻转与不翻转
     if (s1.size() != s2.size()) return false;
-    if (s1 == s2) return true;
+    if (s1 == s2) return true;              // 没有这个剪枝，大数据量过不了
     int vcnt[26] = {0};
     for (int i = 0; i < s1.size(); i++) {
         vcnt[s1[i]-'a'] += 1;
@@ -28,12 +32,12 @@ bool isScramble(string s1, string s2) {
     
     for (int i = 1; i < s1.size(); i++) {
         if ((isScramble(s1.substr(0,i), s2.substr(0,i))
-             &&isScramble(s1.substr(i), s2.substr(i)))
+             &&isScramble(s1.substr(i), s2.substr(i)))              // 先检查不翻转的情况
             ||
             (
              (isScramble(s1.substr(0,i), s2.substr(s2.size() - i))
                     &&
-              isScramble(s1.substr(i), s2.substr(0,s2.size() - i))
+              isScramble(s1.substr(i), s2.substr(0,s2.size() - i))  // 再检查左右翻转的情况
               )
              )
             ){

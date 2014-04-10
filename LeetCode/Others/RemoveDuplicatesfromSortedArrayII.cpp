@@ -11,10 +11,9 @@
 static int removeDuplicates(int A[], int n) {
     if (n == 0) return 0;
     int last = A[0];//记录上一个数
-    int place = 1;//目前放置的位置
-    int cur;//当前的坐标
+    int place = 1;//目前这个数应该被放置的位置（如果没有重复出现两次的话）
     bool doubled = false;//当前出现的次数
-    for (cur = 1; cur < n;  cur++) {
+    for (int cur = 1; cur < n;  cur++) {
         if (A[cur] == last) {
             if (!doubled) {//之前没有出现重复
                 A[place++] = A[cur];

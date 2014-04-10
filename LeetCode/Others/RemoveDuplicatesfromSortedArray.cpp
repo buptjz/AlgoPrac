@@ -8,6 +8,7 @@
 
 #include "leetcode_others.h"
 
+
 int removeDuplicates(int A[], int n) {
     if (n == 0) return 0;
     int last = A[0];//记录上一个数

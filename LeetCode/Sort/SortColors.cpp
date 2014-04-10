@@ -5,13 +5,35 @@
 //  Created by WangJZ on 14-4-3.
 //  Copyright (c) 2014年 WangJZ. All rights reserved.
 //  http://oj.leetcode.com/problems/sort-colors/
+#include "leetcode_sort.h"
+/*
+ 2014.4.10日更新
+ http://blog.csdn.net/zxzxy1988/article/details/8596144
+*/
+void sortColors(int A[], int n) {
+    int left = 0;
+    int right = n - 1;
+    int index = 0;
+    while (index <= right) {
+        if (A[index] == 0) {
+            swap(A[index], A[left]);
+            index++;
+            left++;
+        }else if(A[index] == 1){
+            continue;
+        }else{
+            swap(A[index], A[right]);
+            index++;
+        }
+    }
+}
 
 /*
  有点ugly
  */
-#include "leetcode_sort.h"
 
-void sortColors(int A[], int n) {
+
+void sortColors2(int A[], int n) {
     if (n == 0) return;
     int start = 0;
     int end = n - 1;
