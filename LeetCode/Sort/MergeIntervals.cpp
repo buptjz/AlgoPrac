@@ -14,12 +14,11 @@
 
 #include "leetcode_sort.h"
 
-
-
 bool intCompare(const Interval &lhs,const Interval &rhs){
     if (lhs.start == rhs.start) return lhs.end < rhs.end ? true:false;
     else return lhs.start < rhs.start ? true : false;
 }
+
 vector<Interval> merge(vector<Interval> &intervals) {
     vector<Interval> retVec;
     size_t length = intervals.size();

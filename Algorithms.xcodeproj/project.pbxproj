@@ -39,7 +39,6 @@
 		8364F66618E3C5AF008F7C13 /* question12.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8364F66418E3C5AF008F7C13 /* question12.cpp */; };
 		83666BDF18EA5AAF0084B841 /* MultiplyStrings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83666BDD18EA5AAF0084B841 /* MultiplyStrings.cpp */; };
 		8367439E189016670051E377 /* numTrees.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8367439D189016670051E377 /* numTrees.cpp */; };
-		836A684E18EBBDEF005140BD /* JumpGameII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 836A684C18EBBDEF005140BD /* JumpGameII.cpp */; };
 		836C11C718E116CB009F74E7 /* SingleNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 836C11C618E116CB009F74E7 /* SingleNumber.cpp */; };
 		836C11CA18E11809009F74E7 /* MaximumSubarray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 836C11C818E11809009F74E7 /* MaximumSubarray.cpp */; };
 		836C11E918E122C7009F74E7 /* LargestRectangularAreainaHistogram.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 836C11E518E122C7009F74E7 /* LargestRectangularAreainaHistogram.cpp */; };
@@ -84,7 +83,6 @@
 		837DCDAF18E3017400532881 /* PowXN.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 837DCDAD18E3017400532881 /* PowXN.cpp */; };
 		837E130718E27DE40037AA5B /* ASingleton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 837E130518E27DE40037AA5B /* ASingleton.cpp */; };
 		837FE15818ED452800145C16 /* RestoreIPAddresses.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 837FE15618ED452800145C16 /* RestoreIPAddresses.cpp */; };
-		8381A4C518EBE3F0008851BC /* JumpGame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8381A4C318EBE3F0008851BC /* JumpGame.cpp */; };
 		8381A4C818EBEB9E008851BC /* PopulatingNextRightPointersinEachNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8381A4C618EBEB9E008851BC /* PopulatingNextRightPointersinEachNode.cpp */; };
 		8381A4CB18EBF3B9008851BC /* PopulatingNextRightPointersinEachNodeII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8381A4C918EBF3B9008851BC /* PopulatingNextRightPointersinEachNodeII.cpp */; };
 		8381A4CE18EC055A008851BC /* PascalsTriangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8381A4CC18EC055A008851BC /* PascalsTriangle.cpp */; };
@@ -133,6 +131,8 @@
 		83B7C3A018F16A32009DC3A0 /* RotateList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83B7C39E18F16A32009DC3A0 /* RotateList.cpp */; };
 		83BA986518F6406700292E6D /* SimplifyPath.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83BA986418F6406700292E6D /* SimplifyPath.cpp */; };
 		83BBE9C418FB78D800AF760B /* InsertInterval.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83BBE9C318FB78D800AF760B /* InsertInterval.cpp */; };
+		83BBE9C718FB7E0E00AF760B /* JumpGame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83BBE9C518FB7E0E00AF760B /* JumpGame.cpp */; };
+		83BBE9C818FB7E0E00AF760B /* JumpGameII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83BBE9C618FB7E0E00AF760B /* JumpGameII.cpp */; };
 		83BC09A018F1258B00A1B49B /* PalindromePartitioningII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83BC099E18F1258B00A1B49B /* PalindromePartitioningII.cpp */; };
 		83C2662A18F4E07D0018A251 /* InsertionSortList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83C2662918F4E07D0018A251 /* InsertionSortList.cpp */; };
 		83C2662C18F4E60F0018A251 /* Candy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83C2662B18F4E60F0018A251 /* Candy.cpp */; };
@@ -220,7 +220,6 @@
 		8364F66418E3C5AF008F7C13 /* question12.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = question12.cpp; sourceTree = "<group>"; };
 		83666BDD18EA5AAF0084B841 /* MultiplyStrings.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MultiplyStrings.cpp; sourceTree = "<group>"; };
 		8367439D189016670051E377 /* numTrees.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = numTrees.cpp; sourceTree = "<group>"; };
-		836A684C18EBBDEF005140BD /* JumpGameII.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JumpGameII.cpp; sourceTree = "<group>"; };
 		836C11C518E11196009F74E7 /* leetcode_others.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = leetcode_others.h; path = Others/leetcode_others.h; sourceTree = "<group>"; };
 		836C11C618E116CB009F74E7 /* SingleNumber.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SingleNumber.cpp; sourceTree = "<group>"; };
 		836C11C818E11809009F74E7 /* MaximumSubarray.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MaximumSubarray.cpp; sourceTree = "<group>"; };
@@ -269,7 +268,6 @@
 		837E130518E27DE40037AA5B /* ASingleton.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ASingleton.cpp; sourceTree = "<group>"; };
 		837E130618E27DE40037AA5B /* ASingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASingleton.h; sourceTree = "<group>"; };
 		837FE15618ED452800145C16 /* RestoreIPAddresses.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RestoreIPAddresses.cpp; path = Permutation/RestoreIPAddresses.cpp; sourceTree = "<group>"; };
-		8381A4C318EBE3F0008851BC /* JumpGame.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JumpGame.cpp; sourceTree = "<group>"; };
 		8381A4C618EBEB9E008851BC /* PopulatingNextRightPointersinEachNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PopulatingNextRightPointersinEachNode.cpp; path = Tree/PopulatingNextRightPointersinEachNode.cpp; sourceTree = "<group>"; };
 		8381A4C918EBF3B9008851BC /* PopulatingNextRightPointersinEachNodeII.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PopulatingNextRightPointersinEachNodeII.cpp; path = Tree/PopulatingNextRightPointersinEachNodeII.cpp; sourceTree = "<group>"; };
 		8381A4CC18EC055A008851BC /* PascalsTriangle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PascalsTriangle.cpp; sourceTree = "<group>"; };
@@ -322,6 +320,8 @@
 		83B7C39E18F16A32009DC3A0 /* RotateList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RotateList.cpp; path = List/RotateList.cpp; sourceTree = "<group>"; };
 		83BA986418F6406700292E6D /* SimplifyPath.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SimplifyPath.cpp; sourceTree = "<group>"; };
 		83BBE9C318FB78D800AF760B /* InsertInterval.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = InsertInterval.cpp; sourceTree = "<group>"; };
+		83BBE9C518FB7E0E00AF760B /* JumpGame.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JumpGame.cpp; sourceTree = "<group>"; };
+		83BBE9C618FB7E0E00AF760B /* JumpGameII.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JumpGameII.cpp; sourceTree = "<group>"; };
 		83BC099E18F1258B00A1B49B /* PalindromePartitioningII.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PalindromePartitioningII.cpp; sourceTree = "<group>"; };
 		83C2662918F4E07D0018A251 /* InsertionSortList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = InsertionSortList.cpp; sourceTree = "<group>"; };
 		83C2662B18F4E60F0018A251 /* Candy.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Candy.cpp; sourceTree = "<group>"; };
@@ -426,8 +426,6 @@
 				83EC957318E4169E001F0D99 /* ClimbingStairs.cpp */,
 				832BBD8518E93AF400C11E2E /* DecodeWays.cpp */,
 				8327F21718EA695600F44B0E /* WildcardMatching.cpp */,
-				836A684C18EBBDEF005140BD /* JumpGameII.cpp */,
-				8381A4C318EBE3F0008851BC /* JumpGame.cpp */,
 				8384520918F0EDEB008D7146 /* LongestPalindromicSubstring.cpp */,
 				838F9EDA18F0FE5000B7685A /* PalindromePartitioning.cpp */,
 				83BC099E18F1258B00A1B49B /* PalindromePartitioningII.cpp */,
@@ -473,6 +471,8 @@
 		836C11C118E11182009F74E7 /* Others */ = {
 			isa = PBXGroup;
 			children = (
+				83BBE9C518FB7E0E00AF760B /* JumpGame.cpp */,
+				83BBE9C618FB7E0E00AF760B /* JumpGameII.cpp */,
 				83C2662B18F4E60F0018A251 /* Candy.cpp */,
 				836C120018E16C83009F74E7 /* Triangle.cpp */,
 				836C11C618E116CB009F74E7 /* SingleNumber.cpp */,
@@ -916,7 +916,6 @@
 				83D35EE118DA9F270040586E /* ZigZagConversion.cpp in Sources */,
 				83B0CDBC18D4A67600B69862 /* SubsetsII.cpp in Sources */,
 				83B0CD7D18D4A61200B69862 /* ConstructBinaryTreefromInorderandPreorderTraversal.cpp in Sources */,
-				836A684E18EBBDEF005140BD /* JumpGameII.cpp in Sources */,
 				83B0CDB518D4A67600B69862 /* Combinations.cpp in Sources */,
 				837DCDAF18E3017400532881 /* PowXN.cpp in Sources */,
 				836C11FC18E15596009F74E7 /* ContainerWithMostWater.cpp in Sources */,
@@ -933,7 +932,6 @@
 				83C324D518F23F0B007ED67C /* ReverseNodesink-Group.cpp in Sources */,
 				832CA91718EE4C470073B408 /* CloneGraph.cpp in Sources */,
 				838F9EDC18F0FE5000B7685A /* PalindromePartitioning.cpp in Sources */,
-				8381A4C518EBE3F0008851BC /* JumpGame.cpp in Sources */,
 				83C2662E18F4F0E90018A251 /* GasStation.cpp in Sources */,
 				83D266B318D8246600621577 /* ConvertSortedArraytoBinarySearchTree.cpp in Sources */,
 				837FE15818ED452800145C16 /* RestoreIPAddresses.cpp in Sources */,
@@ -975,11 +973,13 @@
 				83CF229418D82C920085AF17 /* UniqueBinarySearchTrees.cpp in Sources */,
 				836C120F18E16DD8009F74E7 /* BestTimetoBuyandSellStockII.cpp in Sources */,
 				83C8EFAF18EA50E0001C2E36 /* RemoveDuplicatesfromSortedArray.cpp in Sources */,
+				83BBE9C818FB7E0E00AF760B /* JumpGameII.cpp in Sources */,
 				83B0CD7C18D4A61200B69862 /* ConstructBinaryTreefromInorderandPostorderTraversal.cpp in Sources */,
 				836E020618D935D2005D780E /* SameTree.cpp in Sources */,
 				83A23E2618DC11CA0089A169 /* LinkedListCycle.cpp in Sources */,
 				83B0CD8C18D4A62800B69862 /* PathSumII.cpp in Sources */,
 				8381A4CE18EC055A008851BC /* PascalsTriangle.cpp in Sources */,
+				83BBE9C718FB7E0E00AF760B /* JumpGame.cpp in Sources */,
 				8381D1FE18EAF0D300ADA26A /* N-QueensII.cpp in Sources */,
 				832E1C3D1882C8C4001BA17B /* searchRotatedArray.c in Sources */,
 				836F5F6A18D9307F0015BB81 /* MaximumDepthofBinaryTree.cpp in Sources */,
