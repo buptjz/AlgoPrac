@@ -6,8 +6,10 @@
 //  Copyright (c) 2014年 WangJZ. All rights reserved.
 //  http://www.programcreek.com/2012/12/leetcode-insert-interval/
 
-//借鉴了http://www.programcreek.com/2012/12/leetcode-insert-interval/，核心思想是不断的更改newInterval
-
+/*
+ 借鉴了http://www.programcreek.com/2012/12/leetcode-insert-interval/，核心思想是不断的更改newInterval
+ 其思想是：保证下一次能处理一样的数据
+*/
 #include "leetcode_sort.h"
 
 /*----2014.3.27日更新----*/

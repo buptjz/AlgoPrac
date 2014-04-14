@@ -20,7 +20,7 @@ int sqrt(int x) {
     long long mid;
     while (start <= end) {
         mid = ((end - start) >> 1) + start;
-        if (x >= mid * mid && x < (mid+1)*(mid+1)) return mid;
+        if (x >= mid * mid && x < (mid+1)*(mid+1)) return (int)mid;
         else if(x < mid * mid) end = mid -1;
         else start = mid + 1;
     }

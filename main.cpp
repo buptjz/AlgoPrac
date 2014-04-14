@@ -22,11 +22,14 @@
 #include "conquerOffer.h"
 #include "leetcode_sort.h"
 #include "leetcode_dp.h"
-
+#include "others.h"
 using namespace std;
-
+#include <unistd.h>
 int main(void) {
-    testSortCorlors();
+    for(int i = 0; i < 2 ;i++){
+        fork();
+        printf("abc\n");
+    }
     return 0;
 }
 
