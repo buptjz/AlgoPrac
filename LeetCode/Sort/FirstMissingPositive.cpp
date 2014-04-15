@@ -8,7 +8,7 @@
 
 /*
  解法改动了数组
- 并且对constant space. 不是很理解，
+我对constant space不是很理解
  貌似网上有更多的解法，需要进一步探索
  */
 #include "leetcode_sort.h"

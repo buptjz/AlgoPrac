@@ -30,4 +30,5 @@ void testIsPalindrome();
 void testLengthOfLastWord();
 void testReverseWords();
 void testIsInterleave();
+void testStrStr();
 #endif

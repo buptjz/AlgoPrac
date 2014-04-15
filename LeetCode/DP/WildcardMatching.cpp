@@ -8,8 +8,10 @@
 //  http://blog.csdn.net/hopeztm/article/details/8039777
 #include "leetcode_others.h"
 /*
+ 2014.4.15重新看，还是很难！
  更新，来自于http://oj.leetcode.com/discuss/2964/still-get-tle-on-aaaaaaaaaaaaa-exhausted
- 其两点在于尽可能的向后查找，尽量让p移动，如果能够尽快的扫描通过到后面的*，那么前面的内容不在话下，都可以使用最后一个*来匹配。
+ 其核心是：
+ 尽可能的向后查找，尽量让p移动，如果能够尽快的扫描通过到后面的*，那么前面的内容不在话下，都可以使用最后一个*来匹配。
  */
 static bool isMatch(const char *s, const char *p) {
     if (!*p && !*s) return true; // both empty, so sad but true
@@ -82,7 +84,7 @@ static bool isMatch(const char *s, const char *p) {
 //}
 
 void testIsMatch2(){
-    bool res = isMatch("aaabbbaabaaaaababaabaaabbabbbbbbbbaabababbabbbaaaaba","a*******b");
+    bool res = isMatch("aba","*a");
     printf("Finished %d \n",res);
 }
 

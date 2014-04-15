@@ -76,6 +76,7 @@
 		836E021918D9435E005D780E /* MergekSortedLists.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 836E021818D9435E005D780E /* MergekSortedLists.cpp */; };
 		836EAB0E18EE33AC0019C474 /* Searcha2DMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 836EAB0C18EE33AC0019C474 /* Searcha2DMatrix.cpp */; };
 		836F5F6A18D9307F0015BB81 /* MaximumDepthofBinaryTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 836F5F6818D9307F0015BB81 /* MaximumDepthofBinaryTree.cpp */; };
+		83752BC118FBB15100B0831C /* j_FindMoreThanHalf.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83752BBF18FBB15100B0831C /* j_FindMoreThanHalf.cpp */; };
 		8376836218F02FA3000A401B /* SpiralMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8376836018F02FA3000A401B /* SpiralMatrix.cpp */; };
 		8376836518F04731000A401B /* TrappingRainWater.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8376836318F04731000A401B /* TrappingRainWater.cpp */; };
 		837C08D218E3F7ED004C85B3 /* MergeIntervals.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 837C08D118E3F7ED004C85B3 /* MergeIntervals.cpp */; };
@@ -145,6 +146,7 @@
 		83C4214318E9B6FC0055E26B /* IntegertoRoman.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83C4214118E9B6FC0055E26B /* IntegertoRoman.cpp */; };
 		83C4B96E18E01F6D0028AC56 /* QuickSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83C4B96C18E01F6D0028AC56 /* QuickSort.cpp */; };
 		83C7AB4618EA534D00A51E3F /* RemoveDuplicatesfromSortedArrayII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83C7AB4418EA534D00A51E3F /* RemoveDuplicatesfromSortedArrayII.cpp */; };
+		83C853E418FD1C070066C997 /* ImplementstrStr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83C853E218FD1C070066C997 /* ImplementstrStr.cpp */; };
 		83C8EFAF18EA50E0001C2E36 /* RemoveDuplicatesfromSortedArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83C8EFAD18EA50E0001C2E36 /* RemoveDuplicatesfromSortedArray.cpp */; };
 		83CF229418D82C920085AF17 /* UniqueBinarySearchTrees.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83CF229218D82C920085AF17 /* UniqueBinarySearchTrees.cpp */; };
 		83D266B318D8246600621577 /* ConvertSortedArraytoBinarySearchTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83D266B218D8246600621577 /* ConvertSortedArraytoBinarySearchTree.cpp */; };
@@ -259,6 +261,8 @@
 		836E021818D9435E005D780E /* MergekSortedLists.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MergekSortedLists.cpp; path = List/MergekSortedLists.cpp; sourceTree = "<group>"; };
 		836EAB0C18EE33AC0019C474 /* Searcha2DMatrix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Searcha2DMatrix.cpp; sourceTree = "<group>"; };
 		836F5F6818D9307F0015BB81 /* MaximumDepthofBinaryTree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MaximumDepthofBinaryTree.cpp; path = Tree/MaximumDepthofBinaryTree.cpp; sourceTree = "<group>"; };
+		83752BBF18FBB15100B0831C /* j_FindMoreThanHalf.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = j_FindMoreThanHalf.cpp; sourceTree = "<group>"; };
+		83752BC218FBB22E00B0831C /* JulyHeaders.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JulyHeaders.h; sourceTree = "<group>"; };
 		8376836018F02FA3000A401B /* SpiralMatrix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SpiralMatrix.cpp; sourceTree = "<group>"; };
 		8376836318F04731000A401B /* TrappingRainWater.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TrappingRainWater.cpp; sourceTree = "<group>"; };
 		837C08D118E3F7ED004C85B3 /* MergeIntervals.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MergeIntervals.cpp; sourceTree = "<group>"; };
@@ -335,6 +339,7 @@
 		83C4B96C18E01F6D0028AC56 /* QuickSort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = QuickSort.cpp; sourceTree = "<group>"; };
 		83C4B96F18E022950028AC56 /* other_sort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = other_sort.h; sourceTree = "<group>"; };
 		83C7AB4418EA534D00A51E3F /* RemoveDuplicatesfromSortedArrayII.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RemoveDuplicatesfromSortedArrayII.cpp; sourceTree = "<group>"; };
+		83C853E218FD1C070066C997 /* ImplementstrStr.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ImplementstrStr.cpp; sourceTree = "<group>"; };
 		83C8EFAD18EA50E0001C2E36 /* RemoveDuplicatesfromSortedArray.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RemoveDuplicatesfromSortedArray.cpp; sourceTree = "<group>"; };
 		83CF229218D82C920085AF17 /* UniqueBinarySearchTrees.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = UniqueBinarySearchTrees.cpp; path = Tree/UniqueBinarySearchTrees.cpp; sourceTree = "<group>"; };
 		83D266B218D8246600621577 /* ConvertSortedArraytoBinarySearchTree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ConvertSortedArraytoBinarySearchTree.cpp; path = Tree/ConvertSortedArraytoBinarySearchTree.cpp; sourceTree = "<group>"; };
@@ -566,6 +571,15 @@
 			path = Search;
 			sourceTree = "<group>";
 		};
+		83752BBE18FBB11800B0831C /* July */ = {
+			isa = PBXGroup;
+			children = (
+				83752BBF18FBB15100B0831C /* j_FindMoreThanHalf.cpp */,
+				83752BC218FBB22E00B0831C /* JulyHeaders.h */,
+			);
+			path = July;
+			sourceTree = "<group>";
+		};
 		837C08CF18E3F7DC004C85B3 /* Sort */ = {
 			isa = PBXGroup;
 			children = (
@@ -664,6 +678,7 @@
 				83D35ED618DA9F270040586E /* ZigZagConversion.cpp */,
 				8381D1FF18EAF3DE00ADA26A /* LengthofLastWord.cpp */,
 				838F3A0018F2F2F4006F7121 /* ReverseWordsinaString.cpp */,
+				83C853E218FD1C070066C997 /* ImplementstrStr.cpp */,
 			);
 			path = Strings;
 			sourceTree = "<group>";
@@ -743,6 +758,7 @@
 				834C00BF18F7DB8D00FE7519 /* others.h */,
 				83E6C6C918828E7F006D399B /* LeetCode */,
 				83D266CA18D82A7F00621577 /* CiCT */,
+				83752BBE18FBB11800B0831C /* July */,
 				83D266D718D82A8300621577 /* Others */,
 				83E6C6C818828E7F006D399B /* Products */,
 			);
@@ -912,6 +928,7 @@
 				837E130718E27DE40037AA5B /* ASingleton.cpp in Sources */,
 				832BBD8718E93AF400C11E2E /* DecodeWays.cpp in Sources */,
 				8323DDC218EC4D29004BF125 /* 4Sum.cpp in Sources */,
+				83C853E418FD1C070066C997 /* ImplementstrStr.cpp in Sources */,
 				83EC957518E4169E001F0D99 /* ClimbingStairs.cpp in Sources */,
 				83D35EE118DA9F270040586E /* ZigZagConversion.cpp in Sources */,
 				83B0CDBC18D4A67600B69862 /* SubsetsII.cpp in Sources */,
@@ -971,6 +988,7 @@
 				830B7B1C18EFE60400AF872F /* LongestConsecutiveSequence.cpp in Sources */,
 				8305C6AD18E45938005E8B99 /* WordLadder.cpp in Sources */,
 				83CF229418D82C920085AF17 /* UniqueBinarySearchTrees.cpp in Sources */,
+				83752BC118FBB15100B0831C /* j_FindMoreThanHalf.cpp in Sources */,
 				836C120F18E16DD8009F74E7 /* BestTimetoBuyandSellStockII.cpp in Sources */,
 				83C8EFAF18EA50E0001C2E36 /* RemoveDuplicatesfromSortedArray.cpp in Sources */,
 				83BBE9C818FB7E0E00AF760B /* JumpGameII.cpp in Sources */,

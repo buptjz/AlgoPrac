@@ -7,7 +7,8 @@
 //  http://oj.leetcode.com/problems/count-and-say/
 
 /*
- 这个题目的题干描述不太清楚，http://blog.csdn.net/fightforyourdream/article/details/12901505这里描述的清晰
+ 这个题目的题干描述不太清楚，
+ http://blog.csdn.net/fightforyourdream/article/details/12901505这里描述的清晰
  */
 #include "leetcode_others.h"
 

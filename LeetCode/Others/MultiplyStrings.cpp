@@ -13,26 +13,29 @@
 int data[100000];
 string multiply(string num1, string num2)
 {
+    //预处理
     reverse(num1.begin(),num1.end());
     reverse(num2.begin(),num2.end());
-    
     memset(data,0,sizeof(data));
+    
+    //计算
     size_t len1 = num1.length();
     size_t len2 = num2.length();
     int i,j;
     for(i = 0 ; i < len1; ++i)
-        for(j = 0 ; j < len2; ++j){
+        for(j = 0 ; j < len2; ++j)
             data[j + i] += (num1[i]-'0') * (num2[j] - '0');
-        }
     
-    int add,temp;
-    i = add = 0;
-    while( i < len1 + len2 - 1 || add!=0){
+    //调整进位
+    int add = 0,temp = 0;
+    while( i < len1 + len2 - 1 || add != 0){
         temp = data[i] + add;
         data[i] = temp % 10;
         add = temp / 10;
         ++i;
     }
+    
+    //写入最终结果
     string result;
     bool flag = 0;
     for( ; i >= 0; --i){

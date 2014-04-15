@@ -8,8 +8,10 @@
 
 #include "leetcode_permutation.h"
 
-void generateParenthesisHelper(int left,int right,int numbersOfLeft,
-                                         vector<bool>&temp,vector<string>&retVec)
+/*
+ 2014.4.11日更新，精简了一点代码
+ */
+void generateParenthesisHelper(int left,int right,vector<bool>&temp,vector<string>&retVec)
 {
     if (left + right == 0) {
         string ans;
@@ -21,12 +23,12 @@ void generateParenthesisHelper(int left,int right,int numbersOfLeft,
     }
     if (left > 0) {
         temp.push_back(true);
-        generateParenthesisHelper(left-1,right,numbersOfLeft+1,temp,retVec);
+        generateParenthesisHelper(left-1,right,temp,retVec);
         temp.pop_back();
     }
-    if (right > 0 && numbersOfLeft > 0) {
+    if (right > left) {
         temp.push_back(false);
-        generateParenthesisHelper(left,right-1,numbersOfLeft-1,temp,retVec);
+        generateParenthesisHelper(left,right-1,temp,retVec);
         temp.pop_back();
     }
 }
@@ -35,7 +37,7 @@ vector<string> generateParenthesis(int n) {
     vector<string>retVec;
     vector<bool> temp;
     if (n == 0) return retVec;
-    generateParenthesisHelper(n, n, 0, temp, retVec);
+    generateParenthesisHelper(n, n, temp, retVec);
     return retVec;
 }
 
