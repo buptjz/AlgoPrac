@@ -7,6 +7,23 @@
 //  http://oj.leetcode.com/problems/integer-to-roman/
 
 #include "leetcode_others.h"
+
+/*
+ 2014.4.22日更新，体会用数据来编程,参考http://www.cnblogs.com/MrLJC/archive/2014/04/19/3674400.html
+ */
+string roman[] = {"M","CM","D","CD","C","XC","L","XL","X","IX","V","IV","I"};
+int value[] = {1000,900,500,400,100,90,50,40,10,9,5,4,1};
+string intToRoman2(int num) {
+    string ans;
+    for (int i = 0; num != 0; i++) {
+        while (num >= value[i]) {
+            ans += roman[i];
+            num -= value[i];
+        }
+    }
+    return ans;
+}
+
 char getRomanFromInt(int i){
     switch (i) {
         case 1:
