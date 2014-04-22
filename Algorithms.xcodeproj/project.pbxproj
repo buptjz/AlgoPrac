@@ -135,6 +135,7 @@
 		83BBE9C718FB7E0E00AF760B /* JumpGame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83BBE9C518FB7E0E00AF760B /* JumpGame.cpp */; };
 		83BBE9C818FB7E0E00AF760B /* JumpGameII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83BBE9C618FB7E0E00AF760B /* JumpGameII.cpp */; };
 		83BC09A018F1258B00A1B49B /* PalindromePartitioningII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83BC099E18F1258B00A1B49B /* PalindromePartitioningII.cpp */; };
+		83BC398A18FD5E21004D87FC /* twoStacksQueue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83BC398818FD5E21004D87FC /* twoStacksQueue.cpp */; };
 		83C2662A18F4E07D0018A251 /* InsertionSortList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83C2662918F4E07D0018A251 /* InsertionSortList.cpp */; };
 		83C2662C18F4E60F0018A251 /* Candy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83C2662B18F4E60F0018A251 /* Candy.cpp */; };
 		83C2662E18F4F0E90018A251 /* GasStation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83C2662D18F4F0E90018A251 /* GasStation.cpp */; };
@@ -327,6 +328,8 @@
 		83BBE9C518FB7E0E00AF760B /* JumpGame.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JumpGame.cpp; sourceTree = "<group>"; };
 		83BBE9C618FB7E0E00AF760B /* JumpGameII.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JumpGameII.cpp; sourceTree = "<group>"; };
 		83BC099E18F1258B00A1B49B /* PalindromePartitioningII.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PalindromePartitioningII.cpp; sourceTree = "<group>"; };
+		83BC398818FD5E21004D87FC /* twoStacksQueue.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = twoStacksQueue.cpp; sourceTree = "<group>"; };
+		83BC398918FD5E21004D87FC /* twoStacksQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = twoStacksQueue.h; sourceTree = "<group>"; };
 		83C2662918F4E07D0018A251 /* InsertionSortList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = InsertionSortList.cpp; sourceTree = "<group>"; };
 		83C2662B18F4E60F0018A251 /* Candy.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Candy.cpp; sourceTree = "<group>"; };
 		83C2662D18F4F0E90018A251 /* GasStation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GasStation.cpp; sourceTree = "<group>"; };
@@ -635,6 +638,8 @@
 				837E130518E27DE40037AA5B /* ASingleton.cpp */,
 				836378AD18F56E4400908415 /* HowManyTables.cpp */,
 				834C00BC18F7DB0300FE7519 /* fork.cpp */,
+				83BC398818FD5E21004D87FC /* twoStacksQueue.cpp */,
+				83BC398918FD5E21004D87FC /* twoStacksQueue.h */,
 			);
 			path = Others;
 			sourceTree = SOURCE_ROOT;
@@ -914,6 +919,7 @@
 				83C4214318E9B6FC0055E26B /* IntegertoRoman.cpp in Sources */,
 				83B0CDB818D4A67600B69862 /* Permutations.cpp in Sources */,
 				836EAB0E18EE33AC0019C474 /* Searcha2DMatrix.cpp in Sources */,
+				83BC398A18FD5E21004D87FC /* twoStacksQueue.cpp in Sources */,
 				833D95BB18EFF68800D67219 /* SortList.cpp in Sources */,
 				834E005718ED9D500076F371 /* PlusOne.cpp in Sources */,
 				833CF2A018DDDCC300F0183A /* RemoveDuplicatesfromSortedList.cpp in Sources */,

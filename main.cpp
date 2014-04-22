@@ -24,11 +24,14 @@
 #include "leetcode_dp.h"
 #include "others.h"
 #include "JulyHeaders.h"
+#include "twoStacksQueue.h"
 using namespace std;
 #include <unistd.h>
 
+
+
 int main(void) {
-    testStrStr();
+    testCQueue();
     return 0;
 }
 
