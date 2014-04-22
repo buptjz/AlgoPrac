@@ -8,45 +8,15 @@
 
 #include "leetcode_permutation.h"
 
-static string getCandidates(char number){
-    string retString;
-    switch (number) {
-        case '2':
-            retString = "abc";
-            break;
-        case '3':
-            retString = "def";
-            break;
-        case '4':
-            retString = "ghi";
-            break;
-        case '5':
-            retString = "jkl";
-            break;
-        case '6':
-            retString = "mno";
-            break;
-        case '7':
-            retString = "pqrs";
-            break;
-        case '8':
-            retString = "tuv";
-            break;
-        case '9':
-            retString = "wxyz";
-            break;
-            
-        default:
-            break;
-    }
-    return retString;
-}
+//2014.4.21日改进，用数组代替了很多switch
+string candidatesArray[10] = {"","","abc","def","ghi","jkl","mno","pqrs","tuv","wxyz"};
+
 static void helper(string &digits,int level,vector<string> &retVec,string &temp){
     if (level == (int) digits.size()) {
         retVec.push_back(temp);
         return;
     }
-    string candidates = getCandidates(digits[level]);
+    string candidates = candidatesArray[digits[level] - '0'];
     level++;
     for (int i = 0; i < (int)candidates.size(); i++) {
         temp += candidates[i];
@@ -57,7 +27,10 @@ static void helper(string &digits,int level,vector<string> &retVec,string &temp)
 vector<string> letterCombinations(string digits) {
     string temp;
     vector<string>retVec;
-    if (digits.empty()) return retVec;
+    if (digits.empty()){
+        retVec.push_back(temp);
+        return retVec;
+    }
     helper(digits, 0, retVec, temp);
     return retVec;
 }

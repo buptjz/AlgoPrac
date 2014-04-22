@@ -31,7 +31,7 @@ using namespace std;
 
 
 int main(void) {
-    testCQueue();
+    testLetterCombinations();
     return 0;
 }
 
