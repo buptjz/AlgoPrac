@@ -25,10 +25,8 @@
 #include "others.h"
 #include "JulyHeaders.h"
 #include "twoStacksQueue.h"
-using namespace std;
 #include <unistd.h>
-
-
+using namespace std;
 
 int main(void) {
     testLetterCombinations();

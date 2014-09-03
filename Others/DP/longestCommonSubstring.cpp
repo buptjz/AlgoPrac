@@ -68,5 +68,5 @@ void testLongestCommonSubstring(){
     string s1 = "abbdefg";
     string s2 = " bbd";
     string res = longestCommonSubstring(s1, s2);
-    cout << res << endl;
+    cout << res << endl;œœœ
 }
