@@ -7,6 +7,24 @@
 //
 
 #include "leetcode_string.h"
+#include <sstream>
+
+/* 2014年9月4号 更新*/
+void reverseWords2(string &s){
+    reverse(s.begin(), s.end());
+    istringstream iss(s);
+    s = "";
+    string w;
+    if(iss >> s){
+        reverse(s.begin(), s.end());
+        while(iss >> w ){
+            reverse(w.begin(), w.end());
+            s += " " + w;
+        }
+    }
+}
+
+
 
 /*
  https://oj.leetcode.com/problems/reverse-words-in-a-string/
