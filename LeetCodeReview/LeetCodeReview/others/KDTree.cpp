@@ -6,6 +6,9 @@
 //  Copyright (c) 2014年 WangJZ. All rights reserved.
 //
 
+/*范例：https://github.com/gvd/kdtree/blob/master/kdtree.h
+ */
+
 #include "KDTree.h"
 #include <vector>
 
