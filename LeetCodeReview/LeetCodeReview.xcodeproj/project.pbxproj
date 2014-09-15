@@ -11,6 +11,8 @@
 		83A94B4919B6FCFE007A8DDF /* LeetCodeReview.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 83A94B4819B6FCFE007A8DDF /* LeetCodeReview.1 */; };
 		83A94B5119B6FD55007A8DDF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83A94B5019B6FD55007A8DDF /* main.cpp */; };
 		83A94B5919B6FE5D007A8DDF /* ReverseWordsinaString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83A94B5719B6FE5D007A8DDF /* ReverseWordsinaString.cpp */; };
+		83AA567819C6B495008F2641 /* EvaluateReversePolishNotation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83AA567719C6B495008F2641 /* EvaluateReversePolishNotation.cpp */; };
+		83AA567B19C6BDD3008F2641 /* StringtoInteger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83AA567919C6BDD3008F2641 /* StringtoInteger.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +36,8 @@
 		83A94B5019B6FD55007A8DDF /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		83A94B5619B6FE21007A8DDF /* leetcode_string.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = leetcode_string.h; sourceTree = "<group>"; };
 		83A94B5719B6FE5D007A8DDF /* ReverseWordsinaString.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ReverseWordsinaString.cpp; sourceTree = "<group>"; };
+		83AA567719C6B495008F2641 /* EvaluateReversePolishNotation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EvaluateReversePolishNotation.cpp; sourceTree = "<group>"; };
+		83AA567919C6BDD3008F2641 /* StringtoInteger.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = StringtoInteger.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +91,9 @@
 			isa = PBXGroup;
 			children = (
 				83A94B5619B6FE21007A8DDF /* leetcode_string.h */,
+				83AA567719C6B495008F2641 /* EvaluateReversePolishNotation.cpp */,
 				83A94B5719B6FE5D007A8DDF /* ReverseWordsinaString.cpp */,
+				83AA567919C6BDD3008F2641 /* StringtoInteger.cpp */,
 			);
 			path = string;
 			sourceTree = "<group>";
@@ -143,7 +149,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83AA567819C6B495008F2641 /* EvaluateReversePolishNotation.cpp in Sources */,
 				83A94B5919B6FE5D007A8DDF /* ReverseWordsinaString.cpp in Sources */,
+				83AA567B19C6BDD3008F2641 /* StringtoInteger.cpp in Sources */,
 				838723DC19B7F73500A3A2C2 /* KDTree.cpp in Sources */,
 				83A94B5119B6FD55007A8DDF /* main.cpp in Sources */,
 			);

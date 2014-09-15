@@ -11,7 +11,8 @@
 using namespace std;
 
 int main(void) {
-    testReverseWords();
+
+    testEvalRPN();
     return 0;
 }
 

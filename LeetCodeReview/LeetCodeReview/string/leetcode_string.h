@@ -13,10 +13,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <iostream>
-
+#include <vector>
+#include <stack>
 #define SPACE ' '
 using namespace std;
 
 void testReverseWords();
-
+void testEvalRPN();
+void testAtoi();
 #endif
