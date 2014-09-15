@@ -7,12 +7,11 @@
 //  
 
 #include "leetcode_string.h"
-
+#include "leetcode_list.h"
 using namespace std;
 
 int main(void) {
-
-    testEvalRPN();
+    testInsertSortList();
     return 0;
 }
 
