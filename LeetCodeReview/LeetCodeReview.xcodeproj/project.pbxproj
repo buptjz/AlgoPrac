@@ -16,6 +16,7 @@
 		83AA567B19C6BDD3008F2641 /* StringtoInteger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83AA567919C6BDD3008F2641 /* StringtoInteger.cpp */; };
 		83AA567F19C6D979008F2641 /* SortList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83AA567D19C6D979008F2641 /* SortList.cpp */; };
 		83D10EB519C6FAC90002BC35 /* InsertionSortList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83D10EB319C6FAC90002BC35 /* InsertionSortList.cpp */; };
+		83F46DC019C7174000B5A7D5 /* BinaryTreePostorderTraversal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83F46DBE19C7174000B5A7D5 /* BinaryTreePostorderTraversal.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -46,6 +47,8 @@
 		83AA567D19C6D979008F2641 /* SortList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SortList.cpp; sourceTree = "<group>"; };
 		83AA568019C6D98F008F2641 /* leetcode_list.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = leetcode_list.h; sourceTree = "<group>"; };
 		83D10EB319C6FAC90002BC35 /* InsertionSortList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = InsertionSortList.cpp; sourceTree = "<group>"; };
+		83F46DBE19C7174000B5A7D5 /* BinaryTreePostorderTraversal.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BinaryTreePostorderTraversal.cpp; sourceTree = "<group>"; };
+		83F46DC119C7175100B5A7D5 /* leetcode_tree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = leetcode_tree.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,7 @@
 		83A94B4519B6FCFE007A8DDF /* LeetCodeReview */ = {
 			isa = PBXGroup;
 			children = (
+				83F46DBD19C7172B00B5A7D5 /* tree */,
 				83AA567C19C6D972008F2641 /* list */,
 				838723D919B7F72300A3A2C2 /* others */,
 				83A94B5519B6FE12007A8DDF /* string */,
@@ -117,6 +121,15 @@
 				83D10EB319C6FAC90002BC35 /* InsertionSortList.cpp */,
 			);
 			path = list;
+			sourceTree = "<group>";
+		};
+		83F46DBD19C7172B00B5A7D5 /* tree */ = {
+			isa = PBXGroup;
+			children = (
+				83F46DBE19C7174000B5A7D5 /* BinaryTreePostorderTraversal.cpp */,
+				83F46DC119C7175100B5A7D5 /* leetcode_tree.h */,
+			);
+			path = tree;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -172,6 +185,7 @@
 			files = (
 				83AA567819C6B495008F2641 /* EvaluateReversePolishNotation.cpp in Sources */,
 				83A94B5919B6FE5D007A8DDF /* ReverseWordsinaString.cpp in Sources */,
+				83F46DC019C7174000B5A7D5 /* BinaryTreePostorderTraversal.cpp in Sources */,
 				83D10EB519C6FAC90002BC35 /* InsertionSortList.cpp in Sources */,
 				83AA567B19C6BDD3008F2641 /* StringtoInteger.cpp in Sources */,
 				835B0AC719C70D1D00ACC7B1 /* LRUCache.cpp in Sources */,
