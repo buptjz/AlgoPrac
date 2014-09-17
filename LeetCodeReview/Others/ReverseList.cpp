@@ -9,6 +9,7 @@
 #include "others.h"
 
 
+//链表翻转，看到的最精简的解法了
 static void reverseList(ListNode * &head){
     if (head == NULL || head->next == NULL) return;
     ListNode *pre = head,*cur = head->next;
