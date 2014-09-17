@@ -11,6 +11,7 @@
 
 #include <list>
 #include <map>
-
+#include "struct_head.h"
+#include <vector>
 using namespace std;
 #endif
