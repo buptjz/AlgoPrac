@@ -11,8 +11,18 @@
 #include "others.h"
 using namespace std;
 
+int count(int i){
+    static int count = 0;
+    count += i;
+    return count;
+}
+
 int main(void) {
-    testReverseList();
+    int i,j;
+    for (i = 0; i <=5; i++) {
+        j = count(i);
+    }
+    printf("%d",j);
     return 0;
 }
 

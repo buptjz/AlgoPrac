@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		8332CE7519C95D0D00FD9E21 /* ReorderList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8332CE7319C95D0D00FD9E21 /* ReorderList.cpp */; };
 		8332CE7919C96BFC00FD9E21 /* ReverseList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8332CE7719C96BFC00FD9E21 /* ReverseList.cpp */; };
+		8332CE7F19C9783300FD9E21 /* LinkedListCycle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8332CE7D19C9783300FD9E21 /* LinkedListCycle.cpp */; };
+		8332CE8219C9794800FD9E21 /* LinkedListCycleII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8332CE8019C9794800FD9E21 /* LinkedListCycleII.cpp */; };
 		835B0AC719C70D1D00ACC7B1 /* LRUCache.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 835B0AC519C70D1D00ACC7B1 /* LRUCache.cpp */; };
 		838723DC19B7F73500A3A2C2 /* KDTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 838723DA19B7F73500A3A2C2 /* KDTree.cpp */; };
 		83A94B4919B6FCFE007A8DDF /* LeetCodeReview.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 83A94B4819B6FCFE007A8DDF /* LeetCodeReview.1 */; };
@@ -41,6 +43,8 @@
 		8332CE7719C96BFC00FD9E21 /* ReverseList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ReverseList.cpp; sourceTree = "<group>"; };
 		8332CE7A19C96CE700FD9E21 /* others.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = others.h; sourceTree = "<group>"; };
 		8332CE7B19C96D9400FD9E21 /* struct_head.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = struct_head.h; sourceTree = "<group>"; };
+		8332CE7D19C9783300FD9E21 /* LinkedListCycle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LinkedListCycle.cpp; sourceTree = "<group>"; };
+		8332CE8019C9794800FD9E21 /* LinkedListCycleII.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LinkedListCycleII.cpp; sourceTree = "<group>"; };
 		835B0AC519C70D1D00ACC7B1 /* LRUCache.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LRUCache.cpp; sourceTree = "<group>"; };
 		835B0AC819C70D3200ACC7B1 /* leetcode_others.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = leetcode_others.h; sourceTree = "<group>"; };
 		838723DA19B7F73500A3A2C2 /* KDTree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = KDTree.cpp; sourceTree = "<group>"; };
@@ -141,6 +145,8 @@
 				83AA568019C6D98F008F2641 /* leetcode_list.h */,
 				83D10EB319C6FAC90002BC35 /* InsertionSortList.cpp */,
 				8332CE7319C95D0D00FD9E21 /* ReorderList.cpp */,
+				8332CE7D19C9783300FD9E21 /* LinkedListCycle.cpp */,
+				8332CE8019C9794800FD9E21 /* LinkedListCycleII.cpp */,
 			);
 			path = list;
 			sourceTree = "<group>";
@@ -208,12 +214,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				83AA567819C6B495008F2641 /* EvaluateReversePolishNotation.cpp in Sources */,
+				8332CE8219C9794800FD9E21 /* LinkedListCycleII.cpp in Sources */,
 				83A94B5919B6FE5D007A8DDF /* ReverseWordsinaString.cpp in Sources */,
 				83F46DC019C7174000B5A7D5 /* BinaryTreePostorderTraversal.cpp in Sources */,
 				83D10EB519C6FAC90002BC35 /* InsertionSortList.cpp in Sources */,
 				83AA567B19C6BDD3008F2641 /* StringtoInteger.cpp in Sources */,
 				835B0AC719C70D1D00ACC7B1 /* LRUCache.cpp in Sources */,
 				838723DC19B7F73500A3A2C2 /* KDTree.cpp in Sources */,
+				8332CE7F19C9783300FD9E21 /* LinkedListCycle.cpp in Sources */,
 				83A94B5119B6FD55007A8DDF /* main.cpp in Sources */,
 				83E4435719C7192300950113 /* BinaryTreePreorderTraversal.cpp in Sources */,
 				83AA567F19C6D979008F2641 /* SortList.cpp in Sources */,
