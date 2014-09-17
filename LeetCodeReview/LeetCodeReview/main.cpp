@@ -8,11 +8,11 @@
 
 #include "leetcode_string.h"
 #include "leetcode_list.h"
+#include "others.h"
 using namespace std;
 
 int main(void) {
-
-    testReorderList();
+    testReverseList();
     return 0;
 }
 

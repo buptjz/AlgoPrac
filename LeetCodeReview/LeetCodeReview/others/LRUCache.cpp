@@ -23,7 +23,7 @@
  3. 当链表满的时候，将链表尾部的数据丢弃。
  */
 
-#include "others.h"
+#include "leetcode_others.h"
 
 struct LRUCacheItem{
     int key;
