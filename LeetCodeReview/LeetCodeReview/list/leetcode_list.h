@@ -26,4 +26,6 @@ struct ListNode{
 void testSortList();
 void testInsertSortList();
 
+void testReorderList();
+
 #endif

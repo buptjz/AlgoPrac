@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8332CE7519C95D0D00FD9E21 /* ReorderList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8332CE7319C95D0D00FD9E21 /* ReorderList.cpp */; };
 		835B0AC719C70D1D00ACC7B1 /* LRUCache.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 835B0AC519C70D1D00ACC7B1 /* LRUCache.cpp */; };
 		838723DC19B7F73500A3A2C2 /* KDTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 838723DA19B7F73500A3A2C2 /* KDTree.cpp */; };
 		83A94B4919B6FCFE007A8DDF /* LeetCodeReview.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 83A94B4819B6FCFE007A8DDF /* LeetCodeReview.1 */; };
@@ -35,6 +36,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		8332CE7319C95D0D00FD9E21 /* ReorderList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ReorderList.cpp; sourceTree = "<group>"; };
 		835B0AC519C70D1D00ACC7B1 /* LRUCache.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LRUCache.cpp; sourceTree = "<group>"; };
 		835B0AC819C70D3200ACC7B1 /* others.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = others.h; sourceTree = "<group>"; };
 		838723DA19B7F73500A3A2C2 /* KDTree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = KDTree.cpp; sourceTree = "<group>"; };
@@ -123,6 +125,7 @@
 				83AA567D19C6D979008F2641 /* SortList.cpp */,
 				83AA568019C6D98F008F2641 /* leetcode_list.h */,
 				83D10EB319C6FAC90002BC35 /* InsertionSortList.cpp */,
+				8332CE7319C95D0D00FD9E21 /* ReorderList.cpp */,
 			);
 			path = list;
 			sourceTree = "<group>";
@@ -200,6 +203,7 @@
 				83E4435719C7192300950113 /* BinaryTreePreorderTraversal.cpp in Sources */,
 				83AA567F19C6D979008F2641 /* SortList.cpp in Sources */,
 				83E4435A19C7198000950113 /* BinaryTreeInorderTraversal.cpp in Sources */,
+				8332CE7519C95D0D00FD9E21 /* ReorderList.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

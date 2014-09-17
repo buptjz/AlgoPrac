@@ -11,7 +11,8 @@
 using namespace std;
 
 int main(void) {
-    testInsertSortList();
+
+    testReorderList();
     return 0;
 }
 
