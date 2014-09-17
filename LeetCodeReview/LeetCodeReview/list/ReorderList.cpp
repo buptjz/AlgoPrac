@@ -10,9 +10,10 @@
 
 /*
  更新，有点二了， 更简单的方法是拆分成两个链表，将后一半链表翻转，再合并
- 
+
  */
 
+//递归求解法 有点复杂
 static ListNode *middle;
 static bool isEven = true;
 void helper(ListNode *cur,ListNode **ret){
