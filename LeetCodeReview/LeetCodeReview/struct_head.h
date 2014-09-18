@@ -22,4 +22,10 @@ struct Point {
     Point(int a, int b) : x(a), y(b) {}
 };
 
+struct RandomListNode {
+        int label;
+        RandomListNode *next, *random;
+       RandomListNode(int x) : label(x), next(NULL), random(NULL) {}
+};
+
 #endif

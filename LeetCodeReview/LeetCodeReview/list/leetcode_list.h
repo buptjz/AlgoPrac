@@ -15,8 +15,9 @@
 #include <iostream>
 #include <vector>
 #include <stack>
+#include <map>
 #include "struct_head.h"
-
+using namespace std;
 void testSortList();
 void testInsertSortList();
 void testReorderList();

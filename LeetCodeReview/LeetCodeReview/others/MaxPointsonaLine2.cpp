@@ -27,7 +27,6 @@ int maxPoints(vector<Point> &points) {
                 continue;
             }
             
-            
             slope = float(points[i].x - points[j].x) / float(points[i].y - points[j].y);
             if (hashMap.find(slope) == hashMap.end()) {
                 hashMap[slope] = 1;
