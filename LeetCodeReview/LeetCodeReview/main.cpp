@@ -11,6 +11,7 @@
 #include "others.h"
 #include "leetcode_backtrack.h"
 #include "leetcode_bit.h"
+#include "leetcode_others.h"
 using namespace std;
 
 
@@ -18,7 +19,8 @@ using namespace std;
 int main(void) {
 //    testWordBreak();
 //    testWordBreakII();
-    testSingleNumber();
+//    testSingleNumber();
+    testCandy();
     return 0;
 }
 

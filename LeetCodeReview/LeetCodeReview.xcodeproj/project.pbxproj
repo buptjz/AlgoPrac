@@ -17,6 +17,9 @@
 		839B022119CAB79000907750 /* CopyListwithRandomPointer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 839B021F19CAB79000907750 /* CopyListwithRandomPointer.cpp */; };
 		839B022519CABDED00907750 /* SingleNumberII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 839B022319CABDED00907750 /* SingleNumberII.cpp */; };
 		839B022C19CAC28E00907750 /* SingleNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 839B022A19CAC28E00907750 /* SingleNumber.cpp */; };
+		839B022F19CAC98F00907750 /* Candy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 839B022D19CAC98F00907750 /* Candy.cpp */; };
+		839B023319CB0C5B00907750 /* GasStation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 839B023119CB0C5B00907750 /* GasStation.cpp */; };
+		839B023619CB1B1500907750 /* CloneGraph.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 839B023419CB1B1500907750 /* CloneGraph.cpp */; };
 		83A94B4919B6FCFE007A8DDF /* LeetCodeReview.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 83A94B4819B6FCFE007A8DDF /* LeetCodeReview.1 */; };
 		83A94B5119B6FD55007A8DDF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83A94B5019B6FD55007A8DDF /* main.cpp */; };
 		83A94B5919B6FE5D007A8DDF /* ReverseWordsinaString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83A94B5719B6FE5D007A8DDF /* ReverseWordsinaString.cpp */; };
@@ -53,13 +56,16 @@
 		8332CE8019C9794800FD9E21 /* LinkedListCycleII.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LinkedListCycleII.cpp; sourceTree = "<group>"; };
 		8352FB5A19C9DB0500A02FDD /* MaxPointsonaLine2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MaxPointsonaLine2.cpp; sourceTree = "<group>"; };
 		835B0AC519C70D1D00ACC7B1 /* LRUCache.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LRUCache.cpp; sourceTree = "<group>"; };
-		835B0AC819C70D3200ACC7B1 /* leetcode_others.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = leetcode_others.h; sourceTree = "<group>"; };
 		838723DA19B7F73500A3A2C2 /* KDTree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = KDTree.cpp; sourceTree = "<group>"; };
 		838723DB19B7F73500A3A2C2 /* KDTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KDTree.h; sourceTree = "<group>"; };
 		839B021F19CAB79000907750 /* CopyListwithRandomPointer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CopyListwithRandomPointer.cpp; sourceTree = "<group>"; };
 		839B022319CABDED00907750 /* SingleNumberII.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SingleNumberII.cpp; sourceTree = "<group>"; };
 		839B022619CABE0200907750 /* leetcode_bit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = leetcode_bit.h; sourceTree = "<group>"; };
 		839B022A19CAC28E00907750 /* SingleNumber.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SingleNumber.cpp; sourceTree = "<group>"; };
+		839B022D19CAC98F00907750 /* Candy.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Candy.cpp; sourceTree = "<group>"; };
+		839B023019CAD1B200907750 /* leetcode_others.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = leetcode_others.h; sourceTree = "<group>"; };
+		839B023119CB0C5B00907750 /* GasStation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GasStation.cpp; sourceTree = "<group>"; };
+		839B023419CB1B1500907750 /* CloneGraph.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CloneGraph.cpp; sourceTree = "<group>"; };
 		83A94B4319B6FCFE007A8DDF /* LeetCodeReview */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCodeReview; sourceTree = BUILT_PRODUCTS_DIR; };
 		83A94B4819B6FCFE007A8DDF /* LeetCodeReview.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = LeetCodeReview.1; sourceTree = "<group>"; };
 		83A94B5019B6FD55007A8DDF /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
@@ -102,11 +108,14 @@
 		838723D919B7F72300A3A2C2 /* others */ = {
 			isa = PBXGroup;
 			children = (
-				835B0AC819C70D3200ACC7B1 /* leetcode_others.h */,
+				839B023019CAD1B200907750 /* leetcode_others.h */,
 				838723DB19B7F73500A3A2C2 /* KDTree.h */,
 				838723DA19B7F73500A3A2C2 /* KDTree.cpp */,
 				835B0AC519C70D1D00ACC7B1 /* LRUCache.cpp */,
 				8352FB5A19C9DB0500A02FDD /* MaxPointsonaLine2.cpp */,
+				839B022D19CAC98F00907750 /* Candy.cpp */,
+				839B023119CB0C5B00907750 /* GasStation.cpp */,
+				839B023419CB1B1500907750 /* CloneGraph.cpp */,
 			);
 			path = others;
 			sourceTree = "<group>";
@@ -252,9 +261,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				83AA567819C6B495008F2641 /* EvaluateReversePolishNotation.cpp in Sources */,
+				839B022F19CAC98F00907750 /* Candy.cpp in Sources */,
 				839B022119CAB79000907750 /* CopyListwithRandomPointer.cpp in Sources */,
 				8332CE8219C9794800FD9E21 /* LinkedListCycleII.cpp in Sources */,
 				83A94B5919B6FE5D007A8DDF /* ReverseWordsinaString.cpp in Sources */,
+				839B023319CB0C5B00907750 /* GasStation.cpp in Sources */,
 				8352FB5C19C9DB0500A02FDD /* MaxPointsonaLine2.cpp in Sources */,
 				83F46DC019C7174000B5A7D5 /* BinaryTreePostorderTraversal.cpp in Sources */,
 				83C67CC219CA7DFA00CF1BBC /* WordBreakII.cpp in Sources */,
@@ -267,6 +278,7 @@
 				8332CE7F19C9783300FD9E21 /* LinkedListCycle.cpp in Sources */,
 				83A94B5119B6FD55007A8DDF /* main.cpp in Sources */,
 				83E4435719C7192300950113 /* BinaryTreePreorderTraversal.cpp in Sources */,
+				839B023619CB1B1500907750 /* CloneGraph.cpp in Sources */,
 				839B022C19CAC28E00907750 /* SingleNumber.cpp in Sources */,
 				83AA567F19C6D979008F2641 /* SortList.cpp in Sources */,
 				8332CE7919C96BFC00FD9E21 /* ReverseList.cpp in Sources */,

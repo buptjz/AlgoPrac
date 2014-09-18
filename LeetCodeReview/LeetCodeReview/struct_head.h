@@ -9,6 +9,13 @@
 #ifndef LeetCodeReview_struct_head_h
 #define LeetCodeReview_struct_head_h
 
+#include <vector>
+using namespace std;
+struct UndirectedGraphNode {
+         int label;
+         vector<UndirectedGraphNode *> neighbors;
+         UndirectedGraphNode(int x) : label(x) {};
+     };
 
 struct ListNode{
     int val;

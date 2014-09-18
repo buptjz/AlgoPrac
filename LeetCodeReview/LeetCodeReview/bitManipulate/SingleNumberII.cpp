@@ -9,7 +9,7 @@
 #include "leetcode_bit.h"
 
 
-int singleNumber(int A[], int n) {
+static int singleNumber(int A[], int n) {
     int a[32] = {};
     for (int i = 0 ; i < n; i++) {
         for (int bit = 0; bit < 32; bit++) {
