@@ -10,13 +10,15 @@
 #include "leetcode_list.h"
 #include "others.h"
 #include "leetcode_backtrack.h"
+#include "leetcode_bit.h"
 using namespace std;
 
 
 
 int main(void) {
 //    testWordBreak();
-    testWordBreakII();
+//    testWordBreakII();
+    testSingleNumber();
     return 0;
 }
 
