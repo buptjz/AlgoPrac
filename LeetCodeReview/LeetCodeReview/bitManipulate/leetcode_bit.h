@@ -20,5 +20,6 @@
 using namespace std;
 
 void testSingleNumber();
+void testReverse();
 
 #endif

@@ -25,7 +25,8 @@ int main(void) {
 //    testPartition();
 //    testMinCut();
 //    testSumNumbers();
-    testLongestConsecutive();
+//    testLongestConsecutive();
+    testReverse();
     return 0;
 }
 
