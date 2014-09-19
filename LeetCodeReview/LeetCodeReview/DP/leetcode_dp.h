@@ -19,4 +19,5 @@
 using namespace std;
 
 void testPartition();
+void testMinCut();
 #endif

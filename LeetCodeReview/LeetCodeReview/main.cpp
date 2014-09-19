@@ -21,7 +21,8 @@ int main(void) {
 //    testWordBreakII();
 //    testSingleNumber();
 //    testCandy();
-    testPartition();
+//    testPartition();
+    testMinCut();
     return 0;
 }
 
