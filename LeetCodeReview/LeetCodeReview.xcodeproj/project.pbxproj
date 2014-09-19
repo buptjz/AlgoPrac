@@ -13,6 +13,7 @@
 		8332CE8219C9794800FD9E21 /* LinkedListCycleII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8332CE8019C9794800FD9E21 /* LinkedListCycleII.cpp */; };
 		8352FB5C19C9DB0500A02FDD /* MaxPointsonaLine2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8352FB5A19C9DB0500A02FDD /* MaxPointsonaLine2.cpp */; };
 		835B0AC719C70D1D00ACC7B1 /* LRUCache.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 835B0AC519C70D1D00ACC7B1 /* LRUCache.cpp */; };
+		835D667719CBBF2D0021CB1F /* PalindromePartitioning.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 835D667519CBBF2D0021CB1F /* PalindromePartitioning.cpp */; };
 		838723DC19B7F73500A3A2C2 /* KDTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 838723DA19B7F73500A3A2C2 /* KDTree.cpp */; };
 		839B022119CAB79000907750 /* CopyListwithRandomPointer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 839B021F19CAB79000907750 /* CopyListwithRandomPointer.cpp */; };
 		839B022519CABDED00907750 /* SingleNumberII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 839B022319CABDED00907750 /* SingleNumberII.cpp */; };
@@ -56,6 +57,8 @@
 		8332CE8019C9794800FD9E21 /* LinkedListCycleII.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LinkedListCycleII.cpp; sourceTree = "<group>"; };
 		8352FB5A19C9DB0500A02FDD /* MaxPointsonaLine2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MaxPointsonaLine2.cpp; sourceTree = "<group>"; };
 		835B0AC519C70D1D00ACC7B1 /* LRUCache.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LRUCache.cpp; sourceTree = "<group>"; };
+		835D667519CBBF2D0021CB1F /* PalindromePartitioning.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PalindromePartitioning.cpp; sourceTree = "<group>"; };
+		835D667819CBBF440021CB1F /* leetcode_dp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = leetcode_dp.h; sourceTree = "<group>"; };
 		838723DA19B7F73500A3A2C2 /* KDTree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = KDTree.cpp; sourceTree = "<group>"; };
 		838723DB19B7F73500A3A2C2 /* KDTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KDTree.h; sourceTree = "<group>"; };
 		839B021F19CAB79000907750 /* CopyListwithRandomPointer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CopyListwithRandomPointer.cpp; sourceTree = "<group>"; };
@@ -105,6 +108,15 @@
 			path = Others;
 			sourceTree = "<group>";
 		};
+		835D667419CBBF1E0021CB1F /* DP */ = {
+			isa = PBXGroup;
+			children = (
+				835D667819CBBF440021CB1F /* leetcode_dp.h */,
+				835D667519CBBF2D0021CB1F /* PalindromePartitioning.cpp */,
+			);
+			path = DP;
+			sourceTree = "<group>";
+		};
 		838723D919B7F72300A3A2C2 /* others */ = {
 			isa = PBXGroup;
 			children = (
@@ -150,6 +162,7 @@
 		83A94B4519B6FCFE007A8DDF /* LeetCodeReview */ = {
 			isa = PBXGroup;
 			children = (
+				835D667419CBBF1E0021CB1F /* DP */,
 				839B022219CABDE200907750 /* bitManipulate */,
 				83C67CBB19CA755D00CF1BBC /* backtrack */,
 				83F46DBD19C7172B00B5A7D5 /* tree */,
@@ -273,6 +286,7 @@
 				83AA567B19C6BDD3008F2641 /* StringtoInteger.cpp in Sources */,
 				83C67CBE19CA756F00CF1BBC /* WordBreak.cpp in Sources */,
 				835B0AC719C70D1D00ACC7B1 /* LRUCache.cpp in Sources */,
+				835D667719CBBF2D0021CB1F /* PalindromePartitioning.cpp in Sources */,
 				838723DC19B7F73500A3A2C2 /* KDTree.cpp in Sources */,
 				839B022519CABDED00907750 /* SingleNumberII.cpp in Sources */,
 				8332CE7F19C9783300FD9E21 /* LinkedListCycle.cpp in Sources */,

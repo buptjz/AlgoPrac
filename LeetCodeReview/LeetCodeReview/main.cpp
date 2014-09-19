@@ -12,15 +12,16 @@
 #include "leetcode_backtrack.h"
 #include "leetcode_bit.h"
 #include "leetcode_others.h"
+#include "leetcode_dp.h"
+
 using namespace std;
-
-
 
 int main(void) {
 //    testWordBreak();
 //    testWordBreakII();
 //    testSingleNumber();
-    testCandy();
+//    testCandy();
+    testPartition();
     return 0;
 }
 
