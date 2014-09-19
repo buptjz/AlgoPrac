@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		83005A4719CC81E100F58600 /* BinaryTreeMaximumPathSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83005A4519CC81E100F58600 /* BinaryTreeMaximumPathSum.cpp */; };
 		831E5E0719CBFDB600C60DAE /* SumRoottoLeafNumbers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 831E5E0519CBFDB600C60DAE /* SumRoottoLeafNumbers.cpp */; };
 		8332CE7519C95D0D00FD9E21 /* ReorderList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8332CE7319C95D0D00FD9E21 /* ReorderList.cpp */; };
 		8332CE7919C96BFC00FD9E21 /* ReverseList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8332CE7719C96BFC00FD9E21 /* ReverseList.cpp */; };
@@ -55,6 +56,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		83005A4519CC81E100F58600 /* BinaryTreeMaximumPathSum.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BinaryTreeMaximumPathSum.cpp; sourceTree = "<group>"; };
 		831E5E0519CBFDB600C60DAE /* SumRoottoLeafNumbers.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SumRoottoLeafNumbers.cpp; sourceTree = "<group>"; };
 		8332CE7319C95D0D00FD9E21 /* ReorderList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ReorderList.cpp; sourceTree = "<group>"; };
 		8332CE7719C96BFC00FD9E21 /* ReverseList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ReverseList.cpp; sourceTree = "<group>"; };
@@ -246,6 +248,7 @@
 				83E4435519C7192300950113 /* BinaryTreePreorderTraversal.cpp */,
 				83E4435819C7198000950113 /* BinaryTreeInorderTraversal.cpp */,
 				8391599919CC277A0002321A /* SameTree.cpp */,
+				83005A4519CC81E100F58600 /* BinaryTreeMaximumPathSum.cpp */,
 			);
 			path = tree;
 			sourceTree = "<group>";
@@ -303,6 +306,7 @@
 			files = (
 				835D667B19CBCB870021CB1F /* PalindromePartitioningII.cpp in Sources */,
 				83AA567819C6B495008F2641 /* EvaluateReversePolishNotation.cpp in Sources */,
+				83005A4719CC81E100F58600 /* BinaryTreeMaximumPathSum.cpp in Sources */,
 				839B022F19CAC98F00907750 /* Candy.cpp in Sources */,
 				8391599819CC1C250002321A /* ReverseInteger.cpp in Sources */,
 				839B022119CAB79000907750 /* CopyListwithRandomPointer.cpp in Sources */,
