@@ -13,6 +13,7 @@
 #include "leetcode_bit.h"
 #include "leetcode_others.h"
 #include "leetcode_dp.h"
+#include "leetcode_search.h"
 
 using namespace std;
 
@@ -22,7 +23,9 @@ int main(void) {
 //    testSingleNumber();
 //    testCandy();
 //    testPartition();
-    testMinCut();
+//    testMinCut();
+//    testSumNumbers();
+    testLongestConsecutive();
     return 0;
 }
 

@@ -16,7 +16,9 @@
 #include <vector>
 #include <stack>
 #include <unordered_set>
+#include "struct_head.h"
 using namespace std;
 void testWordBreak();
 void testWordBreakII();
+void testSumNumbers();
 #endif
