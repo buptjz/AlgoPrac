@@ -26,7 +26,8 @@ int main(void) {
 //    testMinCut();
 //    testSumNumbers();
 //    testLongestConsecutive();
-    testReverse();
+//    testReverse();
+    testMinimumTotal();
     return 0;
 }
 

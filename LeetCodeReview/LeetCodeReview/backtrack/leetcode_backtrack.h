@@ -21,4 +21,5 @@ using namespace std;
 void testWordBreak();
 void testWordBreakII();
 void testSumNumbers();
+void testMinimumTotal();
 #endif
