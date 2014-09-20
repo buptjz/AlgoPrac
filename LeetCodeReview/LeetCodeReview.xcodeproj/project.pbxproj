@@ -19,6 +19,7 @@
 		835B0AC719C70D1D00ACC7B1 /* LRUCache.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 835B0AC519C70D1D00ACC7B1 /* LRUCache.cpp */; };
 		835D667719CBBF2D0021CB1F /* PalindromePartitioning.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 835D667519CBBF2D0021CB1F /* PalindromePartitioning.cpp */; };
 		835D667B19CBCB870021CB1F /* PalindromePartitioningII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 835D667919CBCB870021CB1F /* PalindromePartitioningII.cpp */; };
+		8378F28019CDA12700793EDF /* PopulatingNextRightPointersinEachNodeII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8378F27E19CDA12700793EDF /* PopulatingNextRightPointersinEachNodeII.cpp */; };
 		837E689E19CC03E1006C3A70 /* LongestConsecutiveSequence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 837E689C19CC03E1006C3A70 /* LongestConsecutiveSequence.cpp */; };
 		838723DC19B7F73500A3A2C2 /* KDTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 838723DA19B7F73500A3A2C2 /* KDTree.cpp */; };
 		838EEC0D19CD81D7001F6D6C /* Pascal'sTriangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 838EEC0B19CD81D7001F6D6C /* Pascal'sTriangle.cpp */; };
@@ -78,6 +79,7 @@
 		835D667519CBBF2D0021CB1F /* PalindromePartitioning.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PalindromePartitioning.cpp; sourceTree = "<group>"; };
 		835D667819CBBF440021CB1F /* leetcode_dp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = leetcode_dp.h; sourceTree = "<group>"; };
 		835D667919CBCB870021CB1F /* PalindromePartitioningII.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PalindromePartitioningII.cpp; sourceTree = "<group>"; };
+		8378F27E19CDA12700793EDF /* PopulatingNextRightPointersinEachNodeII.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PopulatingNextRightPointersinEachNodeII.cpp; sourceTree = "<group>"; };
 		837E689C19CC03E1006C3A70 /* LongestConsecutiveSequence.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LongestConsecutiveSequence.cpp; sourceTree = "<group>"; };
 		837E689F19CC03F5006C3A70 /* leetcode_search.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = leetcode_search.h; sourceTree = "<group>"; };
 		838723DA19B7F73500A3A2C2 /* KDTree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = KDTree.cpp; sourceTree = "<group>"; };
@@ -270,6 +272,7 @@
 				8391599919CC277A0002321A /* SameTree.cpp */,
 				83005A4519CC81E100F58600 /* BinaryTreeMaximumPathSum.cpp */,
 				83E57CF219CD885D0098A905 /* PopulatingNextRightPointersinEachNode.cpp */,
+				8378F27E19CDA12700793EDF /* PopulatingNextRightPointersinEachNodeII.cpp */,
 			);
 			path = tree;
 			sourceTree = "<group>";
@@ -333,6 +336,7 @@
 				839B022119CAB79000907750 /* CopyListwithRandomPointer.cpp in Sources */,
 				8332CE8219C9794800FD9E21 /* LinkedListCycleII.cpp in Sources */,
 				83F1D8C319CD211F0063359E /* Triangle.cpp in Sources */,
+				8378F28019CDA12700793EDF /* PopulatingNextRightPointersinEachNodeII.cpp in Sources */,
 				834B2E5519CD199D006BF822 /* BestTimetoBuyandSellStockII.cpp in Sources */,
 				83A94B5919B6FE5D007A8DDF /* ReverseWordsinaString.cpp in Sources */,
 				83005A4A19CD179400F58600 /* BestTimetoBuyandSellStock.cpp in Sources */,
