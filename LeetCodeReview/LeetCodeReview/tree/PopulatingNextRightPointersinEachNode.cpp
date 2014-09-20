@@ -9,7 +9,7 @@
 #include "leetcode_tree.h"
 
 
-void helper(TreeLinkNode *root){
+static void helper(TreeLinkNode *root){
     //base case
     if (root->left == NULL) return;
     
@@ -19,7 +19,7 @@ void helper(TreeLinkNode *root){
     helper(root->right);
 }
 
-void connect(TreeLinkNode *root) {
+static void connect(TreeLinkNode *root) {
     if (root == NULL) return;
     helper(root);
 }
