@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		83005A4719CC81E100F58600 /* BinaryTreeMaximumPathSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83005A4519CC81E100F58600 /* BinaryTreeMaximumPathSum.cpp */; };
 		83005A4A19CD179400F58600 /* BestTimetoBuyandSellStock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83005A4819CD179400F58600 /* BestTimetoBuyandSellStock.cpp */; };
+		830D06CE19CDB463009EF07C /* FlattenBinaryTreetoLinkedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 830D06CC19CDB463009EF07C /* FlattenBinaryTreetoLinkedList.cpp */; };
 		831E5E0719CBFDB600C60DAE /* SumRoottoLeafNumbers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 831E5E0519CBFDB600C60DAE /* SumRoottoLeafNumbers.cpp */; };
 		8332CE7519C95D0D00FD9E21 /* ReorderList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8332CE7319C95D0D00FD9E21 /* ReorderList.cpp */; };
 		8332CE7919C96BFC00FD9E21 /* ReverseList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8332CE7719C96BFC00FD9E21 /* ReverseList.cpp */; };
@@ -67,6 +68,7 @@
 /* Begin PBXFileReference section */
 		83005A4519CC81E100F58600 /* BinaryTreeMaximumPathSum.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BinaryTreeMaximumPathSum.cpp; sourceTree = "<group>"; };
 		83005A4819CD179400F58600 /* BestTimetoBuyandSellStock.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BestTimetoBuyandSellStock.cpp; sourceTree = "<group>"; };
+		830D06CC19CDB463009EF07C /* FlattenBinaryTreetoLinkedList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FlattenBinaryTreetoLinkedList.cpp; sourceTree = "<group>"; };
 		831E5E0519CBFDB600C60DAE /* SumRoottoLeafNumbers.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SumRoottoLeafNumbers.cpp; sourceTree = "<group>"; };
 		8332CE7319C95D0D00FD9E21 /* ReorderList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ReorderList.cpp; sourceTree = "<group>"; };
 		8332CE7719C96BFC00FD9E21 /* ReverseList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ReverseList.cpp; sourceTree = "<group>"; };
@@ -276,6 +278,7 @@
 				83005A4519CC81E100F58600 /* BinaryTreeMaximumPathSum.cpp */,
 				83E57CF219CD885D0098A905 /* PopulatingNextRightPointersinEachNode.cpp */,
 				8378F27E19CDA12700793EDF /* PopulatingNextRightPointersinEachNodeII.cpp */,
+				830D06CC19CDB463009EF07C /* FlattenBinaryTreetoLinkedList.cpp */,
 			);
 			path = tree;
 			sourceTree = "<group>";
@@ -340,6 +343,7 @@
 				8332CE8219C9794800FD9E21 /* LinkedListCycleII.cpp in Sources */,
 				83F5D52A19CDAF7D00417B51 /* DistinctSubsequences.cpp in Sources */,
 				83F1D8C319CD211F0063359E /* Triangle.cpp in Sources */,
+				830D06CE19CDB463009EF07C /* FlattenBinaryTreetoLinkedList.cpp in Sources */,
 				8378F28019CDA12700793EDF /* PopulatingNextRightPointersinEachNodeII.cpp in Sources */,
 				834B2E5519CD199D006BF822 /* BestTimetoBuyandSellStockII.cpp in Sources */,
 				83A94B5919B6FE5D007A8DDF /* ReverseWordsinaString.cpp in Sources */,
