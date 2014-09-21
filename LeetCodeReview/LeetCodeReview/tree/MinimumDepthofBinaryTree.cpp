@@ -9,7 +9,7 @@
 #include "leetcode_tree.h"
 
 
-int helper(TreeNode *root){
+static int helper(TreeNode *root){
     if (!root->left && !root->right) {
         return 1;
     }else if (root->right && root->left) {
