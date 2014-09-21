@@ -45,6 +45,7 @@
 		83C67CBE19CA756F00CF1BBC /* WordBreak.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83C67CBC19CA756F00CF1BBC /* WordBreak.cpp */; };
 		83C67CC219CA7DFA00CF1BBC /* WordBreakII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83C67CC019CA7DFA00CF1BBC /* WordBreakII.cpp */; };
 		83D10EB519C6FAC90002BC35 /* InsertionSortList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83D10EB319C6FAC90002BC35 /* InsertionSortList.cpp */; };
+		83DED55E19CE6EB4007505EA /* PathSumII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83DED55C19CE6EB4007505EA /* PathSumII.cpp */; };
 		83E4435719C7192300950113 /* BinaryTreePreorderTraversal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83E4435519C7192300950113 /* BinaryTreePreorderTraversal.cpp */; };
 		83E4435A19C7198000950113 /* BinaryTreeInorderTraversal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83E4435819C7198000950113 /* BinaryTreeInorderTraversal.cpp */; };
 		83E57CF419CD885D0098A905 /* PopulatingNextRightPointersinEachNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83E57CF219CD885D0098A905 /* PopulatingNextRightPointersinEachNode.cpp */; };
@@ -116,6 +117,7 @@
 		83C67CBF19CA758500CF1BBC /* leetcode_backtrack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = leetcode_backtrack.h; sourceTree = "<group>"; };
 		83C67CC019CA7DFA00CF1BBC /* WordBreakII.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WordBreakII.cpp; sourceTree = "<group>"; };
 		83D10EB319C6FAC90002BC35 /* InsertionSortList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = InsertionSortList.cpp; sourceTree = "<group>"; };
+		83DED55C19CE6EB4007505EA /* PathSumII.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PathSumII.cpp; sourceTree = "<group>"; };
 		83E4435519C7192300950113 /* BinaryTreePreorderTraversal.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BinaryTreePreorderTraversal.cpp; sourceTree = "<group>"; };
 		83E4435819C7198000950113 /* BinaryTreeInorderTraversal.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BinaryTreeInorderTraversal.cpp; sourceTree = "<group>"; };
 		83E57CF219CD885D0098A905 /* PopulatingNextRightPointersinEachNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PopulatingNextRightPointersinEachNode.cpp; sourceTree = "<group>"; };
@@ -266,6 +268,7 @@
 				831E5E0519CBFDB600C60DAE /* SumRoottoLeafNumbers.cpp */,
 				83F1D8C119CD211F0063359E /* Triangle.cpp */,
 				83078E9C19CDBEEE00156ED9 /* PathSum.cpp */,
+				83DED55C19CE6EB4007505EA /* PathSumII.cpp */,
 			);
 			path = backtrack;
 			sourceTree = "<group>";
@@ -379,6 +382,7 @@
 				83E4435A19C7198000950113 /* BinaryTreeInorderTraversal.cpp in Sources */,
 				83B1607F19CC0F0E006A606D /* ValidPalindrome.cpp in Sources */,
 				8332CE7519C95D0D00FD9E21 /* ReorderList.cpp in Sources */,
+				83DED55E19CE6EB4007505EA /* PathSumII.cpp in Sources */,
 				838F123919CD1D0F0013EA48 /* BestTimetoBuyandSellStockIII.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
