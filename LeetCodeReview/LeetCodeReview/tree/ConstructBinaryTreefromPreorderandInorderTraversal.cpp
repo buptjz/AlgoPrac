@@ -42,7 +42,7 @@ static TreeNode *helper(int q_s,int q_e,int p_s,int p_e){
     return root;
 }
 
-TreeNode *buildTree(vector<int> &preorder, vector<int> &inorder) {
+static TreeNode *buildTree(vector<int> &preorder, vector<int> &inorder) {
     int len = (int)preorder.size();
     if (len == 0) {
         return NULL;

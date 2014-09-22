@@ -30,7 +30,8 @@ int main(void) {
 //    testMinimumTotal();
 //    testSortedListToBST();
 //    testLevelOrderBottom();
-    testBuildTree();
+//    testBuildTree();
+    testZigzagLevelOrder();
     return 0;
 }
 

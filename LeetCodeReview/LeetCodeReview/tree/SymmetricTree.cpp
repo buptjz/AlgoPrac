@@ -15,7 +15,7 @@ static bool helper(TreeNode *t1,TreeNode *t2){
     return helper(t1->left, t2->right) && helper(t1->right, t2->left);
 }
 
-bool isSymmetric(TreeNode *root) {
+static bool isSymmetric(TreeNode *root) {
     if (root == NULL) return true;
     return helper(root->left, root->right);
 }
