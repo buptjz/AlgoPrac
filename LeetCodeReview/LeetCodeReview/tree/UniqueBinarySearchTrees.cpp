@@ -28,7 +28,6 @@ int numTrees(int n) {
     return helper(n, nTrees);
 }
 
-
 void testNumTrees(){
     int n = 3;
     int res = numTrees(n);
