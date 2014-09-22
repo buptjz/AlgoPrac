@@ -30,7 +30,6 @@ static void helper(TreeNode *root,vector<vector<int>> &retVec){
     }
 }
 
-
 static void reorder(vector<vector<int>> &result){
     int start = 0;
     int end = (int)result.size() - 1;

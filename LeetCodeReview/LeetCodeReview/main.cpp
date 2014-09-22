@@ -29,7 +29,8 @@ int main(void) {
 //    testReverse();
 //    testMinimumTotal();
 //    testSortedListToBST();
-    testLevelOrderBottom();
+//    testLevelOrderBottom();
+    testBuildTree();
     return 0;
 }
 

@@ -22,5 +22,6 @@ using namespace std;
 
 void testSortedListToBST();
 void testLevelOrderBottom();
+void testBuildTree();
 
 #endif
