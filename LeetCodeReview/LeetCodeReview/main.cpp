@@ -31,7 +31,8 @@ int main(void) {
 //    testSortedListToBST();
 //    testLevelOrderBottom();
 //    testBuildTree();
-    testZigzagLevelOrder();
+//    testZigzagLevelOrder();
+    testNumTrees();
     return 0;
 }
 

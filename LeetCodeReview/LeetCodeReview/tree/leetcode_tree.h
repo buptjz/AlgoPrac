@@ -24,4 +24,5 @@ void testSortedListToBST();
 void testLevelOrderBottom();
 void testBuildTree();
 void testZigzagLevelOrder();
+void testNumTrees();
 #endif
