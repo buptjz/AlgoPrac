@@ -31,6 +31,7 @@
 		838F123919CD1D0F0013EA48 /* BestTimetoBuyandSellStockIII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 838F123719CD1D0F0013EA48 /* BestTimetoBuyandSellStockIII.cpp */; };
 		8391599819CC1C250002321A /* ReverseInteger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8391599619CC1C250002321A /* ReverseInteger.cpp */; };
 		8391599B19CC277A0002321A /* SameTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8391599919CC277A0002321A /* SameTree.cpp */; };
+		839386AB19CFADEC008A3101 /* ConvertSortedListtoBinarySearchTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 839386A919CFADEC008A3101 /* ConvertSortedListtoBinarySearchTree.cpp */; };
 		839B022119CAB79000907750 /* CopyListwithRandomPointer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 839B021F19CAB79000907750 /* CopyListwithRandomPointer.cpp */; };
 		839B022519CABDED00907750 /* SingleNumberII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 839B022319CABDED00907750 /* SingleNumberII.cpp */; };
 		839B022C19CAC28E00907750 /* SingleNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 839B022A19CAC28E00907750 /* SingleNumber.cpp */; };
@@ -101,6 +102,7 @@
 		838F123719CD1D0F0013EA48 /* BestTimetoBuyandSellStockIII.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BestTimetoBuyandSellStockIII.cpp; sourceTree = "<group>"; };
 		8391599619CC1C250002321A /* ReverseInteger.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ReverseInteger.cpp; sourceTree = "<group>"; };
 		8391599919CC277A0002321A /* SameTree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SameTree.cpp; sourceTree = "<group>"; };
+		839386A919CFADEC008A3101 /* ConvertSortedListtoBinarySearchTree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ConvertSortedListtoBinarySearchTree.cpp; sourceTree = "<group>"; };
 		839B021F19CAB79000907750 /* CopyListwithRandomPointer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CopyListwithRandomPointer.cpp; sourceTree = "<group>"; };
 		839B022319CABDED00907750 /* SingleNumberII.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SingleNumberII.cpp; sourceTree = "<group>"; };
 		839B022619CABE0200907750 /* leetcode_bit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = leetcode_bit.h; sourceTree = "<group>"; };
@@ -297,6 +299,7 @@
 				837660EF19CE72F700C93D6F /* BalancedBinaryTree.cpp */,
 				8302A5F819CE78450001EEF3 /* MaximumDepthofBinaryTree.cpp */,
 				83C5FEC719CE797A00E1B2BC /* ConvertSortedArraytoBinarySearchTree.cpp */,
+				839386A919CFADEC008A3101 /* ConvertSortedListtoBinarySearchTree.cpp */,
 			);
 			path = tree;
 			sourceTree = "<group>";
@@ -392,6 +395,7 @@
 				8391599B19CC277A0002321A /* SameTree.cpp in Sources */,
 				83078E9E19CDBEEE00156ED9 /* PathSum.cpp in Sources */,
 				839B022C19CAC28E00907750 /* SingleNumber.cpp in Sources */,
+				839386AB19CFADEC008A3101 /* ConvertSortedListtoBinarySearchTree.cpp in Sources */,
 				83C5FEC919CE797A00E1B2BC /* ConvertSortedArraytoBinarySearchTree.cpp in Sources */,
 				83AA567F19C6D979008F2641 /* SortList.cpp in Sources */,
 				8332CE7919C96BFC00FD9E21 /* ReverseList.cpp in Sources */,

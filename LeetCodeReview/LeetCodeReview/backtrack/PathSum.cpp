@@ -15,7 +15,7 @@
  */
 
 int total_sum = 0;
-bool success = false;
+static bool success = false;
 
 static void backtrack(TreeNode *root,int cur_sum){
     cur_sum += root->val;
@@ -29,7 +29,7 @@ static void backtrack(TreeNode *root,int cur_sum){
     if (root->right) backtrack(root->right, cur_sum);
 }
 
-bool hasPathSum(TreeNode *root, int sum) {
+static bool hasPathSum(TreeNode *root, int sum) {
     if (root == NULL) return false;
     total_sum = sum;
     backtrack(root, 0);

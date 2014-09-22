@@ -19,5 +19,6 @@
 
 using namespace std;
 
+void testSortedListToBST();
 
 #endif

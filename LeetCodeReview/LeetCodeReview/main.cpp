@@ -14,7 +14,7 @@
 #include "leetcode_others.h"
 #include "leetcode_dp.h"
 #include "leetcode_search.h"
-
+#include "leetcode_tree.h"
 using namespace std;
 
 int main(void) {
@@ -27,7 +27,8 @@ int main(void) {
 //    testSumNumbers();
 //    testLongestConsecutive();
 //    testReverse();
-    testMinimumTotal();
+//    testMinimumTotal();
+    testSortedListToBST();
     return 0;
 }
 
