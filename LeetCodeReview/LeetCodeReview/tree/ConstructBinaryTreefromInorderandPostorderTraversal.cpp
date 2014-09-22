@@ -8,9 +8,9 @@
 
 #include "leetcode_tree.h"
 
-vector<int> p,q;
+static vector<int> p,q;
 
-TreeNode *helper(int q_s,int q_e,int p_s,int p_e){
+static TreeNode *helper(int q_s,int q_e,int p_s,int p_e){
     if (q_s > q_e) return NULL;
     
     int save_q_s = q_s;
