@@ -6,6 +6,10 @@
 //  Copyright (c) 2014年 WangJZ. All rights reserved.
 //
 
+/*
+ 对于这道自底向上的题目，网上似乎没什么特别好的方法，一般就是自顶向下，然后翻转数组
+ */
+
 #include "leetcode_tree.h"
 
 static void helper(TreeNode *root,vector<vector<int>> &retVec){
