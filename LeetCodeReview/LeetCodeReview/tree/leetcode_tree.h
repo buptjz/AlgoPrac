@@ -25,4 +25,5 @@ void testLevelOrderBottom();
 void testBuildTree();
 void testZigzagLevelOrder();
 void testNumTrees();
+void testRecoverTree();
 #endif

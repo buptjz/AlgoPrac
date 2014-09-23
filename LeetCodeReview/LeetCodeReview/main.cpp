@@ -32,7 +32,8 @@ int main(void) {
 //    testLevelOrderBottom();
 //    testBuildTree();
 //    testZigzagLevelOrder();
-    testNumTrees();
+//    testNumTrees();
+    testRecoverTree();
     return 0;
 }
 
