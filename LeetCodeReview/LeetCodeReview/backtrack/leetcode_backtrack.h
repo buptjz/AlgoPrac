@@ -22,4 +22,5 @@ void testWordBreak();
 void testWordBreakII();
 void testSumNumbers();
 void testMinimumTotal();
+void testRestoreIpAddresses();
 #endif

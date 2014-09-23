@@ -33,7 +33,8 @@ int main(void) {
 //    testBuildTree();
 //    testZigzagLevelOrder();
 //    testNumTrees();
-    testRecoverTree();
+//    testRecoverTree();
+    testRestoreIpAddresses();
     return 0;
 }
 
