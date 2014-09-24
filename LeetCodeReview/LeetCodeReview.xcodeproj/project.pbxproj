@@ -14,6 +14,7 @@
 		830D06CE19CDB463009EF07C /* FlattenBinaryTreetoLinkedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 830D06CC19CDB463009EF07C /* FlattenBinaryTreetoLinkedList.cpp */; };
 		831E5E0719CBFDB600C60DAE /* SumRoottoLeafNumbers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 831E5E0519CBFDB600C60DAE /* SumRoottoLeafNumbers.cpp */; };
 		831FB3FE19D12178007D75D7 /* RestoreIPAddresses.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 831FB3FC19D12178007D75D7 /* RestoreIPAddresses.cpp */; };
+		8329383219D2A38000911AF2 /* DecodeWays.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8329383019D2A38000911AF2 /* DecodeWays.cpp */; };
 		832B636619CFF9620057672F /* ConstructBinaryTreefromInorderandPostorderTraversal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 832B636419CFF9620057672F /* ConstructBinaryTreefromInorderandPostorderTraversal.cpp */; };
 		8332CE7519C95D0D00FD9E21 /* ReorderList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8332CE7319C95D0D00FD9E21 /* ReorderList.cpp */; };
 		8332CE7919C96BFC00FD9E21 /* ReverseList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8332CE7719C96BFC00FD9E21 /* ReverseList.cpp */; };
@@ -93,6 +94,7 @@
 		830D06CC19CDB463009EF07C /* FlattenBinaryTreetoLinkedList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FlattenBinaryTreetoLinkedList.cpp; sourceTree = "<group>"; };
 		831E5E0519CBFDB600C60DAE /* SumRoottoLeafNumbers.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SumRoottoLeafNumbers.cpp; sourceTree = "<group>"; };
 		831FB3FC19D12178007D75D7 /* RestoreIPAddresses.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RestoreIPAddresses.cpp; sourceTree = "<group>"; };
+		8329383019D2A38000911AF2 /* DecodeWays.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DecodeWays.cpp; sourceTree = "<group>"; };
 		832B636419CFF9620057672F /* ConstructBinaryTreefromInorderandPostorderTraversal.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ConstructBinaryTreefromInorderandPostorderTraversal.cpp; sourceTree = "<group>"; };
 		8332CE7319C95D0D00FD9E21 /* ReorderList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ReorderList.cpp; sourceTree = "<group>"; };
 		8332CE7719C96BFC00FD9E21 /* ReverseList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ReverseList.cpp; sourceTree = "<group>"; };
@@ -318,6 +320,7 @@
 				83078E9C19CDBEEE00156ED9 /* PathSum.cpp */,
 				83DED55C19CE6EB4007505EA /* PathSumII.cpp */,
 				831FB3FC19D12178007D75D7 /* RestoreIPAddresses.cpp */,
+				8329383019D2A38000911AF2 /* DecodeWays.cpp */,
 			);
 			path = backtrack;
 			sourceTree = "<group>";
@@ -432,6 +435,7 @@
 				83F46DC019C7174000B5A7D5 /* BinaryTreePostorderTraversal.cpp in Sources */,
 				838EEC0D19CD81D7001F6D6C /* Pascal'sTriangle.cpp in Sources */,
 				83C67CC219CA7DFA00CF1BBC /* WordBreakII.cpp in Sources */,
+				8329383219D2A38000911AF2 /* DecodeWays.cpp in Sources */,
 				83D10EB519C6FAC90002BC35 /* InsertionSortList.cpp in Sources */,
 				83AA567B19C6BDD3008F2641 /* StringtoInteger.cpp in Sources */,
 				83C67CBE19CA756F00CF1BBC /* WordBreak.cpp in Sources */,
