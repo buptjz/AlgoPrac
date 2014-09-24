@@ -23,7 +23,6 @@ void helper(vector<vector<int>> &res,vector<int> &cur,vector<bool> &visited,vect
         cur.pop_back();
         lastIndex = i;
     }
-    
 }
 
 vector<vector<int> > permuteUnique(vector<int> &num) {

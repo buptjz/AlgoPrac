@@ -16,11 +16,13 @@
 #include <list>
 #include <map>
 #include <vector>
+#include <queue>
 
 #include "struct_head.h"
 using namespace std;
 
 void testCandy();
 void testMerge();
+void testMaxProduct();
 
 #endif

@@ -18,25 +18,7 @@
 using namespace std;
 
 int main(void) {
-//    testWordBreak();
-//    testWordBreakII();
-//    testSingleNumber();
-//    testCandy();
-//    testPartition();
-//    testMinCut();
-//    testSumNumbers();
-//    testLongestConsecutive();
-//    testReverse();
-//    testMinimumTotal();
-//    testSortedListToBST();
-//    testLevelOrderBottom();
-//    testBuildTree();
-//    testZigzagLevelOrder();
-//    testNumTrees();
-//    testRecoverTree();
-//    testRestoreIpAddresses();
-//    testMerge();
-    testIsScramble();
+    testMaxProduct();
     return 0;
 }
 
