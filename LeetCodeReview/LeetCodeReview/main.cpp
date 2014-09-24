@@ -35,7 +35,8 @@ int main(void) {
 //    testNumTrees();
 //    testRecoverTree();
 //    testRestoreIpAddresses();
-    testMerge();
+//    testMerge();
+    testIsScramble();
     return 0;
 }
 

@@ -26,4 +26,5 @@ void testBuildTree();
 void testZigzagLevelOrder();
 void testNumTrees();
 void testRecoverTree();
+void testIsScramble();
 #endif

@@ -23,7 +23,6 @@ void merge(int A[], int m, int B[], int n) {
     while (bIndex >= 0)
         A[lastIndex--] = B[bIndex--];
     
-    
 }
 
 void testMerge(){
