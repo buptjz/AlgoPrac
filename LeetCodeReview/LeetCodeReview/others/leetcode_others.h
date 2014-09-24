@@ -21,5 +21,6 @@
 using namespace std;
 
 void testCandy();
+void testMerge();
 
 #endif

@@ -34,7 +34,8 @@ int main(void) {
 //    testZigzagLevelOrder();
 //    testNumTrees();
 //    testRecoverTree();
-    testRestoreIpAddresses();
+//    testRestoreIpAddresses();
+    testMerge();
     return 0;
 }
 
