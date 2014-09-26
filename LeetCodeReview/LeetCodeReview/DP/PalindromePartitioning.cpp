@@ -26,7 +26,7 @@ void backtrack(vector<vector<string>> &result,string s, int index,const vector<v
     }
 }
 
-vector<vector<string>> partition(string s) {
+static vector<vector<string>> partition(string s) {
     vector<vector<string>> retVec;
 
     int len = (int)s.length();

@@ -22,6 +22,7 @@
 		8332CE7919C96BFC00FD9E21 /* ReverseList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8332CE7719C96BFC00FD9E21 /* ReverseList.cpp */; };
 		8332CE7F19C9783300FD9E21 /* LinkedListCycle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8332CE7D19C9783300FD9E21 /* LinkedListCycle.cpp */; };
 		8332CE8219C9794800FD9E21 /* LinkedListCycleII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8332CE8019C9794800FD9E21 /* LinkedListCycleII.cpp */; };
+		833401FB19D557C100BA7F92 /* LargestRectangleinHistogram.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 833401F919D557C100BA7F92 /* LargestRectangleinHistogram.cpp */; };
 		833C100519D1735D00ECC254 /* ReverseLinkedListII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 833C100319D1735D00ECC254 /* ReverseLinkedListII.cpp */; };
 		8341910819D04DB000342007 /* BinaryTreeZigzagLevelOrderTraversal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8341910619D04DB000342007 /* BinaryTreeZigzagLevelOrderTraversal.cpp */; };
 		834B2E5519CD199D006BF822 /* BestTimetoBuyandSellStockII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 834B2E5319CD199D006BF822 /* BestTimetoBuyandSellStockII.cpp */; };
@@ -54,6 +55,7 @@
 		839B023319CB0C5B00907750 /* GasStation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 839B023119CB0C5B00907750 /* GasStation.cpp */; };
 		839B023619CB1B1500907750 /* CloneGraph.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 839B023419CB1B1500907750 /* CloneGraph.cpp */; };
 		83A12B9719CFFF2B00849C7A /* ConstructBinaryTreefromPreorderandInorderTraversal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83A12B9519CFFF2B00849C7A /* ConstructBinaryTreefromPreorderandInorderTraversal.cpp */; };
+		83A4477F19D3EDAB00631D28 /* MaximalRectangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83A4477D19D3EDAB00631D28 /* MaximalRectangle.cpp */; };
 		83A94B4919B6FCFE007A8DDF /* LeetCodeReview.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 83A94B4819B6FCFE007A8DDF /* LeetCodeReview.1 */; };
 		83A94B5119B6FD55007A8DDF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83A94B5019B6FD55007A8DDF /* main.cpp */; };
 		83A94B5919B6FE5D007A8DDF /* ReverseWordsinaString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83A94B5719B6FE5D007A8DDF /* ReverseWordsinaString.cpp */; };
@@ -112,6 +114,8 @@
 		8332CE7B19C96D9400FD9E21 /* struct_head.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = struct_head.h; sourceTree = "<group>"; };
 		8332CE7D19C9783300FD9E21 /* LinkedListCycle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LinkedListCycle.cpp; sourceTree = "<group>"; };
 		8332CE8019C9794800FD9E21 /* LinkedListCycleII.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LinkedListCycleII.cpp; sourceTree = "<group>"; };
+		833401F919D557C100BA7F92 /* LargestRectangleinHistogram.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LargestRectangleinHistogram.cpp; sourceTree = "<group>"; };
+		833401FC19D557D800BA7F92 /* leetcode_rectangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = leetcode_rectangle.h; sourceTree = "<group>"; };
 		833C100319D1735D00ECC254 /* ReverseLinkedListII.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ReverseLinkedListII.cpp; sourceTree = "<group>"; };
 		8341910619D04DB000342007 /* BinaryTreeZigzagLevelOrderTraversal.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BinaryTreeZigzagLevelOrderTraversal.cpp; sourceTree = "<group>"; };
 		834B2E5319CD199D006BF822 /* BestTimetoBuyandSellStockII.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BestTimetoBuyandSellStockII.cpp; sourceTree = "<group>"; };
@@ -150,6 +154,7 @@
 		839B023119CB0C5B00907750 /* GasStation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GasStation.cpp; sourceTree = "<group>"; };
 		839B023419CB1B1500907750 /* CloneGraph.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CloneGraph.cpp; sourceTree = "<group>"; };
 		83A12B9519CFFF2B00849C7A /* ConstructBinaryTreefromPreorderandInorderTraversal.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ConstructBinaryTreefromPreorderandInorderTraversal.cpp; sourceTree = "<group>"; };
+		83A4477D19D3EDAB00631D28 /* MaximalRectangle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MaximalRectangle.cpp; sourceTree = "<group>"; };
 		83A94B4319B6FCFE007A8DDF /* LeetCodeReview */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCodeReview; sourceTree = BUILT_PRODUCTS_DIR; };
 		83A94B4819B6FCFE007A8DDF /* LeetCodeReview.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = LeetCodeReview.1; sourceTree = "<group>"; };
 		83A94B5019B6FD55007A8DDF /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
@@ -202,6 +207,15 @@
 			path = Others;
 			sourceTree = "<group>";
 		};
+		833401F819D557A700BA7F92 /* Rectangle */ = {
+			isa = PBXGroup;
+			children = (
+				833401F919D557C100BA7F92 /* LargestRectangleinHistogram.cpp */,
+				833401FC19D557D800BA7F92 /* leetcode_rectangle.h */,
+			);
+			path = Rectangle;
+			sourceTree = "<group>";
+		};
 		835D667419CBBF1E0021CB1F /* DP */ = {
 			isa = PBXGroup;
 			children = (
@@ -241,6 +255,7 @@
 				8386FE5F19D2B56200FD9CE3 /* GrayCode.cpp */,
 				839A68E619D2B79000AF086E /* MergeSortedArray.cpp */,
 				83D864DB19D30CF10046BC09 /* MaximumProductSubarray.cpp */,
+				83A4477D19D3EDAB00631D28 /* MaximalRectangle.cpp */,
 			);
 			path = others;
 			sourceTree = "<group>";
@@ -276,6 +291,7 @@
 		83A94B4519B6FCFE007A8DDF /* LeetCodeReview */ = {
 			isa = PBXGroup;
 			children = (
+				833401F819D557A700BA7F92 /* Rectangle */,
 				83BE004A19D188AA00348B09 /* permutations */,
 				837E689B19CC03D0006C3A70 /* Search */,
 				835D667419CBBF1E0021CB1F /* DP */,
@@ -466,6 +482,7 @@
 				83AA567B19C6BDD3008F2641 /* StringtoInteger.cpp in Sources */,
 				83C67CBE19CA756F00CF1BBC /* WordBreak.cpp in Sources */,
 				835B0AC719C70D1D00ACC7B1 /* LRUCache.cpp in Sources */,
+				83A4477F19D3EDAB00631D28 /* MaximalRectangle.cpp in Sources */,
 				8328E44919D2DA14002CDDCF /* Subsets.cpp in Sources */,
 				835D667719CBBF2D0021CB1F /* PalindromePartitioning.cpp in Sources */,
 				839A68E819D2B79000AF086E /* MergeSortedArray.cpp in Sources */,
@@ -482,6 +499,7 @@
 				83E4435719C7192300950113 /* BinaryTreePreorderTraversal.cpp in Sources */,
 				839B023619CB1B1500907750 /* CloneGraph.cpp in Sources */,
 				83D864DD19D30CF10046BC09 /* MaximumProductSubarray.cpp in Sources */,
+				833401FB19D557C100BA7F92 /* LargestRectangleinHistogram.cpp in Sources */,
 				8391599B19CC277A0002321A /* SameTree.cpp in Sources */,
 				83078E9E19CDBEEE00156ED9 /* PathSum.cpp in Sources */,
 				83E6BC0419D00C6D00D5AB36 /* SymmetricTree.cpp in Sources */,

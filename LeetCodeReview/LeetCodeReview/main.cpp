@@ -15,10 +15,12 @@
 #include "leetcode_dp.h"
 #include "leetcode_search.h"
 #include "leetcode_tree.h"
+#include "leetcode_rectangle.h"
 using namespace std;
 
 int main(void) {
-    testMaxProduct();
+//    testMaxProduct();
+    testLargestRectangleArea();
     return 0;
 }
 

@@ -8,7 +8,7 @@
 
 #include "leetcode_list.h"
 
-ListNode *partition(ListNode *head, int x) {
+static ListNode *partition(ListNode *head, int x) {
     if (head == NULL) return NULL;
     
     ListNode *leftDummy = new ListNode(0);
@@ -34,8 +34,8 @@ ListNode *partition(ListNode *head, int x) {
     return head;
 }
 
-void testPartition(){
-    ListNode *root = new ListNode(2);
-    root->next = new ListNode(1);
-    
-}
+//void testPartition(){
+//    ListNode *root = new ListNode(2);
+//    root->next = new ListNode(1);
+//    
+//}
