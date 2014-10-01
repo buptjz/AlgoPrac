@@ -19,5 +19,6 @@
 #include <unordered_set>
 using namespace std;
 void testLargestRectangleArea();
+void testMaximalRectangle();
 
 #endif

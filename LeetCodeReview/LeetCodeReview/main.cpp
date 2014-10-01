@@ -20,7 +20,7 @@ using namespace std;
 
 int main(void) {
 //    testMaxProduct();
-    testLargestRectangleArea();
+    testMaximalRectangle();
     return 0;
 }
 
