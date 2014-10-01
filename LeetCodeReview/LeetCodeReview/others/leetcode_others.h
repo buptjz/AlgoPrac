@@ -24,5 +24,6 @@ using namespace std;
 void testCandy();
 void testMerge();
 void testMaxProduct();
+void testSortColors();
 
 #endif

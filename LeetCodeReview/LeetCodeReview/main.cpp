@@ -24,7 +24,8 @@ int main(void) {
 //    testMaximalRectangle();
 //testDeleteDuplicates();
 //    testIsScramble();
-testCombine();
+//testCombine();
+testSortColors();
     return 0;
 }
 
