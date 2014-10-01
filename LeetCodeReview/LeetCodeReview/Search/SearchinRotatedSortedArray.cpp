@@ -29,6 +29,6 @@ static int helper(int A[],int start,int end,int target){
 }
 
 
-int search(int A[], int n, int target) {
+static int search(int A[], int n, int target) {
     return helper(A,0,n-1,target);
 }

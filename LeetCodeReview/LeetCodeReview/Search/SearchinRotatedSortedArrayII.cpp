@@ -8,7 +8,7 @@
 
 #include "leetcode_search.h"
 
-bool helper(int A[],int start,int end,int target){
+static bool helper(int A[],int start,int end,int target){
     if (start > end) return false;
     int mid = start + ((end - start) >> 1);
     if (target == A[mid]) return true;

@@ -8,7 +8,7 @@
 
 #include "leetcode_search.h"
 
-int removeDuplicates(int A[], int n) {
+static int removeDuplicates(int A[], int n) {
     if (n == 0 || n == 1) return n;
     
     int total = n;
