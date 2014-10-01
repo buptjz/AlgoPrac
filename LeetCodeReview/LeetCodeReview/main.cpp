@@ -21,7 +21,8 @@ using namespace std;
 int main(void) {
 //    testMaxProduct();
 //    testMaximalRectangle();
-testDeleteDuplicates();
+//testDeleteDuplicates();
+    testIsScramble();
     return 0;
 }
 
