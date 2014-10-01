@@ -16,13 +16,15 @@
 #include "leetcode_search.h"
 #include "leetcode_tree.h"
 #include "leetcode_rectangle.h"
+#include "leetcode_permute.h"
 using namespace std;
 
 int main(void) {
 //    testMaxProduct();
 //    testMaximalRectangle();
 //testDeleteDuplicates();
-    testIsScramble();
+//    testIsScramble();
+testCombine();
     return 0;
 }
 
