@@ -21,5 +21,5 @@ using namespace std;
 void testSortList();
 void testInsertSortList();
 void testReorderList();
-
+void testDeleteDuplicates();
 #endif
