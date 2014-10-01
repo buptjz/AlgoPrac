@@ -19,4 +19,5 @@
 #include "struct_head.h"
 
 void testReverseList();
+void testPerfectShuffle();
 #endif

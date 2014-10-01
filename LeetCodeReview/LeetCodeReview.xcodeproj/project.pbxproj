@@ -24,6 +24,7 @@
 		83255B6819DBA55200944B95 /* WordSearch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83255B6619DBA55200944B95 /* WordSearch.cpp */; };
 		83255B6B19DBF35000944B95 /* Combinations.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83255B6919DBF35000944B95 /* Combinations.cpp */; };
 		83255B6E19DBF65E00944B95 /* SortColors.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83255B6C19DBF65E00944B95 /* SortColors.cpp */; };
+		83255B7119DBFB8900944B95 /* PerfectShuffle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83255B6F19DBFB8900944B95 /* PerfectShuffle.cpp */; };
 		83266DAF19D2E1B1006F2405 /* PermutationsII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83266DAD19D2E1B1006F2405 /* PermutationsII.cpp */; };
 		8328E44919D2DA14002CDDCF /* Subsets.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8328E44719D2DA14002CDDCF /* Subsets.cpp */; };
 		8329383219D2A38000911AF2 /* DecodeWays.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8329383019D2A38000911AF2 /* DecodeWays.cpp */; };
@@ -80,6 +81,7 @@
 		83C698E319D10F3F00720C22 /* RecoverBinarySearchTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83C698E119D10F3F00720C22 /* RecoverBinarySearchTree.cpp */; };
 		83D10EB519C6FAC90002BC35 /* InsertionSortList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83D10EB319C6FAC90002BC35 /* InsertionSortList.cpp */; };
 		83D864DD19D30CF10046BC09 /* MaximumProductSubarray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83D864DB19D30CF10046BC09 /* MaximumProductSubarray.cpp */; };
+		83DDED2019DC34F100A25998 /* Searcha2DMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83DDED1E19DC34F100A25998 /* Searcha2DMatrix.cpp */; };
 		83DED55E19CE6EB4007505EA /* PathSumII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83DED55C19CE6EB4007505EA /* PathSumII.cpp */; };
 		83E151E819CE70E400870F56 /* MinimumDepthofBinaryTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83E151E619CE70E400870F56 /* MinimumDepthofBinaryTree.cpp */; };
 		83E4435719C7192300950113 /* BinaryTreePreorderTraversal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83E4435519C7192300950113 /* BinaryTreePreorderTraversal.cpp */; };
@@ -123,6 +125,7 @@
 		83255B6619DBA55200944B95 /* WordSearch.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WordSearch.cpp; sourceTree = "<group>"; };
 		83255B6919DBF35000944B95 /* Combinations.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Combinations.cpp; sourceTree = "<group>"; };
 		83255B6C19DBF65E00944B95 /* SortColors.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SortColors.cpp; sourceTree = "<group>"; };
+		83255B6F19DBFB8900944B95 /* PerfectShuffle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PerfectShuffle.cpp; sourceTree = "<group>"; };
 		83266DAD19D2E1B1006F2405 /* PermutationsII.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PermutationsII.cpp; sourceTree = "<group>"; };
 		8328E44719D2DA14002CDDCF /* Subsets.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Subsets.cpp; sourceTree = "<group>"; };
 		8329383019D2A38000911AF2 /* DecodeWays.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DecodeWays.cpp; sourceTree = "<group>"; };
@@ -192,6 +195,7 @@
 		83C698E119D10F3F00720C22 /* RecoverBinarySearchTree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RecoverBinarySearchTree.cpp; sourceTree = "<group>"; };
 		83D10EB319C6FAC90002BC35 /* InsertionSortList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = InsertionSortList.cpp; sourceTree = "<group>"; };
 		83D864DB19D30CF10046BC09 /* MaximumProductSubarray.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MaximumProductSubarray.cpp; sourceTree = "<group>"; };
+		83DDED1E19DC34F100A25998 /* Searcha2DMatrix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Searcha2DMatrix.cpp; sourceTree = "<group>"; };
 		83DED55C19CE6EB4007505EA /* PathSumII.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PathSumII.cpp; sourceTree = "<group>"; };
 		83E151E619CE70E400870F56 /* MinimumDepthofBinaryTree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MinimumDepthofBinaryTree.cpp; sourceTree = "<group>"; };
 		83E4435519C7192300950113 /* BinaryTreePreorderTraversal.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BinaryTreePreorderTraversal.cpp; sourceTree = "<group>"; };
@@ -219,8 +223,9 @@
 		8332CE7619C96BE800FD9E21 /* Others */ = {
 			isa = PBXGroup;
 			children = (
-				8332CE7719C96BFC00FD9E21 /* ReverseList.cpp */,
 				8332CE7A19C96CE700FD9E21 /* others.h */,
+				8332CE7719C96BFC00FD9E21 /* ReverseList.cpp */,
+				83255B6F19DBFB8900944B95 /* PerfectShuffle.cpp */,
 			);
 			path = Others;
 			sourceTree = "<group>";
@@ -255,6 +260,7 @@
 				83255B5D19DB9CB300944B95 /* SearchinRotatedSortedArrayII.cpp */,
 				83255B6019DBA16D00944B95 /* RemoveDuplicatesfromSortedArray.cpp */,
 				83255B6319DBA3CE00944B95 /* RemoveDuplicatesfromSortedArrayII.cpp */,
+				83DDED1E19DC34F100A25998 /* Searcha2DMatrix.cpp */,
 			);
 			path = Search;
 			sourceTree = "<group>";
@@ -499,6 +505,7 @@
 				8302A5FA19CE78450001EEF3 /* MaximumDepthofBinaryTree.cpp in Sources */,
 				8341910819D04DB000342007 /* BinaryTreeZigzagLevelOrderTraversal.cpp in Sources */,
 				83A94B5919B6FE5D007A8DDF /* ReverseWordsinaString.cpp in Sources */,
+				83255B7119DBFB8900944B95 /* PerfectShuffle.cpp in Sources */,
 				836AB5AC19D0599400395FDD /* UniqueBinarySearchTrees.cpp in Sources */,
 				83255B5F19DB9CB300944B95 /* SearchinRotatedSortedArrayII.cpp in Sources */,
 				83005A4A19CD179400F58600 /* BestTimetoBuyandSellStock.cpp in Sources */,
@@ -543,6 +550,7 @@
 				83255B6819DBA55200944B95 /* WordSearch.cpp in Sources */,
 				839386AB19CFADEC008A3101 /* ConvertSortedListtoBinarySearchTree.cpp in Sources */,
 				83C5FEC919CE797A00E1B2BC /* ConvertSortedArraytoBinarySearchTree.cpp in Sources */,
+				83DDED2019DC34F100A25998 /* Searcha2DMatrix.cpp in Sources */,
 				83AA567F19C6D979008F2641 /* SortList.cpp in Sources */,
 				832B636619CFF9620057672F /* ConstructBinaryTreefromInorderandPostorderTraversal.cpp in Sources */,
 				8332CE7919C96BFC00FD9E21 /* ReverseList.cpp in Sources */,

@@ -25,7 +25,8 @@ int main(void) {
 //testDeleteDuplicates();
 //    testIsScramble();
 //testCombine();
-testSortColors();
+//testSortColors();
+testPerfectShuffle();
     return 0;
 }
 
