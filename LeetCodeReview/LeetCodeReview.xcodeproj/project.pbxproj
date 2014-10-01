@@ -17,6 +17,7 @@
 		83255B5319DB886C00944B95 /* MaximalRectangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83255B5119DB886C00944B95 /* MaximalRectangle.cpp */; };
 		83255B5619DB8D3400944B95 /* RemoveDuplicatesfromSortedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83255B5419DB8D3400944B95 /* RemoveDuplicatesfromSortedList.cpp */; };
 		83255B5919DB8E8200944B95 /* RemoveDuplicatesfromSortedListII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83255B5719DB8E8200944B95 /* RemoveDuplicatesfromSortedListII.cpp */; };
+		83255B5C19DB982200944B95 /* SearchinRotatedSortedArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83255B5A19DB982200944B95 /* SearchinRotatedSortedArray.cpp */; };
 		83266DAF19D2E1B1006F2405 /* PermutationsII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83266DAD19D2E1B1006F2405 /* PermutationsII.cpp */; };
 		8328E44919D2DA14002CDDCF /* Subsets.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8328E44719D2DA14002CDDCF /* Subsets.cpp */; };
 		8329383219D2A38000911AF2 /* DecodeWays.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8329383019D2A38000911AF2 /* DecodeWays.cpp */; };
@@ -109,6 +110,7 @@
 		83255B5119DB886C00944B95 /* MaximalRectangle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MaximalRectangle.cpp; sourceTree = "<group>"; };
 		83255B5419DB8D3400944B95 /* RemoveDuplicatesfromSortedList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RemoveDuplicatesfromSortedList.cpp; sourceTree = "<group>"; };
 		83255B5719DB8E8200944B95 /* RemoveDuplicatesfromSortedListII.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RemoveDuplicatesfromSortedListII.cpp; sourceTree = "<group>"; };
+		83255B5A19DB982200944B95 /* SearchinRotatedSortedArray.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SearchinRotatedSortedArray.cpp; sourceTree = "<group>"; };
 		83266DAD19D2E1B1006F2405 /* PermutationsII.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PermutationsII.cpp; sourceTree = "<group>"; };
 		8328E44719D2DA14002CDDCF /* Subsets.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Subsets.cpp; sourceTree = "<group>"; };
 		8329383019D2A38000911AF2 /* DecodeWays.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DecodeWays.cpp; sourceTree = "<group>"; };
@@ -237,6 +239,7 @@
 			children = (
 				837E689F19CC03F5006C3A70 /* leetcode_search.h */,
 				837E689C19CC03E1006C3A70 /* LongestConsecutiveSequence.cpp */,
+				83255B5A19DB982200944B95 /* SearchinRotatedSortedArray.cpp */,
 			);
 			path = Search;
 			sourceTree = "<group>";
@@ -520,6 +523,7 @@
 				83AA567F19C6D979008F2641 /* SortList.cpp in Sources */,
 				832B636619CFF9620057672F /* ConstructBinaryTreefromInorderandPostorderTraversal.cpp in Sources */,
 				8332CE7919C96BFC00FD9E21 /* ReverseList.cpp in Sources */,
+				83255B5C19DB982200944B95 /* SearchinRotatedSortedArray.cpp in Sources */,
 				83A12B9719CFFF2B00849C7A /* ConstructBinaryTreefromPreorderandInorderTraversal.cpp in Sources */,
 				83E4435A19C7198000950113 /* BinaryTreeInorderTraversal.cpp in Sources */,
 				83B1607F19CC0F0E006A606D /* ValidPalindrome.cpp in Sources */,
