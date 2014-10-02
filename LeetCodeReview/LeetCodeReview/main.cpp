@@ -29,7 +29,8 @@ int main(void) {
 //testSortColors();
 //testPerfectShuffle();
 //    testMinWindow();
-testTwoSum();
+//testTwoSum();
+ testMinDistance();
     return 0;
 }
 
