@@ -26,5 +26,5 @@ void testMerge();
 void testMaxProduct();
 void testSortColors();
 void testSimplifyPath();
-
+void testPlusOne();
 #endif

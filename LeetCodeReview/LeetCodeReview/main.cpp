@@ -21,7 +21,8 @@
 using namespace std;
 
 int main(void) {
-    testSimplifyPath();
+//    testSimplifyPath();
+    testPlusOne();
     return 0;
 }
 
