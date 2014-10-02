@@ -22,7 +22,8 @@ using namespace std;
 
 int main(void) {
 //    testSimplifyPath();
-    testPlusOne();
+//    testPlusOne();
+    testSqrt();
     return 0;
 }
 

@@ -27,4 +27,5 @@ void testMaxProduct();
 void testSortColors();
 void testSimplifyPath();
 void testPlusOne();
+void testSqrt();
 #endif
