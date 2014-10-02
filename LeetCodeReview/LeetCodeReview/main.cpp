@@ -17,6 +17,7 @@
 #include "leetcode_tree.h"
 #include "leetcode_rectangle.h"
 #include "leetcode_permute.h"
+#include "leetcode_sum.h"
 using namespace std;
 
 int main(void) {
@@ -27,7 +28,8 @@ int main(void) {
 //testCombine();
 //testSortColors();
 //testPerfectShuffle();
-    testMinWindow();
+//    testMinWindow();
+testTwoSum();
     return 0;
 }
 

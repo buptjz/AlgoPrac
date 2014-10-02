@@ -18,5 +18,6 @@
 #include <map>
 #include <unordered_set>
 using namespace std;
+void testTwoSum();
 
 #endif
