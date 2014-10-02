@@ -17,7 +17,7 @@
 #include <map>
 #include <vector>
 #include <queue>
-
+#include <stack>
 #include "struct_head.h"
 using namespace std;
 
@@ -25,5 +25,6 @@ void testCandy();
 void testMerge();
 void testMaxProduct();
 void testSortColors();
+void testSimplifyPath();
 
 #endif

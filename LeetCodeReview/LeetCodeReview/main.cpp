@@ -21,16 +21,7 @@
 using namespace std;
 
 int main(void) {
-//    testMaxProduct();
-//    testMaximalRectangle();
-//testDeleteDuplicates();
-//    testIsScramble();
-//testCombine();
-//testSortColors();
-//testPerfectShuffle();
-//    testMinWindow();
-//testTwoSum();
- testMinDistance();
+    testSimplifyPath();
     return 0;
 }
 
