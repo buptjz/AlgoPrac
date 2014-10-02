@@ -1,9 +1,5 @@
 *.o
-
 *.dat
-
-*.o
-
 *.dep
 *.swp
 build
