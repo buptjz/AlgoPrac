@@ -45,6 +45,7 @@
 		835D667B19CBCB870021CB1F /* PalindromePartitioningII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 835D667919CBCB870021CB1F /* PalindromePartitioningII.cpp */; };
 		8360042219DCDDB400D513DE /* MinimumWindowSubstring.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8360042119DCDDB400D513DE /* MinimumWindowSubstring.cpp */; };
 		8360042419DCE50700D513DE /* SetMatrixZeroes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8360042319DCE50700D513DE /* SetMatrixZeroes.cpp */; };
+		8360042819DCEF0000D513DE /* 3Sum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8360042619DCEF0000D513DE /* 3Sum.cpp */; };
 		836AB5AC19D0599400395FDD /* UniqueBinarySearchTrees.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 836AB5AA19D0599400395FDD /* UniqueBinarySearchTrees.cpp */; };
 		8374628019D3E6BF00A71024 /* PartitionList .cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8374627E19D3E6BF00A71024 /* PartitionList .cpp */; };
 		837660F119CE72F700C93D6F /* BalancedBinaryTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 837660EF19CE72F700C93D6F /* BalancedBinaryTree.cpp */; };
@@ -152,6 +153,8 @@
 		835D667919CBCB870021CB1F /* PalindromePartitioningII.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PalindromePartitioningII.cpp; sourceTree = "<group>"; };
 		8360042119DCDDB400D513DE /* MinimumWindowSubstring.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MinimumWindowSubstring.cpp; sourceTree = "<group>"; };
 		8360042319DCE50700D513DE /* SetMatrixZeroes.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SetMatrixZeroes.cpp; sourceTree = "<group>"; };
+		8360042619DCEF0000D513DE /* 3Sum.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 3Sum.cpp; sourceTree = "<group>"; };
+		8360042919DCEF1100D513DE /* leetcode_sum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = leetcode_sum.h; sourceTree = "<group>"; };
 		836AB5AA19D0599400395FDD /* UniqueBinarySearchTrees.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UniqueBinarySearchTrees.cpp; sourceTree = "<group>"; };
 		836CBAEE19D188FD00BE05E9 /* leetcode_permute.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = leetcode_permute.h; sourceTree = "<group>"; };
 		8374627E19D3E6BF00A71024 /* PartitionList .cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "PartitionList .cpp"; sourceTree = "<group>"; };
@@ -255,6 +258,15 @@
 			path = DP;
 			sourceTree = "<group>";
 		};
+		8360042519DCEEF100D513DE /* Sum */ = {
+			isa = PBXGroup;
+			children = (
+				8360042919DCEF1100D513DE /* leetcode_sum.h */,
+				8360042619DCEF0000D513DE /* 3Sum.cpp */,
+			);
+			path = Sum;
+			sourceTree = "<group>";
+		};
 		837E689B19CC03D0006C3A70 /* Search */ = {
 			isa = PBXGroup;
 			children = (
@@ -326,6 +338,7 @@
 		83A94B4519B6FCFE007A8DDF /* LeetCodeReview */ = {
 			isa = PBXGroup;
 			children = (
+				8360042519DCEEF100D513DE /* Sum */,
 				833401F819D557A700BA7F92 /* Rectangle */,
 				83BE004A19D188AA00348B09 /* permutations */,
 				837E689B19CC03D0006C3A70 /* Search */,
@@ -570,6 +583,7 @@
 				83255B5319DB886C00944B95 /* MaximalRectangle.cpp in Sources */,
 				83DED55E19CE6EB4007505EA /* PathSumII.cpp in Sources */,
 				83255B5619DB8D3400944B95 /* RemoveDuplicatesfromSortedList.cpp in Sources */,
+				8360042819DCEF0000D513DE /* 3Sum.cpp in Sources */,
 				838F123919CD1D0F0013EA48 /* BestTimetoBuyandSellStockIII.cpp in Sources */,
 				8360042419DCE50700D513DE /* SetMatrixZeroes.cpp in Sources */,
 			);
