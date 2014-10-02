@@ -18,5 +18,6 @@
 #include <unordered_set>
 using namespace std;
 void testLongestConsecutive();
+void testMinWindow();
 
 #endif

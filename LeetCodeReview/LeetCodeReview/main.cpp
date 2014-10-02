@@ -26,7 +26,8 @@ int main(void) {
 //    testIsScramble();
 //testCombine();
 //testSortColors();
-testPerfectShuffle();
+//testPerfectShuffle();
+    testMinWindow();
     return 0;
 }
 

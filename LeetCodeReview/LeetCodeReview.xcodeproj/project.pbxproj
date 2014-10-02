@@ -43,6 +43,7 @@
 		835B0AC719C70D1D00ACC7B1 /* LRUCache.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 835B0AC519C70D1D00ACC7B1 /* LRUCache.cpp */; };
 		835D667719CBBF2D0021CB1F /* PalindromePartitioning.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 835D667519CBBF2D0021CB1F /* PalindromePartitioning.cpp */; };
 		835D667B19CBCB870021CB1F /* PalindromePartitioningII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 835D667919CBCB870021CB1F /* PalindromePartitioningII.cpp */; };
+		8360042219DCDDB400D513DE /* MinimumWindowSubstring.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8360042119DCDDB400D513DE /* MinimumWindowSubstring.cpp */; };
 		836AB5AC19D0599400395FDD /* UniqueBinarySearchTrees.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 836AB5AA19D0599400395FDD /* UniqueBinarySearchTrees.cpp */; };
 		8374628019D3E6BF00A71024 /* PartitionList .cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8374627E19D3E6BF00A71024 /* PartitionList .cpp */; };
 		837660F119CE72F700C93D6F /* BalancedBinaryTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 837660EF19CE72F700C93D6F /* BalancedBinaryTree.cpp */; };
@@ -148,6 +149,7 @@
 		835D667519CBBF2D0021CB1F /* PalindromePartitioning.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PalindromePartitioning.cpp; sourceTree = "<group>"; };
 		835D667819CBBF440021CB1F /* leetcode_dp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = leetcode_dp.h; sourceTree = "<group>"; };
 		835D667919CBCB870021CB1F /* PalindromePartitioningII.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PalindromePartitioningII.cpp; sourceTree = "<group>"; };
+		8360042119DCDDB400D513DE /* MinimumWindowSubstring.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MinimumWindowSubstring.cpp; sourceTree = "<group>"; };
 		836AB5AA19D0599400395FDD /* UniqueBinarySearchTrees.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UniqueBinarySearchTrees.cpp; sourceTree = "<group>"; };
 		836CBAEE19D188FD00BE05E9 /* leetcode_permute.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = leetcode_permute.h; sourceTree = "<group>"; };
 		8374627E19D3E6BF00A71024 /* PartitionList .cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "PartitionList .cpp"; sourceTree = "<group>"; };
@@ -261,6 +263,7 @@
 				83255B6019DBA16D00944B95 /* RemoveDuplicatesfromSortedArray.cpp */,
 				83255B6319DBA3CE00944B95 /* RemoveDuplicatesfromSortedArrayII.cpp */,
 				83DDED1E19DC34F100A25998 /* Searcha2DMatrix.cpp */,
+				8360042119DCDDB400D513DE /* MinimumWindowSubstring.cpp */,
 			);
 			path = Search;
 			sourceTree = "<group>";
@@ -545,6 +548,7 @@
 				839B022C19CAC28E00907750 /* SingleNumber.cpp in Sources */,
 				8374628019D3E6BF00A71024 /* PartitionList .cpp in Sources */,
 				8356639319D3C19A002D70A3 /* Permutations.cpp in Sources */,
+				8360042219DCDDB400D513DE /* MinimumWindowSubstring.cpp in Sources */,
 				839A68EB19D2C36900AF086E /* ScrambleString.cpp in Sources */,
 				833C100519D1735D00ECC254 /* ReverseLinkedListII.cpp in Sources */,
 				83255B6819DBA55200944B95 /* WordSearch.cpp in Sources */,
