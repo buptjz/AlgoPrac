@@ -39,6 +39,7 @@
 		834B2E5519CD199D006BF822 /* BestTimetoBuyandSellStockII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 834B2E5319CD199D006BF822 /* BestTimetoBuyandSellStockII.cpp */; };
 		834FED3219DD6E47005A0290 /* EditDistance.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 834FED3119DD6E47005A0290 /* EditDistance.cpp */; };
 		834FED3419DD75A6005A0290 /* SimplifyPath.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 834FED3319DD75A6005A0290 /* SimplifyPath.cpp */; };
+		834FED3619DD79B6005A0290 /* ClimbingStairs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 834FED3519DD79B6005A0290 /* ClimbingStairs.cpp */; };
 		8352FB5C19C9DB0500A02FDD /* MaxPointsonaLine2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8352FB5A19C9DB0500A02FDD /* MaxPointsonaLine2.cpp */; };
 		8356639319D3C19A002D70A3 /* Permutations.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8356639119D3C19A002D70A3 /* Permutations.cpp */; };
 		8358326319D020F000532013 /* ValidateBinarySearchTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8358326119D020F000532013 /* ValidateBinarySearchTree.cpp */; };
@@ -149,6 +150,7 @@
 		834B2E5319CD199D006BF822 /* BestTimetoBuyandSellStockII.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BestTimetoBuyandSellStockII.cpp; sourceTree = "<group>"; };
 		834FED3119DD6E47005A0290 /* EditDistance.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EditDistance.cpp; sourceTree = "<group>"; };
 		834FED3319DD75A6005A0290 /* SimplifyPath.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SimplifyPath.cpp; sourceTree = "<group>"; };
+		834FED3519DD79B6005A0290 /* ClimbingStairs.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ClimbingStairs.cpp; sourceTree = "<group>"; };
 		8352FB5A19C9DB0500A02FDD /* MaxPointsonaLine2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MaxPointsonaLine2.cpp; sourceTree = "<group>"; };
 		8356639119D3C19A002D70A3 /* Permutations.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Permutations.cpp; sourceTree = "<group>"; };
 		8358326119D020F000532013 /* ValidateBinarySearchTree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ValidateBinarySearchTree.cpp; sourceTree = "<group>"; };
@@ -261,6 +263,7 @@
 				835D667919CBCB870021CB1F /* PalindromePartitioningII.cpp */,
 				83F5D52819CDAF7D00417B51 /* DistinctSubsequences.cpp */,
 				834FED3119DD6E47005A0290 /* EditDistance.cpp */,
+				834FED3519DD79B6005A0290 /* ClimbingStairs.cpp */,
 			);
 			path = DP;
 			sourceTree = "<group>";
@@ -551,6 +554,7 @@
 				83AA567B19C6BDD3008F2641 /* StringtoInteger.cpp in Sources */,
 				83C67CBE19CA756F00CF1BBC /* WordBreak.cpp in Sources */,
 				835B0AC719C70D1D00ACC7B1 /* LRUCache.cpp in Sources */,
+				834FED3619DD79B6005A0290 /* ClimbingStairs.cpp in Sources */,
 				8328E44919D2DA14002CDDCF /* Subsets.cpp in Sources */,
 				835D667719CBBF2D0021CB1F /* PalindromePartitioning.cpp in Sources */,
 				839A68E819D2B79000AF086E /* MergeSortedArray.cpp in Sources */,
