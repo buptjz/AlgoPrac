@@ -13,6 +13,7 @@ bool isnum(char a){
     else return false;
 }
 
+
 bool isNumber(const char *s) {
     
     bool hasNum = false;
@@ -31,34 +32,37 @@ bool isNumber(const char *s) {
     while (*s != '\0') {
         if(*s == ' '){
             //结尾空格之前只能是空格或者数字
-            if (!isnum(*(s-1)) && *(s-1) != ' ') return false;
+            if (!isnum(*(s-1)) && *(s-1) != ' ' && *(s-1) != '.') return false;
             hasTailSpace = true;
         }else{
             if (hasTailSpace) return false;//结尾空格之后还有非空格，false
             if (*s == '+' || *s == '-') {
-                if (hasSign || hasNum || hasE || hasPoint) return false;
+                if (hasE){
+                    if(*(s-1) != 'e')
+                        return false;
+                }else if (hasSign || hasNum || hasPoint) return false;
+                
                 hasSign = true;
             }else if(isnum(*s)){
                 hasNum = true;
             }else if(*s == 'e'){
                 if (hasE) return false;
                 if (!hasNum) return false;
-                if (*(s-1) == '.') return false;
                 hasE = true;
             }else if(*s == '.'){
                 if (hasPoint) return false;
-                if (hasSign){
-                    if (*(s-1) == '+' || *(s-1) == '-')
-                    return false;//点之前不能是正负号
-                }
+                if(hasE) return false;
                 hasPoint = true;
+            }else{
+                return false;
+                
             }
         }
         s++;
     }
     
-    
     if (!hasNum) return false;
+    if (*(s-1) == 'e' || *(s-1) == '+' || *(s-1) == '-') return false;
     return true;
 }
 
