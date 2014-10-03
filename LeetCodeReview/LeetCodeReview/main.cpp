@@ -23,7 +23,11 @@ using namespace std;
 int main(void) {
 //    testSimplifyPath();
 //    testPlusOne();
-    testSqrt();
+//    testSqrt();
+    char s = '0';
+    bool a = isnumber(s);
+    cout<< a <<endl;
+    
     return 0;
 }
 
