@@ -12,6 +12,7 @@
 		8302A5FA19CE78450001EEF3 /* MaximumDepthofBinaryTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8302A5F819CE78450001EEF3 /* MaximumDepthofBinaryTree.cpp */; };
 		83078E9E19CDBEEE00156ED9 /* PathSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83078E9C19CDBEEE00156ED9 /* PathSum.cpp */; };
 		830D06CE19CDB463009EF07C /* FlattenBinaryTreetoLinkedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 830D06CC19CDB463009EF07C /* FlattenBinaryTreetoLinkedList.cpp */; };
+		830FC5DD19DFCE7B002CFA9F /* AddBinary.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 830FC5DB19DFCE7B002CFA9F /* AddBinary.cpp */; };
 		831E5E0719CBFDB600C60DAE /* SumRoottoLeafNumbers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 831E5E0519CBFDB600C60DAE /* SumRoottoLeafNumbers.cpp */; };
 		831FB3FE19D12178007D75D7 /* RestoreIPAddresses.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 831FB3FC19D12178007D75D7 /* RestoreIPAddresses.cpp */; };
 		83255B5319DB886C00944B95 /* MaximalRectangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83255B5119DB886C00944B95 /* MaximalRectangle.cpp */; };
@@ -123,6 +124,7 @@
 		8302A5F819CE78450001EEF3 /* MaximumDepthofBinaryTree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MaximumDepthofBinaryTree.cpp; sourceTree = "<group>"; };
 		83078E9C19CDBEEE00156ED9 /* PathSum.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PathSum.cpp; sourceTree = "<group>"; };
 		830D06CC19CDB463009EF07C /* FlattenBinaryTreetoLinkedList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FlattenBinaryTreetoLinkedList.cpp; sourceTree = "<group>"; };
+		830FC5DB19DFCE7B002CFA9F /* AddBinary.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AddBinary.cpp; sourceTree = "<group>"; };
 		831E5E0519CBFDB600C60DAE /* SumRoottoLeafNumbers.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SumRoottoLeafNumbers.cpp; sourceTree = "<group>"; };
 		831FB3FC19D12178007D75D7 /* RestoreIPAddresses.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RestoreIPAddresses.cpp; sourceTree = "<group>"; };
 		83255B5119DB886C00944B95 /* MaximalRectangle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MaximalRectangle.cpp; sourceTree = "<group>"; };
@@ -324,6 +326,7 @@
 				834FED3719DD8216005A0290 /* PlusOne.cpp */,
 				834FED3919DD83FC005A0290 /* Sqrt(x).cpp */,
 				83DAA93E19DED97D00735722 /* ValidNumber.cpp */,
+				830FC5DB19DFCE7B002CFA9F /* AddBinary.cpp */,
 			);
 			path = others;
 			sourceTree = "<group>";
@@ -561,6 +564,7 @@
 				83C67CC219CA7DFA00CF1BBC /* WordBreakII.cpp in Sources */,
 				8329383219D2A38000911AF2 /* DecodeWays.cpp in Sources */,
 				83D10EB519C6FAC90002BC35 /* InsertionSortList.cpp in Sources */,
+				830FC5DD19DFCE7B002CFA9F /* AddBinary.cpp in Sources */,
 				83AA567B19C6BDD3008F2641 /* StringtoInteger.cpp in Sources */,
 				83C67CBE19CA756F00CF1BBC /* WordBreak.cpp in Sources */,
 				835B0AC719C70D1D00ACC7B1 /* LRUCache.cpp in Sources */,

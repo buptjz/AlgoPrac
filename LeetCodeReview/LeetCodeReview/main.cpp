@@ -24,9 +24,7 @@ int main(void) {
 //    testSimplifyPath();
 //    testPlusOne();
 //    testSqrt();
-    char s = '0';
-    bool a = isnumber(s);
-    cout<< a <<endl;
+ testAddBinary();
     
     return 0;
 }

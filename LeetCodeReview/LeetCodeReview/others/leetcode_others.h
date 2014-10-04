@@ -28,4 +28,5 @@ void testSortColors();
 void testSimplifyPath();
 void testPlusOne();
 void testSqrt();
+void testAddBinary();
 #endif
