@@ -16,6 +16,7 @@
 		830FC5E019DFD194002CFA9F /* MergeTwoSortedLists.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 830FC5DE19DFD194002CFA9F /* MergeTwoSortedLists.cpp */; };
 		830FC5E319DFD352002CFA9F /* UniquePaths.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 830FC5E119DFD352002CFA9F /* UniquePaths.cpp */; };
 		830FC5E619DFD462002CFA9F /* UniquePathsII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 830FC5E419DFD462002CFA9F /* UniquePathsII.cpp */; };
+		830FC5E819DFD68D002CFA9F /* MinimumPathSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 830FC5E719DFD68D002CFA9F /* MinimumPathSum.cpp */; };
 		831E5E0719CBFDB600C60DAE /* SumRoottoLeafNumbers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 831E5E0519CBFDB600C60DAE /* SumRoottoLeafNumbers.cpp */; };
 		831FB3FE19D12178007D75D7 /* RestoreIPAddresses.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 831FB3FC19D12178007D75D7 /* RestoreIPAddresses.cpp */; };
 		83255B5319DB886C00944B95 /* MaximalRectangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83255B5119DB886C00944B95 /* MaximalRectangle.cpp */; };
@@ -131,6 +132,7 @@
 		830FC5DE19DFD194002CFA9F /* MergeTwoSortedLists.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MergeTwoSortedLists.cpp; sourceTree = "<group>"; };
 		830FC5E119DFD352002CFA9F /* UniquePaths.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UniquePaths.cpp; sourceTree = "<group>"; };
 		830FC5E419DFD462002CFA9F /* UniquePathsII.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UniquePathsII.cpp; sourceTree = "<group>"; };
+		830FC5E719DFD68D002CFA9F /* MinimumPathSum.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MinimumPathSum.cpp; sourceTree = "<group>"; };
 		831E5E0519CBFDB600C60DAE /* SumRoottoLeafNumbers.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SumRoottoLeafNumbers.cpp; sourceTree = "<group>"; };
 		831FB3FC19D12178007D75D7 /* RestoreIPAddresses.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RestoreIPAddresses.cpp; sourceTree = "<group>"; };
 		83255B5119DB886C00944B95 /* MaximalRectangle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MaximalRectangle.cpp; sourceTree = "<group>"; };
@@ -280,6 +282,7 @@
 				834FED3519DD79B6005A0290 /* ClimbingStairs.cpp */,
 				830FC5E119DFD352002CFA9F /* UniquePaths.cpp */,
 				830FC5E419DFD462002CFA9F /* UniquePathsII.cpp */,
+				830FC5E719DFD68D002CFA9F /* MinimumPathSum.cpp */,
 			);
 			path = DP;
 			sourceTree = "<group>";
@@ -563,6 +566,7 @@
 				8360042B19DCF18B00D513DE /* TwoSum.cpp in Sources */,
 				836AB5AC19D0599400395FDD /* UniqueBinarySearchTrees.cpp in Sources */,
 				83255B5F19DB9CB300944B95 /* SearchinRotatedSortedArrayII.cpp in Sources */,
+				830FC5E819DFD68D002CFA9F /* MinimumPathSum.cpp in Sources */,
 				834FED3419DD75A6005A0290 /* SimplifyPath.cpp in Sources */,
 				83005A4A19CD179400F58600 /* BestTimetoBuyandSellStock.cpp in Sources */,
 				83266DAF19D2E1B1006F2405 /* PermutationsII.cpp in Sources */,
