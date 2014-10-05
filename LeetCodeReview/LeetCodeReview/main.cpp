@@ -24,7 +24,8 @@ int main(void) {
 //    testSimplifyPath();
 //    testPlusOne();
 //    testSqrt();
- testAddBinary();
+
+ testGetPermutation();
     
     return 0;
 }

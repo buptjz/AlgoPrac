@@ -20,4 +20,5 @@
 using namespace std;
 
 void testCombine();
+void testGetPermutation();
 #endif
