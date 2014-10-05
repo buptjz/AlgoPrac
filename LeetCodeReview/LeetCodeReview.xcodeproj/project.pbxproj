@@ -105,6 +105,7 @@
 		83E57CF419CD885D0098A905 /* PopulatingNextRightPointersinEachNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83E57CF219CD885D0098A905 /* PopulatingNextRightPointersinEachNode.cpp */; };
 		83E6BC0419D00C6D00D5AB36 /* SymmetricTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83E6BC0219D00C6D00D5AB36 /* SymmetricTree.cpp */; };
 		83E6FC7E19E12D0800CE33C0 /* PermutationSequence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83E6FC7D19E12D0800CE33C0 /* PermutationSequence.cpp */; };
+		83E6FC8019E1436900CE33C0 /* SpiralMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83E6FC7F19E1436900CE33C0 /* SpiralMatrix.cpp */; };
 		83EF2E1219DFDD4700DF686A /* RotateList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83EF2E1119DFDD4700DF686A /* RotateList.cpp */; };
 		83F1D8C319CD211F0063359E /* Triangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83F1D8C119CD211F0063359E /* Triangle.cpp */; };
 		83F46DC019C7174000B5A7D5 /* BinaryTreePostorderTraversal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83F46DBE19C7174000B5A7D5 /* BinaryTreePostorderTraversal.cpp */; };
@@ -237,6 +238,7 @@
 		83E57CF219CD885D0098A905 /* PopulatingNextRightPointersinEachNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PopulatingNextRightPointersinEachNode.cpp; sourceTree = "<group>"; };
 		83E6BC0219D00C6D00D5AB36 /* SymmetricTree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SymmetricTree.cpp; sourceTree = "<group>"; };
 		83E6FC7D19E12D0800CE33C0 /* PermutationSequence.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PermutationSequence.cpp; sourceTree = "<group>"; };
+		83E6FC7F19E1436900CE33C0 /* SpiralMatrix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SpiralMatrix.cpp; sourceTree = "<group>"; };
 		83EF2E1119DFDD4700DF686A /* RotateList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RotateList.cpp; sourceTree = "<group>"; };
 		83F1D8C119CD211F0063359E /* Triangle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Triangle.cpp; sourceTree = "<group>"; };
 		83F46DBE19C7174000B5A7D5 /* BinaryTreePostorderTraversal.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BinaryTreePostorderTraversal.cpp; sourceTree = "<group>"; };
@@ -342,6 +344,7 @@
 				834FED3919DD83FC005A0290 /* Sqrt(x).cpp */,
 				83DAA93E19DED97D00735722 /* ValidNumber.cpp */,
 				830FC5DB19DFCE7B002CFA9F /* AddBinary.cpp */,
+				83E6FC7F19E1436900CE33C0 /* SpiralMatrix.cpp */,
 			);
 			path = others;
 			sourceTree = "<group>";
@@ -630,6 +633,7 @@
 				8332CE7919C96BFC00FD9E21 /* ReverseList.cpp in Sources */,
 				83255B5C19DB982200944B95 /* SearchinRotatedSortedArray.cpp in Sources */,
 				83A12B9719CFFF2B00849C7A /* ConstructBinaryTreefromPreorderandInorderTraversal.cpp in Sources */,
+				83E6FC8019E1436900CE33C0 /* SpiralMatrix.cpp in Sources */,
 				83E4435A19C7198000950113 /* BinaryTreeInorderTraversal.cpp in Sources */,
 				83255B6E19DBF65E00944B95 /* SortColors.cpp in Sources */,
 				83B1607F19CC0F0E006A606D /* ValidPalindrome.cpp in Sources */,
