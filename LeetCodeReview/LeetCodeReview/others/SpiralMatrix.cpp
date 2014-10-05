@@ -4,7 +4,7 @@
 //
 //  Created by WangJZ on 14-10-5.
 //  Copyright (c) 2014年 WangJZ. All rights reserved.
-//  ugly Spiral Matrix 
+//  ugly Spiral Matrix
 
 #include "leetcode_others.h"
 
