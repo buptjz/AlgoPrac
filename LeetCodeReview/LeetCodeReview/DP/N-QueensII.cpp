@@ -1,5 +1,5 @@
 //
-//  N-Queens.cpp
+//  N-QueensII.cpp
 //  LeetCodeReview
 //
 //  Created by WangJZ on 14-10-6.
@@ -8,6 +8,7 @@
 
 #include "leetcode_dp.h"
 
+int total = 0;
 vector<int> getCandidates(vector<string> &tmp,int index){
     vector<int> res;
     for (int i = 0 ; i < tmp.size(); i++) {
@@ -57,37 +58,28 @@ vector<int> getCandidates(vector<string> &tmp,int index){
 }
 
 void solveNQueensHelper(int index,int n,vector<string> &tmp){
+
     if (index == n) {
-        tota
+        total += 1;
         return;
     }
     
     vector<int> candis = getCandidates(tmp,index);
     for (int c : candis) {
         tmp[index][c] = 'Q';
-        solveNQueensHelper(result, index+1, n, tmp);
+        solveNQueensHelper(index+1, n, tmp);
         tmp[index][c] = '.';
     }
 }
 
 
-vector<vector<string> > solveNQueens(int n) {
-    vector<vector<string >> res;
-    if (n == 0) return res;
+int totalNQueens(int n) {
+    if (n == 0) return 0;
     vector<string> tmp;
     for (int i =0; i < n; i++) {
         string s(n,'.');
         tmp.push_back(s);
     }
-    solveNQueensHelper(res, 0, n, tmp);
-    return res;
+    solveNQueensHelper(0, n, tmp);
+    return total;
 }
-
-void testSolveNQueens(){
-    vector<vector<string >> a = solveNQueens(4);
-    cout<<"r"<<endl;
-}
-
-
-
-

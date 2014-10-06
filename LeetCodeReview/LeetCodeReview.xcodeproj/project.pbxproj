@@ -62,6 +62,7 @@
 		837660F119CE72F700C93D6F /* BalancedBinaryTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 837660EF19CE72F700C93D6F /* BalancedBinaryTree.cpp */; };
 		8378F28019CDA12700793EDF /* PopulatingNextRightPointersinEachNodeII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8378F27E19CDA12700793EDF /* PopulatingNextRightPointersinEachNodeII.cpp */; };
 		837E689E19CC03E1006C3A70 /* LongestConsecutiveSequence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 837E689C19CC03E1006C3A70 /* LongestConsecutiveSequence.cpp */; };
+		837FDD7F19E2DD5100BB055F /* N-QueensII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 837FDD7E19E2DD5100BB055F /* N-QueensII.cpp */; };
 		8386FE6119D2B56200FD9CE3 /* GrayCode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8386FE5F19D2B56200FD9CE3 /* GrayCode.cpp */; };
 		838723DC19B7F73500A3A2C2 /* KDTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 838723DA19B7F73500A3A2C2 /* KDTree.cpp */; };
 		838EEC0D19CD81D7001F6D6C /* Pascal'sTriangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 838EEC0B19CD81D7001F6D6C /* Pascal'sTriangle.cpp */; };
@@ -195,6 +196,7 @@
 		8378F27E19CDA12700793EDF /* PopulatingNextRightPointersinEachNodeII.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PopulatingNextRightPointersinEachNodeII.cpp; sourceTree = "<group>"; };
 		837E689C19CC03E1006C3A70 /* LongestConsecutiveSequence.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LongestConsecutiveSequence.cpp; sourceTree = "<group>"; };
 		837E689F19CC03F5006C3A70 /* leetcode_search.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = leetcode_search.h; sourceTree = "<group>"; };
+		837FDD7E19E2DD5100BB055F /* N-QueensII.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "N-QueensII.cpp"; sourceTree = "<group>"; };
 		8386FE5F19D2B56200FD9CE3 /* GrayCode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GrayCode.cpp; sourceTree = "<group>"; };
 		838723DA19B7F73500A3A2C2 /* KDTree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = KDTree.cpp; sourceTree = "<group>"; };
 		838723DB19B7F73500A3A2C2 /* KDTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KDTree.h; sourceTree = "<group>"; };
@@ -306,6 +308,7 @@
 				830FC5E719DFD68D002CFA9F /* MinimumPathSum.cpp */,
 				83EBB1D819E269EA008A6D08 /* JumpGame.cpp */,
 				8394D63419E29C460008F396 /* N-Queens.cpp */,
+				837FDD7E19E2DD5100BB055F /* N-QueensII.cpp */,
 			);
 			path = DP;
 			sourceTree = "<group>";
@@ -678,6 +681,7 @@
 				834FED3A19DD83FC005A0290 /* Sqrt(x).cpp in Sources */,
 				8394D63519E29C460008F396 /* N-Queens.cpp in Sources */,
 				83255B5319DB886C00944B95 /* MaximalRectangle.cpp in Sources */,
+				837FDD7F19E2DD5100BB055F /* N-QueensII.cpp in Sources */,
 				83DED55E19CE6EB4007505EA /* PathSumII.cpp in Sources */,
 				83255B5619DB8D3400944B95 /* RemoveDuplicatesfromSortedList.cpp in Sources */,
 				834FED3219DD6E47005A0290 /* EditDistance.cpp in Sources */,
