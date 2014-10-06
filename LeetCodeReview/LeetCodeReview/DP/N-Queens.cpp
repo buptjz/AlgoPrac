@@ -56,9 +56,9 @@ vector<int> getCandidates(vector<string> &tmp,int index){
     return res;
 }
 
-void solveNQueensHelper(int index,int n,vector<string> &tmp){
+void solveNQueensHelper(vector<vector<string>> &result,int index,int n,vector<string> &tmp){
     if (index == n) {
-        tota
+        result.push_back(tmp);
         return;
     }
     
