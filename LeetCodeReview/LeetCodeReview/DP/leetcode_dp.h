@@ -21,4 +21,5 @@ using namespace std;
 void testPartition();
 void testMinCut();
 void testMinDistance();
+void testSolveNQueens();
 #endif

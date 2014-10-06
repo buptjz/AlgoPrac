@@ -71,6 +71,7 @@
 		8391599819CC1C250002321A /* ReverseInteger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8391599619CC1C250002321A /* ReverseInteger.cpp */; };
 		8391599B19CC277A0002321A /* SameTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8391599919CC277A0002321A /* SameTree.cpp */; };
 		839386AB19CFADEC008A3101 /* ConvertSortedListtoBinarySearchTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 839386A919CFADEC008A3101 /* ConvertSortedListtoBinarySearchTree.cpp */; };
+		8394D63519E29C460008F396 /* N-Queens.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8394D63419E29C460008F396 /* N-Queens.cpp */; };
 		839A68E819D2B79000AF086E /* MergeSortedArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 839A68E619D2B79000AF086E /* MergeSortedArray.cpp */; };
 		839A68EB19D2C36900AF086E /* ScrambleString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 839A68E919D2C36900AF086E /* ScrambleString.cpp */; };
 		839B022119CAB79000907750 /* CopyListwithRandomPointer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 839B021F19CAB79000907750 /* CopyListwithRandomPointer.cpp */; };
@@ -204,6 +205,7 @@
 		8391599619CC1C250002321A /* ReverseInteger.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ReverseInteger.cpp; sourceTree = "<group>"; };
 		8391599919CC277A0002321A /* SameTree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SameTree.cpp; sourceTree = "<group>"; };
 		839386A919CFADEC008A3101 /* ConvertSortedListtoBinarySearchTree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ConvertSortedListtoBinarySearchTree.cpp; sourceTree = "<group>"; };
+		8394D63419E29C460008F396 /* N-Queens.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "N-Queens.cpp"; sourceTree = "<group>"; };
 		839A68E619D2B79000AF086E /* MergeSortedArray.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MergeSortedArray.cpp; sourceTree = "<group>"; };
 		839A68E919D2C36900AF086E /* ScrambleString.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ScrambleString.cpp; sourceTree = "<group>"; };
 		839B021F19CAB79000907750 /* CopyListwithRandomPointer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CopyListwithRandomPointer.cpp; sourceTree = "<group>"; };
@@ -303,6 +305,7 @@
 				830FC5E419DFD462002CFA9F /* UniquePathsII.cpp */,
 				830FC5E719DFD68D002CFA9F /* MinimumPathSum.cpp */,
 				83EBB1D819E269EA008A6D08 /* JumpGame.cpp */,
+				8394D63419E29C460008F396 /* N-Queens.cpp */,
 			);
 			path = DP;
 			sourceTree = "<group>";
@@ -673,6 +676,7 @@
 				83B1607F19CC0F0E006A606D /* ValidPalindrome.cpp in Sources */,
 				8332CE7519C95D0D00FD9E21 /* ReorderList.cpp in Sources */,
 				834FED3A19DD83FC005A0290 /* Sqrt(x).cpp in Sources */,
+				8394D63519E29C460008F396 /* N-Queens.cpp in Sources */,
 				83255B5319DB886C00944B95 /* MaximalRectangle.cpp in Sources */,
 				83DED55E19CE6EB4007505EA /* PathSumII.cpp in Sources */,
 				83255B5619DB8D3400944B95 /* RemoveDuplicatesfromSortedList.cpp in Sources */,

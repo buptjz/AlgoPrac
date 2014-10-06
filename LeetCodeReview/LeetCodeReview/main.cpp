@@ -21,11 +21,7 @@
 using namespace std;
 
 int main(void) {
-//    testSimplifyPath();
-//    testPlusOne();
-//    testSqrt();
-
- testGetPermutation();
+ testSolveNQueens();
     
     return 0;
 }
