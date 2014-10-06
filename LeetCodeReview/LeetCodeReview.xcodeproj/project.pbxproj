@@ -64,6 +64,7 @@
 		837E689E19CC03E1006C3A70 /* LongestConsecutiveSequence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 837E689C19CC03E1006C3A70 /* LongestConsecutiveSequence.cpp */; };
 		837FDD7F19E2DD5100BB055F /* N-QueensII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 837FDD7E19E2DD5100BB055F /* N-QueensII.cpp */; };
 		837FDD8119E2DFF700BB055F /* Pow(x, n).cpp in Sources */ = {isa = PBXBuildFile; fileRef = 837FDD8019E2DFF700BB055F /* Pow(x, n).cpp */; };
+		837FDD8319E2F22000BB055F /* JumpGameII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 837FDD8219E2F22000BB055F /* JumpGameII.cpp */; };
 		8386FE6119D2B56200FD9CE3 /* GrayCode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8386FE5F19D2B56200FD9CE3 /* GrayCode.cpp */; };
 		838723DC19B7F73500A3A2C2 /* KDTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 838723DA19B7F73500A3A2C2 /* KDTree.cpp */; };
 		838EEC0D19CD81D7001F6D6C /* Pascal'sTriangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 838EEC0B19CD81D7001F6D6C /* Pascal'sTriangle.cpp */; };
@@ -199,6 +200,7 @@
 		837E689F19CC03F5006C3A70 /* leetcode_search.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = leetcode_search.h; sourceTree = "<group>"; };
 		837FDD7E19E2DD5100BB055F /* N-QueensII.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "N-QueensII.cpp"; sourceTree = "<group>"; };
 		837FDD8019E2DFF700BB055F /* Pow(x, n).cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Pow(x, n).cpp"; sourceTree = "<group>"; };
+		837FDD8219E2F22000BB055F /* JumpGameII.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JumpGameII.cpp; sourceTree = "<group>"; };
 		8386FE5F19D2B56200FD9CE3 /* GrayCode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GrayCode.cpp; sourceTree = "<group>"; };
 		838723DA19B7F73500A3A2C2 /* KDTree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = KDTree.cpp; sourceTree = "<group>"; };
 		838723DB19B7F73500A3A2C2 /* KDTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KDTree.h; sourceTree = "<group>"; };
@@ -370,6 +372,7 @@
 				83E6FC8119E14C3300CE33C0 /* SpiralMatrixII.cpp */,
 				83EBB1DA19E26BF8008A6D08 /* MaximumSubarray.cpp */,
 				837FDD8019E2DFF700BB055F /* Pow(x, n).cpp */,
+				837FDD8219E2F22000BB055F /* JumpGameII.cpp */,
 			);
 			path = others;
 			sourceTree = "<group>";
@@ -684,6 +687,7 @@
 				8332CE7519C95D0D00FD9E21 /* ReorderList.cpp in Sources */,
 				834FED3A19DD83FC005A0290 /* Sqrt(x).cpp in Sources */,
 				8394D63519E29C460008F396 /* N-Queens.cpp in Sources */,
+				837FDD8319E2F22000BB055F /* JumpGameII.cpp in Sources */,
 				83255B5319DB886C00944B95 /* MaximalRectangle.cpp in Sources */,
 				837FDD7F19E2DD5100BB055F /* N-QueensII.cpp in Sources */,
 				83DED55E19CE6EB4007505EA /* PathSumII.cpp in Sources */,

@@ -3,3 +3,5 @@
 *.dep
 *.swp
 build
+
+*.xcuserstate
