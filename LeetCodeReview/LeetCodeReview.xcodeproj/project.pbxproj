@@ -107,6 +107,8 @@
 		83E6FC7E19E12D0800CE33C0 /* PermutationSequence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83E6FC7D19E12D0800CE33C0 /* PermutationSequence.cpp */; };
 		83E6FC8019E1436900CE33C0 /* SpiralMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83E6FC7F19E1436900CE33C0 /* SpiralMatrix.cpp */; };
 		83E6FC8219E14C3300CE33C0 /* SpiralMatrixII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83E6FC8119E14C3300CE33C0 /* SpiralMatrixII.cpp */; };
+		83EBB1D119E25BE4008A6D08 /* LengthofLastWord.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83EBB1CF19E25BE4008A6D08 /* LengthofLastWord.cpp */; };
+		83EBB1D419E25E10008A6D08 /* MergeIntervals.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83EBB1D319E25E10008A6D08 /* MergeIntervals.cpp */; };
 		83EF2E1219DFDD4700DF686A /* RotateList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83EF2E1119DFDD4700DF686A /* RotateList.cpp */; };
 		83F1D8C319CD211F0063359E /* Triangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83F1D8C119CD211F0063359E /* Triangle.cpp */; };
 		83F46DC019C7174000B5A7D5 /* BinaryTreePostorderTraversal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83F46DBE19C7174000B5A7D5 /* BinaryTreePostorderTraversal.cpp */; };
@@ -241,6 +243,9 @@
 		83E6FC7D19E12D0800CE33C0 /* PermutationSequence.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PermutationSequence.cpp; sourceTree = "<group>"; };
 		83E6FC7F19E1436900CE33C0 /* SpiralMatrix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SpiralMatrix.cpp; sourceTree = "<group>"; };
 		83E6FC8119E14C3300CE33C0 /* SpiralMatrixII.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SpiralMatrixII.cpp; sourceTree = "<group>"; };
+		83EBB1CF19E25BE4008A6D08 /* LengthofLastWord.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LengthofLastWord.cpp; sourceTree = "<group>"; };
+		83EBB1D319E25E10008A6D08 /* MergeIntervals.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MergeIntervals.cpp; sourceTree = "<group>"; };
+		83EBB1D519E25E24008A6D08 /* leetcode_interval.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = leetcode_interval.h; sourceTree = "<group>"; };
 		83EF2E1119DFDD4700DF686A /* RotateList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RotateList.cpp; sourceTree = "<group>"; };
 		83F1D8C119CD211F0063359E /* Triangle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Triangle.cpp; sourceTree = "<group>"; };
 		83F46DBE19C7174000B5A7D5 /* BinaryTreePostorderTraversal.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BinaryTreePostorderTraversal.cpp; sourceTree = "<group>"; };
@@ -383,6 +388,7 @@
 		83A94B4519B6FCFE007A8DDF /* LeetCodeReview */ = {
 			isa = PBXGroup;
 			children = (
+				83EBB1D219E25E06008A6D08 /* interval */,
 				8360042519DCEEF100D513DE /* Sum */,
 				833401F819D557A700BA7F92 /* Rectangle */,
 				83BE004A19D188AA00348B09 /* permutations */,
@@ -409,6 +415,7 @@
 				83A94B5719B6FE5D007A8DDF /* ReverseWordsinaString.cpp */,
 				83AA567919C6BDD3008F2641 /* StringtoInteger.cpp */,
 				83B1607D19CC0F0E006A606D /* ValidPalindrome.cpp */,
+				83EBB1CF19E25BE4008A6D08 /* LengthofLastWord.cpp */,
 			);
 			path = string;
 			sourceTree = "<group>";
@@ -462,6 +469,15 @@
 				83255B6619DBA55200944B95 /* WordSearch.cpp */,
 			);
 			path = backtrack;
+			sourceTree = "<group>";
+		};
+		83EBB1D219E25E06008A6D08 /* interval */ = {
+			isa = PBXGroup;
+			children = (
+				83EBB1D519E25E24008A6D08 /* leetcode_interval.h */,
+				83EBB1D319E25E10008A6D08 /* MergeIntervals.cpp */,
+			);
+			path = interval;
 			sourceTree = "<group>";
 		};
 		83F46DBD19C7172B00B5A7D5 /* tree */ = {
@@ -550,7 +566,9 @@
 				83255B6519DBA3CE00944B95 /* RemoveDuplicatesfromSortedArrayII.cpp in Sources */,
 				835D667B19CBCB870021CB1F /* PalindromePartitioningII.cpp in Sources */,
 				83AA567819C6B495008F2641 /* EvaluateReversePolishNotation.cpp in Sources */,
+				83EBB1D419E25E10008A6D08 /* MergeIntervals.cpp in Sources */,
 				83005A4719CC81E100F58600 /* BinaryTreeMaximumPathSum.cpp in Sources */,
+				83EBB1D119E25BE4008A6D08 /* LengthofLastWord.cpp in Sources */,
 				83E53E5F19D116B0000B2E61 /* InterleavingString.cpp in Sources */,
 				839B022F19CAC98F00907750 /* Candy.cpp in Sources */,
 				8391599819CC1C250002321A /* ReverseInteger.cpp in Sources */,
