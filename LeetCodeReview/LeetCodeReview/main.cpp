@@ -21,7 +21,8 @@
 using namespace std;
 
 int main(void) {
- testSolveNQueens();
+// testSolveNQueens();
+    testMultiply();
     
     return 0;
 }

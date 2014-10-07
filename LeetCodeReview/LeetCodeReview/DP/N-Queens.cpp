@@ -8,7 +8,7 @@
 
 #include "leetcode_dp.h"
 
-vector<int> getCandidates(vector<string> &tmp,int index){
+static vector<int> getCandidates(vector<string> &tmp,int index){
     vector<int> res;
     for (int i = 0 ; i < tmp.size(); i++) {
         //向找上
