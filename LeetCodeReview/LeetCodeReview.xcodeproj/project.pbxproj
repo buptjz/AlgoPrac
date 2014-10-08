@@ -52,6 +52,8 @@
 		834FED3A19DD83FC005A0290 /* Sqrt(x).cpp in Sources */ = {isa = PBXBuildFile; fileRef = 834FED3919DD83FC005A0290 /* Sqrt(x).cpp */; };
 		8352FB5C19C9DB0500A02FDD /* MaxPointsonaLine2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8352FB5A19C9DB0500A02FDD /* MaxPointsonaLine2.cpp */; };
 		8356639319D3C19A002D70A3 /* Permutations.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8356639119D3C19A002D70A3 /* Permutations.cpp */; };
+		835718A519E4CA1C00EEAFA2 /* WordLadder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 835718A419E4CA1C00EEAFA2 /* WordLadder.cpp */; };
+		835718A719E4D0FC00EEAFA2 /* WordLadder2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 835718A619E4D0FC00EEAFA2 /* WordLadder2.cpp */; };
 		8358326319D020F000532013 /* ValidateBinarySearchTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8358326119D020F000532013 /* ValidateBinarySearchTree.cpp */; };
 		835B0AC719C70D1D00ACC7B1 /* LRUCache.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 835B0AC519C70D1D00ACC7B1 /* LRUCache.cpp */; };
 		835D667719CBBF2D0021CB1F /* PalindromePartitioning.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 835D667519CBBF2D0021CB1F /* PalindromePartitioning.cpp */; };
@@ -187,6 +189,8 @@
 		834FED3919DD83FC005A0290 /* Sqrt(x).cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Sqrt(x).cpp"; sourceTree = "<group>"; };
 		8352FB5A19C9DB0500A02FDD /* MaxPointsonaLine2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MaxPointsonaLine2.cpp; sourceTree = "<group>"; };
 		8356639119D3C19A002D70A3 /* Permutations.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Permutations.cpp; sourceTree = "<group>"; };
+		835718A419E4CA1C00EEAFA2 /* WordLadder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WordLadder.cpp; sourceTree = "<group>"; };
+		835718A619E4D0FC00EEAFA2 /* WordLadder2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WordLadder2.cpp; sourceTree = "<group>"; };
 		8358326119D020F000532013 /* ValidateBinarySearchTree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ValidateBinarySearchTree.cpp; sourceTree = "<group>"; };
 		835B0AC519C70D1D00ACC7B1 /* LRUCache.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LRUCache.cpp; sourceTree = "<group>"; };
 		835D667519CBBF2D0021CB1F /* PalindromePartitioning.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PalindromePartitioning.cpp; sourceTree = "<group>"; };
@@ -496,6 +500,8 @@
 				831FB3FC19D12178007D75D7 /* RestoreIPAddresses.cpp */,
 				8329383019D2A38000911AF2 /* DecodeWays.cpp */,
 				83255B6619DBA55200944B95 /* WordSearch.cpp */,
+				835718A419E4CA1C00EEAFA2 /* WordLadder.cpp */,
+				835718A619E4D0FC00EEAFA2 /* WordLadder2.cpp */,
 			);
 			path = backtrack;
 			sourceTree = "<group>";
@@ -616,6 +622,7 @@
 				83E6FC7E19E12D0800CE33C0 /* PermutationSequence.cpp in Sources */,
 				83BE004D19D188DE00348B09 /* SubsetsII.cpp in Sources */,
 				83F1D8C319CD211F0063359E /* Triangle.cpp in Sources */,
+				835718A519E4CA1C00EEAFA2 /* WordLadder.cpp in Sources */,
 				83C698E319D10F3F00720C22 /* RecoverBinarySearchTree.cpp in Sources */,
 				8358326319D020F000532013 /* ValidateBinarySearchTree.cpp in Sources */,
 				830D06CE19CDB463009EF07C /* FlattenBinaryTreetoLinkedList.cpp in Sources */,
@@ -651,6 +658,7 @@
 				835B0AC719C70D1D00ACC7B1 /* LRUCache.cpp in Sources */,
 				834FED3619DD79B6005A0290 /* ClimbingStairs.cpp in Sources */,
 				8328E44919D2DA14002CDDCF /* Subsets.cpp in Sources */,
+				835718A719E4D0FC00EEAFA2 /* WordLadder2.cpp in Sources */,
 				835D667719CBBF2D0021CB1F /* PalindromePartitioning.cpp in Sources */,
 				839A68E819D2B79000AF086E /* MergeSortedArray.cpp in Sources */,
 				838EEC1019CD83AC001F6D6C /* Pascal'sTriangleII.cpp in Sources */,
