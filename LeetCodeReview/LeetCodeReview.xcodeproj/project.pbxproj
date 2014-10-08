@@ -89,6 +89,7 @@
 		839B023319CB0C5B00907750 /* GasStation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 839B023119CB0C5B00907750 /* GasStation.cpp */; };
 		839B023619CB1B1500907750 /* CloneGraph.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 839B023419CB1B1500907750 /* CloneGraph.cpp */; };
 		839CDB3619E50DD300DEBF72 /* WordLadderII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 839CDB3519E50DD300DEBF72 /* WordLadderII.cpp */; };
+		839CDB3919E529CD00DEBF72 /* TrappingRainWater.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 839CDB3819E529CD00DEBF72 /* TrappingRainWater.cpp */; };
 		83A12B9719CFFF2B00849C7A /* ConstructBinaryTreefromPreorderandInorderTraversal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83A12B9519CFFF2B00849C7A /* ConstructBinaryTreefromPreorderandInorderTraversal.cpp */; };
 		83A94B4919B6FCFE007A8DDF /* LeetCodeReview.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 83A94B4819B6FCFE007A8DDF /* LeetCodeReview.1 */; };
 		83A94B5119B6FD55007A8DDF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83A94B5019B6FD55007A8DDF /* main.cpp */; };
@@ -234,6 +235,8 @@
 		839B023119CB0C5B00907750 /* GasStation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GasStation.cpp; sourceTree = "<group>"; };
 		839B023419CB1B1500907750 /* CloneGraph.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CloneGraph.cpp; sourceTree = "<group>"; };
 		839CDB3519E50DD300DEBF72 /* WordLadderII.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WordLadderII.cpp; sourceTree = "<group>"; };
+		839CDB3819E529CD00DEBF72 /* TrappingRainWater.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TrappingRainWater.cpp; sourceTree = "<group>"; };
+		839CDB3A19E529EE00DEBF72 /* leetcode_divide_conquer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = leetcode_divide_conquer.h; sourceTree = "<group>"; };
 		83A12B9519CFFF2B00849C7A /* ConstructBinaryTreefromPreorderandInorderTraversal.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ConstructBinaryTreefromPreorderandInorderTraversal.cpp; sourceTree = "<group>"; };
 		83A94B4319B6FCFE007A8DDF /* LeetCodeReview */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCodeReview; sourceTree = BUILT_PRODUCTS_DIR; };
 		83A94B4819B6FCFE007A8DDF /* LeetCodeReview.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = LeetCodeReview.1; sourceTree = "<group>"; };
@@ -402,6 +405,15 @@
 			path = bitManipulate;
 			sourceTree = "<group>";
 		};
+		839CDB3719E529C000DEBF72 /* Divide&Conquer */ = {
+			isa = PBXGroup;
+			children = (
+				839CDB3A19E529EE00DEBF72 /* leetcode_divide_conquer.h */,
+				839CDB3819E529CD00DEBF72 /* TrappingRainWater.cpp */,
+			);
+			path = "Divide&Conquer";
+			sourceTree = "<group>";
+		};
 		83A94B3A19B6FCFE007A8DDF = {
 			isa = PBXGroup;
 			children = (
@@ -422,6 +434,7 @@
 		83A94B4519B6FCFE007A8DDF /* LeetCodeReview */ = {
 			isa = PBXGroup;
 			children = (
+				839CDB3719E529C000DEBF72 /* Divide&Conquer */,
 				83EBB1D219E25E06008A6D08 /* interval */,
 				8360042519DCEEF100D513DE /* Sum */,
 				833401F819D557A700BA7F92 /* Rectangle */,
@@ -650,6 +663,7 @@
 				8352FB5C19C9DB0500A02FDD /* MaxPointsonaLine2.cpp in Sources */,
 				83F46DC019C7174000B5A7D5 /* BinaryTreePostorderTraversal.cpp in Sources */,
 				83255B6219DBA16D00944B95 /* RemoveDuplicatesfromSortedArray.cpp in Sources */,
+				839CDB3919E529CD00DEBF72 /* TrappingRainWater.cpp in Sources */,
 				838EEC0D19CD81D7001F6D6C /* Pascal'sTriangle.cpp in Sources */,
 				830FC5E319DFD352002CFA9F /* UniquePaths.cpp in Sources */,
 				83C67CC219CA7DFA00CF1BBC /* WordBreakII.cpp in Sources */,
