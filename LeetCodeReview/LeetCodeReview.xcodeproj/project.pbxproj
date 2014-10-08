@@ -88,6 +88,7 @@
 		839B022F19CAC98F00907750 /* Candy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 839B022D19CAC98F00907750 /* Candy.cpp */; };
 		839B023319CB0C5B00907750 /* GasStation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 839B023119CB0C5B00907750 /* GasStation.cpp */; };
 		839B023619CB1B1500907750 /* CloneGraph.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 839B023419CB1B1500907750 /* CloneGraph.cpp */; };
+		839CDB3619E50DD300DEBF72 /* WordLadderII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 839CDB3519E50DD300DEBF72 /* WordLadderII.cpp */; };
 		83A12B9719CFFF2B00849C7A /* ConstructBinaryTreefromPreorderandInorderTraversal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83A12B9519CFFF2B00849C7A /* ConstructBinaryTreefromPreorderandInorderTraversal.cpp */; };
 		83A94B4919B6FCFE007A8DDF /* LeetCodeReview.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 83A94B4819B6FCFE007A8DDF /* LeetCodeReview.1 */; };
 		83A94B5119B6FD55007A8DDF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83A94B5019B6FD55007A8DDF /* main.cpp */; };
@@ -232,6 +233,7 @@
 		839B023019CAD1B200907750 /* leetcode_others.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = leetcode_others.h; sourceTree = "<group>"; };
 		839B023119CB0C5B00907750 /* GasStation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GasStation.cpp; sourceTree = "<group>"; };
 		839B023419CB1B1500907750 /* CloneGraph.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CloneGraph.cpp; sourceTree = "<group>"; };
+		839CDB3519E50DD300DEBF72 /* WordLadderII.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WordLadderII.cpp; sourceTree = "<group>"; };
 		83A12B9519CFFF2B00849C7A /* ConstructBinaryTreefromPreorderandInorderTraversal.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ConstructBinaryTreefromPreorderandInorderTraversal.cpp; sourceTree = "<group>"; };
 		83A94B4319B6FCFE007A8DDF /* LeetCodeReview */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCodeReview; sourceTree = BUILT_PRODUCTS_DIR; };
 		83A94B4819B6FCFE007A8DDF /* LeetCodeReview.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = LeetCodeReview.1; sourceTree = "<group>"; };
@@ -502,6 +504,7 @@
 				83255B6619DBA55200944B95 /* WordSearch.cpp */,
 				835718A419E4CA1C00EEAFA2 /* WordLadder.cpp */,
 				835718A619E4D0FC00EEAFA2 /* WordLadder2.cpp */,
+				839CDB3519E50DD300DEBF72 /* WordLadderII.cpp */,
 			);
 			path = backtrack;
 			sourceTree = "<group>";
@@ -622,6 +625,7 @@
 				83E6FC7E19E12D0800CE33C0 /* PermutationSequence.cpp in Sources */,
 				83BE004D19D188DE00348B09 /* SubsetsII.cpp in Sources */,
 				83F1D8C319CD211F0063359E /* Triangle.cpp in Sources */,
+				839CDB3619E50DD300DEBF72 /* WordLadderII.cpp in Sources */,
 				835718A519E4CA1C00EEAFA2 /* WordLadder.cpp in Sources */,
 				83C698E319D10F3F00720C22 /* RecoverBinarySearchTree.cpp in Sources */,
 				8358326319D020F000532013 /* ValidateBinarySearchTree.cpp in Sources */,
