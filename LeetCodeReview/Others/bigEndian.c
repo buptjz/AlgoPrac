@@ -16,8 +16,9 @@ union node
 
 int main()
 {
+    //这是在64位机器上
     union node t;
-    t.a = 0x0001;
+    t.a = 0x12345678;
     printf("%d\n",t.b[0]);
     printf("%d\n",t.b[1]);
     printf("%d\n",t.b[2]);
