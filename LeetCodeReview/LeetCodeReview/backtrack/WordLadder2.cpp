@@ -8,7 +8,7 @@
 
 #include "leetcode_backtrack.h"
 
-vector<string> getCandidates(string s, unordered_set<string> &dict){
+static vector<string> getCandidates(string s, unordered_set<string> &dict){
     vector<string> ret;
     for (int i = 0; i < s.length(); i++) {
         char tmp = s[i];
@@ -25,7 +25,7 @@ vector<string> getCandidates(string s, unordered_set<string> &dict){
     return ret;
 }
 
-int ladderLength(string start, string end, unordered_set<string> &dict) {
+static int ladderLength(string start, string end, unordered_set<string> &dict) {
     dict.insert(end);
     vector<string> currentLevel,lastLevel;
     currentLevel.push_back(start);

@@ -9,9 +9,9 @@
 #include "leetcode_backtrack.h"
 
 //这个方法超时了
-int ret_len = INT_MAX;
+static int ret_len = INT_MAX;
 
-bool isNext(string a,string b){
+static bool isNext(string a,string b){
     char dic[128] = {0};
     for (int i = 0; i < a.size(); i++) {
         dic[a[i]] += 1;
@@ -28,7 +28,7 @@ bool isNext(string a,string b){
     else return false;
 }
 
-void helper(int len,string last,string end, unordered_set<string> &dict){
+static void helper(int len,string last,string end, unordered_set<string> &dict){
     if (len != 0 && isNext(last, end)) {
         ret_len = min(len,ret_len);
         return;
