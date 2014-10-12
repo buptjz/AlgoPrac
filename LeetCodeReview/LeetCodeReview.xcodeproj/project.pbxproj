@@ -99,6 +99,7 @@
 		83AA567819C6B495008F2641 /* EvaluateReversePolishNotation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83AA567719C6B495008F2641 /* EvaluateReversePolishNotation.cpp */; };
 		83AA567B19C6BDD3008F2641 /* StringtoInteger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83AA567919C6BDD3008F2641 /* StringtoInteger.cpp */; };
 		83AA567F19C6D979008F2641 /* SortList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83AA567D19C6D979008F2641 /* SortList.cpp */; };
+		83AECAE419EA321300F01E30 /* bigEndian.c in Sources */ = {isa = PBXBuildFile; fileRef = 83AECAE319EA321300F01E30 /* bigEndian.c */; };
 		83B1607F19CC0F0E006A606D /* ValidPalindrome.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83B1607D19CC0F0E006A606D /* ValidPalindrome.cpp */; };
 		83BD115919CFCE0C0085513D /* BinaryTreeLevelOrderTraversalII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83BD115719CFCE0C0085513D /* BinaryTreeLevelOrderTraversalII.cpp */; };
 		83BE004D19D188DE00348B09 /* SubsetsII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83BE004B19D188DE00348B09 /* SubsetsII.cpp */; };
@@ -251,6 +252,7 @@
 		83AA567919C6BDD3008F2641 /* StringtoInteger.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = StringtoInteger.cpp; sourceTree = "<group>"; };
 		83AA567D19C6D979008F2641 /* SortList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SortList.cpp; sourceTree = "<group>"; };
 		83AA568019C6D98F008F2641 /* leetcode_list.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = leetcode_list.h; sourceTree = "<group>"; };
+		83AECAE319EA321300F01E30 /* bigEndian.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bigEndian.c; sourceTree = "<group>"; };
 		83B1607D19CC0F0E006A606D /* ValidPalindrome.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ValidPalindrome.cpp; sourceTree = "<group>"; };
 		83BD115719CFCE0C0085513D /* BinaryTreeLevelOrderTraversalII.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BinaryTreeLevelOrderTraversalII.cpp; sourceTree = "<group>"; };
 		83BE004B19D188DE00348B09 /* SubsetsII.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SubsetsII.cpp; sourceTree = "<group>"; };
@@ -304,6 +306,7 @@
 				8332CE7719C96BFC00FD9E21 /* ReverseList.cpp */,
 				83255B6F19DBFB8900944B95 /* PerfectShuffle.cpp */,
 				8303213B19E9926F00D5396B /* multiThread.c */,
+				83AECAE319EA321300F01E30 /* bigEndian.c */,
 			);
 			path = Others;
 			sourceTree = "<group>";
@@ -668,6 +671,7 @@
 				83266DAF19D2E1B1006F2405 /* PermutationsII.cpp in Sources */,
 				839B023319CB0C5B00907750 /* GasStation.cpp in Sources */,
 				8352FB5C19C9DB0500A02FDD /* MaxPointsonaLine2.cpp in Sources */,
+				83AECAE419EA321300F01E30 /* bigEndian.c in Sources */,
 				83F46DC019C7174000B5A7D5 /* BinaryTreePostorderTraversal.cpp in Sources */,
 				83255B6219DBA16D00944B95 /* RemoveDuplicatesfromSortedArray.cpp in Sources */,
 				839CDB3919E529CD00DEBF72 /* TrappingRainWater.cpp in Sources */,

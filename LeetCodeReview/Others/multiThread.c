@@ -25,24 +25,24 @@ void method2() {
     z = 1;
 }
 
-int main()
-{
-    
-    
-    for (int i = 0; i < 1000000; i++) {
-        x = 0;
-        y = -2;
-        z = -2;
-        int ret_thrd1, ret_thrd2;
-        pthread_t thread1, thread2;
-        ret_thrd1 = pthread_create(&thread1, NULL, (void *)&method1, NULL);
-        ret_thrd2 = pthread_create(&thread2, NULL, (void *)&method2, NULL);
-        pthread_join(thread1, NULL);
-        pthread_join(thread2, NULL);
-        if (x != 4 && x != -4 && x!= 2 && x!= -1 && x!= 1)
-            printf("%d\n",x);
-
-    }
-    
-}
+//int main()
+//{
+//    
+//    
+//    for (int i = 0; i < 1000000; i++) {
+//        x = 0;
+//        y = -2;
+//        z = -2;
+//        int ret_thrd1, ret_thrd2;
+//        pthread_t thread1, thread2;
+//        ret_thrd1 = pthread_create(&thread1, NULL, (void *)&method1, NULL);
+//        ret_thrd2 = pthread_create(&thread2, NULL, (void *)&method2, NULL);
+//        pthread_join(thread1, NULL);
+//        pthread_join(thread2, NULL);
+//        if (x != 4 && x != -4 && x!= 2 && x!= -1 && x!= 1)
+//            printf("%d\n",x);
+//
+//    }
+//    
+//}
 
