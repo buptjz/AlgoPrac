@@ -20,7 +20,7 @@
 #include <stack>
 #include "struct_head.h"
 using namespace std;
-
+void testDivide();
 void testCandy();
 void testMerge();
 void testMaxProduct();

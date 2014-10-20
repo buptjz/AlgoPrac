@@ -110,6 +110,7 @@
 		83D10EB519C6FAC90002BC35 /* InsertionSortList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83D10EB319C6FAC90002BC35 /* InsertionSortList.cpp */; };
 		83D864DD19D30CF10046BC09 /* MaximumProductSubarray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83D864DB19D30CF10046BC09 /* MaximumProductSubarray.cpp */; };
 		83DAA94019DED97D00735722 /* ValidNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83DAA93E19DED97D00735722 /* ValidNumber.cpp */; };
+		83DD8EE319F4FDB900314E34 /* DivideTwoIntegers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83DD8EE219F4FDB900314E34 /* DivideTwoIntegers.cpp */; };
 		83DDED2019DC34F100A25998 /* Searcha2DMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83DDED1E19DC34F100A25998 /* Searcha2DMatrix.cpp */; };
 		83DED55E19CE6EB4007505EA /* PathSumII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83DED55C19CE6EB4007505EA /* PathSumII.cpp */; };
 		83E151E819CE70E400870F56 /* MinimumDepthofBinaryTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83E151E619CE70E400870F56 /* MinimumDepthofBinaryTree.cpp */; };
@@ -264,6 +265,7 @@
 		83D10EB319C6FAC90002BC35 /* InsertionSortList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = InsertionSortList.cpp; sourceTree = "<group>"; };
 		83D864DB19D30CF10046BC09 /* MaximumProductSubarray.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MaximumProductSubarray.cpp; sourceTree = "<group>"; };
 		83DAA93E19DED97D00735722 /* ValidNumber.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ValidNumber.cpp; sourceTree = "<group>"; };
+		83DD8EE219F4FDB900314E34 /* DivideTwoIntegers.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DivideTwoIntegers.cpp; sourceTree = "<group>"; };
 		83DDED1E19DC34F100A25998 /* Searcha2DMatrix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Searcha2DMatrix.cpp; sourceTree = "<group>"; };
 		83DED55C19CE6EB4007505EA /* PathSumII.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PathSumII.cpp; sourceTree = "<group>"; };
 		83E151E619CE70E400870F56 /* MinimumDepthofBinaryTree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MinimumDepthofBinaryTree.cpp; sourceTree = "<group>"; };
@@ -398,6 +400,7 @@
 				837FDD8219E2F22000BB055F /* JumpGameII.cpp */,
 				8344C9B719E3BA9500D04145 /* Anagrams.cpp */,
 				8344C9B919E3BEAE00D04145 /* RotateImage.cpp */,
+				83DD8EE219F4FDB900314E34 /* DivideTwoIntegers.cpp */,
 			);
 			path = others;
 			sourceTree = "<group>";
@@ -668,6 +671,7 @@
 				830FC5E819DFD68D002CFA9F /* MinimumPathSum.cpp in Sources */,
 				834FED3419DD75A6005A0290 /* SimplifyPath.cpp in Sources */,
 				83005A4A19CD179400F58600 /* BestTimetoBuyandSellStock.cpp in Sources */,
+				83DD8EE319F4FDB900314E34 /* DivideTwoIntegers.cpp in Sources */,
 				83266DAF19D2E1B1006F2405 /* PermutationsII.cpp in Sources */,
 				839B023319CB0C5B00907750 /* GasStation.cpp in Sources */,
 				8352FB5C19C9DB0500A02FDD /* MaxPointsonaLine2.cpp in Sources */,
